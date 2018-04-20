@@ -15,7 +15,7 @@ import com.fit.i_kit.R;
 public class AboutusActivity extends AppCompatActivity {
     private Toolbar toolbar;
     TextView about;
-    ImageView logo;
+    ImageView logo;//jj
     TextView about1,about2,ab1_matter,ab2_matter;
 
     @Override
