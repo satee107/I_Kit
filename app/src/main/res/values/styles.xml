@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="tag_style">
+    <item name="android:textColor">@color/materiallightgreen</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:textSize">20sp</item>
+</style>
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/materialyellow</item>
+        <item name="colorButtonNormal">@color/materialgreen</item>
+    </style>
+<style name="tab_background">
+    <item name="android:background">@color/materialindigo</item>
+</style>
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/materialorange</item>
+        <item name="colorPrimaryDark">@color/materialorange</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="text_color">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

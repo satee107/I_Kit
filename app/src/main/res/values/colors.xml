@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42A5F5</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#424242</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#673AB7</color>
+    <color name="materiallightgreen">#69F0AE</color>
+    <color name="materialindigo">#3F51B5</color>
+    <color name="materialgreen">#4CAF50</color>
+    <color name="materialightgreen">#8BC34A</color>
+    <color name="materiallime">#CDDC39</color>
+    <color name="materialamber">#FFC107</color>
+    <color name="materialorange">#FF9800</color>
+    <color name="materialdeeporange">#FF5722</color>
+    <color name="materialbrown">#795548</color>
+    <color name="materialgrey">#9E9E9E</color>
+    <color name="materialbluegrey">#607D8B</color>
+    <color name="materialred">#F44336</color>
+    <color name="materialpink">#E91E63</color>
+    <color name="materialpurple">#9C27B0</color>
+    <color name="materialblue">#2196F3</color>
+    <color name="materiallightblue">#03A9F4</color>
+    <color name="materialcyan">#00BCD4</color>
+    <color name="materialteal">#009688</color>
+    <color name="materialyellow">#FFEB3B</color>
+
+    <color name="button_pressed">#ff8a00</color>
+    <color name="button_focused">#ff8a00</color>
+    <color name="button_default">#e6e6e6</color>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardElevation="10dp"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llfaqtxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/faqtext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d8d8d8"
+                android:padding="8dp"
+                android:drawableEnd="@drawable/downarrow"
+                android:drawableRight="@drawable/downarrow"
+                android:text="What is blood? How much blood does a person have?"
+                android:textColor="@color/materialdeeporange"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/faqpanel1"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/defans"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dip"
+                    android:background="@color/materialorange"
+                    android:padding="5dip"
+                    android:text="Blood is the red coloured fluid flowing continuously in our body's circulatory system. About 1/12th of the body weight of a healthy individual is blood. On an average there are about 5 - 6 litres of blood present.\n"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout></android.support.v7.widget.CardView>
+</LinearLayout>

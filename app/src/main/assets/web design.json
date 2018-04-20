@@ -1,0 +1,998 @@
+﻿{
+  "fresheriqs": [
+    {
+      "ques": "What is HTML?",
+      "ans": "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web."
+    },
+    {
+      "ques": "What are Tags?",
+      "ans": "HTML tags are composed of three things: opening tag, content and ending tag. Some tags are unclosed tags.HTML documents are made of two things:"
+    },
+    {
+      "ques": "Do all HTML tags have end tag?",
+      "ans": "No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag"
+    },
+    {
+      "ques": "What are some common lists that are used when designing a page?",
+      "ans": "There are many common lists which are used to design a page. You can choose any or a combination of the following list types:"
+    },
+    {
+      "ques": "What is the difference between HTML elements and tags?",
+      "ans": "HTML elements communicate to the browser to render text. When the elements are surrounded by brackets <>, they form HTML tags. Most of the time, tags come in pair and surround content."
+    },
+    {
+      "ques": "What is semantic HTML?",
+      "ans": "Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags."
+    },
+    {
+      "ques": " What is image map?",
+      "ans": "Image map facilitates you link many different web pages using a single image. You can define shapes in images that you want to make part of an image mapping"
+    },
+    {
+      "ques": " How to insert a copyright symbol on a browser page?",
+      "ans": "can insert a copyright symbol by using &copy; or &#169; in an HTML file."
+    },
+    {
+      "ques": "How do you keep list elements straight in an HTML file?",
+      "ans": "You can keep the list elements straight by using indents."
+    },
+    {
+      "ques": " Does a hyperlink only apply to text?",
+      "ans": "No, you can use hyperlinks on text and images both"
+    },
+    {
+      "ques": "What is a style sheet?",
+      "ans": "A style sheet is used to build a consistent, transportable, and well designed style template. You can add these templates on several different web pages."
+    },
+    {
+      "ques": "Can you create a multi colored text on a web page?",
+      "ans": "Yes. To create a multicolor text on a web page you can use <font color ='color'> </font> for the specific texts you want to color."
+    },
+    {
+      "ques": "Is it possible to change the color of the bullet?",
+      "ans": "The color of the bullet is always the color of the first text of the list. So, if you want to change the color of the bullet, you must change the color of the text."
+    },
+    {
+      "ques": "What is a marquee?",
+      "ans": "Marquee is used to put the scrolling text on a web page. You should put the text which you want to scroll within the <marquee>......</marquee> tag"
+    },
+    {
+      "ques": "How many tags can be used to separate section of texts?",
+      "ans": "There are three tags used to separate the texts. i.e. usually <br> tag is used to separate line of texts. Other tags are<p> tag and <blockquote> tag."
+    },
+    {
+      "ques": "How to make a picture a background image of a web page?",
+      "ans": "To make a picture a background image on a web page, you should put the following tag code after the </head> tag.<body background = 'image.gif'> Here, replace the 'image.gif' with the name of your image file which you want to display on your web page."
+    },
+    {
+      "ques": "What are empty elements?",
+      "ans": "HTML elements with no content are called empty elements. For example: <br>, <hr> etc."
+    },
+    {
+      "ques": "What is the use of iframe tag?",
+      "ans": "An iframe is used to display a web page within a web page."
+    },
+    {
+      "ques": "What is canvas in HTML5?",
+      "ans": "Canvas is an HTML area which is used to draw graphics"
+    },
+    {
+      "ques": "What is SVG?",
+      "ans": "HTML SVG is used to describe the two dimensional vector and vector/raster graphics."
+    },
+    {
+      "ques": "Is there any need to change the web browsers to support HTML5?",
+      "ans": "No. Almost all browsers (updated versions) support HTML 5. For example: Chrome, Firefox, Opera, Safari, IE etc."
+    },
+    {
+      "ques": "Is audio tag supported in HTML 5?",
+      "ans": "Yes. It is used to add sound or music files on the web page"
+    },
+    {
+      "ques": "What is the difference between progress and meter tag?",
+      "ans": "The progress tag is used to represent the progress of the task only while the meter tag is used to measure data within a given range"
+    },
+    {
+      "ques": "What is the use of figure tag in HTML 5?",
+      "ans": "The figure tag is used to add a photo in the document on the web page"
+    },
+    {
+      "ques": "What is button tag?",
+      "ans": "The button tag is used in HTML 5. It is used to create a clickable button within HTML form on the web page. It is generally used to create a 'submit' or 'reset' button"
+    },
+    {
+      "ques": "What does details and summary tag?",
+      "ans": "The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag."
+    },
+    {
+      "ques": "What is datalist tag?",
+      "ans": "The HTML 5 datalist tag provides an auto complete feature on form element. It facilitates users to choose the predefined options"
+    },
+    {
+      "ques": "If I do not put <!DOCTYPE html> will HTML 5 work?",
+      "ans": "No, browser will not be able to identify that it is a HTML document and HTML 5 tags will not function properly"
+    },
+    {
+      "ques": "Do all HTML tags come in a pair?",
+      "ans": "No, there are single HTML tags that do not need a closing tag. Examples are the <img> tag and <br> tags."
+    },
+    {
+      "ques": "Do all character entities display properly on all systems?",
+      "ans": "No, there are some character entities that cannot be displayed when the operating system that the browser is running on does not support the characters. When that happens, these characters are displayed as boxes."
+    },
+    {
+      "ques": "What is an image map?",
+      "ans": "Image map lets you link to many different web pages using a single image. You can define shapes in images that you want to make part of an image mapping."
+    },
+    {
+      "ques": " What is the advantage of collapsing white space?",
+      "ans": "White spaces are a blank sequence of space characters, which is treated as a single space character in HTML. Because the browser collapses multiple spaces into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the HTML code into a much more readable format."
+    },
+    {
+      "ques": "Can attribute values be set to anything or are there specific values that they accept?",
+      "ans": "Some attribute values can be set to only predefined values. Other attributes can accept any numerical value that represents the number of pixels for a size."
+    },
+    {
+      "ques": "How do you insert a copyright symbol on a browser page?",
+      "ans": "To insert the copyright symbol, you need to type &copy; or & #169; in an HTML file."
+    },
+    {
+      "ques": "Is there any way to keep list elements straight in an HTML file?",
+      "ans": "By using indents, you can keep the list elements straight. If you indent each subnested list in further than the parent list that contains it, you can at a glance determine the various lists and the elements that it contains."
+    },
+    {
+      "ques": "If you see a web address on a magazine, to which web page does it point?",
+      "ans": "Every web page on the web can have a separate web address. Most of these addresses are relative to the top-most web page. The published web address that appears within magazines typically points this top-most page. From this top level page, you can access all other pages within the website."
+    },
+    {
+      "ques": " What is the use of alternative text in image mapping?",
+      "ans": "When you use image maps, it can easily become confusing and difficult to determine which hotspots correspond to which links. Using alternative text lets, you put a descriptive text on each hotspot link."
+    },
+    {
+      "ques": "Do older HTML files work on newer browsers?",
+      "ans": "Yes, older HTML files are compliant to the HTML standard. Most older files work on the newer browsers, though some features may not work."
+    },
+    {
+      "ques": "Does a hyperlink apply to text only?",
+      "ans": "No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. Surround the image within the <a href=” “>…</a> tag combinations."
+    },
+    {
+      "ques": " If the user’s operating system does not support the needed character, how can the symbol be represented?",
+      "ans": "In cases wherein their operating system does not support a particular character, it is still possible to display that character by showing it as an image instead."
+    },
+    {
+      "ques": "How do you change the number type in the middle of a list?",
+      "ans": "The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index."
+    },
+    {
+      "ques": "What are style sheets?",
+      "ans": "Style sheets enable you to build consistent, transportable, and well-defined style templates. These templates can be linked to several different web pages, making it easy to maintain and change the look and feel of all the web pages within site."
+    },
+    {
+      "ques": "State  bullet types available in HTML",
+      "ans": "With ordered lists, you can select to use some different list types including alphabetical and Roman numerals. The type attribute for unordered lists can be set to disc, square, or circle."
+    },
+    {
+      "ques": " How do you create multicolored text in a webpage?",
+      "ans": "To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word."
+    },
+    {
+      "ques": "Why are there both numerical and named character entity values?",
+      "ans": "The numerical values are taken from the ASCII values for the various characters, but these can be difficult to remember. Because of this, named character entity values were created to make it easier for web page designers to use."
+    },
+    {
+      "ques": "What is the advantage of grouping several checkboxes together?",
+      "ans": "Although checkboxes don’t affect one another, grouping checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes."
+    },
+    {
+      "ques": "What will happen if you overlap sets of tags?",
+      "ans": "If two sets of HTML tags are overlapped, only the first tag will be recognized. You will find this problem when the text does not display properly on the browser screen."
+    },
+    {
+      "ques": "What are applets?",
+      "ans": "Applets are small programs that can be embedded within web pages to perform some specific functionality, such as computations, animations, and information processing. Applets are written using the Java language."
+    },
+    {
+      "ques": "What if there is no text between the tags or if a text was omitted by mistake? Will it affect the display of the HTML file?",
+      "ans": "If there is no text between the tags, then there is nothing to format. Therefore no formatting will appear. Some tags, especially tags without a closing tag like the <img> tag, do not require any text between them."
+    },
+    {
+      "ques": "Is it possible to set specific colors for table borders?",
+      "ans": "You can specify a border color using style sheets, but the colors for a table that does not use style sheets will be the same as the text color."
+    },
+    {
+      "ques": "What other ways can be used to align images and wrap text?",
+      "ans": "Tables can be used to position text and images. Another useful way to wrap text around an image is to use style sheets."
+    },
+    {
+      "ques": "Can a single text link point to two different web pages?",
+      "ans": "No. The <a> tag can accept only a single href attribute, and it can point to only a single web page."
+    },
+    {
+      "ques": "What is the difference between the directory and menu lists and the unordered list?",
+      "ans": "The key difference is that the directory and menu lists do not include attributes for changing the bullet style."
+    },
+    {
+      "ques": "Can you change the color of bullets?",
+      "ans": "The bullet color is always the same as that of the first character in the list item. If you surround the <li> and the first character with a set of <font> tags with the color attribute set, the bullet color, and the first character will be a different color from the text."
+    },
+    {
+      "ques": "What are the limits of the text field size?",
+      "ans": "The default size for a text field is around 13 characters. However, if you include the size attribute, you can set the size value to be as low as 1. The maximum size value will be determined by the browser width. If the size attribute is set to 0, the size will be set to the default size of 13 characters."
+    },
+    {
+      "ques": "Do <th> tags always need to come at the start of a row or column?",
+      "ans": "Any <tr> tag can be changed to a <th> tag. This causes the text contained within the <th> tag to be displayed as bold in the browser. Although <th> tags are mainly used for headings, they do not need to be used exclusively for headings."
+    },
+    {
+      "ques": "What is the relationship between the border and rule attributes?",
+      "ans": "Default cell borders, with a thickness of 1 pixel, are automatically added between cells if the border attribute is set to a nonzero value. Likewise, If the border attribute is not included, a default 1-pixel border appears if the rules attribute is added to the <table> tag."
+    },
+    {
+      "ques": "What is a marquee?",
+      "ans": "A marquee allows you to put a scrolling text in a web page. To do this, place whatever text you want to appear scrolling within the <marquee> and </marquee> tags."
+    },
+    {
+      "ques": " Are <br> tags the only way to separate sections of text?",
+      "ans": "No. The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text."
+    },
+    {
+      "ques": " Are there instances where the text will appear outside of the browser?",
+      "ans": "By default, the text is wrapped to appear within the browser window. However, if the text is part of a table cell with a defined width, the text could extend beyond the browser window."
+    },
+    {
+      "ques": "How are active links different from normal links?",
+      "ans": "The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link."
+    },
+    {
+      "ques": "Do style sheets limit the number of new style definitions that can be included within the brackets?",
+      "ans": "Style sheets do not limit the number of style definitions that can be included within the brackets for a given selector. Every new style definition, however, must be separated from the others by a semicolon symbol."
+    },
+    {
+      "ques": "Can I specify fractional weight values such as 670 or 973 for font weight?",
+      "ans": "Can I specify fractional weight values such as 670 or 973 for font weight?"
+    },
+    {
+      "ques": "What is the hierarchy that is being followed when it comes to style sheets?",
+      "ans": "If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets."
+    },
+    {
+      "ques": " Can several selectors with class names be grouped together?",
+      "ans": "You can define several selectors with the same style definition by separating them with commas. This same technique also works for selectors with class names."
+    },
+    {
+      "ques": "What happens if you open the external CSS file in a browser?",
+      "ans": "When you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another HTML document."
+    },
+    {
+      "ques": "What happens if the list-style-type property is used on a non-list element like a paragraph?",
+      "ans": "If the list-style-type property is used on a non-list element like a paragraph, the property will be ignored and do not affect the paragraph."
+    },
+    {
+      "ques": "When is it appropriate to use frames?",
+      "ans": "Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window."
+    },
+    {
+      "ques": "What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?",
+      "ans": "The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200% the browser displays two vertical frames with the second being twice as big as the first."
+    },
+    {
+      "ques": "Which browsers support HTML5?",
+      "ans": "The latest versions of Google Chrome, Apple Safari, Mozilla Firefox, and Opera all support most of the HTML5 features."
+    },
+    {
+      "ques": "Name two new tags included in the HTML 5",
+      "ans": "<Video> and <Audio> are new tags which are included in HTML5 version. They are mainly used as a replacement for Flash, Silverlight, and similar technologies to play multimedia items."
+    },
+    {
+      "ques": "Do you know which are two semantic tags are included in HTML5 version?",
+      "ans": "The <article> and <section> tags are two new tags that are included in HTML5. Articles can be composed of multiple sections that can have multiple articles. An article tag represents a full block of content which is a section of a bigger whole."
+    },
+    {
+      "ques": "What is <figure> in HTML5?",
+      "ans": "This tag represents a piece of self-contained flow content. It is mostly used as a single unit as a reference the main flow of the document."
+    },
+    {
+      "ques": "What is the use of Canvas element?",
+      "ans": "The canvas element helps to build charts, graphs, bypass Photoshop to create 2D images and place them directly into HTML5 code."
+    },
+    {
+      "ques": "What is DOCTYPE?",
+      "ans": "DOCTYPE stands for Document Type Declarations. DOCTYPE is used to specify the web browsers that which types of documents(such as SGML or XML Documents) it will receive. <!DOCTYPE> is declared above the <html> tag."
+    },
+    {
+      "ques": "What are the different versions of HTML?",
+      "ans": "HTML has many versions since it inceptions during 1990’s. HTML version are HTML, HTML+, HTML 2.0, HTML 3.2, HTML 4.0 and the"
+    },
+    {
+      "ques": "What is HTML Element?",
+      "ans": "An HTML element is everything from starting to the ending of HTML tags. For example, <p> This is an HTML Element</p>, in this example, from starting tag to ending tag everything is HTML element and “This is an HTML Element” is Element Content."
+    },
+    {
+      "ques": "What is HTML Attribute?",
+      "ans": "HTML attribute adds additional information to the HTML Elements. For example, <font size=”5” color=”green”>, here size and color are html attributes."
+    },
+    {
+      "ques": " What is Hyperlinks?",
+      "ans": "Hyperlinks are used to navigate to new document with the help of text, image or with group of words"
+    },
+    {
+      "ques": "Names some of the Web Browsers?",
+      "ans": "Some of the most famous web browsers are Google Chrome, Mozilla Firefox, Opera Browser, Safari and Netscape etc."
+    },
+    {
+      "ques": "What is WWW?",
+      "ans": "WWW stands for World Wide Web. It is the inter-connection of all the links called as internet."
+    },
+    {
+      "ques": "Which is the basic editor for HTML?",
+      "ans": "There are many editors for HTML like Notepad, Notepad++, EditPlus and WYSIWYG HTML editors etc."
+    },
+    {
+      "ques": "What are the extension supported by HTML?",
+      "ans": "HTML supports both .htm and .html extension."
+    },
+    {
+      "ques": "What are the web standards?",
+      "ans": "Web standards are standards specified for the internet or World Wide Web aspects for improving internet usability by all major OS and browsers."
+    },
+    {
+      "ques": "How to change font size?",
+      "ans": "HTML webpage font size can be varied according to the usage. HTML tag for changing the size of the font is <font size=”4”>."
+    },
+    {
+      "ques": "What are the different types of Headings supported by HTML?",
+      "ans": "HTML headings are important to highlight the contents of the documents. HTML supports 6 heading starting from <h1> to <h6>."
+    },
+    {
+      "ques": "What are the types of HTML lists?",
+      "ans": "There are two types of HTML list, they are ordered list and unordered list"
+    },
+    {
+      "ques": "Explain HTML blocks?",
+      "ans": "HTML blocks can be defined by HTML tags like <span> and <div>.What is the difference between <div> and <span> elements?<div> tags are used to define section in document block wise whereas <span> tag is used to define section in documents inline."
+    },
+    {
+      "ques": "How to create frames?",
+      "ans": "HTML frames can be created by using <frame> tag within a frameset(<frameset>). HTML <frame> tag defines a particular window within frameset."
+    },
+    {
+      "ques": "What is the difference between get and post method?",
+      "ans": "HTML methods sends request using get an post method. GET post request data from the server and POST is used to submit data to the server."
+    },
+    {
+      "ques": "What is iframes? Why is recommended to avoid iframes?",
+      "ans": "<Iframe> tags are used to embedded documents within current HTML document.HTML 5 does not support <iframe> any more. So it is recommend not ti use iframe in HTML any more."
+    },
+    {
+      "ques": "Does a hyperlink apply only to text?",
+      "ans": "No. The hyperlinks can be applied to both text as well as the images.It means that even the images can become clickable links with a capability to take the visitor to the next page.This can be done simply by using <a href> tag."
+    },
+    {
+      "ques": "What happens if the list-style-type property is used on a non-list element like a paragraph?",
+      "ans": "Here the property will be ignored without having any effect on the paragraph."
+    },
+    {
+      "ques": "What is the advantage of using frames?",
+      "ans": "Frames make it easier to navigate through a site.The links that appear in the frame can appear through out the site."
+    },
+    {
+      "ques": "How can I hide my source?",
+      "ans": "No. you can’t hide your source as it is required by the browser to display your document."
+    },
+    {
+      "ques": "How will you align a table to the right or left?",
+      "ans": "To align the table to the right, you can use <TABLE ALIGN='right'>To align the table to the left, you can use <TABLE ALIGN='left'>"
+    },
+    {
+      "ques": "What are empty HTML elements?",
+      "ans": "HTML elements with no content are called empty elements. For eg: <br>"
+    },
+    {
+      "ques": "Explain Cell Padding and Cell Spacing.",
+      "ans": "Cell Padding : It refers to the gap or space between the cell content and cell border or cell wall.Cell Spacing : It refers to the gap between the two cells of same tables.In HTML cell spacing and padding both are used with Table Border layout."
+    },
+    {
+      "ques": "What are new Media Elements in HTML5?",
+      "ans": "Following are the New Media Elements are present in HTML5:<audio> tag : For playing audio.<video> tag : For playing video.<source> tag : For media resources for media elements.<embed> tag : For embedded content.<track> tag : For text tracks used in media players."
+    },
+    {
+      "ques": "What is the importance of Doctype in HTML?",
+      "ans": "Doctype tag is not a HTML tag, it is just an instruction that is passed to the web browser to check for the information that is being provided by the markup language in which the page is written. Doctype is sometimes referred as Document type definition (DTD) that describes some rules that has to be followed while writing the markup language so to make the web browser understand the language and the content correctly. Doctype is very important to be placed in the beginning of the HTML and before the <HTML> tag to allow easy rendering of the pages that are used."
+    },
+    {
+      "ques": "What is SVG?",
+      "ans": "SVG stands for scalable vector graphics. It’s a text based graphic language which draws images using text, lines, dots etc. This makes it lightweight and renders faster."
+    },
+    {
+      "ques": "What is Colspan and Rowspan in Table of HTML?",
+      "ans": "Colspan :The colspan is the number of columns a cell should span in Table.Rowspan :The rowspan refers the number of rows a cell should span in Table."
+    },
+    {
+      "ques": "What is the origin of CSS ?",
+      "ans": "Standard Generalized Markup Language marked the beginning of style sheets in 1980s."
+    },
+    {
+      "ques": "What are CSS frameworks?",
+      "ans": "It is a pre-planned libraries, which allows easier and more standards-compliant webpage styling, using CSS language"
+    },
+    {
+      "ques": "Who maintains the CSS specifications?",
+      "ans": "World Wide Web Consortium maintains the CSS specifications"
+    },
+    {
+      "ques": "In how many ways can a CSS be integrated as a web page?",
+      "ans": "CSS can be integrated in three ways:Inline: Style attribute can be used to have CSS applied HTML elements.Embedded: The Head element can have a Style element within which the code can be placed.Linked/ Imported: CSS can be placed in an external file and linked via link element"
+    },
+    {
+      "ques": "What does CSS selector mean?",
+      "ans": "A string equivalent of HTML elements by which declarations or a set of it, is declared and is a link that can be referred for linking HTML and Style sheet is CSS selector."
+    },
+    {
+      "ques": "Enlist the media types CSS allows? ",
+      "ans": "The design and customization of documents are rendered by media. By applying media control over the external style sheets, they can be retrieved and used by loading it from the network."
+    },
+    {
+      "ques": "Differentiate Style Sheet concept from HTML?",
+      "ans": "While HTML provides easy structure method, it lacks styling, unlike Style sheets. Moreover, style sheets have better browser capabilities and formatting options"
+    },
+    {
+      "ques": "Comment on the Case-sensitivity of CSS ?",
+      "ans": "Although, there are no case-sensitivity of CSS, nevertheless font families, URL’s of images, etc is. Only when XML declarations along with XHTML DOCTYPE are being used on the page, CSS is case -sensitive."
+    },
+    {
+      "ques": "Define Declaration block?",
+      "ans": "A catalog of directions within braces consisting of property, colon and value is called declaration block.e.g.: [property 1: value 3]"
+    },
+    {
+      "ques": "Differentiate Class selector from ID selector?",
+      "ans": "While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID."
+    },
+    {
+      "ques": "Can more than one declaration be added in CSS?",
+      "ans": "Yes, it can be achieved by using a semicolon."
+    },
+    {
+      "ques": "What is Pseudo-elements ?",
+      "ans": "Pseudo-elements are used to add special effects to some selectors.  CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or styling is not possible for the document, then there is a feature available in CSS known as pseudo-elements. It will allow extra mark-up to the document without disturbing the actual document."
+    },
+    {
+      "ques": "What happens if 100% width is used along with floats all across the page?",
+      "ans": "While making the float declaration, 1 pixel is added every time it is used in the form of the border, and   even more float is allowed thereafter."
+    },
+    {
+      "ques": "Can default property value be restored through CSS? If yes, how?",
+      "ans": "In CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property."
+    },
+    {
+      "ques": "What is contextual selector?",
+      "ans": "Selector used to select special occurrences of an element is called contextual selector. A space separates the individual selectors. Only the last element of the pattern is addressed in this kind of selector. For e.g.: TD P TEXT {color: blue}"
+    },
+    {
+      "ques": "Define float property of CSS?",
+      "ans": "By float property, the image can be moved to the right or the left along with the text to be wrapped around it. Elements before this property is applied do not change their properties."
+    },
+    {
+      "ques": "How does Z index function?",
+      "ans": "Overlapping may occur while using CSS for positioning HTML elements. Z index helps in specifying the overlapping element. It is a number which can be positive or negative, the default value being zero."
+    },
+    {
+      "ques": "What is graceful degradation?",
+      "ans": "In case the component fails, it will continue to work properly in the presence of a graceful degradation. The latest browser application is used when a webpage is designed. As it is not available to everyone, there is a basic functionality, which enables its use to a wider audience. In case the image is unavailable for viewing, text is shown with the alt tag."
+    },
+    {
+      "ques": "What is progressive enhancement?",
+      "ans": "It’s an alternative to graceful degradation, which concentrates on the matter of the web. The functionality is same, but it provides an extra edge to users having the latest bandwidth. It has been into prominent use recently with mobile internet connections expanding their base."
+    },
+    {
+      "ques": "How can backward compatibility be designed in CSS?",
+      "ans": "HTML sheet methods is collaborated with CSS and used accordingly."
+    },
+    {
+      "ques": "Why is @import only at the top?",
+      "ans": "@import is preferred only at the top, to avoid any overriding rules. Generally, ranking order is followed in most programming languages such as Java, Modula, etc. In C, the # is a prominent example of a @import being at the top."
+    },
+    {
+      "ques": "Which among the following is more precedent: CSS properties or HTML procedures?",
+      "ans": "CSS is more precedent over HTML procedures. Browsers, which do not have CSS support, display HTML attributes."
+    },
+    {
+      "ques": "What is Inline style?",
+      "ans": "The Inline style in a CSS is used to add up styling to individual HTML elements."
+    },
+    {
+      "ques": "How comments can be added in CSS?",
+      "ans": "The comments in CSS can be added with /* and */"
+    },
+    {
+      "ques": "Define property?",
+      "ans": "A style, that helps in influencing CSS. E.g. FONT. They have corresponding values or properties within them, like FONT has different style like bold, italic etc."
+    },
+    {
+      "ques": "What is Alternate Style Sheet?",
+      "ans": "Alternate Style Sheets allows the user to select the style in which the page is displayed using the view>page style menu. Through Alternate Style Sheet, user can see a multiple version of the page on their needs and preferences."
+    },
+    {
+      "ques": "Are quotes mandatory in URL’s?",
+      "ans": "Quotes are optional in URL’s, and it can be single or double."
+    },
+    {
+      "ques": "How can CSS be cascaded to mix with user’s personal sheet?",
+      "ans": "Properties can be a set in recommended places and the document modified for CSS to mix with user’s   personal sheet."
+    },
+    {
+      "ques": "Which property will be used for changing the face of font in CSS?",
+      "ans": "font family property can be used for changing the face of font."
+    },
+    {
+      "ques": "Which property is used to control the position in the background for image?",
+      "ans": "background-position property can be used for controlling the position of the image in background."
+    },
+    {
+      "ques": "Mention the property name which is used for making the font oblique in CSS?",
+      "ans": "font-style property can be used for making the font oblique."
+    },
+    {
+      "ques": " How we can eliminate the color border around the linked images in web page in CSS?",
+      "ans": "border: none; is the style that can be used to eliminate the border of linked image."
+    },
+    {
+      "ques": "What is the use of z-index in CSS?",
+      "ans": "Z-Index is used to avoid the overlapping of the elements. Default value of z-index is 0 and it will take positive and negative values as well."
+    },
+    {
+      "ques": "How to lighten the font weight in CSS?",
+      "ans": "font-weight property can be used for lightening the font weight in CSS."
+    },
+    {
+      "ques": "Which css property is used for setting the type of cursor in CSS?",
+      "ans": "Property – “cursor” is used for setting the type of cursor."
+    },
+    {
+      "ques": "What is the property used for formatting the texts in CSS?",
+      "ans": "Property – white-space is used for formatting the text."
+    },
+    {
+      "ques": " Can I give more than one css class to a HTML element?",
+      "ans": "Yes we can give more than one css class to a HTML element."
+    },
+    {
+      "ques": "How to give rounded corners in CSS3?",
+      "ans": "Rounded corners can be given to any element using the property – border-radius."
+    },
+    {
+      "ques": "Can we declare css classes more than once?",
+      "ans": "Yes. We can declare css classes more than once."
+    },
+    {
+      "ques": "What is External Style Sheet? How would you link to it?",
+      "ans": "External Style Sheet is the sheet which comprises of style information and can be connected with one or more HTML documents. With the help of External Style Sheet entire website can be formatted and styles just by editing one single file. The file is connected with HTML documents with the help of the LINK element which resides inside the HEAD element."
+    },
+    {
+      "ques": "What is Tweening?",
+      "ans": "Also Known as in-betweening, it is the process of creating intermediary frames among two images to provide the appearance that the first image develops efficiently into the second image. It is a key process which is used in all types of animations. Refined animation software permits you to find particular objects in an image and describe how they will be able to move and change throughout the tweening process."
+    },
+    {
+      "ques": "What is Responsive Web design?",
+      "ans": "Responsive Web design is the method that recommends that design and development should reply to the user’s activities and situation based on various components such as size of the screen, the platform and the orientation. The preparation comprises of a mix of flexible layouts and grids, images and an intellectual use of CSS media queries."
+    },
+    {
+      "ques": "What is the use of CSS Image sprites?",
+      "ans": "It is a group of images placed into one image. A web page with multiple images can take a lot of time to load and uses multiple server requests to project the same. With the help of image sprites, we can decrease the number of requests to the server and save time and bandwidth as well."
+    },
+    {
+      "ques": "What is the syntax to link external style sheet?",
+      "ans": "External style sheet comprises of style description that can be linked with the HTML document externally. To keep style separate from the structure, External style sheet is one of the best and organized way."
+    },
+    {
+      "ques": "What is universal selector?",
+      "ans": "Rather than selecting elements of a specific type, the universal selector quite simply matches the name of any element type"
+    },
+    {
+      "ques": "What is class selector?",
+      "ans": "You can define style rules based on the class attribute of the elements. All the elements having that class will be formatted according to the defined rule"
+    },
+    {
+      "ques": "Can you make a class selector particular to an element type?",
+      "ans": "You can make it a bit more particular."
+    },
+    {
+      "ques": "What is id selector?",
+      "ans": "You can define style rules based on the id attribute of the elements. All the elements having that id will be formatted according to the defined rule"
+    },
+    {
+      "ques": "What are browser safe colors?",
+      "ans": "There is the list of 216 colors which are supposed to be most safe and computer independent colors. These colors vary from hexa code 000000 to FFFFFF. These colors are safe to use because they ensure that all computers would display the colors correctly when running a 256 color palette"
+    },
+    {
+      "ques": "Which property is used to set the text direction?",
+      "ans": "The direction property is used to set the text direction."
+    },
+    {
+      "ques": "Why Use CSS?",
+      "ans": "CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. "
+    },
+    {
+      "ques": "What Is HTML5 Web Storage?",
+      "ans": "HTML5 brought this new ability to store web pages within the browser cache. This web storage is not only faster than the cookies but secured too. It is capable of storing a large amount of data without compromising the performance of the website.Also, note that the cached data is not must for every server request. Instead, it gets utilized only when the page asks for it. And only the web page which gets the data stored can access it."
+    },
+    {
+      "ques": "How Does CSS3 Differ From CSS?",
+      "ans": "CSS3 is the most recent version of CSS. It has introduced a bunch of new tags to give better user experience. Some of the features are rounded corners, animation, custom layout and media queries."
+    },
+    {
+      "ques": "How Does CSS3 Support The Responsive Web Designing?",
+      "ans": "CSS3 has come up with a media query feature. It supports RWD (Responsive Web Design) and does help in making a website responsive."
+    },
+    {
+      "ques": "What Is Grouping In CSS3?",
+      "ans": "Grouping makes it possible to apply the same style to multiple HTML elements (Classes/Tag/ID) within a single declaration. It happens by specifying all the selectors separated by commas"
+    },
+    {
+      "ques": "What Are Transitions In CSS3?",
+      "ans": "CSS3 transitions help to create easy and fast animation effect. They not only give us control to change the value of a property but also let it proceed slowly for the given duration.We can use the following CSS properties"
+    },
+    {
+      "ques": "How Do You Add Comments In CSS?",
+      "ans": "It is just the same in CSS as we do in JavaScript. Place the comments inside the enclosing /* and */."
+    },
+    {
+      "ques": "What Is Namespacing In Javascript And Where Is It Used?",
+      "ans": "Using global variables is a bad practice in most programming languages including JavaScript. But sometimes, it is not possible to avoid the global variables. So JavaScript introduces the concept of namespacing which ties down a part of the code and register it with a unique name.A namespace is just an object in JavaScript that acts as a container for methods, properties, and objects. It encourages modularity and reusability in a web application."
+    },
+    {
+      "ques": "What Is Scope In JavaScript?",
+      "ans": "The general meaning of scope is the accessibility of functions and variables in an application. Usually, we use them in two ways i.e. Local and Global."
+    },
+    {
+      "ques": "What Relates JavaScript With ECMA Script?",
+      "ans": "ECMA Script is another technical name for JavaScript as it is also known as LiveScript. The current JavaScript that you may see running in browsers is ECMA Script revision 6."
+    },
+    {
+      "ques": "What Is The Function Of Delete Operator In JavaScript?",
+      "ans": "The delete operator clears all the variables and objects used on the web page. But it leaves the variables declared using the var keyword as is."
+    },
+    {
+      "ques": "What Is The Use Of <This> Keyword In JavaScript?",
+      "ans": "The <this> keyword refers to the current object in the program. It is usually available inside a method for referencing the current variable or current object."
+    },
+    {
+      "ques": "What Does The <TypeOf> Operator Do In JavaScript?",
+      "ans": "The <typeof> operator give back the type of a variable in the form of a string."
+    },
+    {
+      "ques": "How Do You Make Generic Objects In JavaScript?",
+      "ans": "JavaScript provides a new operator to produce generic objects.Follow the below example creating a generic object."
+    },
+    {
+      "ques": "Explain what is CORS? How does it work?",
+      "ans": "(CORS) Cross-Origin Resource Sharing is a mechanism that enables many resources (e.g., JavaScript, fonts etc.) on a web page to be requested from another domain outside the domain from which the resource originated.  It is a mechanism supported in HTML5 that manages XMLHttpRequest access to a domain different."
+    },
+    {
+      "ques": "Explain what is long polling?",
+      "ans": "Long polling is a web application development pattern used to emulate pushing data from the server to the client.  When the long polling is used, the client sends a request to the server, and the connection remains intact until the server is ready to send data to the client. The connection will be closed only after the data is sent back to the client or connection timeout occurs."
+    },
+    {
+      "ques": "Mention what is the correct way to include JavaScript into your HTML?",
+      "ans": "The correct way to include JavaScript into your HTML is by using inline event handlers or inline code."
+    },
+    {
+      "ques": "Explain in CSS, how can you make a form element’s background color change when the user is entering text? Does this work in all browsers?",
+      "ans": "Yes, you can change the default look of form elements by styling their HTML tags: input, select and textarea but it won’t work for all browsers."
+    },
+    {
+      "ques": "In HTML what tag can be used for a multi-line text input control?",
+      "ans": "For multi-line text input control, you can use the textarea tag."
+    },
+    {
+      "ques": "",
+      "ans": ""
+    }
+  ],
+  "experienceiqs": [
+    {
+      "ques": "How would you use persistent storage on browsers? What options would you use?",
+      "ans": "For HTML browsers, a good choice would be local storage and persistent storage. For non-HTML ones, cookies are the best bet"
+    },
+    {
+      "ques": "What is graceful degradation?",
+      "ans": "Graceful degradation refers to the property that enables a system to function properly even in the event of failure of either thesystem or a component of it."
+    },
+    {
+      "ques": "What is DTD?",
+      "ans": "DTD stands for Document Type Declaration and it tells the browser which version of either HTML or XHTML is being used."
+    },
+    {
+      "ques": "What is the difference between Web development and Web design.",
+      "ans": "Web development includes a lot of processes, and Web Design is part of it. Web design is used to represent page layouts andgraphical user interface. Web development is a wider term to mean planning, coding, testing, debugging etc."
+    },
+    {
+      "ques": "What is CORS? How does it work?",
+      "ans": "origin resource sharing (CORS) is a mechanism that allows many restricted resources (e.g. fonts, js etc.) on a web pageto be requested from another domain outside the domain from which the resource originated. It’s a mechanism supported inHTML5 that manages XMLHttpRequest access to a domain different."
+    },
+    {
+      "ques": "How do you optimize a website’s assets?",
+      "ans": "There are several ways to do this, for example: file concatenation, file compression, CDN Hosting, offloading assets, refiningcode etc."
+    },
+    {
+      "ques": "What web browser do you use?",
+      "ans": "Because web developers should be familiar with all browsers in terms of testing their web projects the best answer here is: Allof them."
+    },
+    {
+      "ques": "What’s the difference between standards mode and quirks mode?",
+      "ans": "Quirks mode is a default compatibility mode and may be different from browser to browser, which may result to a lack ofconsistency in appearance from browser to browser"
+    },
+    {
+      "ques": "Explain what is long polling?",
+      "ans": "Long polling is a web application development pattern used to emulate pushing data from the server to the client. With longpolling, the client requests information from the server in a similar way to a normal poll. However, if the server does not haveany information available for the client, instead of sending an empty response, the server holds the request and waits for someinformation to be available."
+    },
+    {
+      "ques": "What is the difference between HTML elements and tags?",
+      "ans": "HTML elements communicate to the browser how to render text. When surrounded by angular brackets <> they form HTMLtags, which come in pairs and surround text."
+    },
+    {
+      "ques": "What does DOCTYPE mean?",
+      "ans": "The term DOCTYPE means Document Type Definition and tells the browser which type of HTML is used on a webpage. Browsersuse DOCTYPE to determine how to render a page. Failing to use DOCTYPE will load your page in Quirks Mode."
+    },
+    {
+      "ques": "What are the limitations when serving XHTML pages?",
+      "ans": "The main limitation is the poor browser support of XHTML. Internet Explorer and other user agents cannot parse XHTML asXML. Thus, it is not that extensible language as one might think"
+    },
+    {
+      "ques": " What is the syntax difference between a bulleted list and numbered list?",
+      "ans": "Bulleted lists use the <ul> tag, which stands for unordered,whereas <ol> is used to create an ordered list"
+    },
+    {
+      "ques": "What is the difference between a <div> and a <frame>?",
+      "ans": "A <div> is a container element for grouping and styling, whereas a <frame> creates divisions within a web page and should beused within the <frameset> tag. The use of <frame> and <frameset> are no longer popular and are now being replacedwith the more flexible <iframe>, which has become popular for embedding elements from other websites (ie. Youtube videos)into a page."
+    },
+    {
+      "ques": "What is the difference between the application model of HTML and HTML5?",
+      "ans": ""
+    },
+    {
+      "ques": "",
+      "ans": "There is not a big difference between the two. HTML5 is a continuum of HTML. There has been no major paradigm shift.From a broader viewpoint, HTML was a simple language for laying out text and images on a webpage, whereas HTML5 canbe viewed as a development platform that does what HTML does that and more, including better support for audio, video,and interactive graphics. It has a number of new elements, supports offline data storage for applications, and has more robustexchange protocols."
+    },
+    {
+      "ques": "What are the new image elements in HTML5?",
+      "ans": "The new image elements in HTML5 are Canvas and WebGL. <canvas> is a new element that acts as a container for graphicalelements like images and graphics. WebGL stands for Web Graphics Language, a free cross-platform API that is used for creating3D graphics in web browsers."
+    },
+    {
+      "ques": "What are data- attributes good for?",
+      "ans": "data- attribute is used to assigns custom data to an element. The stored (custom) data can then be used in the page’s JavaScriptto create a more engaging user experience."
+    },
+    {
+      "ques": "Describe the difference between cookies, sessionStorage, and localStorage.",
+      "ans": "Cookies are small text files that websites place in a browser for tracking or login purposes, and hold a modest amount of data.Meanwhile, localStorage and sessionStorage are new objects, both of which are storage specifications but vary in scope andduration. Local storage is more secure, and large amounts of data can be stored locally, without affecting website performance.Futhermore, is it permanent. sessionStorage only lasts as long as the duration of the longest open tab."
+    },
+    {
+      "ques": "What are some of the major new API’s that come standard with HTML5?",
+      "ans": "Among others: Media API, Text Track API, Application Cache API, User Interaction, Data Transfer API, Command API, andthe History API"
+    },
+    {
+      "ques": "What is image map?",
+      "ans": "An image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to differentdestinations (as opposed to a normal image link, in which the entire area of the image links to a single destination)."
+    },
+    {
+      "ques": "What is a marquee?",
+      "ans": "A marquee is used to enable scrolling text in a web page. To do this, just place whatever text you want to appear scrolling withinthe <marquee> and </marquee> tags."
+    },
+    {
+      "ques": "What are the possible ways to apply CSS styles to a web page?",
+      "ans": "CSS can be applied in the following three ways: Linked: Create a separate .css file and add all the style for the web page there. Make sure the file is linked to the HTMLdocument(s) using the link tagEmbedded: Inside the HTML document, open a style tag and inside that, add all styles just like you’d do on a linked file.Inline: This is done by adding a style attribute inside an HTML element."
+    },
+    {
+      "ques": ". Explain the CSS box model.",
+      "ans": "CSS box model is made up of margins, borders, padding, and content. The box model provides a more structured way to spaceelements in relationship to each other in web pages. In your browser’s developer tools, the CSS box model is found at the end ofthe CSS section and it looks like this:"
+    },
+    {
+      "ques": "What is the difference between inline and block elements?",
+      "ans": "Basically, a block element will take up the whole width available, and comes with a line break before and after. Examples ofblock level elements are: headings (i.e <h1>), paragraphs (<p>), divisions (<div>) etc. In contrast, inline elements take up onlythe space they need, and do not force line breaks. Examples of inline elements are: anchors (<a>), spans (<span>) etc."
+    },
+    {
+      "ques": "What is the difference between visibility:hidden and display:none?",
+      "ans": "Although these two properties seem similar, there is quite an important difference between the two:visibility:hidden hides the element, but it will still takes up space, this way affecting the layout of the document.display:none also hides the element, but will not take up space and the page will appear as if the element is not present."
+    },
+    {
+      "ques": "What are child selectors in CSS?",
+      "ans": "Child selectors represent a way of grouping (for styling) a set of elements that descend from a parent eleme"
+    },
+    {
+      "ques": "What are grid systems and why do we use them in web pages?",
+      "ans": "Grid systems are structured rules that enable content to be stacked horizontally and vertically in a consistent and sustainable way.They find heavily usage in today’s websites because they offer increased producitvity while coding, they’re versatile and idealfor responsive layouts."
+    },
+    {
+      "ques": " What is the purpose of the z-index and how is it used?",
+      "ans": "The z-index property specifies the stack order of an element within the document area (or a part of it). An element with greaterstack order will always be in front of an element with a lower stack order. However, z-index only works on positioned elements(position:absolute, position:relative, or position:fixed). It can have four kind of values:"
+    },
+    {
+      "ques": ". Define event bubbling.",
+      "ans": "Because JavaScript allows DOM elements to be nested inside each other, if the handler of the child is clicked, the handler ofparent will also work as if it were clicked too. That sums up what event bubbling really is."
+    },
+    {
+      "ques": "What is 'this' keyword in Javascript?",
+      "ans": "this is used to refer to the current object in the code. In the global execution context (outside of any function), this refers tothe global object, whether in strict mode or not"
+    },
+    {
+      "ques": "What is event delegation and how does it work?",
+      "ans": "Event delegation allows us to avoid adding event listeners to specific nodes of the DOM; instead, the event listener is added toone parent. Using event delegation it’s possible to add an event handler to an element, wait for an event to bubble up from a childelement and easily determine from which element the event originated."
+    },
+    {
+      "ques": ". What is $() in jQuery?",
+      "ans": "The $() function is an alias of jQuery() function. $() function is used to wrap any object into jQuery object, which thenallows you to call various method defined in the jQuery object."
+    },
+    {
+      "ques": "What are jQuery events?",
+      "ans": "Events are actions performed on specific conditions. When we perform these actions on an HTML page, we can do whateverwe want. We then use event handlers to perform the action. Some important handlers are for example: bind(), unbind(),blur(), off(), hover(), on(), one(), ready(),trigger() etc."
+    },
+    {
+      "ques": "What is called chaining?",
+      "ans": "Chaining is used to connect multiple events and functions in a selector. It means specifying multiple functions and/or selectorsto an element."
+    },
+    {
+      "ques": "What is the difference between event.PreventDefault and event.stopPropagation?",
+      "ans": "short, preventDefault(): Stops the default action of an element from happening. event.stopPropagation():Prevents the event from bubbling up the DOM tree, thus preventing any parent handlers from being notified of the event."
+    },
+    {
+      "ques": "How can you find out that an AJAX request has been completed?",
+      "ans": "We can use the ReadyState property to check whether AJAX request has been completed. If the property is equal to 4, the reques"
+    },
+    {
+      "ques": "How can a file be included to a PHP page?",
+      "ans": "Two functions can be used to include a file: include() and require(). The file path shall be given as the parameter in both"
+    },
+    {
+      "ques": "How can we find the length of a string in PHP? What about the length of an array?",
+      "ans": "PHP provides the strlen() function to find the length of a string and count() function for finding the array length."
+    },
+    {
+      "ques": "Is it possible to extend the execution time of a PHP script?",
+      "ans": "Yes, that can be achieved using the set_time_limit(int seconds) which enables us to extend the execution time of aphp script. Note that the default limit is 30 seconds"
+    },
+    {
+      "ques": "What is the use of header() function in PHP?",
+      "ans": "The header() function sends a raw HTTP header to a client browser. This function must be called before sending the actualoutput."
+    },
+    {
+      "ques": "How do you manage pressure & tight deadlines?",
+      "ans": "A good designer is entirely thoughtful and thorough, so he or she will not feel any issue maintaining or managing the pressure and tight deadlines."
+    },
+    {
+      "ques": "What are the design processes you need to take to start and finish a design project?",
+      "ans": "You need to plan, start the project with full enthusiasm, design and implementation. You can also start revamping the project and bit by bit finish the project with client’s consultation."
+    },
+    {
+      "ques": "How do you incorporate current design trends in your work?",
+      "ans": "This question should help you see how thoughtful a designer is. Good prospects should be up-to-date on the latest design trends and able to articulate how they’ve used those trends in their recent work while putting their own spin on them."
+    },
+    {
+      "ques": "What milestone you can suggest for your first web design project?",
+      "ans": "A good designer must cross all the hurdles and milestones of the domain of design, and the first milestone should be creative and innovative design."
+    },
+    {
+      "ques": "When you receive negative feedback from a client, will be able to handle it? If so, who do you manage it for your web design project?",
+      "ans": "Your objective should give or provide best possible output or service to your clients. If anyone will dissatisfy you will have to manage the situation, thus you should know what would be the outcome and according to that you have to manage him or her."
+    },
+    {
+      "ques": "Describe the process of working remotely? What do you think is important for this respect?",
+      "ans": "This question generally reveals a web designer’s job and style. You should know the perfect professional and according to that you should give the answer. Though, good communication and accountability is important."
+    },
+    {
+      "ques": "How do you make it sure that a web designer know or understand your design things and formats?",
+      "ans": "You should ask your client the way he or she needs and the way you work and complete the project for all you need."
+    },
+    {
+      "ques": "What is HTML and the advantage of using it for web design?",
+      "ans": "HTML stands for Hyper Text Markup Language, which is the key scripting language to design a static and dynamic website"
+    },
+    {
+      "ques": "What is CSS and the advantages of using it for web design?",
+      "ans": "CSS stands for Cascading Style Sheet, which is one of the most important things for designing and given a beautiful look of a website."
+    },
+    {
+      "ques": "Is JavaScript needed to use for web design?",
+      "ans": "JavaScript is one of the most important elements for web design, if you want to know more about it, you need to understand the HTML, CSS and other things to make it master in it."
+    },
+    {
+      "ques": "What are the advantages of using CMS (Content Management System), i.e. WordPress, Magento etc. for building websites?",
+      "ans": " CMS or Content Management System is easy and quick to use, one needs not to have any technical knowledge to use it, easy to handle and manage at the same time."
+    },
+    {
+      "ques": "Do you think to become a web designer you need to be a creative person?",
+      "ans": "As a web designer, you need to be a creative thinker, not in that high in sense, but a designer point of view. Without creativity in design, how would be able to get success in web design?"
+    },
+    {
+      "ques": "What are the things need to have to become a successful web designer?",
+      "ans": "Zeal to learn new designing concepts, update the knowledge, technology and skills required."
+    },
+    {
+      "ques": "What is responsive web design?",
+      "ans": "A responsive website design is very important these days. A responsive website is nothing but a website that fits all devices, small, medium or large one. It built in such a ways that can fit for all such devices available in the market."
+    },
+    {
+      "ques": "What are the languages you need to know to create a responsive website?",
+      "ans": "You need to know the HTML, CCS, JavaScript and a bit of PHP a server side language to understand about the responsive website. A responsive website is nothing but a website which fits almost all devices, it automatically fits according the size of the devices. If you are good at HTML, CSS and JavaScript it would be good for you to understand the responsive design process."
+    }
+  ],
+  "fresherresume": [
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Entry Level"
+    },
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Entry Level"
+    },
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Entry Level"
+    }
+  ],
+  "experienceresume": [
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Professional"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Professional"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Professional"
+    }
+  ],
+  "definitions": [
+    {
+      "ques": "itentrylevel",
+      "ans": "Smart"
+    },
+    {
+      "ques": "itentrylevel",
+      "ans": "Professional"
+    },
+    {
+      "ques": "itentrylevel",
+      "ans": "Entry Level"
+    }
+  ],
+  "programs": [
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    }
+  ],
+  "videos": [
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    }
+  ]
+}
+

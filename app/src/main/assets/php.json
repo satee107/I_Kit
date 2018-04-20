@@ -1,0 +1,411 @@
+﻿{
+  "fresheriqs":[
+  
+	{ "ques":"What is PHP?", 
+      "ans":"PHP is a recursive acronym for PHP: Hypertext Preprocessor. PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites."},
+
+	{ "ques":"What are the common usage of PHP?", 
+      "ans":"Common uses of PHP −PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.PHP can handle forms, i.e. gather data from files, save data to a file, thru email you can send data, return data to the user.You add, delete, modify elements within your database thru PHP.Access cookies variables and set cookies.Using PHP, you can restrict users to access some pages of your website.It can encrypt data."},
+
+	{ "ques":"In how many ways you can embed PHP code in an HTML page?",
+     "ans":"All PHP code must be included inside one of the three special markup tags ate are recognised by the PHP Parser."},
+
+	{ "ques":"What is the purpose of php.ini file?",
+      "ans":"The PHP configuration file, php.ini, is the final and most immediate way to affect PHP's functionality. The php.ini file is read each time PHP is initialized.in other words, whenever httpd is restarted for the module version or with each script execution for the CGI version. If your change isn.t showing up, remember to stop and restart httpd. If it still isn.t showing up, use phpinfo() to check the path to php.ini."},
+
+    { "ques":"What is escaping to PHP?",
+      "ans":"The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. The mechanism for doing so is known as 'escaping to PHP.'"},
+
+    { "ques":"What do you mean by having PHP as whitespace insensitive?", 
+      "ans":"Whitespace is the stuff you type that is typically invisible on the screen, including spaces, tabs, and carriage returns (end-of-line characters). PHP whitespace insensitive means that it almost never matters how many whitespace characters you have in a row.one whitespace character is the same as many such characters."},
+
+    { "ques":"Is PHP a case sensitive language?", 
+      "ans":"No, PHP is partially case sensitive."},
+
+    { "ques":"What are the characteristics of PHP variables?", 
+      "ans":"Here are the most important things to know about variables in PHP.All variables in PHP are denoted with a leading dollar sign ($). The value of a variable is the value of its most recent assignmentVariables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.Variables can, but do not need, to be declared before assignment.Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.Variables used before they are assigned have default values.PHP does a good job of automatically converting types from one to another when necessary.PHP variables are Perl-like."},
+
+    { "ques":"What are the different types of PHP variables?", 
+      "ans":"PHP has a total of eight data types which we use to construct our variables.Integers:are whole numbers, without a decimal point, like 4195.Doubles :are floating-point numbers, like 3.14159 or 49.1. Booleans − have only two possible values either true or false.NULL − is a special type that only has one value: NULL. Strings − are sequences of characters, like 'PHP supports string operations.'Arrays − are named and indexed collections of other values.Objects − are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.Resources − are special variables that hold references to resources external to PHP (such as database connections)."},
+
+    { "ques":"What are rules for naming a PHP variable?", 
+      "ans":"Rules for naming a variable are following −Variable names must begin with a letter or underscore character. A variable name can consist of numbers, letters, underscores but you cannot use characters like + , - , % , ( , ) . & , etc"},
+
+    { "ques":"What are the rules for determine the truth of any value not already of the Boolean type?", 
+      "ans":"Here are the rules for determine the truth of any value not already of the Boolean type −If the value is a number, it is false if exactly equal to zero and true otherwise.If the value is a string, it is false if the string is empty (has zero characters) or is the string '0', and is true otherwise.Values of type NULL are always false.If the value is an array, it is false if it contains no other values, and it is true otherwise. For an object, containing a value means having a member variable that has been assigned a value. Valid resources are true (although some functions that return resources when they are successful will return FALSE when unsuccessful). Don't use double as Booleans."},
+
+    { "ques":"What is NULL?", 
+      "ans":"NULL is a special type that only has one value: NULL. To give a variable the NULL value, simply assign it like this −$my_var = NULL;The special constant NULL is capitalized by convention, but actually it is case insensitive; you could just as well have typed −$my_var = null; A variable that has been assigned NULL has the following properties:It evaluates to FALSE in a Boolean context.It returns FALSE when tested with IsSet() function."},
+
+    { "ques":"How will you define a constant in PHP?", 
+      "ans":"To define a constant you have to use define() function and to retrieve the value of a constant, you have to simply specifying its name. Unlike with variables, you do not need to have a constant with a $."},
+
+    { "ques":"What is the purpose of constant() function?", 
+      "ans":"As indicated by the name, this function will return the value of the constant. This is useful when you want to retrieve value of a constant, but you do not know its name, i.e. It is stored in a variable or returned by a function."},
+
+    { "ques":"What are the differences between PHP constants and variables?", 
+      "ans":"There is no need to write a dollar sign ($) before a constant, where as in Variable one has to write a dollar sign.Constants cannot be defined by simple assignment, they may only be defined using the define() function.Constants may be defined and accessed anywhere without regard to variable scoping rules.Once the Constants have been set, may not be redefined or undefined."},
+
+    { "ques":"What are PHP magic constants?", 
+      "ans":"PHP provides a large number of predefined constants to any script which it runs known as magic constants."},
+
+    { "ques":"What is the purpose of _LINE_ constant?", 
+      "ans":"_LINE_ − The current line number of the file."},	
+
+    { "ques":"What is the purpose of _FILE_ constant?", 
+      "ans":"_FILE_ − The full path and filename of the file. If used inside an include,the name of the included file is returned. Since PHP 4.0.2, _FILE_ always contains an absolute path whereas in older versions it contained relative path under some circumstances."},
+
+    { "ques":"What is the purpose of _FUNCTION_ constant?", 
+      "ans":"_FUNCTION_ − The function name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the function name as it was declared (case-sensitive). In PHP 4 its value is always lowercased."},
+
+    { "ques":"What is the purpose of _CLASS_ constant?", 
+      "ans":"_CLASS_ − The class name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the class name as it was declared (case-sensitive). In PHP 4 its value is always lowercased."},
+
+    { "ques":"What is the purpose of _METHOD_ constant?", 
+      "ans":"_METHOD_ − The class method name. (Added in PHP 5.0.0) The method name is returned as it was declared (case-sensitive)."},
+
+    { "ques":"What is the purpose of break statement?", 
+      "ans":"break terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch."},
+
+    { "ques":"What is the purpose of continue statement?", 
+      "ans":"continue causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating."},
+
+    { "ques":"Explain the syntax for 'foreach' loop.", 
+      "ans":"The foreach statement is used to loop through arrays. For each pass the value of the current array element is assigned to $value and the array pointer is moved by one and in the next pass next element will be processed."},
+
+    { "ques":"What is numeric array?", 
+      "ans":"Numeric array − An array with a numeric index. Values are stored and accessed in linear fashion."},
+
+    { "ques":"What is associate array?", 
+      "ans":"Associative array − An array with strings as index. This stores element values in association with key values rather than in a strict linear index order.	"},
+
+    { "ques":"What is Multidimensional array?", 
+      "ans":"Multidimensional array − An array containing one or more arrays and values are accessed using multiple indices."},
+
+    { "ques":"How will you concatenate two strings in PHP?", 
+      "ans":"To concatenate two string variables together, use the dot (.) operator −"},
+
+    { "ques":"How will you find the length of a string in PHP?", 
+      "ans":"The strlen() function is used to find the length of a string. Let's find the length of our string Hello world! −<?phpecho strlen('Hello world!');?>"},
+
+    { "ques":"How will you locate a string within a string in PHP?", 
+      "ans":"The strpos() function is used to search for a string or character within a string. If a match is found in the string, this function will return the position of the first match. If no match is found, it will return FALSE. Let's see if we can find the string 'world' in our string −"},
+
+    { "ques":"How will you get environment variables in PHP?", 
+      "ans":"PHP provides a function getenv() to access the value of all the environment variables."},
+
+    { "ques":"How will you get the browser's details using PHP?", 
+      "ans":"One of the environemnt variables set by PHP is HTTP_USER_AGENT which identifies the user's browser and operating system."},
+
+    { "ques":"How will you generate random numbers using PHP?", 
+      "ans":"The PHP rand() function is used to generate a random number. This function can generate numbers with-in a given range. The random number generator should be seeded to prevent a regular pattern of numbers being generated. This is achieved using the srand() function that specifiies the seed number as its argument."},
+
+    { "ques":"What is the purpse $_PHP_SELF variable?", 
+      "ans":"The PHP default variable $_PHP_SELF is used for the PHP script name and when you click 'submit' button then same PHP script will be called."},
+
+    { "ques":"How will you redirect a page using PHP?", 
+      "ans":"The PHP header() function supplies raw HTTP headers to the browser and can be used to redirect it to another location. The redirection script should be at the very top of the page to prevent any other part of the page from loading. The target is specified by the Location: header as the argument to the header() function. After calling this function the exit() function can be used to halt parsing of rest of the code."},
+
+    { "ques":"How can you display a file download dialog box using PHP?", 
+      "ans":"The HTTP header will be different from the actual header where we send Content-Type as text/html\n\n. In this case content type will be application/octet-stream and actual file name will be concatenated alongwith it. For example,if you want make a FileName file downloadable from a given link then its syntax will be as follows."},
+
+
+    { "ques":"How will you get information sent via get method in PHP?", 
+      "ans":"The PHP provides $_GET associative array to access all the sent information using GET method."}
+,
+    { "ques":"How will you get information sent via post method in PHP?", 
+      "ans":"The PHP provides $_POST associative array to access all the sent information using POST method."},
+
+    { "ques":"What is the purpse $_REQUEST variable?", 
+      "ans":"The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE. We will discuss $_COOKIE variable when we will explain about cookies. The PHP $_REQUEST variable can be used to get the result from form data sent with both the GET and POST methods."},
+
+    { "ques":"Which function will you use to create an array?", 
+      "ans":"array() − Creates an array."},
+
+    { "ques":"How can you sort an array?", 
+      "ans":"sort() − Sorts an array."},
+
+    { "ques":"What is the difference between single quoted string and double quoted string?", 
+      "ans":"Singly quoted strings are treated almost literally, whereas doubly quoted strings replace variables with their values as well as specially interpreting certain character sequences."},
+
+    { "ques":"How will you concatenate two strings?", 
+      "ans":"To concatenate two string variables together, use the dot (.) operator."},
+
+    { "ques":"What is the use of $_REQUEST variable?", 
+      "ans":"The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE. We will discuss $_COOKIE variable when we will explain about cookies. The PHP $_REQUEST variable can be used to get the result from form data sent with both the GET and POST methods."},
+
+    { "ques":"How will you include the content of a PHP file into another PHP file?", 
+      "ans":"There are two PHP functions which can be used to included one PHP file into another PHP file. The include() FunctionThe require() Function"},
+
+    { "ques":"What is the difference between include() Function and require() Function?", 
+      "ans":"If there is any problem in loading a file then the require() function generates a fatal error and halt the execution of the script whereas include() function generates a warning but the script will continue execution."},
+
+    { "ques":"How will you open a file in readonly mode?", 
+      "ans":"The PHP fopen() function is used to open a file. It requires two arguments stating first the file name and then mode in which to operate. 'r' mode opens the file for reading only and places the file pointer at the beginning of the file."},
+
+    { "ques":"How will you read a file in php?", 
+      "ans":"Once a file is opened using fopen() function it can be read with a function called fread(). This function requires two arguments. These must be the file pointer and the length of the file expressed in bytes."},
+
+    { "ques":"How will you get the size of a file in php?", 
+      "ans":"The files's length can be found using the filesize() function which takes the file name as its argument and returns the size of the file expressed in bytes."},
+
+    { "ques":"How will you check if a file exists or not using php?", 
+      "ans":"File's existence can be confirmed using file_exist() function which takes file name as an argument."},
+
+    { "ques":"Can you assign the default values to a function parameters?", 
+      "ans":"Yes! You can set a parameter to have a default value if the function's caller doesn't pass it."},
+
+    { "ques":"How will you set cookies using PHP?", 
+      "ans":"PHP provided setcookie() function to set a cookie. This function requires upto six arguments and should be called before <html> tag. For each cookie this function has to be called separately."},
+
+    { "ques":"How will you get cookies using PHP?", 
+      "ans":"PHP provides many ways to access cookies. Simplest way is to use either $_COOKIE or $HTTP_COOKIE_VARS variables."},
+
+    { "ques":"How will you make a check that a cookie is set or not?", 
+      "ans":"You can use isset() function to check if a cookie is set or not."},
+
+    { "ques":"How will you delete a cookie?", 
+      "ans":"To delete a cookie you should call setcookie() with the name argument only."},
+
+    { "ques":"How will you start a session in PHP?", 
+      "ans":"A PHP session is easily started by making a call to the session_start() function.This function first checks if a session is already started and if none is started then it starts one. It is recommended to put the call to session_start() at the beginning of the page."},
+
+    { "ques":"How will you access session variables in PHP?", 
+      "ans":"Session variables are stored in associative array called $_SESSION[]. These variables can be accessed during lifetime of a session."},
+
+    { "ques":"How will you check if session variable is already set or not in PHP?", 
+      "ans":"Make use of isset() function to check if session variable is already set or not."},	
+
+    { "ques":"How will you destroy the session?", 
+      "ans":"A PHP session can be destroyed by session_destroy() function."},
+
+    { "ques":"How will you send an email using PHP?", 
+      "ans":"PHP makes use of mail() function to send an email. This function requires three mandatory arguments that specify the recipient's email address, the subject of the the message and the actual message additionally there are other two optional parameters.mail( to, subject, message, headers, parameters );"},
+
+    { "ques":"What is the purpose of $_FILES variable in PHP?", 
+      "ans":"This is a global PHP variable. This variable is an associate double dimension array and keeps all the information related to uploaded file."},
+
+    { "ques":"How will you access the uploaded file in PHP?", 
+      "ans":"Using $_FILES['file']['tmp_name'] − it provides access to the uploaded file in the temporary directory on the web server."},	
+
+    { "ques":"How will you access the actual name of the uploaded file in PHP?", 
+      "ans":"Using $_FILES['file']['name'] − it provides the actual name of the uploaded file."},
+
+    { "ques":"How will you access the size of the uploaded file in PHP?", 
+      "ans":"Using $_FILES['file']['size'] − it provides the size in bytes of the uploaded file."},
+
+    { "ques":"How will you access the error code associated with file upload in PHP?", 
+      "ans":"Using $_FILES['file']['error'] − it provides the error code associated with this file upload."},
+
+    { "ques":"How will you access the content type of the uploaded file in PHP?", 
+      "ans":"Using $_FILES['file']['type'] − it provides the MIME type of the uploaded file."},
+
+    { "ques":"What is the purpose of $GLOBALS variable in PHP?", 
+      "ans":"$GLOBALS − Contains a reference to every variable which is currently available within the global scope of the script. The keys of this array are the names of the global variables."},
+
+    { "ques":"What is the purpose of $_SERVER variable in PHP?", 
+      "ans":"$_SERVER − This is an array containing information such as headers, paths, and script locations. The entries in this array are created by the web server. There is no guarantee that every web server will provide any of these. See next section for a complete list of all the SERVER variables."},
+
+    { "ques":"What is the purpose of $_COOKIE variable in PHP?", 
+      "ans":"$_COOKIE − An associative array of variables passed to the current script via HTTP cookies."},
+
+    { "ques":"What is the purpose of $_PHP_SELF variable in PHP?", 
+      "ans":"$_PHP_SELF − A string containing PHP script file name in which it is called."},
+
+    { "ques":"What is the purpose of $_SESSION variable in PHP?", 
+      "ans":"$_SESSION − An associative array containing session variables available to the current script."},
+
+    { "ques":"How ereg() function works?", 
+      "ans":"ereg() − The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise."},
+
+    { "ques":"How eregi() function works?", 
+      "ans":"eregi() − The eregi() function searches throughout a string specified by pattern for a string specified by string. The search is not case sensitive."},
+
+    { "ques":"How split() function works?", 
+      "ans":"The split() function will divide a string into various elements, the boundaries of each element based on the occurrence of pattern in string."},
+
+    { "ques":"How preg_match() function works?", 
+      "ans":"preg_match() - The preg_match() function searches string for pattern, returning true if pattern exists, and false otherwise."},
+
+    { "ques":"How preg_split() function works?", 
+      "ans":"The preg_split() function operates exactly like split(), except that regular expressions are accepted as input parameters for pattern."},
+
+    { "ques":"How will you retrieve the error message using Exception class in PHP when error occured?", 
+      "ans":"Using getMessage() method of Exception class which returns the message of exception."},
+
+    { "ques":"How will you retrieve code of exception using Exception class in PHP when error occured?", 
+      "ans":"Using getCode() method of Exception class which returns the code of exception."},
+
+	{ "ques":"How will you retrieve source filename using Exception class in PHP when error occured?", 
+      "ans":"Using getFile() method of Exception class which returns source filename."},
+
+
+    { "ques":"How will you retrieve source line using Exception class in PHP when error occured?", 
+      "ans":"Using getLine() method of Exception class which returns source line."},
+
+    { "ques":"How will you retrieve stack trace using Exception class in PHP when error occured?", 
+      "ans":"Using getTrace() method of Exception class which returns array of the backtrace."},
+
+	{ "ques":"How will you retrieve formated string of trace in PHP when error occured?", 
+      "ans":"Using getTraceAsString() method of Exception class which returns formated string of trace."},
+
+
+    { "ques":"How will you get the current date and time using PHP?", 
+      "ans":"PHP's time() function gives you all the information that you need about the current date and time. It requires no arguments but returns an integer."},
+
+    { "ques":"What is the purpose of getdate() function?", 
+      "ans":"The function getdate() optionally accepts a time stamp and returns an associative array containing information about the date. If you omit the time stamp, it works with the current time stamp as returned by time()."},
+
+	{ "ques":"What is the purpose of date() function?", 
+      "ans":"The date() function returns a formatted string representing a date. You can exercise an enormous amount of control over the format that date() returns with a string argument that you must pass to it."},
+
+
+    { "ques":"How will you connect a MySql database using PHP?", 
+      "ans":"PHP provides mysql_connect function to open a database connection.connection mysql_connect(server,user,passwd,new_link,client_flag);"},
+
+    { "ques":"How will you create a MySql database using PHP?", 
+      "ans":"PHP uses mysql_query function to create a MySQL database. This function takes two parameters and returns TRUE on success or FALSE on failure.bool mysql_query( sql, connection );"},
+
+	{ "ques":"How will you close a MySql database using PHP?", 
+      "ans":"Its simplest function mysql_close PHP provides to close a database connection. This function takes connection resource returned by mysql_connect function. It returns TRUE on success or FALSE on failure.bool mysql_close ( resource $link_identifier );If a resource is not specified then last opend database is closed."},
+
+
+    { "ques":"How will you parse an XML document using PHP?", 
+      "ans":"PHP 5's new SimpleXML module makes parsing an XML document, well, simple. It turns an XML document into an object that provides structured access to the XML. To create a SimpleXML object from an XML document stored in a string, pass the string to simplexml_load_string( ). It returns a SimpleXML object."},
+
+    { "ques":"Can you create a class in PHP?", 
+      "ans":"Yed"},
+
+	{ "ques":"How will you add a constructor function to a PHP class?", 
+      "ans":"PHP provides a special function called __construct() to define a constructor. You can pass as many as arguments you like into the constructor function."},
+
+
+    { "ques":"How will you add a destructor function to a PHP class?", 
+      "ans":"Like a constructor function you can define a destructor function using function __destruct(). You can release all the resourceses with-in a destructor."},
+
+    { "ques":"How will you access the reference to same object within the object in PHP?", 
+      "ans":"The variable $this is a special variable and it refers to the same object ie. itself."},
+
+	{ "ques":"How will you create objects in PHP?", 
+      "ans":"Once you defined your class, then you can create as many objects as you like of that class type. Following is an example of how to create object using new operator."},
+
+
+    { "ques":"How will you call member functions of a class in PHP?", 
+      "ans":"After creating your objects, you will be able to call member functions related to that object. One member function will be able to process member variable of related object only. Following example shows how to set title and prices for the three books by calling member functions."},
+
+    { "ques":"What is function overriding?", 
+      "ans":"Function definitions in child classes override definitions with the same name in parent classes. In a child class, we can modify the definition of a function inherited from parent class."},
+
+	{ "ques":"What are interfaces in PHP?", 
+      "ans":"Interfaces are defined to provide a common function names to the implementors. Different implementors can implement those interfaces according to their requirements. You can say, interfaces are skeltons which are implemented by developers."},
+
+
+    { "ques":"What is the use of final keyword?", 
+      "ans":"PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended."}
+
+  
+  ],
+
+  "experienceiqs":[
+    { "ques":"What are the differences between GET and POST methods in form submitting, give the case where we can use get and we can use post methods?", "ans":"On the server side, the main difference between GET and POST is where the submitted is stored. The $_GET array stores data submitted by the GET method. The $_POST array stores data submitted by the POST method. GET method is mostly used for submitting a small amount and less sensitive data. POST method is mostly used for submitting a large amount or sensitive data. " },
+    { "ques":"What is the difference between $message and $$message?", "ans":"They are both variables. But $message is a variable with a fixed name. $$message is a variable who's name is stored in $message. For example, if $message contains 'var', $$message is the same as $var." },
+    { "ques":"What are the differences between require and include, include_once?", "ans":"File will not be included more than once. If we want to include a file once only and further calling of the file will be ignored then we have to use the PHP function include_once(). This will prevent problems with function redefinitions, variable value reassignments, etc." },
+	{ "ques":"How can I execute a php script using command line?", "ans":"Just run the PHP CLI (Command Line Interface) program and provide the PHP script file name as the command line argument. For example, php myScript.php, assuming php is the command to invoke the CLI program. Be aware that if your PHP script was written for the Web CGI interface, it may not execute properly in command line environment." },
+	{ "ques":"What are the reasons for selecting lamp (Linux, apache, mysql, php) instead of combination of other software programs, servers and operating systems?", "ans":"All of those are open source resource. Security of linux is very very more than windows. Apache is a better server that IIS both in functionality and security. Mysql is world most popular open source database. PHP is more faster that asp or any other scripting language." },
+	{ "ques":"How can we encrypt and decrypt a data present in a mysql table using mysql?", "ans":"AES_ENCRYPT () and AES_DECRYPT ()" },
+	{ "ques":"How can we encrypt the username and password using php?", "ans":"You can encrypt a password with the following Mysql>SET PASSWORD=PASSWORD('Password'); We can encode data using base64_encode($string) and can decode using base64_decode($string);" },
+	{ "ques":"What is the functionality of the function htmlentities?", "ans":"htmlentities Convert all applicable characters to HTML entities This function is identical to htmlspecialchars() in all ways, except with htmlentities(), all characters which have HTML character entity equivalents are translated into these entities." },
+	{ "ques":"What is the difference between the functions unlink and unset?", "ans":"Unlink() deletes the given file from the file system. unset() makes a variable undefined." },
+	{ "ques":"How can we register the variables into a session?", "ans":"We can use the session_register ($ur_session_var) function." },
+	{ "ques":"What is the maximum size of a file that can be uploaded using php and how can we change this?", "ans":"You can change maximum size of a file set upload_max_filesize variable in php.ini file." },
+	{ "ques":"How can we increase the execution time of a php script?", "ans":"Set max_execution_time variable in php.ini file to your desired time in second." },
+	{ "ques":"How can we destroy the cookie?", "ans":"Set same the cookie in past" },
+	{ "ques":"What is the difference between ereg_replace() and eregi_replace()?", "ans":"eregi_replace() function is identical to ereg_replace() except that this ignores case distinction when matching alphabetic characters.eregi_replace() function is identical to ereg_replace() except that this ignores case distinction when matching alphabetic characters." },
+	{ "ques":"How many values can the SET function of mysql takes?", "ans":"Mysql set can take zero or more values but at the maximum it can take 64 values" },
+	{ "ques":"What is meant by MIME?", "ans":"Multipurpose Internet Mail Extensions.WWW ability to recognise and handle files of different types is largely dependent on the use of the MIME (Multipurpose Internet Mail Extensions) standard. The standard provides for a system of registration of file types with information about the applications needed to process them. This information is incorporated into Web server and browser software, and enables the automatic recognition and display of registered file types." },
+	{ "ques":"What is the difference between include and require?", "ans":"If you require a file and it cannot be found, the script will terminate with a fatal error. If you use include then you will get an error but the script will continue to execute. Therefore when the information you wish to reference from another file is essential to the correct running of a page, use require." },
+	{ "ques":"Is PHP a case sensitive programming language?", "ans":"PHP is a partially case sensitive programming language. We can use function names, class names in case insensitive manner." },
+	{ "ques":"What is the difference between echo and print statement?", "ans":"Echo() can take multiple expressions,Print cannot take multiple expressions. Print return true or false based on success or failure whereas echo just does what its told without letting you know whether or not it worked properly." },
+	{ "ques":"What are the features and advantages of OBJECT ORIENTED PROGRAMMING?", "ans":"One of the main advantages of OO programming is its ease of modification; objects can easily be modified and added to a system there by reducing maintenance costs. OO programming is also considered to be better at modeling the real world than is procedural programming. It allows for more complicated and flexible interactions. OO systems are also easier for non-technical personnel to understand and easier for them to participate in the maintenance and enhancement of a system because it appeals to natural human cognition patterns. For some systems, an OO approach can speed development time since many objects are standard across systems and can be reused. Components that manage dates, shipping, shopping carts, etc. can be purchased and easily modified for a specific system. " },
+	{ "ques":"How does PHP work?", "ans":"The PHP software works with the web server, which is the software that delivers web pages to the world. You request a file, the web server happens to be running PHP, and it sends HTML back to the browser, thanks to the programming in PHP." },
+	{ "ques":"Can you use PHP and Javascript together?", "ans":"So, when we develop web pages, we can have a combination of HTML, Javascript, CSS and PHP in our pages. If you need to use a scripting language, such as PHP, once the page has been loaded into the browser, then you must either refresh the page or use Ajax to request more processing at the server side." },
+	{ "ques":"Why do we use Javascript in PHP?", "ans":"PHP is commonly written in-line in the same files as HTML and Javascript, PHP is a server-side language. Javascript is a client-side language. The main difference here is not PHP vs. JavaScript. It’s Client vs. Server. You can’t do server stuff on the client, and you can’t do all the Client stuff on the Server." },
+	{ "ques":"What is the main difference between asp net and PHP?", "ans":"PHP is a programming language whereas ASP.NET is a programming framework. Websites developed by ASP.NET may use C#, but also other languages such as J#. ASP.NET is compiled whereas PHP is interpreted. ASP.NET is designed for windows machines, whereas PHP is platform free (and typically runs on Linux servers)." },
+	{ "ques":"How does session work in PHP?", "ans":"the session id is sent to the user when his session is created. it is stored in a cookie (called, by default, PHPSESSID ) that cookie is sent by the browser to the server with each request. the server (PHP) uses that cookie, containing the session_id, to know which file corresponds to that user." },
+	{ "ques":"How do you end a session in PHP?", "ans":"If you want to explicitly end a user’s and delete their data without them having to close their browser, you need to clear the $_SESSION array, then use the session_destroy() function. Session_destroy() removes all session data stored on your hard disk, leaving you with a clean slate." },
+	{ "ques":"What is the use session in PHP?", "ans":"This can be used to persist state information between page requests. Session IDs are normally sent to the browser via session cookies and the ID is used to retrieve existing session data. PHP will populate the $_SESSION superglobal with any session data after the session has started." },
+	{ "ques":"How long does a session last in PHP?", "ans":"This is the one. The session will last for 1440 seconds (24 minutes)." },
+	{ "ques":"What is the use of PHP and Mysql?", "ans":"PHP is the most popular scripting language for web development. It is free, open source and server-side (the code is executed on the server). MySQL is a Relational Database Management System (RDBMS) that uses Structured Query Language (SQL)." },
+	{ "ques":"What is a trait in PHP?", "ans":"Traits are a mechanism for code reuse in single inheritance languages such as PHP. A Trait is intended to reduce some limitations of single inheritance by enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies." },
+	{ "ques":"What is is_null() in PHP?", "ans":"The is_null () function is used to test whether a variable is NULL or not. *Mixed : Mixed indicates that a parameter may accept multiple (but not necessarily all) types. Returns TRUE if var_name is null, FALSE otherwise." },
+	{ "ques":"What is the difference between null and empty?", "ans":" An empty string is a value, but is just empty. Null is special to a database. Null has no bounds, it can be used for string , integer , date , etc. fields in a database. NULL isn’t allocated any memory, the string with NUll value is just a pointer which is pointing to nowhere in memory." },
+	{ "ques":"What is a closure in PHP?", "ans":"A closure is an object representation of an anonymous function. We can see that the anonymous function in the above code actually returns an object of closure which is assigned to and called using the variable $string. You can say closure is an object oriented way to use anonymous functions." },
+	{ "ques":"What is the use of callback in PHP?", "ans":"PHP callback are functions that may be called dynamically by PHP. They are used by native functions such as array_map, usort, preg_replace_callback, etc. Here is a reminder of the various ways to create a callback function in PHP, and use it with the native functions." },
+	{ "ques":"What is encapsulation in PHP?", "ans":"Encapsulation is an OOP (Object Oriented Programming) concept in PHP. Wrapping some data in single unit is called Encapsulation. Second advantage of encapsulation is you can make the class read only or write only by providing setter or getter method. Capsule is best example of Encapsulation." },
+	{ "ques":"What is the use of die in PHP?", "ans":"The die() function prints a message and exits the current script. This function is an alias of the exit() function." },
+	{ "ques":" What is Zend Studio for?", "ans":"Zend Studio is a commercial, proprietary integrated development environment (IDE) for PHP developed by Zend Technologies, based on the PHP Development Tools (PDT) plugin for the Eclipse platform (the PDT project is led by Zend). … Zend Studio is also integrated with Zend Framework." },
+	{ "ques":"What is urlencode and urldecode in php?", "ans":"urlencode(string) — This PHP function is encodes a string to be used in a query part of a URL. URL encoding is used when placing text in a query string to avoid it being confused with the URL itself. It is normally used when the browser sends form data to a web server.urldecode(string) – This PHP function id decodes any encoded value in the given string." },
+	{ "ques":"What is the maximum size of a table in MySQL?", "ans":"You are using a MyISAM table and the space required for the table exceeds what is permitted by the internal pointer size. MyISAM permits data and index files to grow up to 256TB by default, but this limit can be changed up to the maximum permissible size of 65,536TB (2567 − 1 bytes)." },
+	{ "ques":"What is the capacity of MySQL database?", "ans":"Database Storage Capacity. MySQL is limited by the largest file size that the operating system you run it on can handle (between 4Gb and 256Tb depending on the O/S). With the innoDB table format you can even span multiple files with one table allowing for tables in the database of up to 64Tb." },
+	{ "ques":"How many records can be stored in MySQL table?", "ans":"In InnoDB, with a limit on table size of 64 terabytes and a MySQL row-size limit of 65,535 there can be 1,073,741,824 rows. That would be minimum number of records utilizing maximum row-size limit. However, more records can be added if the row size is smaller." },
+	{ "ques":"How many columns can be added in a table in mysql?", "ans":"MySQL 5.0 Column Count Limits: There is a hard limit of 4096 columns per table, but the effective maximum may be less for a given table. The exact limit depends on several interacting factors. Every table (regardless of storage engine) has a maximum row size of 65,535 bytes." },
+	{ "ques":"What is varchar mysql?", "ans":" Values in VARCHAR columns are variable-length strings. The length can be specified as a value from 0 to 65,535. The effective maximum length of a VARCHAR is subject to the maximum row size (65,535 bytes, which is shared among all columns) and the character set used." },
+	{ "ques":"How big is varchar Max?", "ans":" n defines the string length and can be a value from 1 through 8,000. max indicates that the maximum storage size is 2^31-1 bytes (2 GB). The storage size is the actual length of the data entered + 2 bytes. The ISO synonyms for varchar are charvarying or charactervarying." },
+	{ "ques":"Why triggers are used in mysql?", "ans":"The MySQL trigger is a database object that is associated with a table. It will be activated when a defined action is executed for the table. The trigger can be executed when you run one of the following MySQL statements on the table: INSERT, UPDATE and DELETE and it can be invoked before or after the event." },
+	{ "ques":"When should you use a stored procedure?", "ans":" The benefits of using stored procedures in SQL Server rather than application code stored locally on client computers include: They allow modular programming. They allow faster execution. They can reduce network traffic." },
+	{ "ques":"What is the use of limit in mysql?", "ans":"Limit Data Selections From a MySQL Database. MySQL provides a LIMIT clause that is used to specify the number of records to return. The LIMIT clause makes it easy to code multi page results or pagination with SQL, and is very useful on large tables. Returning a large number of records can impact on performance." },
+	{ "ques":"What is the use of inner join in mysql?", "ans":"The MySQL INNER JOIN clause matches rows in one table with rows in other tables and allows you to query rows that contain columns from both tables. The INNER JOIN clause is an optional part of the SELECT statement." },
+	{ "ques":"What is stdClass in PHP?", "ans":"stdClass is a PHP generic empty class and stdClass is used to create the new Object.  stdClass is a kind of Object in Java or object in Python but not actually used as universal base class." },
+	{ "ques":"What is PSR in PHP?", "ans":"The PHP Standard Recommendation (PSR) is a PHP specification published by the PHP Framework Interop Group. Similar to Java Specification Request for Java, it serves the standardization of programming concepts in PHP." },
+	{ "ques":"Can you explain, when to use If-else if-else over switch statements?", "ans":" If there is switching on the value of a single variable then switch is recommended every time. Otherwise, stick with multiple if-else statements." },
+	{ "ques":"When to use self over $this?", "ans":"Use $this to refer to the current object. Use self to refer to the current class." },
+	{ "ques":"What is the difference between Apache and Tomcat?", "ans":"Apache Tomcat is used to deploy your Java Servlets and JSPs. So in your Java project you can build your WAR (short for Web ARchive) file, and just drop it in the deploy directory in Tomcat. So basically Apache is an HTTP Server, serving HTTP. Tomcat is a Servlet and JSP Server serving Java technologies." },
+	{ "ques":"What is Nginx and what is it used for?", "ans":"NGINX (Pronounced as Engine-X) is an open source, lightweight, high-performance web server or proxy server. Nginx used as reverse proxy server for HTTP, HTTPS, SMTP, IMAP, POP3 protocols, on the other hand, it is also used for servers load balancing and HTTP Cache." },
+	{ "ques":"What is SQL injection?", "ans":"SQL injection (or a SQL injection attack) occurs when a user provides SQL code as user input for a Web page, and the SQL code is then executed in the database." },
+	{ "ques":"Why does SQL injection happen?", "ans":"SQL injection is an attack technique that exploits a security vulnerability occurring in the database layer of an application . Hackers use injections to obtain unauthorized access to the underlying data, structure, and DBMS. It is one of the most common web application vulnerabilities." },
+	{ "ques":"What is input sanitization in PHP?", "ans":"PHP filters are used to validate and sanitize external input. The PHP filter extension has many of the functions needed for checking user input, and is designed to make data validation easier and quicker." },
+	{ "ques":"What is the use of Stripslashes in PHP?", "ans":"Definition and Usage. The stripslashes() function removes backslashes added by the addslashes() function. This function can be used to clean up data retrieved from a database or from an HTML form." },
+	{ "ques":"What is the use of Htmlspecialchars in PHP?", "ans":"In many PHP legacy products the function htmlspecialchars($string) is used to convert characters like < and > and quotes a.s.o to HTML-entities." },
+	{ "ques":"What is the use of isset in PHP?", "ans":" isset() function. The isset () function is used to check whether a variable is set or not. If a variable is already unset with unset() function, it will no longer be set. The isset() function return false if testing variable contains a NULL value." },
+	{ "ques":"What does explode do in PHP?", "ans":"You can also convert between strings and arrays by using the PHP implode and explode functions: implode implodes an array to a string, and explode explodes a string into an array." }
+	
+
+  ],
+  "fresherresume":[
+    { "freshresume":"itentrylevel", "freshtit":"Entry Level" },
+    { "freshresume":"itentrylevel", "freshtit":"Professional" },
+    { "freshresume":"itentrylevel", "freshtit":"Smart" }
+
+  ],
+  "experienceresume":[
+    { "expresume":"itentrylevel", "exprestit":"Smart" },
+    { "expresume":"itentrylevel", "exprestit":"Professional" },
+    { "expresume":"itentrylevel", "exprestit":"Entry Level" }
+
+  ],
+  "definitions":[
+    { "ques":"itentrylevel", "ans":"Smart and Balanced" },
+    { "ques":"itentrylevel", "ans":"Professional" },
+    { "ques":"itentrylevel", "ans":"Entry Level" }
+
+  ],
+
+  "programs":[
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" },
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" },
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" }
+
+  ],
+
+
+  "videos":[
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana" },
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana"  },
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana"  }
+
+  ]
+
+ 
+
+}
+

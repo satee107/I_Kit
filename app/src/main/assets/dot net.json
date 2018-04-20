@@ -1,0 +1,595 @@
+﻿{
+  "fresheriqs": [
+    {
+      "ques": "What is C#?",
+      "ans": "C# is a simple, modern, general purpose programming language. It is an object oriented programming language developed by Microsoft. It is a safe and managed language that is compiled by .NET framework to generate Microsoft intermediate language (machine code)."
+    },
+    {
+      "ques": "What is the reason behind the invention of C#?",
+      "ans": "C# is designed for Common Language Infrastructure (CLI). It contains the executable code and runtime environment that makes the users able to use various high-level languages on different computer platforms and architectures."
+    },
+    {
+      "ques": "Explain the features of C#?",
+      "ans": "Below are some of the features supported in C# -Constructors and Destructors,Properties,Passing Parameters,Arrays,Main,XML Documentation and Indexers"
+    },
+    {
+      "ques": "List some of the advantages of C#?",
+      "ans": "Below are the advantages of C# -Easy to learn,Object oriented,Component oriented,Part of .NET framework"
+    },
+    {
+      "ques": "What are the main reasons to use C# language?",
+      "ans": "These are top reasons to use C# language:Easy to learn,General purpose and object oriented programming language,Component oriented,Structured language,Can be compiled on variety of computer platforms,Produces efficient programs,Part of .net framework"
+    },
+    {
+      "ques": "What are IDE’s provided by Microsoft for C# development?",
+      "ans": "Below are the IDE’s used for C# development –Visual Studio Express (VCE),Visual Studio (VS),Visual Web Developer"
+    },
+    {
+      "ques": "Explain the types of comments in C#?",
+      "ans": "Below are the types of comments in C# -Single Line Comment Eg : //,Multiline Comments Eg: /* */,XML Comments Eg : ///"
+    },
+    {
+      "ques": "Explain sealed class in C#?",
+      "ans": "Sealed class is used to prevent the class from being inherited from other classes. So “sealed” modifier also can be used with methods to avoid the methods to override in the child classes."
+    },
+    {
+      "ques": "List out the differences between Array and ArrayList in C#?",
+      "ans": "Array stores the values or elements of same data type but arraylist stores values of different datatypes.Arrays will use the fixed length but arraylist does not uses fixed length like array."
+    },
+    {
+      "ques": " Why to use “using” in C#?",
+      "ans": "“Using” statement calls – “dispose” method internally, whenever any exception occurred in any method call and in “Using” statement objects are read only and cannot be reassignable or modifiable."
+    },
+    {
+      "ques": "Explain namespaces in C#?",
+      "ans": "Namespaces are containers for the classes. We will use namespaces for grouping the related classes in C#. “Using” keyword can be used for using the namespace in other namespace."
+    },
+    {
+      "ques": "Why to use keyword “const” in C#? Give an example.",
+      "ans": "Const keyword is used for making an entity constant. We can’t reassign the value to constant.Eg: const string _name = Test;"
+    },
+    {
+      "ques": "What is the difference between “constant” and “readonly” variables in C#?",
+      "ans": "Const keyword is used for making an entity constant. We cannot modify the value later in the code. Value assigning is mandatory to constant variables.readonly variable value can be changed during runtime and value to readonly variables can be assigned in the constructor or at the time of declaration."
+    },
+    {
+      "ques": "Explain “static” keyword in C#?",
+      "ans": "“Static” keyword can be used for declaring a static member. If the class is made static then all the members of the class are also made static. If the variable is made static then it will have a single instance and the value change is updated in this instance."
+    },
+    {
+      "ques": "What is the difference between “dispose” and “finalize” variables in C#?",
+      "ans": "Dispose - This method uses interface – “IDisposable” interface and it will free up both managed and unmanaged codes like – database connection, files etc.Finalize - This method is called internally unlike Dispose method which is called explicitly. It is called by garbage collector and can’t be called from the code."
+    },
+    {
+      "ques": " How the exception handling is done in C#?",
+      "ans": "In C# there is a “try… catch” block to handle the error."
+    },
+    {
+      "ques": "Can we execute multiple catch blocks in C#?",
+      "ans": "No. Once any exception is occurred it executes specific exception catch block and the control comes out."
+    },
+    {
+      "ques": "Why to use “finally” block in C#?",
+      "ans": "“Finally” block will be executed irrespective of exception. So while executing the code in try block when exception is occurred, control is returned to catch block and at last “finally” block will be executed. So closing connection to database / releasing the file handlers can be kept in “finally” block."
+    },
+    {
+      "ques": "What is the difference between “finalize” and “finally” methods in C#?",
+      "ans": "itentrylevel"
+    },
+    {
+      "ques": "itentrylevel",
+      "ans": "Finalize – This method is used for garbage collection. So before destroying an object this method is called as part of clean up activity.Finally – This method is used for executing the code irrespective of exception occurred or not."
+    },
+    {
+      "ques": "What is the difference between “throw ex” and “throw” methods in C#?",
+      "ans": "“throw ex” will replace the stack trace of the exception with stack trace info of re throw point.“throw” will preserve the original stack trace info."
+    },
+    {
+      "ques": "Can we have only “try” block without “catch” block in C#?",
+      "ans": "Yes we can have only try block without catch block but we have to have finally block."
+    },
+    {
+      "ques": "List out two different types of errors in C#?",
+      "ans": "Below are the types of errors in C# -Compile Time Error,Run Time Error"
+    },
+    {
+      "ques": "Do we get error while executing “finally” block in C#?",
+      "ans": "Yes. We may get error in finally block."
+    },
+    {
+      "ques": "Mention the assembly name where System namespace lies in C#?",
+      "ans": "Assembly Name – mscorlib.dll"
+    },
+    {
+      "ques": "What are the differences between static, public and void in C#?",
+      "ans": "Static classes/methods/variables are accessible throughout the application without creating instance. Compiler will store the method address as an entry point. Public methods or variables are accessible throughout the application. Void is used for the methods to indicate it will not return any value."
+    },
+    {
+      "ques": "What is the difference between “out” and “ref” parameters in C#?",
+      "ans": "“out” parameter can be passed to a method and it need not be initialized where as “ref” parameter has to be initialized before it is used."
+    },
+    {
+      "ques": "Explain Jagged Arrays in C#?",
+      "ans": "If the elements of an array is an array then it’s called as jagged array. The elements can be of different sizes and dimensions."
+    },
+    {
+      "ques": "Can we use “this” inside a static method in C#?",
+      "ans": "No. We can’t use “this” in static method."
+    },
+    {
+      "ques": "What are value types in C#?",
+      "ans": "Below are the list of value types in C# -decimal,int,byte,enum,double,long,float"
+    },
+    {
+      "ques": "What are reference types in C#?",
+      "ans": "Below are the list of reference types in C# -class,string,interface,object"
+    },
+    {
+      "ques": "Can we override private virtual method in C#?",
+      "ans": "No. We can’t override private virtual methods as it is not accessible outside the class."
+    },
+    {
+      "ques": " Explain access modifier – “protected internal” in C#?",
+      "ans": "“protected internal” can be accessed in the same assembly and the child classes can also access these methods."
+    },
+    {
+      "ques": "In try block if we add return statement whether finally block is executed in C#?",
+      "ans": "Yes. Finally block will still be executed in presence of return statement in try block."
+    },
+    {
+      "ques": "What you mean by inner exception in C#?",
+      "ans": "Inner exception is a property of exception class which will give you a brief insight of the exception i.e, parent exception and child exception details."
+    },
+    {
+      "ques": " What is the difference between “StringBuilder” and “String” in C#?",
+      "ans": "StringBuilder is mutable, which means once object for stringbuilder is created, it later be modified either using Append, Remove or Replace.String is immutable and it means we cannot modify the string object and will always create new object in memory of string type."
+    },
+    {
+      "ques": " What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?",
+      "ans": "CopyTo() method can be used to copy the elements of one array to other. Clone() method is used to create a new array to contain all the elements which are in the original array."
+    },
+    {
+      "ques": "How we can sort the array elements in descending order in C#?",
+      "ans": "“Sort()” method is used with “Reverse()” to sort the array in descending order."
+    },
+    {
+      "ques": "Explain circular reference in C#?",
+      "ans": "This is a situation where in, multiple resources are dependent on each other and this causes a lock condition and this makes the resource to be unused."
+    },
+    {
+      "ques": " List out some of the exceptions in C#?",
+      "ans": "Below are some of the exceptions in C# -NullReferenceException,ArgumentNullException,DivideByZeroException,IndexOutOfRangeException,InvalidOperationException,StackOverflowException etc."
+    },
+    {
+      "ques": "Explain Generics in C#?",
+      "ans": "Generics in c# is used to make the code reusable and which intern decreases the code redundancy and increases the performance and type safety. Namespace – System.Collections.Generic is available in C# and this should be used over System.Collections types."
+    },
+    {
+      "ques": "Explain object pool in C#?",
+      "ans": "Object pool is used to track the objects which are being used in the code. So object pool reduces the object creation overhead."
+    },
+    {
+      "ques": "What you mean by delegate in C#?",
+      "ans": "Delegates are type safe pointers unlike function pointers as in C++. Delegate is used to represent the reference of the methods of some return type and parameters."
+    },
+    {
+      "ques": "What are the types of delegates in C#?",
+      "ans": "Below are the uses of delegates in C# -Single Delegate,Multicast Delegate,Generic Delegate"
+    },
+    {
+      "ques": "What are the three types of Generic delegates in C#?",
+      "ans": "Below are the three types of generic delegates in C# -Func,Action,Predicate"
+    },
+    {
+      "ques": "What are the differences between events and delegates in C#?",
+      "ans": "Main difference between event and delegate is event will provide one more of encapsulation over delegates. So when you are using events destination will listen to it but delegates are naked, which works in subscriber/destination model."
+    },
+    {
+      "ques": "Can we use delegates for asynchronous method calls in C#?",
+      "ans": "Yes. We can use delegates for asynchronous method calls."
+    },
+    {
+      "ques": "What are the uses of delegates in C#?",
+      "ans": "Below are the list of uses of delegates in C# -Callback Mechanism,Asynchronous Processing,Abstract and Encapsulate method,Multicasting"
+    },
+    {
+      "ques": "What is Nullable Types in C#?",
+      "ans": "Variable types does not hold null values so to hold the null values we have to use nullable types. So nullable types can have values either null or other values as well.Eg: Int? mynullablevar = null;"
+    },
+    {
+      "ques": "Why to use Nullable Coalescing Operator (??) in C#?",
+      "ans": "Nullable Coalescing Operator can be used with reference types and nullable value types. So if the first operand of the expression is null then the value of second operand is assigned to the variable. For example,double? myFirstno = null;double mySecno;mySecno = myFirstno ?? 10.11;"
+    },
+    {
+      "ques": "What is the difference between as and is operators in C#?",
+      "ans": "as operator is used for casting object to type or class.is operator is used for checking the object with type and this will return a Boolean value."
+    },
+    {
+      "ques": " What is the difference between CType and Directcast in C#?",
+      "ans": "CType is used for conversion between type and the expression.Directcast is used for converting the object type which requires run time type to be the same as specified type."
+    },
+    {
+      "ques": "Is C# code is unmanaged or managed code?",
+      "ans": "C# code is managed code because the compiler – CLR will compile the code to Intermediate Language."
+    },
+    {
+      "ques": "Why to use lock statement in C#?",
+      "ans": "Lock will make sure one thread will not intercept the other thread which is running the part of code. So lock statement will make the thread wait, block till the object is being released."
+    },
+    {
+      "ques": "Explain Hashtable in C#?",
+      "ans": "It is used to store the key/value pairs based on hash code of the key. Key will be used to access the element in the collection."
+    },
+    {
+      "ques": "What is enum in C#?",
+      "ans": "enum keyword is used for declaring an enumeration, which consists of named constants and it is called as enumerator lists. Enums are value types in C# and these can’t be inherited. Below is the sample code of using Enums"
+    },
+    {
+      "ques": " Explain Partial Class in C#?",
+      "ans": "Partial classes concept added in .Net Framework 2.0 and it allows us to split the business logic in multiple files with the same class name along with partial keyword."
+    },
+    {
+      "ques": "Name the compiler of C#?",
+      "ans": "C# Compiler is – CSC."
+    },
+    {
+      "ques": "Explain the types of unit test cases?",
+      "ans": "list of unit test case types –Positive Test cases,Negative Test cases,Exception Test cases"
+    },
+    {
+      "ques": "List out the pre defined attributes in C#?",
+      "ans": "predefined attributes in C# -Conditional,Obsolete,Attribute Usage"
+    },
+    {
+      "ques": "What is Thread in C#?",
+      "ans": "Thread is an execution path of a program. Thread is used to define the different or unique flow of control. If our application involves some time consuming processes then it’s better to use Multithreading., which involves multiple threads."
+    },
+    {
+      "ques": "List out the states of a thread in C#?",
+      "ans": "states of thread –Unstarted State,Ready State,Not Runnable State,Dead State"
+    },
+    {
+      "ques": "Explain the methods and properties of Thread class in C#?",
+      "ans": "methods and properties of thread class –CurrentCulture,CurrentThread,CurrentContext,IsAlive,IsThreadPoolThread,IsBackground,Priority"
+    },
+    {
+      "ques": "What is a class ?",
+      "ans": "A class is the generic definition of what an object is. A Class describes all the attributes of the object, as well as the methods that implement the behavior of the member object. In other words, class is a template of an object. For ease of understanding a class, we will look at an example. In the class Employee given below, Name and Salary are the attributes of the class Person. The Setter and Getter methods are used to store and fetch data from the variable."
+    },
+    {
+      "ques": "What is an Object?",
+      "ans": "An object is an instance of a class. It contains real values instead of variables. For example, let us create an instance of the class Employee called “John”."
+    },
+    {
+      "ques": "What is ArrayList?",
+      "ans": "ArrayList is a dynamic array. You can add and remove the elements from an ArrayList at runtime. In the ArrayList, elements are not automatically sorted."
+    },
+    {
+      "ques": "What is a collection?",
+      "ans": "A collection works as a container for instances of other classes. All classes implement ICollection interface."
+    },
+    {
+      "ques": "What is an interface?",
+      "ans": "Interface is an abstract class that has only public abstract method. These methods only have declaration not the definition. These abstract methods must be implemented in the inherited classes."
+    },
+    {
+      "ques": "What is the lock statement in C#?",
+      "ans": "Lock statement is used to ensure that one thread doesn?t enter a critical section of code while another thread is in the critical section. If another thread attempts to enter a locked code it will wait, block, until the object is released."
+    },
+    {
+      "ques": "What is serialization?",
+      "ans": "If you want to transport an object through network then you have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called serialization."
+    },
+    {
+      "ques": " What is the difference between early binding and late binding in C#?",
+      "ans": "Early binding and late binding are the concept of polymorphism. There are two types of polymorphism in C#.Compile Time Polymorphism: It is also known as early binding.Run Time Polymorphism: It is also known as late binding or method overriding or dynamic polymorphism."
+    },
+    {
+      "ques": "What is the difference between abstract class and interface in C#?",
+      "ans": "Abstract class can have abstract and concrete methods whereas interface has only abstract methods."
+    },
+    {
+      "ques": "What is the difference between dispose() and finalize() methods in C#?",
+      "ans": "The dispose() method is explicitly called by user to free unmanaged resources such as files, database connections etc whereas finalize() method is implicitly called by garbage collector to free unmanaged resources like files, database connections etc.The dispose() method belongs to IDisposable interface whereas finalize() method belongs the Object class."
+    },
+    {
+      "ques": "What is the difference between method overloading and method overriding in C#?",
+      "ans": "Method parameters must be different in method overloading whereas it must be same in method overriding.Inheritance is not required in method overloading, it occurs within the same class. But inheritance is required in method overriding."
+    },
+    {
+      "ques": "What is object pool in .Net?",
+      "ans": "Object pool is a container of ready to use objects. It reduces the overhead of creating new object."
+    },
+    {
+      "ques": "What is delegate in C#?",
+      "ans": "A delegate in C# is an object that holds the reference to a method. It is like function pointer in C++."
+    },
+    {
+      "ques": "What is Hashtable?",
+      "ans": "A Hashtable is a collection of key/value pairs. It contains values based on the key."
+    },
+    {
+      "ques": "What is Reflection?",
+      "ans": "Reflection allows us to get metadata and assemblies of an object at runtime."
+    },
+    {
+      "ques": "What is the difference between constant and read only in c#?",
+      "ans": "Constant (const) and Readonly (readonly) both looks like same as per the uses but they have some differences: Constant is known as const keyword in C# which is also known immutable values which are known at compile time and do not change their values at run time like in any function or constructor for the life of application till the application is running.Readonly is known as readonly keyword in C# which is also known immutable values and are known at compile and run time and do not change their values at run time like in any function for the life of application till the application is running. You can assay their value by constructor when we call constructor with “new” keyword."
+    },
+    {
+      "ques": "Can this be used within a static method?",
+      "ans": "We can't use this in static method because keyword 'this' returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can’t use this keyword in the body of static Methods, but in case of Extension Methods we can use it the functions parameters. Let’s have a look on this keyword.The this keyword is a special type of reference variable that is implicitly defined within each constructor and non-static method as a first parameter of the type class in which it is defined. For example, consider the following class written in C#."
+    },
+    {
+      "ques": "What is the difference between dispose and finalize methods in c#?",
+      "ans": "finalizer and dispose both are used for same task like to free unmanaged resources but have some differences see.  Finalize:Finalize used to free unmanaged resources those are not in use like files, database connections in application domain and more, held by an object before that object is destroyed. In the Internal process it is called by Garbage Collector and can’t called manual by user code or any service.Finalize belongs to System.Object class.Implement it when you have unmanaged resources in your code, and make sure that these resources are freed when the Garbage collection happens.Dispose:Dispose is also used to free unmanaged resources those are not in use like files, database connections in Application domain at any time. Dispose explicitly it is called by manual user code.If we need to dispose method so must implement that class by IDisposable interface. It belongs to IDisposable interface.Implement this when you are writing a custom class that will be used by other users."
+    },
+    {
+      "ques": "Can multiple catch blocks be executed?",
+      "ans": "No, Multiple catch blocks can’t be executed. Once the proper catch code executed, the control is transferred to the finally block and then the code that follows the finally block gets executed."
+    },
+    {
+      "ques": "What is the difference between public, static and void?",
+      "ans": "Public declared variables or methods are accessible anywhere in the application. Static declared variables or methods are globally accessible without creating an instance of the class. Static member are by default not globally accessible it depends upon the type of access modified used. The compiler stores the address of the method as the entry point and uses this information to begin execution before any objects are created. And Void is a type modifier that states that the method or variable does not return any value."
+    },
+    {
+      "ques": " What is Jagged Arrays?",
+      "ans": "The array which has elements of type array is called jagged array. The elements can be of different dimensions and sizes. We can also call jagged array as Array of arrays."
+    },
+    {
+      "ques": "What is the difference between ref & out parameters?",
+      "ans": "An argument passed as ref must be initialized before passing to the method whereas out parameter needs not to be initialized before passing to a method."
+    },
+    {
+      "ques": " What is the use of using statement in C#?  ",
+      "ans": "The using block is used to obtain a resource and use it and then automatically dispose of when the execution of block completed."
+    },
+    {
+      "ques": " What is serialization?  ",
+      "ans": "When we want to transport an object through network then we have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called Serialization. For an object to be serializable, it should implement ISerialize Interface. De-serialization is the reverse process of creating an object from a stream of bytes."
+    },
+    {
+      "ques": "What is difference between constants and read-only?  ",
+      "ans": "Constant variables are declared and initialized at compile time. The value can’t be changed afterwards. Read only is used only when we want to assign the value at run time."
+    },
+    {
+      "ques": "What is an interface class?  ",
+      "ans": "Interface is an abstract class which has only public abstract methods and the methods only have the declaration and not the definition. These abstract methods must be implemented in the inherited classes."
+    },
+    {
+      "ques": "What are Custom Control and User Control?  ",
+      "ans": "Custom Controls are controls generated as compiled code (Dlls), those are easier to use and can be added to toolbox. Developers can drag and drop controls to their web forms. Attributes can be set at design time. We can easily add custom controls to Multiple Applications (If Shared Dlls), If they are private then we can copy to dll to bin directory of web application and then add reference and can use them.User Controls are very much similar to ASP include files, and are easy to create. User controls can’t be placed in the toolbox and dragged – dropped from it. They have their design and code behind. The file extension for user controls is ascx."
+    },
+    {
+      "ques": "What are sealed classes in C#?  ",
+      "ans": "We create sealed classes when we want to restrict the class to be inherited. Sealed modifier used to prevent derivation from a class. If we forcefully specify a sealed class as base class then a compile-time error occurs."
+    },
+    {
+      "ques": "What is method overloading?  ",
+      "ans": "Method overloading is creating multiple methods with the same name with unique signatures in the same class. When we compile, the compiler uses overload resolution to determine the specific method to be invoke."
+    },
+    {
+      "ques": "What is the difference between Array and Arraylist?  ",
+      "ans": "In an array, we can have items of the same type only. The size of the array is fixed. An arraylist is similar to an array but it doesn’t have a fixed size."
+    },
+    {
+      "ques": "Can a private virtual method be overridden?  ",
+      "ans": "No, because they are not accessible outside the class."
+    },
+    {
+      "ques": "What are the differences between System.String and System.Text.StringBuilder classes?",
+      "ans": "System.String is immutable. When we modify the value of a string variable then a new memory is allocated to the new value and the previous memory allocation released. System.StringBuilder was designed to have concept of a mutable string where a variety of operations can be performed without allocation separate memory location for the modified string."
+    },
+    {
+      "ques": "What’s the difference between the System.Array.CopyTo() and System.Array.Clone() ?",
+      "ans": "Using Clone() method, we creates a new array object containing all the elements in the original array and using CopyTo() method, all the elements of existing array copies into another existing array. Both the methods perform a shallow copy."
+    },
+    {
+      "ques": "How can we sort the elements of the array in descending order?",
+      "ans": "Using Sort() methods followed by Reverse() method."
+    },
+    {
+      "ques": "What’s the difference between an interface and abstract class?",
+      "ans": "Interfaces have all the methods having only declaration but no definition. In an abstract class, we can have some concrete methods. In an interface class, all the methods are public. An abstract class may have private methods."
+    },
+    {
+      "ques": "What is the difference between Finalize() and Dispose() methods?",
+      "ans": "Dispose() is called when we want for an object to release any unmanaged resources with them. On the other hand Finalize() is used for the same purpose but it doesn’t assure the garbage collection of an object."
+    },
+    {
+      "ques": "What are circular references?",
+      "ans": "Circular reference is situation in which two or more resources are interdependent on each other causes the lock condition and make the resources unusable."
+    },
+    {
+      "ques": "What are generics in C#.NET?",
+      "ans": "Generics are used to make reusable code classes to decrease the code redundancy, increase type safety and performance. Using generics, we can create collection classes. To create generic collection, System.Collections.Generic namespace should be used instead of classes such as ArrayList in the System.Collections namespace. Generics promotes the usage of parameterized types."
+    },
+    {
+      "ques": "What is an object pool in .NET?",
+      "ans": "An object pool is a container having objects ready to be used. It tracks the object that is currently in use, total number of objects in the pool. This reduces the overhead of creating and re-creating objects."
+    },
+    {
+      "ques": "List down the commonly used types of exceptions in .Net?",
+      "ans": "ArgumentException, ArgumentNullException , ArgumentOutOfRangeException, ArithmeticException, DivideByZeroException ,OverflowException , IndexOutOfRangeException ,InvalidCastException ,InvalidOperationException , IOEndOfStreamException , NullReferenceException , OutOfMemoryException , StackOverflowException etc."
+    },
+    {
+      "ques": "What are Custom Exceptions?",
+      "ans": "Sometimes there are some errors that need to be handeled as per user requirements. Custom exceptions are used for them and are used defined exceptions."
+    },
+    {
+      "ques": "What are delegates?",
+      "ans": "Delegates are same are function pointers in C++ but the only difference is that they are type safe unlike function pointers. Delegates are required because they can be used to write much more generic type safe functions."
+    },
+    {
+      "ques": "What is the difference between method overriding and method overloading?",
+      "ans": "In method overriding, we change the method definition in the derived class that changes the method behavior. Method overloading is creating a method with the same name within the same class having different signatures."
+    },
+    {
+      "ques": "How can we set class to be inherited, but prevent the method from being over-ridden?",
+      "ans": "Declare the class as public and make the method sealed to prevent it from being overridden."
+    },
+    {
+      "ques": " What’s a multicast delegate?",
+      "ans": "A delegate having multiple handlers assigned to it is called multicast delegate. Each handler is assigned to a method."
+    },
+    {
+      "ques": "What are C# attributes and its significance?",
+      "ans": "C# provides developers a way to define declarative tags on certain entities eg. Class, method etc. are called attributes. The attribute’s information can be retrieved at runtime using Reflection."
+    },
+    {
+      "ques": "What is the difference between directcast and ctype?",
+      "ans": "DirectCast is used to convert the type of an object that requires the run-time type to be the same as the specified type in DirectCast.Ctype is used for conversion where the conversion is defined between the expression and the type."
+    },
+    {
+      "ques": "Is C# code is managed or unmanaged code?",
+      "ans": "C# is managed code because Common language runtime can compile C# code to Intermediate language."
+    }
+  ],
+  "experienceiqs": [
+    {
+      "ques": "Can you serialize hashtable and Why?",
+      "ans": "No, You can’t Serialize Hash table.Because, the .NET Framework does not allow serialization of any object that implements the IDictionary interface"
+    },
+    {
+      "ques": "What is .PDB file?",
+      "ans": "PDB is an abbreviation for Program Data Base. It is a repository (persistant storage as databases) to maintain information required to run your program in debug mode. It contains many important relevant information required while debugging your code; for e.g. at what points you have inserted break points where you expect the debugger to break in Visual Studio etc.."
+    },
+    {
+      "ques": "Why singleton pattern is considered an Anti-pattern ?",
+      "ans": " Singletons aren’t easy to handle with unit tests. You can’t control their instantiation and they may retain state across invocations. Memory allocated to an Singleton can’t be freed.In multithreaded environment, access to the singleton object may have to be guarded (e.g. via synchronization).Singletons promote tight coupling between classes, so it is hard to test"
+    },
+    {
+      "ques": "What’s difference between delegate and events?",
+      "ans": "An event is just a wrapper for a multicast delegate.Adding a public event to a class is almost the same as adding a public multicast delegate field.In both cases, subscriber objects can register for notifications, and in both cases the publisher object can send notifications to the subscribers. However, a public multicast delegate has the undesirable property that external objects can invoke the delegate, something we’d normally want to restrict to the publisher. Hence events – an event adds public methods to the containing class to add and remove receivers, but does not make the invocation mechanism public."
+    },
+    {
+      "ques": "Can we Overload main() method in C#?",
+      "ans": "Yes, We can overload main() method. A C# class can have any number of main() methods.But to run the C# class, class should have main() method with signature as public static void main(String[] args). If you do any modification to this signature, compilation will be successful. But, You will get run time error as main method not found."
+    },
+    {
+      "ques": "You have a component with 5 parameters and deployed to client side now you changed your method which takes 6 parameters. How can you deploy this without affecting the client’s code?",
+      "ans": "Instead of adding 6th parameter to the existing method, write new overloaded method with 6 parameters.So when old application calls this method, method with 5 parameter will execute.And method with 6 parameter will be used by new application. That way we can provide backward compatibility to old application."
+    },
+    {
+      "ques": "Private Constructor in C#?",
+      "ans": "Private constructor is constructor that is preceded by private access specifier. For example, below class has a private constructor.We know that if we don’t write constructor in the class then by default constructor gets called on object creation which is public. Or if we want to allow object creation of the class then we write public constructor or else we explicitly specify private access specifier on class constructor."
+    },
+    {
+      "ques": "What is serialization?",
+      "ans": "When we want to transport an object through network then we need to convert the object into a stream of bytes. Serialization is a process to convert a complex objects into stream of bytes for storage (database, file, cache, etc) or transfer. Its main purpose is to save the state of an object.De-serialization is the reverse process of creating an object from a stream of bytes to their original form."
+    },
+    {
+      "ques": "Why serialization and de-serialization?",
+      "ans": "For example consider, we have a very complex object and we need XML format to show it on HTML page. Then we can create a XML file in the disk, writes all the necessary data on the XML file, and use it for the HTML page. But this is not good approach for large number of users. Extra space is required; anyone can see the XML file which creates security issue. We can overcome it by using XML serialization."
+    },
+    {
+      "ques": "Give examples where serialization is used?",
+      "ans": "Serialization is used to save session state in ASP.NET applications, to copy objects to the clipboard in Windows Forms. It is also used to pass objects from one application domain to another. Web services uses serialization."
+    },
+    {
+      "ques": "What is Generics?",
+      "ans": "Generics are the most powerful features introduced in C# 2.0. It is a type-safe data structure that allows us to write codes that works for any data types."
+    },
+    {
+      "ques": "Can unsafe code be executed in un-trusted environment?",
+      "ans": "Unsafe code cannot be executed in an un-trusted environment. For example, we cannot run unsafe code directly from the Internet."
+    },
+    {
+      "ques": "Why we need finally block?",
+      "ans": "The finally block is used to clean any resource that is allocated in the try block. This block is always executed even if an exception occurred or not occurred in try block. But the finally block does not executed, when we write System.Environment.Exit(0) in either try or catch, the CLR is going to be shutdown."
+    },
+    {
+      "ques": "Which block is optional?",
+      "ans": "Both catch and finally blocks are optional. A try block can exist either with one or more catch blocks or a finally block or with both catch and finally blocks. A try block cannot exist without either catch block or finally block."
+    },
+    {
+      "ques": "Can we write return statement in try catch or finally block?",
+      "ans": "Yes, we can write the return statement in try catch & finally."
+    }
+  ],
+
+  "fresherresume": [
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Entry Level"
+    },
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Professional"
+    },
+    {
+      "freshresume": "itentrylevel",
+      "freshtit": "Smart and Balanced"
+    }
+  ],
+
+  "experienceresume": [
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Smart and Balanced"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Professional"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Entry Level"
+    }
+  ],
+
+  "definitions": [
+    {
+      "ques": "itentrylevel",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "ques": "itentrylevel",
+      "ans": "Professional"
+    },
+    {
+      "ques": "itentrylevel",
+      "ans": "Entry Level"
+    }
+  ],
+
+  "programs": [
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "quesno": "itentrylevel",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    }
+  ],
+
+  "videos": [
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    }
+  ]
+}
+

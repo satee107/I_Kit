@@ -1,0 +1,1400 @@
+﻿{
+  "fresheriqs":[
+     { "ques":"What is Software Testing?",
+       "ans":"According to ANSI/IEEE 1059 standard – A process of analyzing a software item to detect the differences between existing and required conditions (i.e., defects) and to evaluate the features of the software item. " },
+       
+    { "ques":"What are Quality Assurance and Quality Control?", 
+     "ans":"Quality Assurance: Quality Assurance involves in process-oriented activities. It ensures the prevention of defects in the process used to make Software Application. So the defects don’t arise when the Software Application is being developed.Quality Control: Quality Control involves in product-oriented activities. It executes the program or code to identify the defects in the Software Application." },
+
+    { "ques":"What is Verification in software testing?", 
+     "ans":"Verification is the process, to ensure that whether we are building the product right i.e., to verify the requirements which we have and to verify whether we are developing the product accordingly or not. Activities involved here are Inspections, Reviews, Walk-throughs." },
+
+
+    { "ques":" What is Validation in software testing?", 
+     "ans":"Validation is the process, whether we are building the right product i.e., to validate the product which we have developed is right or not. Activities involved in this is Testing the software application" },
+
+
+    { "ques":"What is Static Testing?", 
+     "ans":"Static Testing involves in reviewing the documents to identify the defects in the early stages of SDLC." },
+
+
+    { "ques":" What is Dynamic Testing?", 
+     "ans":"Dynamic testing involves in the execution of code. It validates the output with the expected outcome." },
+
+
+    { "ques":" What is White Box Testing?", 
+     "ans":"White Box Testing is also called as Glass Box, Clear Box, and Structural Testing. It is based on applications internal code structure. In white-box testing, an internal perspective of the system, as well as programming skills, are used to design test cases. This testing usually was done at the unit level" },
+
+
+    { "ques":"What is Black Box Testing? ", 
+     "ans":"Black Box Testing is a software testing method in which testers evaluate the functionality of the software under test without looking at the internal code structure. This can be applied to every level of software testing such as Unit, Integration, System and Acceptance Testing. " },
+
+
+    { "ques":"What is Grey Box Testing?", 
+     "ans":"Grey box is the combination of both White Box and Black Box Testing. The tester who works on this type of testing needs to have access to design documents. This helps to create better test cases in this process." },
+
+
+    { "ques":"What is Positive and Negative Testing?", 
+     "ans":"Positive Testing: It is to determine what system supposed to do. It helps to check whether the application is justifying the requirements or not.Negative Testing: It is to determine what system not supposed to do. It helps to find the defects from the software." },
+
+
+    { "ques":"What is Test Strategy?", 
+     "ans":"Test Strategy is a high-level document (static document) and usually developed by project manager. It is a document which captures the approach on how we go about testing the product and achieve the goals. It is normally derived from the Business Requirement Specification (BRS). Documents like Test Plan are prepared by keeping this document as a base." },
+
+
+    { "ques":" What is Test Plan and contents available in a Test Plan?", 
+     "ans":"Test plan document is a document which contains the plan for all the testing activities to be done to deliver a quality product. Test Plan document is derived from the Product Description, SRS, or Use Case documents for all future activities of the project." },
+
+
+    { "ques":"What is Test Suite?", 
+     "ans":"Test Suite is a collection of test cases. The test cases which are intended to test an application." },
+
+
+    { "ques":" What is Test Scenario?", 
+     "ans":"Test Scenario gives the idea of what we have to test. Test Scenario is like a high-level test case." },
+
+
+    { "ques":"What is Test Case?", 
+     "ans":"Test cases are the set of positive and negative executable steps of a test scenario which has a set of pre-conditions, test data, expected result, post-conditions and actual results. " },
+
+
+    { "ques":"What is Test Bed?", 
+     "ans":"An environment configured for testing. Test bed consists of hardware, software, network configuration, an application under test, other related software." },
+
+
+    { "ques":"What is Test Environment?", 
+     "ans":"Test Environment is the combination of hardware and software on which Test Team performs testing." },
+
+
+    { "ques":" What is Test Data?", 
+     "ans":"Test data is the data that is used by the testers to run the test cases. Whilst running the test cases, testers need to enter some input data. To do so, testers prepare test data. It can be prepared manually and also by using tools.For example, To test a basic login functionality having a user id, password fields. We need to enter some data in the user id and password fields. So we need to collect some test data." },
+
+
+    { "ques":"What is Test Harness?", 
+     "ans":"A test harness is the collection of software and test data configured to test a program unit by running it under varying conditions which involves monitoring the output with expected output." },
+
+
+    { "ques":"What is Test Closure?", 
+     "ans":"Test Closure is the note prepared before test team formally completes the testing process. This note contains the total no. of test cases, total no. of test cases executed, total no. of defects found, total no. of defects fixed, total no. of bugs not fixed, total no of bugs rejected etc.," },
+
+
+    { "ques":"What is Unit Testing?", 
+     "ans":"Unit Testing is also called as Module Testing or Component Testing. It is done to check whether the individual unit or module of the source code is working properly. It is done by the developers in developer’s environment." },
+
+
+    { "ques":"What is Integration Testing?", 
+     "ans":"Integration Testing is the process of testing the interface between the two software units. Integration testing is done by three ways. Big Bang Approach, Top Down Approach, Bottom-Up Approach." },
+
+
+    { "ques":"What is System Testing?", 
+     "ans":"Testing the fully integrated application to evaluate the system’s compliance with its specified requirements is called System Testing AKA End to End testing. Verifying the completed system to ensure that the application works as intended or not." },
+
+    { "ques":"What is Big Bang Approach?", 
+     "ans":"Combining all the modules once and verifying the functionality after completion of individual module testing.Top down and bottom up are carried out by using dummy modules known as Stubs and Drivers. These Stubs and Drivers are used to stand-in for missing components to simulate data communication between modules." },
+
+
+    { "ques":"What is Top-Down Approach?", 
+     "ans":"Testing takes place from top to bottom. High-level modules are tested first and then low-level modules and finally integrating the low-level modules to a high level to ensure the system is working as intended. Stubs are used as a temporary module if a module is not ready for integration testing." },
+
+
+    { "ques":" What is Bottom-Up Approach?", 
+     "ans":"It is a reciprocate of the Top-Down Approach. Testing takes place from bottom to up. Lowest level modules are tested first and then high-level modules and finally integrating the high-level modules to a low level to ensure the system is working as intended.  Drivers are used as a temporary module for integration testing." },
+
+
+    { "ques":"What is End-To-End Testing?", 
+     "ans":"Refer System Testing." },
+
+
+    { "ques":"What is Functional Testing?", 
+     "ans":"In simple words, what the system actually does is functional testing. To verify that each function of the software application behaves as specified in the requirement document. Testing all the functionalities by providing appropriate input to verify whether the actual output is matching the expected output or not. It falls within the scope of black box testing and the testers need not concern about the source code of the application." },
+
+    { "ques":" What is Non-Functional Testing?", 
+     "ans":"In simple words, how well the system performs is non-functionality testing. Non-functional testing refers to various aspects of the software such as performance, load, stress, scalability, security, compatibility etc., Main focus is to improve the user experience on how fast the system responds to a request." },
+
+    { "ques":"What is Acceptance Testing?", 
+     "ans":"It is also known as pre-production testing.  This is done by the end users along with the testers to validate the functionality of the application. After successful acceptance testing. Formal testing conducted to determine whether an application is developed as per the requirement. It allows the customer to accept or reject the application. Types of acceptance testing are Alpha, Beta & Gamma." },
+
+
+    { "ques":"What is Alpha Testing?", 
+     "ans":"Alpha testing is done by the in-house developers (who developed the software) and testers. Sometimes alpha testing is done by the client or outsourcing team with the presence of developers or testers." },
+
+
+    { "ques":"What is Beta Testing?", 
+     "ans":"Beta testing is done by a limited number of end users before delivery. Usually, it is done in the client place." },
+
+
+    { "ques":"What is Gamma Testing?", 
+     "ans":"Gamma testing is done when the software is ready for release with specified requirements. It is done at the client place. It is done directly by skipping all the in-house testing activities." },
+
+
+    { "ques":"What is Smoke Testing?", 
+     "ans":"Smoke Testing is done to make sure if the build we received from the development team is testable or not. It is also called as “Day 0” check. It is done at the “build level”. It helps not to waste the testing time to simply testing the whole application when the key features don’t work or the key bugs have not been fixed yet." },
+
+
+    { "ques":"What is Sanity Testing?", 
+     "ans":"Sanity Testing is done during the release phase to check for the main functionalities of the application without going deeper. It is also called as a subset of Regression testing. It is done at the “release level”. At times due to release time constraints rigorous regression testing can’t be done to the build, sanity testing does that part by checking main functionalities." },
+
+
+    { "ques":"What is Retesting?", 
+     "ans":"To ensure that the defects which were found and posted in the earlier build were fixed or not in the current build. Say, Build 1.0 was released. Test team found some defects (Defect Id 1.0.1, 1.0.2) and posted. Build 1.1 was released, now testing the defects 1.0.1 and 1.0.2 in this build is retesting." },
+
+
+    { "ques":"What is Regression Testing?", 
+     "ans":"Repeated testing of an already tested program, after modification, to discover any defects introduced or uncovered as a result of the changes in the software being tested or in another related or unrelated software components.Usually, we do regression testing in the following cases:New functionalities are added to the applicationChange Requirement (In organizations, we call it as CR)Defect FixingPerformance Issue FixEnvironment change (E.g., Updating the DB from MySQL to Oracle." },
+
+
+    { "ques":"What is GUI Testing?", 
+     "ans":"Graphical User Interface Testing is to test the interface between the application and the end user." },
+
+
+    { "ques":" What is Recovery Testing?", 
+     "ans":"Recovery testing is performed in order to determine how quickly the system can recover after the system crash or hardware failure. It comes under the type of non-functional testing." },
+
+
+    { "ques":"What is Globalization Testing?", 
+     "ans":"Globalization is a process of designing a software application so that it can be adapted to various languages and regions without any changes." },
+
+    { "ques":"What is Internationalization Testing (I18N Testing)?", 
+     "ans":"Refer Globalization Testing." },
+
+
+    { "ques":"What is Localization Testing (L10N Testing)?", 
+     "ans":"Localization is a process of adapting globalization software for a specific region or language by adding local specific components." },
+
+
+    { "ques":"What is Installation Testing?", 
+     "ans":"It is to check whether the application is successfully installed and it is working as expected after installation." },
+
+
+    { "ques":"What is Formal Testing?", 
+     "ans":"It is a process where the testers test the application by having pre-planned procedures and proper documentation." },
+
+
+    { "ques":"What is Risk Based Testing?", 
+     "ans":"Identify the modules or functionalities which are most likely cause failures and then testing those functionalities." },
+
+
+    { "ques":"What is Compatibility Testing?", 
+     "ans":"It is to deploy and check whether the application is working as expected in a different combination of environmental components." },
+
+
+    { "ques":"What is Exploratory Testing?", 
+     "ans":"Usually, this process will be carried out by domain experts. They perform testing just by exploring the functionalities of the application without having the knowledge of the requirements." },
+
+
+    { "ques":"What is Monkey Testing", 
+     "ans":"Perform abnormal action on the application deliberately in order to verify the stability of the application." },
+
+
+    { "ques":" What is Usability Testing?", 
+     "ans":"To verify whether the application is user-friendly or not and was comfortably used by an end user or not. The main focus in this testing is to check whether the end user can understand and operate the application easily or not. An application should be self-exploratory and must not require training to operate it." },
+
+
+    { "ques":"What is Security Testing?", 
+     "ans":"Security testing is a process to determine whether the system protects data and maintains functionality as intended." },
+
+
+    { "ques":"What is Soak Testing?", 
+     "ans":"Running a system at high load for a prolonged period of time to identify the performance problems is called Soak Testing." },
+
+
+    { "ques":"What is Performance Testing?", 
+     "ans":"This type of testing determines or validates the speed, scalability, and/or stability characteristics of the system or application under test. Performance is concerned with achieving response times, throughput, and resource-utilization levels that meet the performance objectives for the project or product." },
+
+
+    { "ques":"What is Load Testing?", 
+     "ans":"It is to verify that the system/application can handle the expected number of transactions and to verify the system/application behavior under both normal and peak load conditions." },
+
+	{ "ques":"What is Volume Testing?", 
+     "ans":"It is to verify that the system/application can handle a large amount of data" },
+
+
+    { "ques":"What is Stress Testing?", 
+     "ans":"It is to verify the behavior of the system once the load increases more than its design expectations." },
+
+
+    { "ques":"What is Scalability Testing?", 
+     "ans":"Scalability testing is a type of non-functional testing. It is to determine how the application under test scales with increasing workload." },
+
+
+    { "ques":" What is Concurrency Testing?", 
+     "ans":"Concurrency testing means accessing the application at the same time by multiple users to ensure the stability of the system. This is mainly used to identify deadlock issues." },
+
+	{ "ques":"What is Fuzz Testing?", 
+     "ans":"Fuzz testing is used to identify coding errors and security loopholes in an application. By inputting massive amount of random data to the system in an attempt to make it crash to identify if anything breaks in the application." },
+
+
+    { "ques":"What is Adhoc Testing?", 
+     "ans":"Ad-hoc testing is quite opposite to the formal testing. It is an informal testing type. In Adhoc testing, testers randomly test the application without following any documents and test design techniques. This testing is primarily performed if the knowledge of testers in the application under test is very high. Testers randomly test the application without any test cases or any business requirement document." },
+
+
+    { "ques":"What is Interface Testing?", 
+     "ans":"Interface testing is performed to evaluate whether two intended modules pass data and communicate correctly to one another." },
+
+
+    { "ques":"What is Reliability Testing?", 
+     "ans":"Perform testing on the application continuously for long period of time in order to verify the stability of the application" },
+
+
+	{ "ques":"What is Bucket Testing?", 
+     "ans":"Bucket testing is a method to compare two versions of an application against each other to determine which one performs better." },
+
+
+    { "ques":"What is A/B Testing?", 
+     "ans":"Refer Bucket Testing." },
+
+
+    { "ques":"What is Split Testing?", 
+     "ans":"Refer Bucket Testing." },
+
+
+    { "ques":"What is Exhaustive Testing?", 
+     "ans":"Testing all the functionalities using all valid and invalid inputs and preconditions is known as Exhaustive testing." },
+
+	{ "ques":"What is Early Testing?", 
+     "ans":"Defects detected in early phases of SDLC are less expensive to fix. So conducting early testing reduces the cost of fixing defects." },
+
+
+    { "ques":"What is Defect clustering?", 
+     "ans":"Defect clustering in software testing means that a small module or functionality contains most of the bugs or it has the most operational failures." },
+
+
+    { "ques":"What is Pesticide Paradox?", 
+     "ans":"Pesticide Paradox in software testing is the process of repeating the same test cases, again and again, eventually, the same test cases will no longer find new bugs. So to overcome this Pesticide Paradox, it is necessary to review the test cases regularly and add or update them to find more defects." },
+
+
+    { "ques":" What is Walk Through?", 
+     "ans":"A walkthrough is an informal meeting conducts to learn, gain understanding, and find defects. The author leads the meeting and clarifies the queries raised by the peers in the meeting." },
+
+	{ "ques":"What is Inspection?", 
+     "ans":"Inspection is a formal meeting lead by a trained moderator, certainly not by the author. The document under inspection is prepared and checked thoroughly by the reviewers before the meeting. In the inspection meeting, the defects found are logged and shared with the author for appropriate actions. Post inspection, a formal follow-up process is used to ensure a timely and corrective action." },
+
+
+    { "ques":"Who are all involved in an inspection meeting?", 
+     "ans":"Author, Moderator, Reviewer(s), Scribe/Recorder and Manager." },
+
+
+    { "ques":" What is a Defect?", 
+     "ans":"The variation between the actual results and expected results is known as a defect. If a developer finds an issue and corrects it by himself in the development phase then it’s called a defect." },
+
+
+    { "ques":"What is a Bug?", 
+     "ans":"If testers find any mismatch in the application/system in testing phase then they call it as Bug." },
+
+	{ "ques":"What is an Error?", 
+     "ans":"We can’t compile or run a program due to a coding mistake in a program. If a developer unable to successfully compile or run a program then they call it as an error. " },
+
+
+    { "ques":" What is a Failure?", 
+     "ans":"Once the product is deployed and customers find any issues then they call the product as a failure product. After release, if an end user finds an issue then that particular issue is called as a failure." },
+
+
+    { "ques":"What is Bug Severity?", 
+     "ans":"Bug/Defect severity can be defined as the impact of the bug on customer’s business. It can be Critical, Major or Minor. In simple words, how much effect will be there on the system because of a particular defect." },
+
+
+    { "ques":"What is Bug Priority?", 
+     "ans":"Defect priority can be defined as how soon the defect should be fixed. It gives the order in which a defect should be resolved. Developers decide which defect they should take up next based on the priority. It can be High, Medium or Low. Most of the times the priority status is set based on the customer requirement." },
+
+	{ "ques":"What is Bug Life Cycle?", 
+     "ans":"Bug life cycle is also known as Defect life cycle. In Software Development process, the bug has a life cycle. The bug should go through the life cycle to be closed. Bug life cycle varies depends upon the tools (QC, JIRA etc.,) used and the process followed in the organization. " },
+
+
+    { "ques":"What is Bug Leakage?", 
+     "ans":"A bug which is actually missed by the testing team while testing and the build was released to the Production. If now that bug (which was missed by the testing team) was found by the end user or customer then we call it as Bug Leakage." },
+
+
+    { "ques":" What is Bug Release?", 
+     "ans":"Releasing the software to the Production with the known bugs then we call it as Bug Release. These known bugs should be included in the release note." },
+
+
+    { "ques":"What is Defect Age?", 
+     "ans":"Defect age can be defined as the time interval between date of defect detection and date of defect closure.Defect Age = Date of defect closure – Date of defect detectionAssume, a tester found a bug and reported it on 1 Jan 2016 and it was successfully fixed on 5 Jan 2016. So the defect age is 5 days." },
+
+	{ "ques":"What is Error Seeding?", 
+     "ans":"Error seeding is a process of adding known errors intendedly in a program to identify the rate of error detection. It helps in the process of estimating the tester skills of finding bugs and also to know the ability of the application (how well the application is working when it has errors.)" },
+
+
+    { "ques":"What is Showstopper Defect?", 
+     "ans":"A showstopper defect is a defect which won’t allow a user to move further in the application. It’s almost like a crash.Assume that login button is not working. Even though you have a valid username and valid password, you could not move further because the login button is not functioning." },
+
+
+    { "ques":"What is HotFix?", 
+     "ans":"A bug which needs to handle as a high priority bug and fix it immediately." },
+
+
+    { "ques":"What is Boundary Value Analysis?", 
+     "ans":"Boundary value analysis (BVA) is based on testing the boundary values of valid and invalid partitions. The Behavior at the edge of each equivalence partition is more likely to be incorrect than the behavior within the partition, so boundaries are an area where testing is likely to yield defects. Every partition has its maximum and minimum values and these maximum and minimum values are the boundary values of a partition. A boundary value for a valid partition is a valid boundary value. Similarly, a boundary value for an invalid partition is an invalid boundary value." },
+
+	{ "ques":"What is Equivalence Class Partition?", 
+     "ans":"Equivalence Partitioning is also known as Equivalence Class Partitioning. In equivalence partitioning, inputs to the software or system are divided into groups that are expected to exhibit similar behavior, so they are likely to be proposed in the same way. Hence selecting one input from each group to design the test cases. " },
+
+
+    { "ques":"What is Decision Table testing?", 
+     "ans":"Decision Table is aka Cause-Effect Table. This test technique is appropriate for functionalities which has logical relationships between inputs (if-else logic). In Decision table technique, we deal with combinations of inputs. To identify the test cases with decision table, we consider conditions and actions. We take conditions as inputs and actions as outputs." },
+
+
+    { "ques":"What is State Transition? ", 
+     "ans":"Using state transition testing, we pick test cases from an application where we need to test different system transitions. We can apply this when an application gives a different output for the same input, depending on what has happened in the earlier state." },
+
+
+    { "ques":"What is an entry criteria?", 
+     "ans":"The prerequisites that must be achieved before commencing the testing process." },
+
+	{ "ques":"What is an exit criteria?", 
+     "ans":"The conditions that must be met before testing should be concluded. " },
+
+
+    { "ques":" What is SDLC? ", 
+     "ans":"Software Development Life Cycle (SDLC) aims to produce a high-quality system that meets or exceeds customer expectations, works effectively and efficiently in the current and planned information technology infrastructure, and is inexpensive to maintain and cost-effective to enhance." },
+
+
+    { "ques":"What is STLC?", 
+     "ans":"STLC (Software Testing Life Cycle) identifies what test activities to carry out and when to accomplish those test activities. Even though testing differs between Organizations, there is a testing life cycle." },
+
+
+    { "ques":"What is RTM?", 
+     "ans":"Requirements Traceability Matrix (RTM) is used to trace the requirements to the tests that are needed to verify whether the requirements are fulfilled. Requirement Traceability Matrix AKA Traceability Matrix or Cross Reference Matrix." },
+
+	{ "ques":"What is Test Metrics?", 
+     "ans":"Software test metrics is to monitor and control process and product. It helps to drive the project towards our planned goals without deviation. Metrics answer different questions. It’s important to decide what questions you want answers to. " },
+
+
+    { "ques":"What is the MAIN benefit of designing tests early in the life cycle?", 
+     "ans":"It helps prevent defects from being introduced into the code. " },
+
+
+    { "ques":"What is risk-based testing?", 
+     "ans":"Risk-based Testing is the term used for an approach to creating a Test Strategy that is based on prioritizing tests by risk. The basis of the approach is a detailed risk analysis and prioritizing of risks by risk level. Tests to address each risk are then specified, starting with the highest risk first. " },
+
+
+    { "ques":"What is the KEY difference between preventative and reactive approaches to testing?", 
+     "ans":"Preventative tests are designed early; reactive tests are designed after the software has been produced. " },
+
+	{ "ques":" What is the purpose of exit criteria?", 
+     "ans":"The purpose of exit criteria is to define when a test level is completed. " },
+
+
+    { "ques":" When is used Decision table testing?", 
+     "ans":"Decision table testing is used for testing systems for which the specification takes the form of rules or cause-effect combinations. In a decision table the inputs are listed in a column, with the outputs in the same column but below the inputs. The remainder of the table explores combinations of inputs to define the outputs produced." },
+
+
+    { "ques":"What determines the level of risk?", 
+     "ans":"The likelihood of an adverse event and the impact of the event determine the level of risk. " },
+
+
+    { "ques":"Which of the following defines the expected results of a test? Test case specification or test design specification.", 
+     "ans":"Test case specification defines the expected results of a test." },
+
+	{ "ques":"What is the benefit of test independence?", 
+     "ans":"It avoids author bias in defining effective tests. " },
+
+
+    { "ques":"As part of which test process do you determine the exit criteria?", 
+     "ans":"The exit criteria is determined on the bases of 'Test Planning'." },
+
+
+    { "ques":"Rapid Application Development?", 
+     "ans":"Rapid Application Development (RAD) is formally a parallel development of functions and subsequent integration. Components/functions are developed in parallel as if they were mini projects, the developments are time-boxed, delivered, and then assembled into a working prototype. This can very quickly give the customer something to see and use and to provide feedback regarding the delivery and their requirements. Rapid change and development of the product is possible using this methodology. However the product specification will need to be developed for the product at some point, and the project will need to be placed under more formal controls prior to going into production. " },
+
+
+    { "ques":"What is component testing?", 
+     "ans":"Component testing, also known as unit, module and program testing, searches for defects in, and verifies the functioning of software (e.g. modules, programs, objects, classes, etc.) that are separately testable. Component testing may be done in isolation from the rest of the system depending on the context of the development life cycle and the system. Most often stubs and drivers are used to replace the missing software and simulate the interface between the software components in a simple manner. A stub is called from the software component to be tested; a driver calls a component to be tested." },
+
+	{ "ques":"What is functional system testing?", 
+     "ans":"Testing the end to end functionality of the system as a whole is defined as a functional system testing. " },
+
+
+    { "ques":" What is random/monkey testing? When it is used?", 
+     "ans":"Random testing often known as monkey testing. In such type of testing data is generated randomly often using a tool or automated mechanism. With this randomly generated input the system is tested and results are analysed accordingly. These testing are less reliable; hence it is normally used by the beginners and to see whether the system will hold up under adverse effects." },
+
+
+    { "ques":"Why are static testing and dynamic testing described as complementary?", 
+     "ans":"Because they share the aim of identifying defects but differ in the types of defect they find. " },
+
+
+    { "ques":"What is the role of moderator in review process?", 
+     "ans":"The moderator (or review leader) leads the review process. He or she determines, in co-operation with the author, the type of review, approach and the composition of the review team. The moderator performs the entry check and the follow-up on the rework, in order to control the quality of the input and output of the review process. The moderator also schedules the meeting, disseminates documents before the meeting, coaches other team members, paces the meeting, leads possible discussions and stores the data that is collected. " },
+
+	{ "ques":"What is an equivalence partition (also known as an equivalence class)?", 
+     "ans":"An input or output ranges of values such that only one value in the range becomes a test case. " },
+
+
+    { "ques":"What are the Structure-based (white-box) testing techniques?", 
+     "ans":"Structure-based testing techniques (which are also dynamic rather than static) use the internal structure of the software to derive test cases. They are commonly called 'white-box' or 'glass-box' techniques (implying you can see into the system) since they require knowledge of how the software is implemented, that is, how it works. For example, a structural technique may be concerned with exercising loops in the software. Different test cases may be derived to exercise the loop once, twice, and many times. This may be done regardless of the functionality of the software. " },
+
+
+    { "ques":"What is negative and positive testing?", 
+     "ans":"A negative test is when you put in an invalid input and receives errors. While a positive testing, is when you put in a valid input and expect some action to be completed in accordance with the specification.  " },
+
+
+    { "ques":" What is the purpose of a test completion criterion?", 
+     "ans":"The purpose of test completion criterion is to determine when to stop testing " },
+
+	{ "ques":"What is the difference between re-testing and regression testing?", 
+     "ans":"Re-testing ensures the original fault has been removed; regression testing looks for unexpected side effects." },
+
+
+    { "ques":"What are the Experience-based testing techniques?", 
+     "ans":"In experience-based techniques, people's knowledge, skills and background are a prime contributor to the test conditions and test cases. The experience of both technical and business people is important, as they bring different perspectives to the test analysis and design process. Due to previous experience with similar systems, they may have insights into what could go wrong, which is very useful for testing. " },
+
+
+    { "ques":"What type of review requires formal entry and exit criteria, including metrics?", 
+     "ans":"Inspection" },
+
+
+    { "ques":"Could reviews or inspections be considered part of testing?", 
+     "ans":"Yes, because both help detect faults and improve quality. " },
+
+	{ "ques":" An input field takes the year of birth between 1900 and 2004 what are the boundary values for testing this field?", 
+     "ans":"1899,1900,2004,2005 " },
+
+
+    { "ques":"Which of the following tools would be involved in the automation of regression test? a. Data tester b. Boundary tester c. Capture/Playback d. Output comparator.", 
+     "ans":"d. Output comparator " },
+
+
+    { "ques":" What is the one Key reason why developers have difficulty testing their own work?", 
+     "ans":"Lack of Objectivity " },
+
+
+    { "ques":"How much testing is enough?", 
+     "ans":"The answer depends on the risk for your industry, contract and special requirements. " },
+
+	{ "ques":" Which of the following is the main purpose of the integration strategy for integration testing in the small?", 
+     "ans":"The main purpose of the integration strategy is to specify which modules to combine when and how many at once. " },
+
+
+    { "ques":"What are semi-random test cases?", 
+     "ans":"Semi-random test cases are nothing but when we perform random test cases and do equivalence partitioning to those test cases, it removes redundant test cases, thus giving us semi-random test cases. " },
+
+
+    { "ques":" What is black box testing? What are the different black box testing techniques?", 
+     "ans":"Black box testing is the software testing method which is used to test the software without knowing the internal structure of code or program. This testing is usually done to check the functionality of an application. The different black box testing techniques are " },
+
+
+    { "ques":"Which review is normally used to evaluate a product to determine its suitability for intended use and to identify discrepancies?", 
+     "ans":"Technical Review. " },
+
+	{ "ques":"Why we use decision tables?", 
+     "ans":"The techniques of equivalence partitioning and boundary value analysis are often applied to specific situations or inputs. However, if different combinations of inputs result in different actions being taken, this can be more difficult to show using equivalence partitioning and boundary value analysis, which tend to be more focused on the user interface. The other two specification-based techniques, decision tables and state transition testing are more focused on business logic or business rules. A decision table is a good way to deal with combinations of things (e.g. inputs). This technique is sometimes also referred to as a 'cause-effect' table. The reason for this is that there is an associated logic diagramming technique called 'cause-effect graphing' which was sometimes used to help derive the decision table " },
+
+
+    { "ques":"Faults found should be originally documented by whom?", 
+     "ans":"By testers. " },
+
+
+    { "ques":"Which is the current formal world-wide recognized documentation standard?", 
+     "ans":"There isn't one." },
+
+
+    { "ques":" Which of the following is the review participant who has created the item to be reviewed?", 
+     "ans":"Author " },
+
+	{ "ques":"A number of critical bugs are fixed in software. All the bugs are in one module, related to reports. The test manager decides to do regression testing only on the reports module. ", 
+     "ans":"Regression testing should be done on other modules as well because fixing one module may affect other modules." },
+
+
+    { "ques":"Why does the boundary value analysis provide good test cases?", 
+     "ans":"Because errors are frequently made during programming of the different cases near the 'edges' of the range of values. " },
+
+
+    { "ques":"What makes an inspection different from other review types?", 
+     "ans":"It is led by a trained leader, uses formal entry and exit criteria and checklists. " },
+
+
+    { "ques":"Why can be tester dependent on configuration management?", 
+     "ans":"Because configuration management assures that we know the exact version of the testware and the test object. " },
+
+	{ "ques":" What is a V-Model?", 
+     "ans":"A software development model that illustrates how testing activities integrate with software development phases" },
+
+
+    { "ques":"What is maintenance testing?", 
+     "ans":"Triggered by modifications, migration or retirement of existing software " },
+
+
+    { "ques":" What is test coverage? ", 
+     "ans":"Test coverage measures in some specific way the amount of testing performed by a set of tests (derived in some other way, e.g. using specification-based techniques). Wherever we can count things and can tell whether or not each of those things has been tested by some test, then we can measure coverage. " },
+
+
+    { "ques":"Why is incremental integration preferred over big bang integration?", 
+     "ans":"Because incremental integration has better early defects screening and isolation ability " },
+
+	{ "ques":"When do we prepare RTM (Requirement traceability matrix), is it before test case designing or after test case designing? ", 
+     "ans":"It would be before test case designing. Requirements should already be traceable from Review activities since you should have traceability in the Test Plan already. This question also would depend on the organisation. If the organisations do test after development started then requirements must be already traceable to their source. To make life simpler use a tool to manage requirements. " },
+
+
+    { "ques":"What is called the process starting with the terminal modules?", 
+     "ans":"Bottom-up integration " },
+
+
+    { "ques":"The purpose of requirement phase is", 
+     "ans":"To freeze requirements, to understand user needs, to define the scope of testing " },
+
+
+    { "ques":"What is DRE?", 
+     "ans":"To measure test effectiveness a powerful metric is used to measure test effectiveness known as DRE (Defect Removal Efficiency) From this metric we would know how many bugs we have found from the set of test cases. Formula for calculating DRE is DRE=Number of bugs while testing  / number of bugs while testing + number of bugs found by user " },
+
+	{ "ques":"How would you estimate the amount of re-testing likely to be required?", 
+     "ans":"Metrics from previous similar projects and discussions with the development team " },
+
+
+    { "ques":"What studies data flow analysis?", 
+     "ans":"The use of data on paths through the code. " },
+
+
+    { "ques":"What is Alpha testing?", 
+     "ans":"Pre-release testing by end user representatives at the developer's site. " },
+
+
+    { "ques":"What is a failure?", 
+     "ans":"Failure is a departure from specified behaviour. " },
+
+	{ "ques":"What are Test comparators?", 
+     "ans":"Is it really a test if you put some inputs into some software, but never look to see whether the software produces the correct result? The essence of testing is to check whether the software produces the correct result, and to do that, we must compare what the software produces to what it should produce. A test comparator helps to automate aspects of that comparison. " },
+
+
+    { "ques":"Who is responsible for document all the issues, problems and open point that were identified during the review meeting ", 
+     "ans":"Scribe" },
+
+
+    { "ques":"What is the main purpose of Informal review", 
+     "ans":"Inexpensive way to get some benefit " },
+
+
+    { "ques":"What is the purpose of test design technique?", 
+     "ans":"Identifying test conditions and Identifying test cases " },
+
+	{ "ques":"When testing a grade calculation system, a tester determines that all scores from 90 to 100 will yield a grade of A, but scores below 90 will not. This analysis is known as: ", 
+     "ans":" Equivalence partitioning " },
+
+
+    { "ques":"During the testing of a module tester 'X' finds a bug and assigned it to developer. But developer rejects the same, saying that it's not a bug. What 'X' should do? ", 
+     "ans":"Send to the detailed information of the bug encountered and check the reproducibility " },
+
+
+    { "ques":"A type of integration testing in which software elements, hardware elements, or both are combined all at once into a component or an overall system, rather than in stages.", 
+     "ans":"Big-Bang Testing " },
+
+
+    { "ques":"In practice, which Life Cycle model may have more, fewer or different levels of development and testing, depending on the project and the software product. For example, there may be component integration testing after component testing, and system integration testing after system testing. ", 
+     "ans":"V-Model " },
+
+	{ "ques":" Which technique can be used to achieve input and output coverage? It can be applied to human input, input via interfaces to a system, or interface parameters in integration testing.", 
+     "ans":"Equivalence partitioning " },
+
+
+    { "ques":"In which order should tests be run?", 
+     "ans":"The most important one must tests first " },
+
+
+    { "ques":"The later in the development life cycle a fault is discovered, the more expensive it is to fix. Why?", 
+     "ans":"The fault has been built into more documentation, code, tests, etc " },
+
+
+    { "ques":"What is Coverage measurement?", 
+     "ans":"It is a partial measure of test thoroughness. " },
+
+	{ "ques":"What is Boundary value testing?", 
+     "ans":"Test boundary conditions on, below and above the edges of input and output equivalence classes. For instance, let say a bank application where you can withdraw maximum Rs.20,000 and a minimum of Rs.100, so in boundary value testing we test only the exact boundaries, rather than hitting in the middle.  That means we test above the maximum limit and below the minimum limit. " },
+
+
+    { "ques":"What is Fault Masking?", 
+     "ans":"Error condition hiding another error condition. " },
+
+
+    { "ques":"What does COTS represent?", 
+     "ans":"Commercial off The Shelf. " },
+
+
+    { "ques":"The purpose of which is allow specific tests to be carried out on a system or network that resembles as closely as possible the environment where the item under test will be used upon release?", 
+     "ans":"Test Environment " },
+
+	{ "ques":"What can be thought of as being based on the project plan, but with greater amounts of detail?", 
+     "ans":"Phase Test Plan " },
+
+
+    { "ques":"What is exploratory testing? ", 
+     "ans":" Exploratory testing is a hands-on approach in which testers are involved in minimum planning and maximum test execution. The planning involves the creation of a test charter, a short declaration of the scope of a short (1 to 2 hour) time-boxed test effort, the objectives and possible approaches to be used. The test design and test execution activities are performed in parallel typically without formally documenting the test conditions, test cases or test scripts. This does not mean that other, more formal testing techniques will not be used. For example, the tester may decide to use boundary value analysis but will think through and test the most important boundary values without necessarily writing them down. Some notes will be written during the exploratory-testing session, so that a report can be produced afterwards. " },
+
+
+    { "ques":"What is use case testing?", 
+     "ans":"In order to identify and execute the functional requirement of an application from start to finish use case is used and the techniques used to do this is known as Use Case Testing " },
+
+
+    { "ques":"What is the difference between STLC (Software Testing Life Cycle) and SDLC (Software Development Life  Cycle) ?", 
+     "ans":"SDLC deals with developement/coding of the software while STLC deales with validation and verification of the software " },
+
+	{ "ques":" What is traceability matrix?", 
+     "ans":"The relationship between test cases and requirements is shown with the help of a document. This document is known as traceability matrix. " },
+
+
+    { "ques":"What is Equivalence partitioning testing?", 
+     "ans":"Equivalence partitioning testing is a software testing technique which divides the application input test data into each partition at least once of equivalent data from which test cases can be derived.  By this testing method it reduces the time required for software testing. " },
+
+
+    { "ques":"What is white box testing and list the types of white box testing?", 
+     "ans":"White box testing technique involves selection of test cases based on an analysis of the internal structure (Code coverage, branches coverage, paths coverage, condition coverage etc.)  of a component or system. It is also known as Code-Based testing or Structural testing.  Different types of white box testing are 1.Statement Coverage 2.Decision Coverage" },
+
+
+    { "ques":" What is the difference between static and dynamic testing?", 
+     "ans":"Static testing: During Static testing method, the code is not executed and it is performed using the software documentation.Dynamic testing:  To perform this testing the code is required to be in an executable form. " },
+
+	   { "ques":"What is verification and validation?", 
+     "ans":"Verification is a process of evaluating software  at development phase and to decide whether the product of a given  application satisfies the specified requirements. Validation is the process of evaluating software at the end of the development process and to check whether it meets the customer requirements. " },
+
+
+    { "ques":"What is Integration testing?", 
+     "ans":"Integration testing is a level of software testing process, where individual units of an application are combined and tested. It is usually performed after unit and functional testing. " },
+
+	{ "ques":"What is the difference between UAT (User Acceptance Testing) and System testing?", 
+     "ans":"System Testing: System testing is finding defects when the system under goes testing as a whole, it is also known as end to end testing. In such type of testing, the application undergoes from beginning till the end.UAT: User Acceptance Testing (UAT) involves running a product through a series of specific  tests  which determines whether the product will meet the needs of its users.  " },
+
+
+    { "ques":"What is the difference between test scenarios, test cases and test script?", 
+     "ans":"Difference between test scenarios and test cases is thatTest Scenarios:  Test scenario is prepared before the actual testing starts, it includes plans for testing product, number of team members, environmental condition, making test cases, making test plans and all the features that are to be tested for the product.Test Cases:  It is a document that contains the steps that has to be executed, it has been planned earlier.Test Script:  It is written in a programming language and it's a short program used to test part of functionality of the software system. In other words a written set of steps that should be performed manually. " },
+
+
+    { "ques":"What is the function of software testing tool phantom?", 
+     "ans":"Phantom is a freeware, and is used for windows GUI automation scripting language.  It allows to take control of windows and functions automatically.  It can simulate any combination of key strokes and mouse clicks as well as menus, lists and more. " },
+
+
+    { "ques":"What is mutation testing?", 
+     "ans":"Mutation testing is a technique to identify if a set of test data or test case is useful by intentionally introducing various code changes (bugs) and retesting with original test data/ cases to determine if the bugs are detected. " },
+
+	{ "ques":" What is fault masking explain with example?", 
+     "ans":"When presence of one defect hides the presence of another defect in the system is known as fault masking.Example : If the Negative Value cause a firing of unhandled system exception,  the developer will prevent the negative values inpu. This will resolve the issue and hide the defect of unhandled exception firing. " },
+
+
+    { "ques":"What is test management review and why it is important?", 
+     "ans":"Management review is also referred as Software Quality Assurance or SQA. SQA focusses more on the software process rather than the software work products.  It is a set of activities designed to make sure that the project manager follows the standard process.  SQA helps test manager to benchmark the project against the set standards. " },
+
+
+    { "ques":" When is RTM (Requirement Traceability Matrix) prepared ?", 
+     "ans":"RTM is prepared before test case designing.  Requirements should be traceable from review activities. " },
+
+
+    { "ques":" What is difference between Test matrix and Traceability matrix?", 
+     "ans":"Test Matrix:  Test matrix is used to capture actual quality, effort, the plan, resources and time required to capture all phases of software testing.Traceability Matrix:Mapping between test cases and customer requirements is known as Traceability Matrix " },
+
+	{ "ques":"In manual testing what are stubs and drivers?", 
+     "ans":"Both stubs and drivers are part of incremental testing.  In incremental testing there are two approaches namely bottom up and top down approach. Drivers are used in bottom up testing and stub is used for top down approach. In order to test the main module, stub is used, whuich is a dummy code or program . " },
+
+    { "ques":" Explain what is Test Plan Driven or Key Word Driven method of testing?", 
+     "ans":"This technique uses the actual test case document developed by testers using a spread sheet containing special key Words. The key words control the processing. " },
+
+
+    { "ques":"What is DFD (Data Flow Diagram) ?", 
+     "ans":"When a 'flow of data' through an information system is graphically represented then it is known as Data Flow Diagram.  It is also used for the visualization of data processing. " },
+
+
+    { "ques":" Explain what is N+1 testing?", 
+     "ans":"The variation of regression testing is represented as N+1. In this technique the testing is performed in multiple cycles in which errors found in test cycle 'N' are resolved and re-tested in test cycle N+1.  The cycle is repeated unless there are no errors found. " },
+
+	{ "ques":"What is Fuzz testing and when it is used?", 
+     "ans":"Fuzz testing is used to detect security loopholes and coding errors in software.  In this technique random data is added to the system in attempt to crash the system.  If vulnerability persists, a tool called fuzz tester is used to determine potential causes. This technique is more useful for bigger projects but only detects major fault. " },
+
+
+    { "ques":"Explain how does a test coverage tool works? ", 
+     "ans":"The code coverage testing tool runs parallel while performing testing on the actual product. The code coverage tool monitors the executed statements of the source code. When the final testing is done we get a complete report of the pending statements and also get the coverage percentage. " },
+
+
+    { "ques":"Mention what is the difference between a 'defect' and a 'failure' in software testing?   ", 
+     "ans":"In simple terms when a defect reaches the end customer it is called a failure while the defect is identified internally and resolved then it is referred as defect. " },
+
+
+    { "ques":"Explain which test cases are written first black boxes or white boxes?   ", 
+     "ans":"Black box test cases are written first as to write black box test cases; it requires project plan and requirement document all these documents are easily available at the beginning of the project. While writing white box test cases requires more architectural understanding and is not available at the start of the project. " },
+
+	{ "ques":" Mention what is bottom up testing?   ", 
+     "ans":"Bottom up testing is an approach to integration testing, where the lowest level components are tested first, then used to facilitate the testing of higher level components. The process is repeated until the component at the top of the hierarchy is tested. " },
+
+
+    { "ques":"Mention what is the meaning of breadth testing? ", 
+     "ans":"Breadth testing is a test suite that exercises the full functionality of a product but does not test features in detail " },
+
+
+    { "ques":"Mention what is the difference between Pilot and Beta testing?   ", 
+     "ans":"The difference between pilot and beta testing is that pilot testing is actually done using the product by the group of user before the final deployment and in beta testing we do not input real data, but it is installed at the end customer to validate if the product can be used in production. " },
+
+
+    { "ques":"Explain what it means by test harness?   ", 
+     "ans":"A test harness is configuring a set of tools and test data to test an application in various conditions, it involves monitoring the output with expected output for correctness. " }
+
+
+  
+  ],
+
+  "experienceiqs":[
+   
+ { "ques":" What is the MAIN benefit of designing tests early in the life cycle? ", 
+     "ans":"It helps prevent defects from being introduced into the code. " },
+
+	{ "ques":" What is risk-based testing? ", 
+     "ans":"Risk-based testing is the term used for an approach to creating a test strategy that is based on prioritizing tests by risk. The basis of the approach is a detailed risk analysis and prioritizing of risks by risk level. Tests to address each risk are then specified, starting with the highest risk first. " },
+
+
+    { "ques":" What is the KEY difference between preventative and reactive approaches to testing? ", 
+     "ans":"Preventative tests are designed early; reactive tests are designed after the software has been produced. " },
+
+
+    { "ques":" Define software? ", 
+     "ans":"Software is a set of instructions used to acquire inputs and to manipulate them to produce the desired output in terms of functions and performance as determined by the user of the software. " },
+
+
+    { "ques":" Define testing? ", 
+     "ans":" Testing is a process of executing a program with the intent of finding of an error. " },
+
+	{ "ques":" What are the types of software? ", 
+     "ans":"There are two types of software. There are.1)System Software 2)Application Software " },
+
+
+    { "ques":" What is the difference between system and application software? ", 
+     "ans":" Computer software is often divided into two categories : 1)System software : This software includes the operating system and all utilities that enable the computer to function. 2)Application software : These consist of programs that do real work for users. " },
+
+
+    { "ques":" Define process? ", 
+     "ans":" A process is a series of steps involving activities, constraints, and resources that produce an intended output of some kind. " },
+
+
+    { "ques":" What are the categories of defects? ", 
+     "ans":"There are three main categories of defects: 1) Wrong 2) Missing  3)Extra" },
+
+	{ "ques":" What are the types of Errors? ", 
+     "ans":"Errors can be classified into two categories : Syntax Error Logic Error " },
+
+
+    { "ques":" What is the difference between syntax and logical errors? ", 
+     "ans":"Syntax Error : A syntax error is a program statement that violates one or more rules of the language in which it is written.Logic Error : A logic error deals with incorrect data fields, out–of–range terms, and invalid combinations. " },
+
+
+    { "ques":" What is fault? ", 
+     "ans":"A fault is a condition that causes a system to fail in performing its required function. " },
+
+
+    { "ques":" What is failure? ", 
+     "ans":" Failure is the inability of the software to perform a required function to its specification. " },
+
+	{ "ques":" What is a bug? ", 
+     "ans":" A software bug may be defined as a coding error that causes an unexpected defect, fault, flaw, or imperfection in a computer program. In other words, if a program does not perform as intended, it is most likely a bug. " },
+
+
+    { "ques":" What is test log? ", 
+     "ans":" A test log is used by the test team to record what occurred during test execution. " },
+
+
+    { "ques":" What is debugging? ", 
+     "ans":" Debugging is a process that developers go through to identify the cause of bugs or defects in code and undertake corrections. " },
+
+
+    { "ques":" What is a maturity level? ", 
+     "ans":"A maturity level specifies the level of performance expected from an organization. " },
+
+	{ "ques":" Define Metrics? ", 
+     "ans":"The continuous application of measurement based techniques to the software development process and its products to supply meaningful and timely management information, together with the use of those techniques to improve that process and its products. " },
+
+
+    { "ques":" What is the difference between system and real time software? ", 
+     "ans":"System Software : System software is a collection of programs used to run the system as an assistance to other software programs. The compliers, editors, utilities, operating system components, drivers, and interfaces are examples of system software. This software resides in the computer system and consumes its resources. A computer system without system software cannot function.Real time Software : Real time software deals with a changing environment. First, it collects the input and converts it from analog to a digital, control component that responds to the external environment and performs the action. " },
+
+
+    { "ques":" What is verification? ", 
+     "ans":"Verification ensures the product is designed to deliver all functionality to the customer; it typically involves reviews and meetings to evaluate documents, plans, code, requirements and specifications; this can be done with checklists, issues lists, walkthroughs and inspection meetings. " },
+
+
+    { "ques":" What is meant by validation? ", 
+     "ans":"Validation ensures that functionality, as defined in requirements, is the intended behavior of the product; validation typically involves actual testing and takes place after verifications are completed. " },  
+  
+
+    { "ques":" What is error tracking? ", 
+     "ans":"Error tracking is an activity that provides a means for assessing the status of a current project. " },
+
+
+    { "ques":" What is white box testing? ", 
+     "ans":"White box testing is a test case design method that uses the control structure of the procedural design to derive test cases. It is otherwise called as structural testing. " },
+
+	{ "ques":" What is Black box testing? ", 
+     "ans":" Black box testing is a test case design method that focuses on the functional requirements of the software. It is otherwise called as functional testing. " },
+
+
+    { "ques":" What is the difference between black box and white box testing? ", 
+     "ans":"Black box testing is a testing strategy based solely on requirements and specifications. Black box testing requires no knowledge of internal paths, structures, or implementation of the software being tested.White box testing is a testing strategy based on internal paths, code structures, and implementation of the software being tested. White box testing generally requires detailed programming skills. " },
+
+
+    { "ques":" What is the difference between coupling and cohension? ", 
+     "ans":" Cohension is a measure of the relative functional strength of a module. Coupling is a measure of the relative interdependence among modules. " },
+
+
+    { "ques":" What is Software reliability? ", 
+     "ans":"Software reliability is defined as the probability of failure free operation of a computer program in a specified environment for a specified time. " },
+
+	{ "ques":" What is meant by unit testing? ", 
+     "ans":"Unit testing is the process of testing a particular complied program, i.e., a window, a report, an interface, etc. independently as a stand alone component/program. The types and degrees of unit tests can vary among modified and newly created programs. Unit testing is mostly performed by the programmers who are also responsible for the creation of the necessary unit test data. " },
+
+
+    { "ques":" What is incremental testing? ", 
+     "ans":"Incremental testing is partial testing of an incomplete product. The goal of incremental testing is to provide an early feedback to software developers. " },
+
+
+    { "ques":" What is regression testing? ", 
+     "ans":" Regression testing is not a level of testing, but it is the retesting of software that occurs when changes are made to ensure that the new version of the software has retained the capabilities of the old version and that no new defects have been introduced due to the changes. " },
+
+
+    { "ques":" What are the characteristic of process? ", 
+     "ans":"Any process has the following characteristics:The process prescribes all of the major process activities.The process uses resources, subject to a set of constraints (such as a schedule), and produces intermediate and final products.The process may be composed of sub processes that are linked in some way. The process may be defined as a hierarchy of processes, organized so that each sub process has its own process model.Each process activity has entry and exit criteria, so that we know when the activity begins and ends.The activities are organized in a sequence, so that it is clear when one activity is performed relative to the other activities.Every process has a set of guiding principles that explain the goals of each activity. " },
+
+	{ "ques":" What is RAD? ", 
+     "ans":"The RAD (Rapid Application Development Model) model is proposed when requirements and solutions can be modularized as independent system or software components, each of which can be developed by different teams. After these smaller system components are developed, they are integrated to produce the large software system solution. " },
+
+
+    { "ques":" What is system integration testing? ", 
+     "ans":"Testing of software components that have been distributed across multiple platforms (e.g., client, web server, application server, and database server) to produce failures caused by system integration defects (i.e. defects involving distribution and back office integration). " },
+
+
+    { "ques":" Which activity in the fundamental test process includes evaluation of the testability of the requirements and system? ", 
+     "ans":"Test analysis and design. " },
+
+
+    { "ques":" Why are static testing and dynamic testing described as complementary? ", 
+     "ans":"Because they share the aim of identifying defects but differ in the types of defect they find. " },
+
+	{ "ques":" What is the role of moderator in review process? ", 
+     "ans":"The moderator (or review leader) leads the review process. He or she deter-mines, in co-operation with the author, the type of review, approach and the composition of the review team. The moderator performs the entry check and the follow-up on the rework, in order to control the quality of the input and output of the review process. The moderator also schedules the meeting, disseminates documents before the meeting, coaches other team members, paces the meeting, leads possible discussions and stores the data that is collected. " },
+
+
+    { "ques":" What is an equivalence partition (also known as an equivalence class)? ", 
+     "ans":"An input or output range of values such that only one value in the range becomes a test case. " },
+
+
+    { "ques":" When should configuration management procedures be implemented? ", 
+     "ans":"During test planning. " },
+
+
+    { "ques":" A Type of functional Testing, which investigates the functions relating to detection of threats, such as virus from malicious outsiders. ", 
+     "ans":"Security Testing " },
+
+	{ "ques":"What is difference between Pilot and Beta testing?", 
+     "ans":"The differences between these two are listed below: 1)- A beta test when the product is about to release to the end user whereas pilot testing take place in the earlier phase of the development cycle.2)- In beta testing application is given to a few user to make sure that application meet the user requirement and does not contain any showstopper whereas in case of pilot testing team member give their feedback to improve the quality of the application." },
+
+
+    { "ques":"Describe how to perform Risk analysis during software testing?", 
+     "ans":"Risk analysis is the process of identifying risk in the application and prioritizing them to test. Following are some of the risks: New Hardware. 2. New Technology.3. New Automation Tool.4. Sequence of code delivery.5. Availability of application test resources." },
+
+
+    { "ques":"What is the difference between coupling and cohesion?", 
+     "ans":"The difference between coupling and cohesion is discussed below:- Cohesion is the degree which is measure dependency of the software component that combines related functionality into a single unit whereas coupling means that binding the related functionality into different unit.- Cohesion deals with the functionality that related different process within the single module where as coupling deals with how much one module is dependent on the other modules within the application. It is good to increase the cohesion between the software whereas increasing coupling is avoided." },
+
+
+    { "ques":"What is difference between QA, QC and Software Testing?", 
+     "ans":"Quality Assurance (QA): QA refers to the planned and systematic way of monitoring the quality of process which is followed to produce a quality product. QA tracks the outcomes and adjusts the process to meet the expectation.Quality Control (QC): Concern with the quality of the product. QC finds the defects and suggests improvements. The process set by QA is implemented by QC. The QC is the responsibility of the tester.Software Testing: is the process of ensuring that product which is developed by the developer meets the user requirement. The motive to perform testing is to find the bugs and make sure that they get fixed." },
+
+
+   { "ques":"What is concurrent user hits in load testing?", 
+     "ans":"When the multiple users, without any time difference, hits on a same event of the application under the load test is called a concurrent user hit. The concurrency point is added so that multiple Virtual User can work on a single event of the application. By adding concurrency point, the virtual users will wait for the other Virtual users which are running the scripts, if they reach early. When all the users reached to the concurrency point, only then they start hitting the requests." },
+
+
+    { "ques":"What is Automated Testing?", 
+     "ans":"The process of performing testing automatically which reduces the human intervention this is automation testing. The automation testing is carried out with the help of the some automation tool like QTP, Selenium, WinRunner etc. In automation testing we use a tool that runs the test script to test the application; this test script can be generated manually or automatically. When testing is completed then tools automatically generate the test report and report." },
+
+	{ "ques":"What is concurrent user hits in load testing?", 
+     "ans":"When the multiple users, without any time difference, hits on a same event of the application under the load test is called a concurrent user hit. The concurrency point is added so that multiple Virtual User can work on a single event of the application. By adding concurrency point, the virtual users will wait for the other Virtual users which are running the scripts, if they reach early. When all the users reached to the concurrency point, only then they start hitting the requests." },
+
+
+    { "ques":"What is Exhaustive Testing?", 
+     "ans":"Exhaustive Testing, as the name suggests is very exhaustive. Exhaustive testing means to test every component in the application with every possible number of inputs. According to Principles of testing Exhaustive Testing is Impossible because exhaustive testing requires more time and effort to test the application for all possible number of inputs. This may lead to high cost and delay in the release of the application." },
+
+
+    { "ques":"What is Gray Box Testing?", 
+     "ans":"Gray box testing is the hybrid of black box and white box testing. In gray box testing, test engineer has the knowledge of coding section of the component and designs test cases or test data based on system knowledge. In this tester has knowledge of code, but this is less than the knowledge of white box testing. Based on this knowledge the test cases are designed and the software application under test treats as a black box & tester test the application from outside." },
+
+
+    { "ques":"What is Integration Testing?", 
+     "ans":"Integration testing is black box testing. Integration testing focuses on the interfaces between units, to ensure that units work together to complete a specify task. The purpose of integration testing is to confirm that different components of the application interact with each other. Test cases are developed with the purpose of exercising the interfaces between the components. Integration testing is considered complete, when actual results and expected results are same. Integration testing is done after unit testing. There are mainly three approaches to do integration testing:" },
+
+	{ "ques":"What is Scalability Testing?", 
+     "ans":"Scalability testing is testing performed in order to enhanced and improve the functional and performance capabilities of the application. So that, application can meets requirements of the end users. The scalability measurements is done by doing the evaluating the application performance in load and stress conditions. Now depending upon this evaluation we improve and enhanced the capabilities of the application." },
+
+
+    { "ques":"What is Storage Testing?", 
+     "ans":"In Storage Testing we test those functionalities of the application which is responsible for storing the data into database. The data entered by the end user in GUI or front end, is the same data which is stored in the database. The storage testing determines that the data taken from the front end of the application is stored in correct place and in correct manner in the database." },
+
+
+    { "ques":"What is Requirement Traceability Matrix?", 
+     "ans":"Requirement Traceability Matrix (RTM) is a document which records the mapping between the high-level requirements and the test cases in the form of a table.That’s how it ensures that the Test Plan covers all the requirements and links to their latest version." },
+
+
+    { "ques":"Describe how to perform Risk analysis during software testing?", 
+     "ans":"Risk analysis is the process of identifying the hidden issues that may derail the successful delivery of the application. It also prioritizes the sequence of resolving the identified risks for testing purpose." },
+
+	{ "ques":"What is Silk Test and why should you use it?", 
+     "ans":"1.It’s a tool developed for performing the regression and functionality testing of the application.2. It benefits when we are testing Window based, Java, the web, and the traditional client/server applications.3. Silk Test help in preparing the test plan and managing them to provide the direct accessing of the database and validation of the field." },
+
+
+    { "ques":"What is the difference between Master Test Plan and Test Plan?", 
+     "ans":"1. Master Test Plan contains all the test scenarios and risks prone areas of the application. Whereas, Test Plan document contains test cases corresponding to test scenarios.2. Master Test Plan captures each and every test to be run during the overall development of application whereas test plan describes the scope, approach, resources and schedule of performing the test.3. MTP includes test scenarios to be executed in all the phases of testing that run during the complete life cycle of the application development. Whereas, a separate Test Plan exists for each phase of testing like Unit, Functional, and System which contains the test cases related to that type only.4. Only for big projects, we need a Master Test Plan which requires execution in all phases of testing. However, preparing a basic Test Plan is enough for small projects." },
+
+
+    { "ques":"How do you handle a non-reproducible bug?", 
+     "ans":"1. Defects observed due to low memory issue.2. Bugs raised due to address pointing to a memory location that does not exist.3. The race condition is an error scenario which occurs when the timing of one event impacts another executing in a sequence.A tester can take the following actions to handle the non-reproducible bugs.1. Execute test steps that are close to the error description.2. Evaluate the test environment.3. Examine and evaluate test execution results.4. Keep the resources & time constraints under check." },
+
+
+    { "ques":"How do you perform Automated Testing in your environment?", 
+     "ans":"Automation Testing is a process of executing tests automatically. It reduces the human intervention to a great extent. We use different test automation tools like QTP, Selenium, and WinRunner. These tools help in speeding up the testing tasks.Using the above tools we can create test scripts to verify the application automatically. After completing the test execution, these tools also generate the test reports" },
+
+	{ "ques":" What are the factors that you’ll consider to choose automated testing over manual testing?", 
+     "ans":"The choice of automated testing over manual testing depends on the following factors.1. Tests require periodic execution.2. Tests include repetitive steps.3. Tests execute in a standard runtime environment.4. Automation is expected to take less time.5. Automation is increasing reusability.6. Automation reports are available for every execution.7. Small releases like service packs which include a minor bug fix. In such cases, regression type of cases is sufficient for validation." },
+
+    { "ques":"What is the difference between a Test Driver and Test Stub?", 
+     "ans":"The test driver is a piece of code that calls a software component under test. It is useful in testing that follows the bottom-up approach.Test stub is a dummy program that integrates with an application to complete its functionality. These are relevant for testing that uses the top-down approach.Let’s take an example.1. Let’s say there is a scenario to test the interface between modules A and B. We have developed only module-A. Then we can test module-A only if we have real module-B or a dummy module for it. In this case, we call module-B as the Test Stub.2. Now, module-B can’t send or receive data directly from module-A. In such scenario, we’ve to move data from one module to another using some external features called Test Driver." },
+
+	{ "ques":"What are the essential qualities of an experienced QA or Test Lead?", 
+     "ans":"Every QA or Test Lead should have the following qualities.1. Well-versed in Software testing processes.2. Ability to accelerate teamwork to increase productivity.3. Improve coordination between QA and Dev engineers.4. Provide ideas to refine the QA processes.5. Ability to conduct RCA meetings and draw conclusions.6. Excellent written and interpersonal communication skills.7. Quick learner and able to groom the team members." },
+
+
+    { "ques":"What are the different types of software testing?", 
+     "ans":"Unit testing1)Integration testing2)Regression testing3)Shakeout testing 4)Smoke testing 5)Functional testing 6)Performance testing 7) White box and Black box testing 8)Alpha and Beta testing 9)System testing" },
+
+
+    { "ques":"What is a Test case?", 
+     "ans":"A test case is a sequence of actions and observations that are used to verify the desired functionality. A good test case helps to identify problems in the requirements or design of an application." },
+
+
+    { "ques":"What is Agile testing and why is it important?", 
+     "ans":" Agile testing is a software testing process which evaluates a software from the customer point of view. And it is important because this does not require Dev to complete coding for starting QA. Instead, the coding and testing both goes hand in hand. However, it may require continuous customer interaction." },   
+    
+
+     { "ques":"How do you test a product if the requirements are yet to freeze?", 
+     "ans":"If the requirement spec is not available for a product, then a test plan can be created based on the assumptions made about the product. But we should get all assumptions well documented in the test plan." },
+
+
+    { "ques":"How will you tell if enough test cases have been created to test a product?", 
+     "ans":"First of all, we’ll check if every requirement has at least one test case covered. If yes, then we can say that there are enough test cases to test the product." },
+
+	{ "ques":" If a product is in production and one of its modules gets updated, then is it necessary to retest?", 
+     "ans":"It is advisable to perform regression testing and run tests for all of the other modules as well. Finally, the QA should carry out the System testing." },
+
+
+    { "ques":"What is smoke testing and what is sanity?", 
+     "ans":"Smoke testing confirms the basic functionality works for a product. It requires you to identify the most basic test cases for execution.Sanity testing, on the other hand, ensures that the product runs without any logical errors. For example, if we are testing a calculator app; we may multiply a number by 3 and check whether the sum of the digits of the answer is divisible by 3." },
+
+
+    { "ques":"What is the difference between a Bug, Defect, and Error?", 
+     "ans":"A bug is usually same as the defect. Both of them represents an unexpected behavior of the software.However, an error would also fall in the same category. But in some cases, errors are fixed values. For example – 404/405 errors in HTML pages." },
+
+
+    { "ques":"What is the difference between High level and Low-Level test case?", 
+     "ans":"High-level test cases cover the core functionality of a product like standard business flows.Low-level test cases are those related to user interface (UI) in the application." },
+
+	{ "ques":"What is the difference between Static testing and dynamic testing?", 
+     "ans":"1) Static Testing: It is a white box testing technique which directs the developers to verify their code with the help of checklist to find errors in it.Developers can start it done without actually finalizing the application or program.Static testing is more cost effective than Dynamic testing.It covers more areas than Dynamic testing in a shorter time.2) Dynamic Testing :Dynamic testing involves the execution of an actual application with valid inputs and checking of the expected output.Examples of Dynamic testing are Unit Testing, Integration Testing, System Testing and Acceptance Testing.Dynamic testing happens after the code deployment.It starts during the validation stage." },
+
+
+    { "ques":"What is Test Harness?", 
+     "ans":"Test Harness requires configuring a set of tools and input data to test an application under various conditions. It involves monitoring the actual output with expected output for correctness.Its benefits are as follows: 1)Upward push in productivity due to process automation.2)Improve the overall product Quality." },
+
+
+    { "ques":"What kind of document will you need to begin Functional testing?", 
+     "ans":"1) It is none other than the Functional specification document. It defines the full functionality of a product.2)Other documents are also useful in testing like user manual and BRS.3)Gap analysis is another document which can help in understanding the expected and existing system." },
+
+
+    { "ques":"Beside test case & test plan, what documents a tester should produce?", 
+     "ans":"    Testing metrics 1)Test design specs 2)End-to-end scenarios 3)Test summary reports 4)Bug reports" },
+
+	{ "ques":"What is Risk Analysis?", 
+     "ans":"Risk analysis is a technique to identify the things that can go wrong in a software development project. They can negatively impact the scope, quality, timeliness, and cost of a project.However, everyone involved in the project has a part in minimizing the risk. But it’s the lead who ensures that whole team understands the individual role in managing the risk." },
+
+
+    { "ques":" Can we do System testing at any stage?", 
+     "ans":"No. The system testing should start only if all modules arc in place and work correctly. However, it should happen before the UAT (User Acceptance testing)." },
+
+
+    { "ques":"What is the primary difference between Debugging & Testing?", 
+     "ans":"    Testing is to find out defects while using a product whereas debugging is to reach the part of the code causing failure.Debugging is isolating the problem area in the code done by a developer whereas Testing is identifying the bug in an application and done by a tester." },
+
+
+    { "ques":"What is GAP analysis?", 
+     "ans":"Gap analysis reveals any deviation between the features available for testing and how the customer perceives them to be Traceability matrix is a testing tool which testers can use to track down the gaps." },
+
+	{ "ques":"How do we know the code has met specifications?", 
+     "ans":"Traceability matrix is an intuitive tool which ensures the requirements mapped to the test cases. And when the execution of all test cases finishes with success, it indicates that the code has met the requirements." },
+
+
+    { "ques":"What are error guessing and error seeding?", 
+     "ans":"1) Error Guessing:It is a test case design technique in which testers have to guess the defects that might occur and write test cases to represent them.2)Error Seeding:It is the process of adding known bugs in a program for the tracking the rate of detection & removal. It also helps to estimate the number of faults remaining in the program." },
+
+
+    { "ques":"What is the difference between coupling and cohesion?", 
+     "ans":"    Cohesion is the degree which measures the dependency of the software component that combines related functionality into a single unit whereas coupling represents the binding of related functionality into a different unit.Cohesion deals with the functionality that relates to different process within a single module whereas coupling deals with how much one module is dependent on the other modules within the product.It is a good practice to increase the cohesion between the software whereas coupling is discouraged." },
+
+
+    { "ques":"What is CMM?", 
+     "ans":"The Capability Maturity Model for Software (CMM or SW-CMM) is a model for assessing the maturity of the software processes of an organization and for identifying the key practices that increase the maturity of these processes." },
+
+	{ "ques":"What is Cause Effect Graph?", 
+     "ans":"It is a graphical representation of inputs and the associated outputs effects which assist in designing test cases." },
+
+
+    { "ques":"What is Ramp Testing?", 
+     "ans":"It is a testing method which proposes to raise an input signal until the system breaks down." },
+
+
+    { "ques":"What is Recovery Testing?", 
+     "ans":" It ensures that the program must recover from any expected or unexpected events without loss of data or functionality.Events could be like shortage of disk space, unexpected loss of communication, or power out conditions." },
+
+
+    { "ques":"What is globalization testing?", 
+     "ans":"Globalization testing concentrates on detecting the potential problems in the product design that could spoil globalization. It certifies that the code can handle the desired international support without breaking any functionality. And also, it ensures that there would be no data loss and display problems.	" }, 
+  
+
+  { "ques":"What is SDLC?", 
+     "ans":"Software Development Life Cycle refers to all the activities that are performed during software development, including - requirement analysis, designing, implementation, testing, deployment and maintenance phases." },
+
+
+    { "ques":"Explain STLC - Software Testing life cycle.", 
+     "ans":"Software testing life cycle refers to all the activities performed during testing of a software product. The phases include-Requirement analyses and validation - In this phase the requirements documents are analysed and validated and scope of testing is defined. Test planning - In this phase test plan strategy is defined, estimation of test effort is defined along with automation strategy and tool selection is done.Test Design and analysis - In this phase test cases are designed, test data is prepared and automation scripts are implemented  Test environment setup - A test environment closely simulating the real world environment is prepared. Test execution - The test cases are prepared, bugs are reported and retested once resolved.Test closure and reporting - A test closure report is prepared having the final test results summary, learnings and test metrics." },
+
+	{ "ques":"What are the different types of testing?", 
+     "ans":"Testing can broadly be defined into two types: 1)-Functional testing - Functional testing involves validating the functional specifications of the system. 2)Non Functional testing - Non functional testing includes testing the non-functional requirements of the system like performance, security, scalability, portability, endurance etc.Going by the way the testing is done, it can be categorized as. 3)-Black box testing - In black box testing, the tester need not have any knowledge of the internal architecture or implementation of the system. The tester interact with the system through the interface providing input and validating the received output. 4)White box testing - In white box testing, the tester analyses the internal architecture of the system as well as the quality of source code on different parameters like code optimization, code coverage, code reusability etc.5)Gray box testing - In gray box testing, the tester has partial access to the internal architecture of the system e.g. the tester may have access to the design documents or database structure. This information helps tester to test the application better." },
+
+
+    { "ques":"What is a test bed?", 
+     "ans":"A test bed is a test environment used for testing an application. A test bed configuration can consist of the hardware and software requirement of the application under test including - operating system, hardware configurations, software configurations, tomcat, database etc." },
+
+
+    { "ques":"What is a test plan?", 
+     "ans":"A test plan is a formal document describing the scope of testing, the approach to be used, resources required and time estimate of carrying out the testing process. It is derived from the requirement documents(Software Requirement Specifications)" },
+
+
+    { "ques":"What is a test scenario?", 
+     "ans":"A test scenario is derived from a use case. It is used for end end to end testing of a feature of an application. A single test scenario can cater multiple test cases. The scenario testing is particularly useful when there is time constraint while testing." },
+
+	{ "ques":"What are some of the bug or defect management tools?", 
+     "ans":"Some of the most widely used Defect Management tools are - Jira, Bugzilla, Redmine, Mantis, Quality Center etc." },
+
+
+    { "ques":"What is defect density?", 
+     "ans":"Defect density is the measure of density of the defects in the system. It can be calculated by dividing number of defect identified by the total number of line of code(or methods or classes) in the application or program." },
+
+
+    { "ques":"What is defect severity?", 
+     "ans":"Defect severity is the severity of the defect impacting the functionality. Based on the organisation, we can have different levels of defect severity ranging from minor to critical or show stopper." },
+
+
+    { "ques":" Give an example of Low priority-Low severity, Low priority-High severity, High priority-Low severity, High priority-High severity defects.", 
+     "ans":"1) Low priority-Low severity - A spelling mistake in a page not frequently navigated by users.Low priority-High severity - Application crashing in some very corner case. 3)High priority-Low severity - Slight change in logo color or spelling mistake in company name.4)High priority-High severity - Issue with login functionality." },
+
+	{ "ques":"What is a blocker?", 
+     "ans":" A blocker is a bug of high priority and high severity. It prevents or blocks testing of some other major portion of the application as well." },
+
+
+    { "ques":" What is a critical bug?", 
+     "ans":"A critical bug is a bug that impacts a major functionality of the application and the application cannot be delivered without fixing the bug. It is different from blocker bug as it doesn't affect or blocks the testing of other part of the application." },
+
+
+    { "ques":"Explain equivalence class partitioning.", 
+     "ans":" Equivalence class partitioning is a specification based black box testing techniques. In equivalence class partitioning, set of input data that defines different test conditions are partitioned into logically similar groups such that using even a single test data from the group for testing can be considered as similar to using all the other data in that group. E.g. for testing a Square program(program that prints the square of a number- the equivalence classes can be- Set of Negative numbers, whole numbers, decimal numbers, set of large numbers etc." },
+
+
+    { "ques":"What is boundary value analysis?", 
+     "ans":" Boundary value analysis is a software testing technique for designing test cases wherein the boundary values of the classes of the equivalence class partitioning are taken as input to the test cases e.g. if the test data lies in the range of 0-100, the boundary value analysis will include test data - 0,1, 99, 100." },
+
+	{ "ques":"What is decision table testing?", 
+     "ans":"Decision table testing is a type of specification based test design technique or black box testing technique in which testing is carried out using decision tables showing application's behaviour based on different combination of input values. Decision tables are particularly helpful in designing test cases for complex business scenarios involving verification of application with multiple combinations of input." },
+
+
+    { "ques":" What is a cause effect graph?", 
+     "ans":"A cause effect graph testing is black box test design technique in which graphical representation of input i.e. cause and output i.e. effect is used for test designing. This technique uses different notations representing AND, OR, NOT etc relations between the input conditions leading to output." },
+
+
+    { "ques":"What is state transition testing?", 
+     "ans":"State transition testing is a black box test design technique based on state machine model. State transition testing is based on the concept that a system can be defined as a collection of multiple states and the transition from one state to other happens because of some event." },
+
+
+    { "ques":"What is Statement testing and statement coverage in white box testing?", 
+     "ans":"Statement testing is a white box testing approach in which test scripts are designed to execute code statements.Statement coverage is the measure of the percentage of statements of code executed by the test scripts out of the total code statements in the application. The statement coverage is the least preferred metric for checking test coverage." },
+
+	{ "ques":"what is Selenium?", 
+     "ans":"Selenium is a robust test automation suite designed in a way to support and encourage automation testing of functional aspects of web-based applications and a wide range of browsers and platforms." },
+
+
+    { "ques":"What are the main advantages of Selenium?", 
+     "ans":"Selenium is a free and open source. You don't need to spend any licensing cost to use it.Cross Browser compatibility (Firefox, Chrome, Internet Explorer, Safari etMultiple programming languages (Java, C#, Ruby, Python, Pearl etc.) suppor Compatibility with the main platform (Windows, Mac OS, Linux etc.).Huge amount user base and helping communities.Automation scripts creating ability for non-programmers as well as for programmersTesting distribution support.Regular and fresh repository developments" },
+
+
+    { "ques":"What Selenium components do you know?", 
+     "ans":"Selenium is a suite of tools for automated web testing.  It is composed of:Selenium IDE (Integrated Development Environment). It is a tool for recording and playing back. It is a Firefox plugin. WebDriver and RC. It provides the APIs for a variety of languages like Java, .NET, PHP, etc. They work with most of the browsers.Grid: you can distribute tests on multiple machines so that test can be run parallel which helps cutting down the time required for running test suites in the browser." },
+
+
+    { "ques":"What is Selenium IDE?", 
+     "ans":"Selenium IDE is a plug-in used to record and replay tests in Firefox browser. Scripts may be automatically recorded and edited manually providing auto-completion support and the ability to move commands around quickly." },
+
+		{ "ques":"What is Selenese?", 
+     "ans":"Selenese is the language which is used to write test scripts in Selenium IDE." },
+
+
+    { "ques":"What are the different types of locators in Selenium?", 
+     "ans":"The different types of locators in Selenium are ID, ClassName, Name, TagName, LinkText, PartialLinkText, XPath, CSS Selector, DOM." },
+
+
+    { "ques":" What automation tools could be used for post-release validation with continuous integration?", 
+     "ans":"Automation tools could be used for post-release validation with continuous integration: CruiseCont, Hudson, Jenkins, Quick Build." },
+
+
+    { "ques":"Explain the meaning of assertion in Selenium and what are the types of assertion?", 
+     "ans":"Assertion is used as a verification point. It verifies that the application state conforms to the expectation.  The types of assertion are “assert”, “verify” and “waifFor”." },
+
+		{ "ques":"Explain the difference between assert and verify commands?", 
+     "ans":"Both of them check if the given condition is true or false. Unlike to assert, verify will not stop the test case execution if the test case fail." },
+
+
+    { "ques":"What is a XPath?", 
+     "ans":"XPath is a language that describes a way to locate and process items in Extensible Markup Language (XML) documents by using an addressing syntax based on a path through the document's logical structure or hierarchy." },
+
+
+    { "ques":"What is an Absolute XPath?", 
+     "ans":"Absolute XPath is the direct way to find the element. It has a disadvantage. XPath gets failed if there are any changes made in the path of the element.  html/body/div[3]/div/div[1]/div/div/div[1]/div/input - Absolute XPath example." },
+
+
+    { "ques":"What is a Relative XPath", 
+     "ans":"Relative XPath means that user can start from the middle of the HTML DOM structure and no need to write long XPath. Example of Relative XPath - //input[@id='email']." },
+
+		{ "ques":" What is the difference between single slash (/) and a double slash ( //) in XPath?", 
+     "ans":"A single slash (/) is used for creating XPaths with absolute paths beginning from the root node.Double slash (//) is used for creating relative XPath to start selection from anywhere within the root node" },
+
+
+    { "ques":"How could the web element attributes be inspected in order to use them in different locators?", 
+     "ans":"Firebug is a Firefox plugin that provides various development tools for debugging applications. From an automation perspective, Firebug is used specifically for inspecting web-elements in order to use their attributes like id, class, name etc. in different locators." },
+
+
+    { "ques":" What the WebDriver supported Mobile Testing Drivers do you know?", 
+     "ans":"Mobile Testing Drivers supported by the WebDriver are: AndroidDriver, IphoneDriver, OperaMobileDriver." },
+
+
+    { "ques":"Explain the fundamental difference between XPath and CSS selector.", 
+     "ans":"Using CSS selector we can only move downwards in the document, using XPaths we traverse up in the document." },
+
+		{ "ques":"How can you find if an element is displayed on the screen?", 
+     "ans":"There are different methods, which help user to check the visibility of the web elements: isDisplayed(), isEnabled(), isSelected(). These web elements can be buttons, drop boxes, checkboxes, radio buttons, labels etc." },
+
+
+    { "ques":"What is the difference between type and typeAndWait command?", 
+     "ans":"If you need to type keyboard key values into a text field of the web application, 'type' command will be used. Another reason for its usage is selecting values of the combo box. 'typeAndWait' command is used when your typing is completed and software web page start reloading." },
+
+
+    { "ques":"How a text written in a text field could be cleared?", 
+     "ans":"A text written in a text field could be deleted by using the clear() method." },
+
+
+    { "ques":"How to check a checkBox in Selenium?", 
+     "ans":"The same click() method could be used for checking checkbox as well as for clicking buttons or radio buttons." },
+
+
+	{ "ques":"What is the alternate way to click on login button?", 
+     "ans":"submit() method could be used as the alternate way to click on login button, but only if attribute type=submit." },
+
+
+    { "ques":" Explain the difference between close and quit command.", 
+     "ans":"If you need to close the current browser having focus driver.close() is used. If you need to close all the browser instances driver.quit() is used." },
+
+
+    { "ques":"What is the difference between setSpeed() and sleep() methods?", 
+     "ans":"Both of these methods delay the speed of execution. The main difference between them is setSpeed sets a speed while will apply delay time before every Selenium operation takes place. thread.sleep() will set up wait only for once." },
+
+
+    { "ques":" What is the difference between findElement () and findElements ()?", 
+     "ans":"Both of them let user to find elements in the current web page matching to the specified locator value. But if you use findElement(), only the first matching element would be fetched. An example:" },
+
+	{ "ques":"Can Selenium handle Windows based pop-up?", 
+     "ans":"Windows pop-ups cannot be handled by using Selenium. Because it supports only web application testing." },
+
+
+    { "ques":" How to check if an element is visible on the page?", 
+     "ans":"The return method type is logical. If it returns true then element is visible otherwise it is not. isDisplayed() method could be used for it:" },
+
+
+    { "ques":"What is JUnit? And what is JUnit Annotation?", 
+     "ans":"JUnit is an open source Java applications testing framework, introduced by Apache. A process of adding a special form of syntactic metadata to Java source code is called annotation. JUnit Annotations are: variables, parameters, packages, methods and classes." },
+
+
+    { "ques":"What is TestNG and why is it better than JUnit?", 
+     "ans":"TestNG is a testing framework inspired from JUnit and NUnit in a way to use the merits by both the developers and testers.  Here are some new functionalities that make it more powerful and easier to use, such as:test that your code is multithread safe support for data-driven testingsupport for parametersa variety of tools and plug-ins support (Eclipse, IDEA, Maven, etc...)default JDK functions for runtime and loggingdependent methods for application server testingflexible test configuration." },
+
+
+	{ "ques":"How to set test case priority in TestNG?", 
+     "ans":"TestNG 'Priority' is used to schedule the test cases. In order to achieve, we need to add an annotation as @Test(priority=??). The default value will be zero for priority. If you don't mention the priority, it will take all the test cases as 'priority=0' and execute.The example below shows the usage of the priority for test cases.As we have not defined the priority for test case 'Registration', it will get executed first and then the other test cases based on priority." },
+
+
+    { "ques":"Can captcha and bar code reader be automated by using Selenium?", 
+     "ans":"Neither captcha, no bar code reader can be automated by using Selenium." },
+
+
+    { "ques":"Explain how colors could be handled in Selenium WebDriver?", 
+     "ans":"To handle colors could be handled in Selenium WebDriver by using Use getCssValue(arg0) function to get the colors by sending ‘color’ string as an argument." },
+
+
+    { "ques":"What is Robot API?", 
+     "ans":"Robot API is used to control keyboard or mouse to interact with OS windows like Download pop-up, Alerts, Print Pop-ups, etc. or native Operation System applications like Notepad, Skype, Calculator, etc." },
+
+
+	{ "ques":" Which web driver implementation is the fastest?", 
+     "ans":"The fastest WebDriver is HtmlUnitDriver. Differing of other drivers (FireFoxDriver, ChromeDriver etc), it’s non-GUI, while running no browser gets launched." },
+
+
+    { "ques":"What is the difference between getWindowHandles() and getWindowHandle()?", 
+     "ans":"You can get the browser address using these commands. But if you use getWindowHandle(), you’ll get the address of the current browser where the control is and return type is a string. So, if you use getWindowHandles(), you will get the address of all the open browser and its return type is an iterator." },
+
+
+    { "ques":"Explain how you can use recovery scenario with Selenium?", 
+     "ans":"You can use recovery scenario in accordance with the programming language.If it is Java then you can use exception handling to overcome same." },
+
+
+    { "ques":"What is a data-driven framework?", 
+     "ans":"The Data Driven test design framework follows a design paradigm where test logic is fixed but varies the test data.  The data itself can be in different repositories like a simple .csv file, .json file or .xls sheet, or database and can add the tests merely updating those external files or DB (instead of placing in test code itself)." },
+
+	{ "ques":"What is a keyword-driven framework?", 
+     "ans":"The keyword driven framework is a methodology where actions or steps are treated as keywords. These keywords (like click, move, type etc.,) are stored in some external repositories along just like data (in .csv/.json/.xls/DB)." },
+
+
+    { "ques":"What is the hybrid framework?", 
+     "ans":"The combination of data driven and keyword driven framework is called the hybrid. Here the operations/instructions/keywords in a separate repository (.csv/.xls/.json/DB) and data is in separate (.csv/.xls/.json/db from data provider) and the tests/driver would read both and perform the actual tests automatically. In this design, we get the best of both methodologies, and it is kind of practical in most of the automation cases." },
+
+
+    { "ques":"What are the main advantages of Selenium Grid?", 
+     "ans":"Selenium Grid has following advantages: multi-browser testing, parallel test case execution, multi-platform testing." },
+
+
+    { "ques":"What is a hub in Selenium Grid?", 
+     "ans":"Selenium Grid hub is a central point or a server that controls the test executions on the different machines." },
+	
+
+	{ "ques":"What is a node in Selenium Grid?", 
+     "ans":"Selenium Grid node is a hub attached machine, which has instances running the test scripts. Unlike a hub, there can be more than one nodes in Selenium Grid." },
+
+
+    { "ques":" Could you explain the line of code Webdriver driver = new FirefoxDriver();.", 
+     "ans":"‘WebDriver' is an interface and we are creating an object of type WebDriver instantiating an object of FirefoxDriver class." },
+
+
+    { "ques":"What is the testng.xml file used for?", 
+     "ans":"testng.xml file is used to configure the whole a test suite. Here we can create a test suite, create test groups, mark tests for parallel execution, add listeners and pass parameters to test scripts. It can be used for the further test suite triggering." },
+
+
+    { "ques":" What is the difference between @Factory and @DataProvider annotation?", 
+     "ans":"@DataProvider is concerned to individual test methods and run the specific methods for many times. @Factory method creates test class instances and runs all the test methods in that class with different data. sets." },
+
+	{ "ques":" In which format does source view show the script in Selenium IDE?", 
+     "ans":"The script is shown by Selenium IDE source view in XML format." },
+
+
+    { "ques":" What is the FirefoxDriver, class or an interface? And which interface does it implement?", 
+     "ans":"FirefoxDriver is a Java class.  It implements all the methods available in the interface." },
+
+
+    { "ques":"How can we make one test method dependent on other using TestNG?", 
+     "ans":"We can make one test method run only after successful execution of dependent test method by using dependsOnMethods parameter inside @Test annotation in TestNG: @Test(dependsOnMethods = { 'preTests')" },
+
+
+    { "ques":"How could you explain the main difference between WebDriver and RC?", 
+     "ans":"Selenium WebDriver drives the browser using built-in support. RC injects JavaScript function into browsers when the page is loaded." },
+
+	{ "ques":" What is IntelliJ?", 
+     "ans":"IntelliJ is an IDE that helps users to write code for Selenium better and faster. It could be used as an option to Java bean and Eclipse." },
+
+
+    { "ques":"What are the advantages of Using Git Hub For Selenium?", 
+     "ans":"Members of multiple people team working on the same project can update its details and inform other team members simultaneously.You can build the project from the remote repository regularly by using Jenkins. This helps you to keep track of failed builds.	" },
+
+
+    { "ques":" Can we use Selenium RC for tests driving on two different browsers on one operating system without Selenium Grid?", 
+     "ans":"We can do it if JAVA testing framework is not used. If we use Java client driver of Selenium, instead of using Java testing framework, TestNG allows us not to use Selenium Grid." },
+
+
+    { "ques":" How can we run test cases in parallel using TestNG?", 
+     "ans":"You should just to add these two key value pairs in the suite to run the tests in parallel." },
+
+	{ "ques":"When AutoIT is used?", 
+     "ans":"AutoIT is used to handle window GUI and non-HTML popups in the application." },
+
+
+    { "ques":"How can you run Selenium Server other than the default port 4444?", 
+     "ans":"Selenium server could be run on java-jar selenium-server.jar-port other than its default port." },
+
+
+    { "ques":"Explain how you can capture server side log Selenium Server?", 
+     "ans":"To capture server side log in Selenium Server, you can use command: java –jar .jar –log selenium.log" },
+
+
+    { "ques":"What is a framework and what are the frameworks available in RC?", 
+     "ans":"The framework is a collection of libraries and classes for helping testers to automate test cases. NUnit, JUnit, TestNG, Bromine, RSpec, unit tests are some of the frameworks available in RC." },
+
+	{ "ques":"What are the two modes of views in Selenium IDE?", 
+     "ans":"Selenium IDE can be opened as a pop-up window or in side bar" },
+
+
+    { "ques":"What is Object Repository?", 
+     "ans":"Object repository is an essential entity in any UI automation which allows a tester to store all object that will be used in the scripts in one or more centralized locations rather than scattered all over the test scripts." },
+
+
+    { "ques":"How to run a group of test cases using TestNG?", 
+     "ans":"TestNG allows you to perform sophisticated groupings of test methods. Not only can you declare that methods belong to groups, but you can also specify groups that contain other groups. Then TestNG can be invoked and asked to include a certain set of groups (or regular expressions) while excluding another set.  This gives you maximum flexibility in how you partition your tests and doesn’t require you to recompile anything if you want to run two different sets of tests back to back." },
+
+
+    { "ques":"What is Parameterized testing in TestNG?", 
+     "ans":"Parameterized tests allow developers to run the same test over and over again using different values." },
+
+	{ "ques":"How to create and run TestNG.xml? ", 
+     "ans":"In TestNG framework, we need to create TestNG XML file to create and handle multiple test classes. We do configure our test run, set test dependency, include or exclude any test, method, class or package and set priority etc in the XML file." },
+
+
+    { "ques":"What is TestNG?", 
+     "ans":"TestNG is a testing framework designed to simplify a broad range of testing needs, from unit testing to integration testing." },
+
+
+    { "ques":"How to achieve Database testing in Selenium?", 
+     "ans":"As we all know Selenium WebDriver is a tool to automate User Interface. We could only interact with Browser using Selenium WebDriver.Sometimes, we may face a situation to get the data from the Database or to modify (update/delete) the data from the Database.  If we plan to automate anything outside the vicinity of a browser, then we need to use other tools to achieve our task. To achieve the Database connection and work on it, we need to use JDBC API Driver.The Java Database Connectivity (JDBC) API provides universal data access from the Java programming language. Using the JDBC API, you can access virtually any data source, from relational databases to spreadsheets and flat files. It lets the user connect and interact with the Database and fetch the data based on the queries we use in the automation script. JDBC is a SQL level API that allows us to execute SQL statements. It creates a connectivity between Java Programming Language and the database." },
+
+
+    { "ques":"What is Continuous Integration?", 
+     "ans":"Continuous Integration is abbreviated as CI. Continuous Integration is a development practice which aims to make sure the correctness of a software. After each commit, a suite of tests run automatically and test the software to ensure whether the software is running without any breaks. If any test fails, we will get immediate feedback say “build is broken”.In simple words, continuous integration is a process of verifying the correctness of a software.Some of the continuous integration tools are Jenkins, TeamCity, Bamboo, Travis, Circle Ci, Bitbucket.We can schedule the test suite execution using these CI Tools." }
+
+
+  ],
+  "fresherresume":[
+    { "freshresume":"itentrylevel", "freshtit":"Entry Level" },
+    { "freshresume":"itentrylevel", "freshtit":"Professional" },
+    { "freshresume":"itentrylevel", "freshtit":"Smart" }
+
+  ],
+  "experienceresume":[
+    { "expresume":"itentrylevel", "exprestit":"Smart" },
+    { "expresume":"itentrylevel", "exprestit":"Professional" },
+    { "expresume":"itentrylevel", "exprestit":"Entry Level" }
+
+  ],
+  "definitions":[
+    { "ques":"itentrylevel", "ans":"Smart and Balanced" },
+    { "ques":"itentrylevel", "ans":"Professional" },
+    { "ques":"itentrylevel", "ans":"Entry Level" }
+
+  ],
+
+  "programs":[
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" },
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" },
+    { "quesno":"itentrylevel", "ques":"Smart and Balanced","ans":"Smart and Balanced" }
+
+  ],
+
+
+  "videos":[
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana" },
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana"  },
+    { "id":"w0SDwUU7wpo", "title":"Smart and Balanced","time":"5:00 pm","name":"Sateesh Patnana"  }
+
+  ]
+
+ 
+
+}
+

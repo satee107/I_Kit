@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#000"
+    tools:context=".Acitivities.QuizYouTubeActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/restype"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginStart="100dp"/>
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/contents"
+            android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+        </fragment>
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/optionA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:text="A. Byte code"/>
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/optionB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:text="B. Byte code"/>
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/optionC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:text="C. Byte code"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="47dp"
+    android:id="@+id/counters"
+    android:text="Timer"
+    android:textColor="#fff"
+    android:gravity="center"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginTop="6dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:background="@color/materialred"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/fitlogo"
+            android:layout_height="wrap_content" />
+    <Button
+        android:theme="@style/MyButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_margin="5dp"
+        android:background="@color/materialgreen"
+        android:textColor="#fff"/>
+
+    </LinearLayout>
+</LinearLayout>

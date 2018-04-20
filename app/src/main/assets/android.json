@@ -1,0 +1,1396 @@
+{
+  "fresheriqs": [
+    {
+      "ques": "What is Android?",
+      "ans": "Android is a stack of software for mobile devices which includes an Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine."
+    },
+    {
+      "ques": "Describe Android application Architecture?",
+      "ans": "Android application architecture has the following components.They are as follows −Services − It will perform background functionalitiesIntent − It will perform the inter connection between activities and the data passing mechanism Resource Externalization − strings and graphics Notification − light,sound,icon,notification,dialog box,and toast Content Providers − It will share the data between applications"
+    },
+    {
+      "ques": "What is An Activity?",
+      "ans": "Activity performs actions on the screen.If you want to do any operations, we can do with activity"
+    },
+    {
+      "ques": "What is the APK format?",
+      "ans": "The Android packaging key is compressed with classes,UI's, supportive assets and manifest.All files are compressed to a single file is called APK."
+    },
+    {
+      "ques": "What is An Intent?",
+      "ans": "It is connected to either the external world of application or internal world of application ,Such as, opening a pdf is an intent and connect to the web browser.etc."
+    },
+    {
+      "ques": "What is an explicit Intent?",
+      "ans": "Android Explicit intent specifies the component to be invoked from activity. In other words, we can call another activity in android by explicit intent."
+    },
+    {
+      "ques": "What is an implicit Intent?",
+      "ans": "Implicit Intent doesn't specifiy the component. In such case, intent provides information of available components provided by the system that is to be invoked."
+    },
+    {
+      "ques": "What is An android manifest file?",
+      "ans": "Every application must have an AndroidManifest.xml file (with precisely that name) in its root directory. The manifest file presents essential information about your app to the Android system, information the system must have before it can run any of the app's code."
+    },
+    {
+      "ques": "What language does android support to develop an application?",
+      "ans": "Android applications has written using the java(Android SDK) and C/C++(Android NDK)."
+    },
+    {
+      "ques": "What do ADT stands for?",
+      "ans": "ADT stands for Android development tool,This is useful to develop the applications and test the applications."
+    },
+    {
+      "ques": "What are the tools are placed in An Android SDK?",
+      "ans": "Android SDK collaborated with Android Emulator,DDMS(Dalvik Debug Monitoring Services),AAPT(Android Asset Packaging tool) and ADB(Android debug bridge)"
+    },
+    {
+      "ques": "What is viewGroup in android?",
+      "ans": "View group is a collection of views and other child views, it is an invisible part and the base class for layouts."
+    },
+    {
+      "ques": "What is a service in android?",
+      "ans": "The Service is like as an activity to do background functionalities without UI interaction."
+    },
+    {
+      "ques": "What is a content provider in android?",
+      "ans": "A content provider component supplies data from one application to others on request. Such requests are handled by the methods of the ContentResolver class. A content provider can use different ways to store its data and the data can be stored in a database, in files, or even over a network."
+    },
+    {
+      "ques": "What are the notifications available in android?",
+      "ans": "Toast Notification − It will show a pop up message on the surface of the windowStatus Bar Notification − It will show notifications on status bar Dialogue Notification − It is an activity related notification."
+    },
+    {
+      "ques": "What is container in android?",
+      "ans": "The container holds objects,widgets,labels,fields,icons,buttons.etc."
+    },
+    {
+      "ques": "What is ADB in android?",
+      "ans": "It is acts as bridge between emulator and IDE, it executes remote shell commands to run applications on an emulator"
+    },
+    {
+      "ques": "What is ANR in android?",
+      "ans": "ANR stands for application is not responding, basically it is a dialog box that appears when the application is not responding."
+    },
+    {
+      "ques": "What is an Adapter in android?",
+      "ans": "The Adapter is used to create child views to represent the parent view items."
+    },
+    {
+      "ques": "What is shared preferences in android?",
+      "ans": "Shared preferences are the simplest mechanism to store the data in XML documents."
+    },
+    {
+      "ques": "What are the key components in android architecture?",
+      "ans": "Linux Kernel Libraries,Android Framework,Android applications."
+    },
+    {
+      "ques": "What does the intent filter do in android?",
+      "ans": "Intent filters are filter out the intents."
+    },
+    {
+      "ques": "Where layouts are placed in android?",
+      "ans": "In The Layout folder, layouts are placed as XML files"
+    },
+    {
+      "ques": "What is nine-patch images tool in android?",
+      "ans": "We can change bitmap images in nine sections as four corners,four edges and an axis"
+    },
+    {
+      "ques": "How many dialog boxes do support in android?",
+      "ans": "AlertDialog, ProgressDialog,DatePickerDialog, and TimePickerDialog"
+    },
+    {
+      "ques": "What are the exceptions available in android?",
+      "ans": "InflateException,Surface.OutOfResourceException,SurfaceHolder.BadSurfaceTypeException,and WindowManager.BadTokenException"
+    },
+    {
+      "ques": "What is the order of dialog-box in android?",
+      "ans": "Positive, Neutral, Negative."
+    },
+    {
+      "ques": "What are the different storages available in android?",
+      "ans": "Shared Preferences,Internal Storage,External Storage,SQLite Databases and Network Connection"
+    },
+    {
+      "ques": "What is a Sticky Intent in android?",
+      "ans": "Sticky Intent is also a type of intent which allows the communication between a function and a service for example,sendStickyBroadcast() is perform the operations after completion of intent also."
+    },
+    {
+      "ques": "How to Translate in Android?",
+      "ans": "Android uses Google translator to translate data from one language into another language and placed as a string while development"
+    },
+    {
+      "ques": "How is the use of web view in Android?",
+      "ans": "WebView is UI component that can display either remote web-pages or static HTML"
+    },
+    {
+      "ques": "Why can't you run java byte code on Android?",
+      "ans": "Android uses DVM (Dalvik Virtual Machine ) rather using JVM(Java Virtual Machine), if we want, we can get access to .jar file as a library."
+    },
+    {
+      "ques": "How does android track the application on process?",
+      "ans": "Android provides a Unique ID to all applications is called as Linux ID,this ID is used to track each application."
+    },
+    {
+      "ques": "How to change application name after its deployment?",
+      "ans": "It's not truly recommended to change application name after it's deployment, if we change, it will impact on all other internal components."
+    },
+    {
+      "ques": "Define the application resource file in android?",
+      "ans": "JSON,XML bitmap.etc are application resources.You can injected these files to build process and can load them from the code."
+    },
+    {
+      "ques": "How to launch an activity in android?",
+      "ans": "Using with intent, we can launch an activity. Intent intent = new Intent(this, MyTestActivity.class); startActivity(intent);"
+    },
+    {
+      "ques": "How do you pass the data to sub-activities android?",
+      "ans": "Using with Bundle, we can pass the data to sub activities. Bundle bun = new Bundle(); bun.putString('EMAIL', 'contact@tutorials.com');"
+    },
+    {
+      "ques": "What is singleton class in android?",
+      "ans": "A class which can create only an object, that object can be share able to all other classes."
+    },
+    {
+      "ques": "What is fragment in android?",
+      "ans": "Fragment is a piece of activity, if you want to do turn your application 360 degrees, you can do this by fragment."
+    },
+    {
+      "ques": "What is sleep mode in android?",
+      "ans": "Sleep mode mean CPU will be sleeping and it doesn't accept any commands from android device except Radio interface layer and alarm."
+    },
+    {
+      "ques": "Which kernal is used in android?",
+      "ans": "Android is customized Linux 3.6 kernel."
+    },
+    {
+      "ques": "How to update UI from a service in android?",
+      "ans": "Use a dynamic broadcast receiver in the activity, and send a broadcast from the service. Once the dynamic receiver is triggered update UI from that receiver."
+    },
+    {
+      "ques": "What folders are impotent in android project?",
+      "ans": "AndroidManifest.xml  build.xml  bin/  src/  res/  assets/"
+    },
+    {
+      "ques": "What are application Widgets in android?",
+      "ans": "App Widgets are miniature application views that can embedded in other applications (such as the Home screen) and receive periodic updates. These views has referred to as Widgets in the user interface, and you can publish one with an App Widget provider."
+    },
+    {
+      "ques": "How do you find any view element into your program?",
+      "ans": "Using with findViewById we can find view element."
+    },
+    {
+      "ques": "What is drawable folder in android?",
+      "ans": "A compiled visual resource that can used as a backgrounds,banners, icons,splash screen etc."
+    },
+    {
+      "ques": "What are the type of flags to run an application in android?",
+      "ans": "FLAG_ACTIVITY_NEW_TASK  FLAG_ACTIVITY_CLEAR_TOP."
+    },
+    {
+      "ques": " Who is the founder of Android?",
+      "ans": "Andy Rubin."
+    },
+    {
+      "ques": "Explain the Android application Architecture.",
+      "ans": "Following is a list of components of Android application architecture: Services: Used to perform background functionalities. Intent: Used to perform the inter connection between activities and the data passing mechanism. Resource Externalization: strings and graphics Notification: light, sound, icon, notification, dialog box and toast. Content Providers: It will share the data between applications."
+    },
+    {
+      "ques": "What are the code names of android?",
+      "ans": "Aestro,Blender,Cupcake,Donut,Eclair,Froyo,Gingerbread,Honycomb,Ice Cream Sandwitch,Jelly Bean,Kitkat,Lollipop,Marshmallow,Nougat,Oreo"
+    },
+    {
+      "ques": "What are the advantages of android?",
+      "ans": "Open-source: It means no licence, distribution and development fee.Platform-independent: It supports windows, mac and linux platforms. Supports various technologies: It supports camera, bluetooth, wifi, speech, EDGE etc. technologies. Highly optimized Virtual Machine: Android uses highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine)."
+    },
+    {
+      "ques": "Does android support other language than java?",
+      "ans": "Yes, android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with android SDK."
+    },
+    {
+      "ques": "What are the core building blocks of android?",
+      "ans": "The core building blocks of android are:Activity,View,Intent,Service,Content Provider,Fragment etc."
+    },
+    {
+      "ques": "What are the life cycle methods of android activity?",
+      "ans": "There are 7 life-cycle methods of activity. They are as follows: onCreate(),onStart(),onResume(),onPause(),onStop(),onRestart(),onDestroy()"
+    },
+    {
+      "ques": "How to call another activity in android?",
+      "ans": "Intent i = new Intent(getApplicationContext(), ActivityTwo.class);  startActivity(i);"
+    },
+    {
+      "ques": "What is service in android?",
+      "ans": "A service is a component that runs in the background. It is used to play music, handle network transaction etc."
+    },
+    {
+      "ques": "What is the name of database used in android?",
+      "ans": "SQLite: An opensource and lightweight relational database for mobile devices."
+    },
+    {
+      "ques": "What is AAPT?",
+      "ans": "AAPT is an acronym for android asset packaging tool. It handles the packaging process."
+    },
+    {
+      "ques": "What is content provider?",
+      "ans": "Content providers are used to share information between android applications."
+    },
+    {
+      "ques": "What is fragment?",
+      "ans": "Fragment is a part of Activity. By the help of fragments, we can display multiple screens on one activity."
+    },
+    {
+      "ques": " What is NDK?",
+      "ans": "NDK stands for Native Development Kit. By using NDK, you can develop a part of app using native language such as C/C++ to boost the performance."
+    },
+    {
+      "ques": "What is the Google Android SDK?",
+      "ans": "The Google Android SDK is a toolset which is used by developers to write apps on Android enabled devices. It contains a graphical interface that emulates an Android driven handheld environment and allow them to test and debug their codes."
+    },
+    {
+      "ques": "Which language does Android support to develop an application?",
+      "ans": "Android applications are written by using the java (Android SDK) and C/C++ (Android NDK)."
+    },
+    {
+      "ques": "What is View Group in Android?",
+      "ans": "View Group is a collection of views and other child views. It is an invisible part and the base class for layouts."
+    },
+    {
+      "ques": "What is DDMS?",
+      "ans": "DDMS stands for Dalvik Debug Monitor Server. It gives the wide array of debugging features:Port forwarding services,Screen capture,Thread and heap information,Network traffic tracking,Location data spoofing"
+    },
+    {
+      "ques": "What is a portable wi-fi hotspot?",
+      "ans": "The portable wi-fi hotspot is used to share internet connection to other wireless devices."
+    },
+    {
+      "ques": "Name some exceptions in android?",
+      "ans": "Inflate Exception Surface.OutOfResourceException,SurfaceHolder.BadSurfaceTypeException,WindowManager.BadTokenException"
+    },
+    {
+      "ques": "Is it true that android applications can only be programmed in Java?",
+      "ans": "No. You can write your code in C or C++ using the NDK development tools."
+    },
+    {
+      "ques": "Which database is used for Android?",
+      "ans": "We use SQLite database in Android. Some points about SQLite:Open Source Database-SQLite is available on every Android device.It supports standard relational database features like,SQL syntax,transactions,SQL statements,Very light weight database,Requires very little memory,Approx.250KB,SQLite Database is automatically managed by Android Platform"
+    },
+    {
+      "ques": "How do you handle multiple resolution screens in android?",
+      "ans": "The following five properties help you to achieve multiple resolution screens in android:Screen size – Screen sizes are divided into four generalized sizes: small, normal, large, and extra-large.Screen density – Screen densities are also divided into four generalized densities: low, medium, high, and extra-high.Orientation – When user rotates the device the orientation of the device also gets changed.Resolution – The total number of physical pixels on a screen.Density – independent pixel (dp) – Provides you a density-independent way to define your layouts."
+    },
+    {
+      "ques": "What is the importance of declaring permissions in android application development?",
+      "ans": "The limitation is imposed to protect critical data and code that could be misused to distort or damage the user experience. If an application needs access to a feature protected by a permission, it must declare that it requires that permission with a <uses-permission> element in the manifest. Then, when the application is installed on the device, the user determines whether or not to grant the requested permission by checking the authorities that signed the application’s certificates and, in some cases, asking the user. – reference Android Developers"
+    },
+    {
+      "ques": "If I have all the drawable folders like xhdpi, hdpi, mdpi and ldpi and I am running my application on xhdpi devices,the images will be picked up from which folder.(I have not placed any image in xhdpi)?",
+      "ans": "The system will first look for the image in drawable-xhdpi/ folder. If no matching resource is found then it will pick the image from the default folder i.e. drawable/ folder"
+    },
+    {
+      "ques": "Which is the latest version of Android? What upgrades does it have over the previous version?",
+      "ans": "The latest version is Android Oreo, Noguat is its predecessor. The upgrade was aimed at improving the User Interface functionality and performance. Knowledge of the different versions of Android would help you answer such questions."
+    },
+    {
+      "ques": "What type of listener is used to get the ratings from the RatingBar Widgets?",
+      "ans": "onRatingBarChangeListener() is used."
+    },
+    {
+      "ques": "What's the difference between a file, a class and an activity in android?",
+      "ans": "File - It is a block of arbitrary information, or resource for storing information. It can be of any type.Class - Its a compiled form of .Java file . Android finally used this .class files to produce an executable apk. Activity - An activity is the equivalent of a Frame/Window in GUI toolkits. It is not a file or a file type it is just a class that can be extended in Android for loading UI elements on view."
+    },
+    {
+      "ques": "What is the significance of the .dex files?",
+      "ans": "Android programs are compiled into .dex (Dalvik Executable) files, which are in turn zipped into a single .apk file on the device. .dex files can be created by automatically, translating compiled applications written in the Java programming language."
+    },
+    {
+      "ques": "What are the different tools in Android? Explain them?",
+      "ans": "The Android SDK and Virtual Device Manager- It is used to create and manage Android Virtual Devices (AVD) and SDK packages. The AVD hosts an emulator running a particular build of Android, letting you specify the supported SDK version, screen resolution, amount of SD card storage available, and available hardware capabilities (such as touch screens and GPS). The Android Emulator- An implementation of the Android virtual machine designed to run within a virtual device on your development computer. Use the emulator to test and debug your Android applications. Dalvik Debug Monitoring Service (DDMS) -Use the DDMS perspective to monitor and control the Dalvik virtual machines on which you're debugging your applications. Android Asset Packaging Tool (AAPT) - Constructs the distributable Android package files (.apk). Android Debug Bridge,(adb) -Android Debug Bridge, is a command-line debugging application shipped with the SDK. It provides tools to browse the device, copy tools on the device, and forward ports for debugging."
+    },
+    {
+      "ques": "What is Dalvik Virtual Machine?",
+      "ans": "The name of Android's virtual machine. The Dalvik VM is an interpreter-only virtual machine that executes files in the Dalvik Executable (.dex) format, a format that is optimized for efficient storage and memory-mappable execution. The virtual machine is register-based, and it can run classes compiled by a Java language compiler that have been transformed into its native format using the included 'dx' tool. The VM runs on top of Posix-compliant operating systems, which it relies on for underlying functionality (such as threading and low level memory management). The Dalvik core class library is intended to provide a familiar development base for those used to programming with Java Standard Edition, but it is geared specifically to the needs of a small mobile device."
+    },
+    {
+      "ques": "What is Android Runtime?",
+      "ans": "Android includes a set of core libraries that provides most of the functionality available in the core libraries of the Java programming language. Every Android application runs in its own process, with its own instance of the Dalvik virtual machine. Dalvik has been written so that a device can run multiple VMs efficiently. The Dalvik VM executes files in the Dalvik Executable (.dex) format which is optimized for minimal memory footprint. The VM is register-based, and runs classes compiled by a Java language compiler that have been transformed into the .dex format by the included 'dx' tool."
+    },
+    {
+      "ques": "What is the Open Handset Alliance?",
+      "ans": "The OHA is a consortium of 84 technology and mobile companies that have joined hands to accelerate innovation in mobile technology and at the same time offer the end users a better, cost-effective and richer mobile experience. Members of this include Google, HTC, Sony, Dell, Intel, Motorola, Qualcomm, Texas Instruments, Samsung, LG, T-Mobile, Nvidia. The OHA was started on 5 November 2007 by Google and 34 other companies. Android is the main software of the alliance."
+    },
+    {
+      "ques": "What is the difference between Service and Thread?",
+      "ans": "Service is like an Activity but has no interface. Probably if you want to fetch the weather for example you won't create a blank activity for it, for this you will use a Service. It is also known as Background Service because it performs tasks in background. A Thread is a concurrent unit of execution. You need to know that you cannot update UI from a Thread. You need to use a Handler for this."
+    },
+    {
+      "ques": "What is a Content Provider?",
+      "ans": "Content Providers are the only way to share data across Android applications. They store and retrieve data thus making it accessible to all. Content Providers give a uniform interface to access the data. Android platform provides default implementations of content providers for data types like audio, video, images, contact information etc."
+    },
+    {
+      "ques": "What is a Toast Notification?",
+      "ans": "A toast notification is a message that pops up on the surface of the window. It only fills the amount of space required for the message and the user's current activity remains visible and interactive. The notification automatically fades in and out, and does not accept interaction events."
+    },
+    {
+      "ques": "What are the other Notifications?",
+      "ans": "A Status Bar Notification: It is used for persistent reminders that come from the background and request the user's response. A Dialog Notification: It is Used for Activity-related notifications."
+    },
+    {
+      "ques": "What are the advantages of having an emulator within the Android environment?",
+      "ans": "The emulator allows the developers to work around an interface which acts as if it were an actual mobile device.- They can write, test and debug the code.- They are safe for testing the code in early design phase"
+    },
+    {
+      "ques": "Tell us something about activityCreator?",
+      "ans": "An activityCreator is the initial step for creation of a new Android project.- It consists of a shell script that is used to create new file system structure required for writing codes in Android IDE."
+    },
+    {
+      "ques": "What do intent filters do?",
+      "ans": "There can be more than one intents, depending on the services and activities that are going to use them. Each component needs to tell which intents they want to respond to.- Intent filters filter out the intents that these components are willing to respond to."
+    },
+    {
+      "ques": "Where are lay out details placed? Why?",
+      "ans": "Layout details are placed in XML files- XML-based layouts provide a consistent and standard means of setting GUI definition format."
+    },
+    {
+      "ques": "What are containers?",
+      "ans": "Containers, as the name itself implies, holds objects and widgets together, depending on which specific items are needed and in what particular arrangement that is wanted. Containers may hold labels, fields, buttons, or even child containers, as examples."
+    },
+    {
+      "ques": "What is the importance of Android in the mobile market?",
+      "ans": "Developers can write and register apps that will specifically run under the Android environment. This means that every mobile device that is Android enabled will be able to support and run these apps. With the growing popularity of Android mobile devices, developers can take advantage of this trend by creating and uploading their apps on the Android Market for distribution to anyone who wants to download it."
+    },
+    {
+      "ques": "Which elements can occur only once and must be present?",
+      "ans": "Among the different elements, the and elements must be present and can occur only once. The rest are optional, and can occur as many times as needed."
+    },
+    {
+      "ques": "How are escape characters used as attribute?",
+      "ans": "Escape characters are preceded by double backslashes. For example, a newline character is created using ‘\\n’"
+    },
+    {
+      "ques": "What is the AndroidManifest.xml?",
+      "ans": "This file is essential in every application. It is declared in the root directory and contains information about the application that the Android system must know before the codes can be executed"
+    },
+    {
+      "ques": "What is a visible activity?",
+      "ans": "A visible activity is one that sits behind a foreground dialog. It is actually visible to the user, but not necessarily being in the foreground itself."
+    },
+    {
+      "ques": "How do you remove icons and widgets from the main screen of the Android device?",
+      "ans": "To remove an icon or shortcut, press and hold that icon. You then drag it downwards to the lower part of the screen where a remove button appears."
+    },
+    {
+      "ques": "Do all mobile phones support the latest Android operating system?",
+      "ans": "Some Android-powered phone allows you to upgrade to the higher Android operating system version. However, not all upgrades would allow you to get the latest version. It depends largely on the capability and specs of the phone, whether it can support the newer features available under the latest Android version."
+    },
+    {
+      "ques": "What is an action?",
+      "ans": "In Android development, an action is what the intent sender wants to do or expected to get as a response. Most application functionality is based on the intended action."
+    },
+    {
+      "ques": "What is the Android Open Source Project?",
+      "ans": "We use the phrase “Android Open Source Project” or “AOSP” to refer to the people, the processes, and the source code that make up Android."
+    },
+    {
+      "ques": "What is the Guardian app for Android?",
+      "ans": "The Guardian app for Android delivers all the best content from guardian.co.uk to your phone or tablet. Read the latest news, sport, comment and reviews, watch video, listen to brodcasts and browse stunning picture galleries while on the move."
+    },
+    {
+      "ques": "What is Mono for Android?",
+      "ans": "Mono for Android is a software development kit that allows developers to use the C# language to create mobile applications for Android-based devices.Mono for Android exposes two sets of APIs, the core .NET APIs that C# developers are familiar with as well as a C# binding to Android's native APIs exposed through the Mono.Android.* namespace.You can use Mono for Android to develop applications that are distributed through the Android Application Stores or to deploy software to your personal hardware or the Android simulator"
+    },
+    {
+      "ques": "What is included in Mono for Android?",
+      "ans": ". Mono for Android consists of the core Mono runtime, the Mono for Android bindings to the native Android APIs, a Visual Studio 2010 plugin to develop Android applications and an SDK that contains the tools to build, debug and deploy your applicationsOur Visual Studio 2010 plugin allows developers to use Visual Studio 2010 to develop, debug and deploy their applications to an Android simulator, an Android device, or the Android Application Store. Our MonoDevelop IDE also ships an addin to support Mono for Android development"
+    },
+    {
+      "ques": "What do I need to develop Mono for Android applications?",
+      "ans": "Mono for Android on Windows provides a plugin for Visual Studio 2010 Professional or better. We also support Mono for Android development using MonoDevelop on Windows for users that do not own a copy of Visual Studio 2010 Professional or better.Mono for Android on Mac developers can use MonoDevelop.On all platforms, Mono for Android requires the Android SDK (which requires Java JDK)."
+    },
+    {
+      "ques": "Will my users need to install Mono?",
+      "ans": ". No, When you deploy your application to the app store the Mono mobile runtime is statically linked to your application. No additional dependancies are needed. From the users point of view, there is no difference between an application created in Java and an application created using Mono for Android, other than a slightly larger (~4.4MB) application size."
+    },
+    {
+      "ques": ". How do I turn off, or reboot Android?",
+      "ans": "In earlier releases, you had to pull the battery or press the reset button, in newer releases, you can hold down the 'end call' button and see a menu."
+    },
+    {
+      "ques": "Are Android phones called Droids? ",
+      "ans": ". Not necessarily. Droid is a brand name used by Verizon Wireless for its Android-based phones — the Droid X, the Droid Eris, the Droid Incredible and so on. The HTC Evo 4G on Sprint is not a Droid, per se, but it’s still an Android smartphone"
+    },
+    {
+      "ques": "How many apps are available for Android?",
+      "ans": "About 70,000 or so, growing by the day — still just a fraction of the 225,000-plus apps in the Apple App Store, but the official Android Marketplace has quite the head of steam, not to mention plenty of goodwill from the developer community given that Google doesn’t give apps the star-chamber treatment."
+    },
+    {
+      "ques": "How will you record a phone call in Android? How to get a handle on Audio Stream for a call in Android?",
+      "ans": "Permissions.PROCESS_OUTGOING_CALLS: Allows an application to monitor, modify, or abort outgoing calls"
+    }
+  ],
+  "experienceiqs": [
+    {
+      "ques": "Explain about the exceptions of Android?",
+      "ans": ".The following are the exceptions that are supported by Android * InflateException : When an error conditions are occurred, this exception is thrown * Surface.OutOfResourceException: When a surface is not created or resized, this exception is thrown * SurfaceHolder.BadSurfaceTypeException: This exception is thrown from the lockCanvas() method, when invoked on a Surface whose is SURFACE_TYPE_PUSH_BUFFERS * WindowManager.BadTokenException: This exception is thrown at the time of trying to add view an invalid WindowManager.LayoutParamstoken."
+    },
+    {
+      "ques": "What is .apk extension?",
+      "ans": "The extension for an Android package file, which typically contains all of the files related to a single Android application. The file itself is a compressed collection of an AndroidManifest.xml file, application code (.dex files), resource files, and other files. A project is compiled into a single .apk file."
+    },
+    {
+      "ques": "What is .dex extension?",
+      "ans": "Android programs are compiled into .dex (Dalvik Executable) files, which are in turn zipped into a single .apk file on the device. .dex files can be created by automatically translating compiled applications written in the Java programming language."
+    },
+    {
+      "ques": "How to Remove Desktop icons and Widgets?",
+      "ans": "Press and Hold the icon or widget. The phone will vibrate and on the bottom of the phone you will see anoption to remove. While still holding the icon or widget drag it to the remove button. Once remove turns red drop the item and it is gone"
+    },
+    {
+      "ques": "Why did we open the Android source code?",
+      "ans": "Google started the Android project in response to our own experiences launching mobile apps. We wanted to make sure that there would always be an open platform available for carriers, OEMs, and developers to use to make their innovative ideas a reality. We also wanted to make sure that there was no central point of failure, so that no single industry player could restrict or control the innovations of any other. The single most important goal of the Android Open-Source Project (AOSP) is to make sure that the open-source Android software is implemented as widely and compatibly as possible, to everyone’s benefit."
+    },
+    {
+      "ques": "What is the Guardian app for Android?",
+      "ans": ".The Guardian app for Android delivers all the best content from guardian.co.uk to your phone or tablet. Read the latest news, sport, comment and reviews, watch video, listen to brodcasts and browse stunning picture galleries while on the move."
+    },
+    {
+      "ques": "We use SMS interception for system signalling. Is there a mechanism for an app to respond and stop the signaling chain? Is there security around that so that one vendor can’t hijack a message and respond to it?",
+      "ans": "There’s a mechanism where an application can register to receive a message with a certain signature and prevent others from getting it. We have a system of permissions apps are able to declare, enforce, and require to perform certain operations. Things like dial the phone, get to contacts, etc.. But these aren’t things that are baked in the core of the system. An arbitrary app could declare custom permissions. As far as restricting another app, the model we’ve been going by… the phone is not controlled by the application vendor, it’s controlled by the user. Whether or not the permissions are granted is up to the user that owns the phone. If you created a protocol that intercepts an SMS and another party wrote an app that intercepts the same SMS and the user wants to use that, the user could be free to stick that in."
+    },
+    {
+      "ques": "Why would I (potentially) choose an Android phone over an iPhone? ",
+      "ans": "Well, for a variety of reasons — although I should point out that I’m actually a fan of both operating systems. (Sorry to disappoint the smartphone flame warriors out there.) One reason to go the Google way is that Android phones boast tight integration with Google services like Gmail, Google Calendar, Google Contacts and Google Voice — perfect for anyone who uses Google for all their e-mails, contacts and events. Indeed, one of the coolest things about Android phones is that the first time you fire one up, you enter your Google user name and password, and voila: All your Google messages, contacts and other info start syncing into your new handset automatically, no desktop syncing needed. Android is also far more open when it comes to applications. Whereas Apple takes a 'walled garden' approach to its App Store, Google won’t restrict you from installing apps that aren’t featured in its official Android Marketplace. iPhone users, on the other hand, must 'jailbreak' their phones if they want to install apps that weren’t approved by Apple for inclusion in the App Store. Last but not least, because Android is open to all manufacturers, a wide variety of Android phones are available to choose from — big and small, souped-up and pared-down, some with slide-out keyboards (good luck convincing Steve Jobs to put a slide-out QWERTY on the iPhone) and some that are all-touchscreen, all the time. Indeed, in the past few months, a new Android phone has debuted practically every week, while we only get a single new iPhone each year."
+    },
+    {
+      "ques": "What are the downsides of Android?",
+      "ans": "Well, if you ask me, the Android OS isn’t quite as forgiving to wireless beginners as the iPhone is. Setting up your e-mail, contacts and calendar on Android is a breeze (if you’re all about Gmail, that is), but when it comes to, say, your music and videos, you’re on your own with Android, which lacks an official media syncing client for the desktop. With the iPhone, you do all your syncing on easy-to-use iTunes, which also lets you manage your e-mail accounts, contacts, apps and photos. Then again, you can only use iTunes for syncing the iPhone, while Android users have a variety of third-party options. That’s just one example, but in general, Android gives you more options and choices about how you manage your phone and your mobile content — great for experienced and advanced users, but potentially intimating for new mobiles. On the other hand, while beginners might appreciate the (usually) smooth, user-friendly experience that Apple has devised for the iPhone, advanced users may (and often do) get frustrated by Apple’s tight control over what they can and can't do on the iPhone. It’s a trade-off, plain and simple, and your choice of platform depends on what’s right for you."
+    },
+    {
+      "ques": " Why cannot you run standard Java bytecode on Android?",
+      "ans": ". Android uses Dalvik Virtual Machine (DVM) which requires a special bytecode. We need to convert Java class files into Dalvik Executable files using an Android tool called 'dx'. In normal circumstances, developers will not be using this tool directly and build tools will care for the generation of DVM compatible files."
+    },
+    {
+      "ques": "Can you deploy executable JARs on Android? Which packaging is supported by Android?",
+      "ans": "No. Android platform does not support JAR deployments. Applications are packed into Android Package (.apk) using Android Asset Packaging Tool (aapt) and then deployed on to Android platform. Google provides Android Development Tools for Eclipse that can be used to generate Android Package."
+    },
+    {
+      "ques": "What are Dalvik Executable files?",
+      "ans": "Dalvik Executable files have .dex extension and are zipped into a single .apk file on the device"
+    },
+    {
+      "ques": "How does Android system track the applications?",
+      "ans": "Android system assigns each application a unique ID that is called Linux user ID. This ID is used to track each application."
+    },
+    {
+      "ques": "When does Android start and end an application process?",
+      "ans": "Android starts an application process when application's component needs to be executed. It then closes the process when it's no longer needed (garbage collection)"
+    },
+    {
+      "ques": "How can two Android applications share same Linux user ID and share same VM?",
+      "ans": "The applications must sign with the same certificate in order to share same Linux user ID and share same VM."
+    },
+    {
+      "ques": "What were your initial impressions of Android development?",
+      "ans": "Maxim Petrov: Android developing (and actually, any software developing) is not about knowing the language - languages are just tools, so adding a tool to a toolbox is usually not a problem (I moved to Android/Java/C dev right from Ruby - and these are completely different languages). Given experience with any other languages, you can move to Android pretty quickly, at least start prototyping something, though, you need to fight the initial quirks (like SDK installation, lack of good documentation, android SDK/Eclipse and framework bugs, and the Android core devs' 'you can't do that, please don't do that').Android development infrastructure is very immature, while Android end user can never notice the immaturity of the platform (as actually, it's not so immature on end user side), the development side of things is really lacking in many areas.For example, documentation is lacking, often conflicts with real state of things and it's just not enough. Though, this is balanced by the fact that Android is open source - you can just go check the source, and the source is the best documentation, but you need to get used (I am) to this approach. For example, Honeycomb sources are not published yet, and this immediately raised questions, like how do they activate that menu button in bottom status bar."
+    },
+    {
+      "ques": "What is BroadReceivers?",
+      "ans": "BroadcastReceiver is a component that does nothing but receive and react to broadcast announcements. For example, the battery is low or that the user changed a language preference"
+    },
+    {
+      "ques": "Types of Android applications?",
+      "ans": "Foreground,Background,Intermittent,Widget"
+    },
+    {
+      "ques": "Implicent Intents and Late Runtime Binding?",
+      "ans": "An implicit Intent is mechanism that lets anonymous application components service action request. That means you can ask the system to launch an Activity that can perform a given action without knowing which application ,or Activity , will do so."
+    },
+    {
+      "ques": "What are Native Android Actions?",
+      "ans": " Native Android applications also use Intents to launch Activities and sub Activities ACTION-ANSWER Opens an Activity that handles immediately initiates a call using the number supplied in the Intent URI. Genereally it's considered better from to use ACTION_DIAL if possible. ACTION_DELETE Starts an Activity hat lets you delete the data specified at that Intent's data URI.ACTION_DIAL Brings up a dialer application with the number to dial pre-populated from the Intent URI. By default this is handled by the native Android phone dialer.ACTION_EDIT Requests an Activity that can edit that data at the specified Intent URI.ACTION_INSERT,ACTION_PICK,ACTION_SEARCH,ACTION_SENDTO,ACTION_SEND,ACTION_VIEW,ACTION_WEB_SEARCH"
+    },
+    {
+      "ques": "What is the importance of XML-based layouts?",
+      "ans": "The use of XML-based layouts provides a consistent and somewhat standard means of setting GUI definition format. In common practice, layout details are placed in XML files while other items are placed in source files."
+    },
+    {
+      "ques": "What are containers?",
+      "ans": "Containers, as the name itself implies, holds objects and widgets together, depending on which specific items are needed and in what particular arrangement that is wanted. Containers may hold labels, fields, buttons, or even child containers, as examples."
+    },
+    {
+      "ques": "What is Orientation?",
+      "ans": "Orientation, which can be set using setOrientation(), dictates if the LinearLayout is represented as a row or as a column. Values are set as either HORIZONTAL or VERTICAL."
+    },
+    {
+      "ques": "What do you think are some disadvantages of Android?",
+      "ans": "Given that Android is an open-source platform, and the fact that different Android operating systems have been released on different mobile devices, there’s no clear cut policy to how applications can adapt with various OS versions and upgrades. One app that runs on this particular version of Android OS may or may not run on another version. Another disadvantage is that since mobile devices such as phones and tabs come in different sizes and forms, it poses a challenge for developers to create apps that can adjust correctly to the right screen size and other varying features and specs."
+    },
+    {
+      "ques": "What is adb?",
+      "ans": "Adb is short for Android Debug Bridge. It allows developers the power to execute remote shell commands. Its basic function is to allow and control communication towards and from the emulator port."
+    },
+    {
+      "ques": "What are the four essential states of an activity?",
+      "ans": "Active – if the activity is at the foreground. Paused – if the activity is at the background and still visible. Stopped – if the activity is not visible and therefore is hidden or obscured by another activity.Destroyed – when the activity process is killed or completed terminated."
+    },
+    {
+      "ques": "What is ANR?",
+      "ans": "ANR is short for Application Not Responding. This is actually a dialog that appears to the user whenever an application have been unresponsive for a long period of time."
+    },
+    {
+      "ques": "Which elements can occur only once and must be present?",
+      "ans": "Among the different elements, the and elements must be present and can occur only once. The rest are optional, and can occur as many times as needed."
+    },
+    {
+      "ques": "Is there a case wherein other qualifiers in multiple resources take precedence over locale?",
+      "ans": "Yes, there are actually instances wherein some qualifiers can take precedence over locale. There are two known exceptions, which are the MCC (mobile country code) and MNC (mobile network code) qualifiers."
+    },
+    {
+      "ques": "What is the proper way of setting up an Android-powered device for app development?",
+      "ans": "The following are steps to be followed prior to actual application development in an Android-powered device: -Declare your application as “debuggable” in your Android Manifest. Turn on “USB Debugging” on your device. Set up your system to detect your device"
+    },
+    {
+      "ques": "What are the steps in creating a bounded service through AIDL.",
+      "ans": " create the .aidl file, which defines the programming interface implement the interface, which involves extending the inner abstract Stub class as well as implanting its methods.expose the interface, which involves implementing the service to the clients."
+    },
+    {
+      "ques": "What data types are supported by AIDL?",
+      "ans": "AIDL has support for the following data types: string,charSequence,List,Map all native Java data types like int, long, char and Boolean"
+    },
+    {
+      "ques": "Is it possible to use or add a fragment without using a user interface?",
+      "ans": "Yes, it is possible to do that, such as when you want to create a background behavior for a particular activity. You can do this by using add(Fragment, string) method to add a fragment from the activity."
+    },
+    {
+      "ques": "Do all mobile phones support the latest Android operating system?",
+      "ans": "Some Android-powered phone allows you to upgrade to the higher Android operating system version. However, not all upgrades would allow you to get the latest version. It depends largely on the capability and specs of the phone, whether it can support the newer features available under the latest Android version."
+    },
+    {
+      "ques": "What is the difference between a regular bitmap and a nine-patch image?",
+      "ans": "In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes."
+    },
+    {
+      "ques": "What do containers hold?",
+      "ans": "Containers hold objects and widgets in a specified arrangement. They can also hold labels, fields, buttons, or child containers. ."
+    },
+    {
+      "ques": "What are the steps that are involved in converting the android in newer version?",
+      "ans": " In the beginning of the creation the software gets the built or the earlier version of the system image. This includes various certifications and deployment rules and regulations.The built goes through operator testing and this is one of the important phase as it allows lot of bugs to be found and corrected.The release then goes the regulators, moderators and operators to produce the devices to release the source code. The code that is written is checked for errors and there is a sign of the agreement that take place between the contributors and some verification are performed.The production of the software begins and the release process starts and then the release will allow the users to grab the devices."
+    },
+    {
+      "ques": "What is the role of compatibility that is used in Android?",
+      "ans": "The compatibility is defined in terms of android compatible devices that run any application. This application is written by third party developers using the Android platform that comes in the form of SDK and NDK. - There are many filters that are used to separate devices that are there to participate in the compatibility mode for the Android applications. The devices that are compatible require the android to approve it for their trademark. The devices that are not passes the compatibility are just given in the Android source code and can use the android trademark.- The compatibility is a way through which the user can participate in the Android application platform. The source code is free to use and it can be used by anyone."
+    },
+    {
+      "ques": "What are the different forms of communication provided by the Android applications?",
+      "ans": " Internet telephony: This is used to add SIP-based features to the application. This includes the full SIP protocol stack and includes integrated call management services. These services allow setting the ongoing and incoming voice calls without managing the sessions at the transport level. This provides the communication to be successful by determining the associated carriers.NFC (Near field communications): This is used to allow the communication to happen between the developers that create the new class of application. These new applications are created and provided as a service to the users, organizations, merchants and advertisers. It allows the tagging of application that interests the user. The tag allows the user to communicate through wireless telephony services and allow the use of device hardware."
+    },
+    {
+      "ques": "What are the multimedia features involved in making Android popular?",
+      "ans": "There is the demand for the rich multimedia that involves many features that are used till now to make the Android market more popular in all the phases. The application includes the following:- Mixable audio effects – developer can easily create audio environments using the API key that is provided with it like creating equalization, bass boost, headphone feature, etc. The android provide the tools that can be used to mix the audio effects and apply it.- There is also support for new media formats like VP8 open video compression format that uses a container format that can run on all the platforms and add the support for AAC and AMR encoding. The applications provided allow higher quality video to be captured.- The application allows the access to multiple cameras that allows the use of APIs to include the camera and its properties in one. The platform provides the application to include the camera with high and low resolution."
+    },
+    {
+      "ques": "What are the services that can be allowed to run in a single process?",
+      "ans": "Android allows all the services and applications to run on a single process. This behavior is the default behavior that can be changed by using the different settings and functions. - The process can be declared by using android: process attribute. This places the component explicitly on the process. Service is not a separate process and itself it’s a process if not defined separately. - The service is not used as a thread as well but it defines other threads in the program to do the work and create the application.- The application runs and finds the errors in the program and the service just takes the necessary actions on them. The service also responds to the errors whenever necessary."
+    },
+    {
+      "ques": "What are the steps that are required in Service Lifecycle?",
+      "ans": "The service starts with Context.startService() function and the system will retrieve the service using onCreate() method. To start the service it calls on onStartCommand(Intent, int, int)method with proper arguments that are given by the client.- If the service is running and due to some problem the user doesn't want to run it then it uses Context.stopService()or stopSelf() method to properly implement the service for the user.- Due to multiple calls of the Context.startService() method the program doesn't do any nesting of the program and shows the stopping of the services.- Services can use the command stopSelf(int)method to stop their own service. A service doesn't stop untill all the processes are processed."
+    },
+    {
+      "ques": "What are the different modes of operations used in services for Android?",
+      "ans": "There are two modes of operations that are necessary to run depending on the value returned by the startcommand(). The modes are as follows:- START_STICKY: this mode is used for the services that are explicitly started and stopped according to the need and the requirement of the user.- START_NOT_STICKY or START_REDELIEVER_INTENT: this service mode is used for services that are running only when the processing command sent to them. That means these run on the basis of the command that is passed to them by giving the instruction of execution.- Clients uses the Context.bindService() that is used to get the persistent connection for a service. To create a service that is not already running the command onCreate is used"
+    },
+    {
+      "ques": "What is the main reason of using process lifecycle in Android?",
+      "ans": "The android system will keep all the process that are hosting the services together at one place till the time the service is not started or connected to the client. The priority of the process is divided when running low on memory or when the process has to be killed.The process lifecycle is as follows:- The service is running currently then the methods onCreate(), onStartCommand(), and onDestroy()methods, will run in the foreground to execute the process without being killed.- The service is already started then the process can be considered as less important then the processes that are currently visible and used. This is done as there are only few processes that are visible to the users on the screen.- The clients are bounded to the services they are providing requires more priority in the execution list.- The service that is started uses startForeground(int, Notification)API to allow all the services to run in the foreground state. The system considers only the services where the user is still active as the services not to be killed."
+    },
+    {
+      "ques": "How all the activities that are running run in main thread?",
+      "ans": "All the applications that are running or can be accessed runs in main thread of user interface by default. The modification can be done to make it run differently or to make it run or not at all. The exception also comes defining that the code handles the IPC calls that are coming from other processes. The system used to maintain separate pools for all the processes and threads. One pool consists of the transaction threads that are in each process to dispatch all the incoming calls. It also allows the interpersonal calls to be handled in a specialized manner. This allows the creation of separate threads that is used for long-running code, and to avoid blocking of the main user interface threads. The services that run can be killed by the system if it is going out of memory. The system restart the service and implement onStartCommand() to bring the activities back in the memory pool."
+    },
+    {
+      "ques": "What are the different approaches that are required to share the objects?",
+      "ans": "There are several types of approaches that are required to share the objects and all of them are listed below:- Singleton class: is used for the application components that run in the same process. This allows the design to run only one instance at a time. It includes static methods with a name like getInstance(). This method returns the instance whenever it is called for the first time. This method also creates a global instance so that it can be called easily without using more memory in creation and destroying of the process.- A public static field or method: is used as an alternate method to make the data accessible across Activities and Services that is to be used by the public. This defines the static fields or methods that are used by other classes in the application. The method is used to share an object that gets created by the static field pointing to an object and other accessible fields.- A HashMap of WeakReferences to Objects: provide some long keys that map the activities that is called by an object from another object. This after mapping sends a key that is unique and long to show the truthfulness of the object."
+    },
+    {
+      "ques": "What are the approaches required to share persistent user-defined objects?",
+      "ans": "Persistent objects come when there is process that is in the running state and the system can perform any action like restart or kill. If there is any data that will persist and required from another data then it is very essential to save it and share it so that if one activity is down, another activity can be performed without any hindrance. To share the complex persistent user-defined objects, it is required to have the approaches like:- Application preferences: that is used to allow the user to change the setting of preferences and make it accessible by some other objects.- Files: permissions on the files can be set so that any other file can also use and share the objects- Content providers: allow easy to follow patterns that allow the user to select the object and share it with other functions.- Database: the database can be used to store the user data and can easily link between the user and the entity that are present in it."
+    },
+    {
+      "ques": "What is the procedure to check status of an activity in Android?",
+      "ans": " The status of an activity can be start and stop only. The start means the activity is up and running. It is in execution state and performing some actions. Whereas the stop state defines that the activity is being stopped and performing no action on the system.- To see or check the status of an activity there is a command that has to be used like NEW_TASK_LAUNCH flag that keeps the track of all the activities that are running and the main command under which the flag resides is given as startActivity() call. To bring the activity stack in front of the process that is already running require the command mentioned above to be used. The activity can be started remotely by using the remote services. These services allow easy interaction with the client and provide the sample to show it on the local server."
+    },
+    {
+      "ques": "What are the security measures that are taken to make Android secure?",
+      "ans": "Android uses many security measures to keep them away from the hackers. They have designed by making changes to the devices or installing a software service on the mobile. Android application uses sandbox that is very popular and allow limited access to the information that is very private and sensitive for the user. It allows the permissions to be set for the use of the information. The security measures that are provided by android is the use of the encryption of the messages that allow user to remain without worry about there phone security. They also consists of user terms and agreements that also taken care of. Most of the time android doesn't allow other applications to run on their system but it can be done by using different resources that are available on-line. As, android is open source it is not fully secure but lots of security issues are being solved for make it more popular and bug free."
+    },
+    {
+      "ques": "Which are the different tags that are required to create reusable user interface that include the layout?",
+      "ans": "Android offers wide range of user interface widgets through which the reusable user interface can be made. It requires some buttons to be made and also allow multiple widgets to be combined using the single and reusable component. There are XML layout files that are used in which each tag can be mapped to the class instance. The tags that are used are:- <requestFocus />: this allows the component to remain in focus.- <merge />: merge the components and their properties into one to create a reusable component code- <include />: this includes the library files and visual components of XML. This also uses- <merge /> tag that can be combined with it to create the merging layout.To create the layout these are the tags that are required and essential. The XML visual components are also used to define the overall structure of the layout."
+    },
+    {
+      "ques": "What are the steps required to avoid context related memory leaks?",
+      "ans": "The steps that are required to check and avoid the context-related memory leaks are as follows:- Never keep the long-lived references linked with the context-activity. This reference can be of the same life as the activity or can be of different length that depends on the type of activity that is getting performed on the action.- Use of context-application is much better than the context-activity as it allows the application to be reused again and again and the activity can be viewed or executed only once. The application takes less time to execute and activity can take more due to consisting of more than one application in it.- Non-static inner classes should be avoided while getting used in the activity, as it doesn't control the life-cycle of the static-inner class and make some weak reference to the activities that are inside the process and getting used.- There should not be relying upon the garbage collector as it is not the ultimate solution for the memory leaks that are defined."
+    },
+    {
+      "ques": "What are the steps required in setting up the linkify calls intent?",
+      "ans": "Linkify is used to route the intent in an activity. This linkify allows the calls to be invoked and allow an activity to be handled. The process of executing the linkfy is as follows:- Linkfy is used to invoke the process in the TextView and allow the matching of the patterns to be turned into the intent links.- Linkify monitors the intent links that is being selected by the user and allow it to be modified for further actions.- Linkfy allows the user to select the link and when user selects it, it calls the VIEW action on the content that uses an URI that is associated with the link.- Android takes the content that is represented by the URI and the data that is used. It looks for the ContentProvider component that is registered with the system and matches the URI of the content that is getting produced.- If the match is found for the query done by android then the URI gets used by the ContentProvider and MIME type of data can be returned for the URI.- Android uses the activity registered in the system that uses the intent-filter matching both the VIEW action and the MIME type for the data that can be linked with the URI"
+    },
+    {
+      "ques": "Enumerate the three key loops when monitoring an activity",
+      "ans": "Entire lifetime – activity happens between onCreate and onDestroy– Visible lifetime – activity happens between onStart and onStop– Foreground lifetime – activity happens between onResume and onPause"
+    },
+    {
+      "ques": "When is the onStop() method invoked?",
+      "ans": "A call to onStop method happens when an activity is no longer visible to the user, either because another activity has taken over or if in front of that activity."
+    },
+    {
+      "ques": "Is there a case wherein other qualifiers in multiple resources take precedence over locale?",
+      "ans": "Yes, there are actually instances wherein some qualifiers can take precedence over locale. There are two known exceptions, which are the MCC (mobile country code) and MNC (mobile network code) qualifiers."
+    },
+    {
+      "ques": "How can the ANR be prevented?",
+      "ans": "One technique that prevents the Android system from concluding a code that has been responsive for a long period of time is to create a child thread. Within the child thread, most of the actual workings of the codes can be placed, so that the main thread runs with minimal periods of unresponsive times."
+    },
+    {
+      "ques": " What is the proper way of setting up an Android-powered device for app development?",
+      "ans": "The following are steps to be followed prior to actual application development in an Android-powered device:-Declare your application as “debuggable” in your Android Manifest.-Turn on “USB Debugging” on your device.-Set up your system to detect your device."
+    },
+    {
+      "ques": "When dealing with multiple resources, which one takes precedence?",
+      "ans": "Assuming that all of these multiple resources are able to match the configuration of a device, the ‘locale’ qualifier almost always takes the highest precedence over the others."
+    },
+    {
+      "ques": "When does ANR occur?",
+      "ans": "The ANR dialog is displayed to the user based on two possible conditions. One is when there is no response to an input event within 5 seconds, and the other is when a broadcast receiver is not done executing within 10 seconds."
+    },
+    {
+      "ques": "What is a visible activity?",
+      "ans": "A visible activity is one that sits behind a foreground dialog. It is actually visible to the user, but not necessarily being in the foreground itself."
+    },
+    {
+      "ques": "When is the best time to kill a foreground activity?",
+      "ans": "The foreground activity, being the most important among the other states, is only killed or terminated as a last resort, especially if it is already consuming too much memory. When a memory paging state has been reach by a foreground activity, then it is killed so that the user interface can retain its responsiveness to the user."
+    },
+    {
+      "ques": "Is it possible to use or add a fragment without using a user interface?",
+      "ans": "Yes, it is possible to do that, such as when you want to create a background behavior for a particular activity. You can do this by using add(Fragment,string) method to add a fragment from the activity."
+    },
+    {
+      "ques": "What composes a typical Android application project?",
+      "ans": "A project under Android development, upon compilation, becomes an .apk file. This apk file format is actually made up of the AndroidManifest.xml file, application code, resource files, and other related files."
+    },
+    {
+      "ques": "What is a Sticky Intent?",
+      "ans": "A Sticky Intent is a broadcast from sendStickyBroadcast() method such that the intent floats around even after the broadcast, allowing others to collect data from it."
+    },
+    {
+      "ques": "What is the difference between Activity and AppCompatActivity?",
+      "ans": "AppCompatActivity provides native ActionBar support that is consistent across the application. Also it provides backward compatibility for other material design components till SDK version 7(ActionBar was natively available since SDK 11). Extending an Activity doesn’t provide any of these.Note: Since SDK 21 every activity by default, extends AppCompatActivity."
+    },
+    {
+      "ques": "What is Android Support Library and why is it recommended?",
+      "ans": "Android platform supports a wide variety of the versions and devices to choose from. With the release of every new version, new Android APIs are added and evolved. To make these new Android APIs available to users on older devices the Android Support Library was designed. Android Support Library provides developers with newer APIs that are compatible on older framework releases."
+    },
+    {
+      "ques": "Describe the structure of Android Support Library?",
+      "ans": "Android Support Library is not just a single library. It’s a collection of libraries that have different naming conventions and usages. On a higher level, it’s divided into three types;Compatibility Libraries: These focus on back porting features so that older frameworks can take advantage of newer releases. The major libraries include v4 and v7-appcompat. v4 includes classes like DrawerLayout and ViewPager while appcompat-v7 provides classes for support ActionBar and ToolBar.Component Libraries: These include libraries of certain modules that don’t depend on other support library dependencies. They can be easily added or removed. Examples include v7-recyclerview and v7-cardview.Miscellaneous libraries: The Android support libraries consists of few other libraries such as v8 which provides support for RenderScript, annotations for supporting annotations like @NonNull"
+    },
+    {
+      "ques": "Pressing the home button from an application invokes onPause() and onStop(). Describe a scenario where only the onPause() gets invoked.",
+      "ans": "Create and launch a new activity which obscures the current activity partially. This can be done by defining the layout_width and layout_height to partially cover the screen. This would keep the first activity visible but not in foreground. Example: define the layout_width and layout_height as 200dp each."
+    },
+    {
+      "ques": "Does the input text entered in the EditText persist when the orientation is changed? Yes/No? Explain",
+      "ans": "No. Despite the configChanges defined in the AndroidManifest.xml the EditText input text entered resets when the orientation is changed. This is because no resource id has been defined. On orientation change the instance of the EditText gets lost. To fix this issue to work correctly add an android:id attribute element in the EditText tag."
+    },
+    {
+      "ques": "Why is android:configChanges not recommended? Are there more better ways to handle orientation changes?",
+      "ans": "android:configChanges is not the recommended way by Google. Though it’s the simplest way to use, it comes with it’s own share of drawbacks. First, the common perception that android:configChanges = “orientation” will magically retain the data is a complete misinterpretation. The orientation changes can occur from a number of other events such as changing the default language can trigger a configuration change and destroy and recreate the activity.Second, the activity can restart itself if it’s in the background and Android decides to free up it’s heap memory by killing it. When the application returns to the foreground it’ll restart it’s data to the original state and the user may not like that.A better alternative of android:configChanges is;Saving the current state of the activity when it’s being destroyed and restoring the valuable data when it’s restarted can be done by overriding the methods onSaveInstanceState() and onRestoreInstanceState() of the activity class."
+    },
+    {
+      "ques": "Where do onSaveInstanceState() and onRestoreInstanceState() come in the activity lifecycle? How is the data saved and restored from these methods?",
+      "ans": "In general the onSaveInstanceState() is invoked after onPause() and before the onStop(). But the API documentation explicitly states that the onSaveInstanceState( ) method will be called before onStop() but makes no guarantees it will be called before or after onPause(). The onRestoreInstanceState() is called after onStart() is invoked. The onRestoreInstanceState() method is invoked only when the activity was killed before. If the activity is NOT killed the onSaveInstanceState() is NOT called.When the activity is being destroyed, the onSaveInstanceState() gets invoked. The onSaveInstanceState contains a Bundle parameter. The data to be saved is stored in the bundle object in the form of a HashMap.The bundle object is like a custom HashMap object. The data is retrieved in the onRestoreInstanceState() method using the keys."
+    },
+    {
+      "ques": "How to keep the screen orientation fixed? Also implement a mechanism so that the screen is always on for a particular activity.",
+      "ans": "The screen orientation can be fixed by adding the attribute android:screenOrientation='portrait' or android:screenOrientation='landscape' in the activity tag.To keep the screen always on for a particular screen add the android:keepScreenOn='true' in the root tag of the activity layout."
+    },
+    {
+      "ques": "Describe three common usages of intent and how are they invoked.",
+      "ans": "Android Intents are used to start an activity – startActivity(intent),start a service – startService(intent),deliver a broadcast – sendBroadcast(intent)"
+    },
+    {
+      "ques": "What’s the difference between setFlags() and addFlags() on an Intent object?",
+      "ans": "When we’re using setFlags, we’re replacing the oldFlags with a new set of Flags. When we use addFlags, we’re appending more flags."
+    },
+    {
+      "ques": "What’s the difference between FLAG_ACTIVITY_CLEAR_TASK and FLAG_ACTIVITY_CLEAR_TOP?",
+      "ans": "FLAG_ACTIVITY_CLEAR_TASK is used to clear all the activities from the task including any existing instances of the class invoked. The Activity launched by intent becomes the new root of the otherwise empty task list. This flag has to be used in conjunction with FLAG_ ACTIVITY_NEW_TASK.FLAG_ACTIVITY_CLEAR_TOP on the other hand, if set and if an old instance of this Activity exists in the task list then barring that all the other activities are removed and that old activity becomes the root of the task list. Else if there’s no instance of that activity then a new instance of it is made the root of the task list. Using FLAG_ACTIVITY_NEW_TASK in conjunction is a good practice, though not necessary."
+    },
+    {
+      "ques": "Give one usage example where FLAG_ACTIVITY_NEW_TASK is necessary. Also describe how the activity responds to this flag?",
+      "ans": "When we’re trying to launch an activity from outside the activity’s context, a FLAG_ACTIVITY_NEW_TASK is compulsory else a runtime exception would be thrown.Example scenarios are: launching from a service, invoking an activity from a notification click.If the activity instance is already on the task list when the flag is set, it will invoke the onNewIntent() method of that Activity. All the implementation stuff goes in that method."
+    },
+    {
+      "ques": "What is taskAffinity?",
+      "ans": "A taskAffinity is an attribute tag defined in the activity tag in the AndroidManifest.xml for launchMode singleInstance. Activities with similar taskAffinity values are grouped together in one task."
+    },
+    {
+      "ques": "Differentiate between LinearLayout, RelativeLayout, AbsoluteLayout.",
+      "ans": "A LinearLayout arranges it’s children in a single row or single column one after the other. A RelativeLayout arranges it’s children in positions relative to each other or relative to parent depending upon the LayoutParams defined for each view AbsoluteLayout needs the exact positions of the x and y coordinates of the view to position it. Though this is deprecated now."
+    },
+    {
+      "ques": "What’s the difference between a FrameLayout and a TableLayout.",
+      "ans": "A FrameLayout stacks up child views above each other with the last view added on the top. Though we can control the position of the children inside the FrameLayout using the layout_gravity attribute.When the width and height of the FrameLayout are set to wrap_content, the size of the FrameLayout equals the size of the largest child (plus padding).A TableLayout consists of TableRows. The children are arranged in the form of rows and columns."
+    },
+    {
+      "ques": "How is data stored in Shared Preferences? What’s the difference between commit() and apply()? Which is the recommended one?",
+      "ans": "Data is stored in SharedPreferences in the form of key-value pair(HashMap).commit() was introduced in API 1 whereas apply() came up with API 9,commit() writes the data synchronously and returns a boolean value of success or failure depending on the result immediately.apply() is asynchronous and it won’t return any boolean response. Also if there is an apply() outstanding and we perform another commit(). The commit() will be blocked until the apply() is not completed.commit() is instantaneous and performs disk writes. If we’re on the main UI thread apply() should be used since it’s asynchronous."
+    },
+    {
+      "ques": "Which method gets invoked when the user presses back button on the screen?",
+      "ans": "The onBackPressed() method of the Activity is invoked. Unless overridden it removes the current activity from the stack and goes to the previous activity."
+    },
+    {
+      "ques": "What is a PendingIntent?",
+      "ans": "A PendingIntent is a wrapper for the Intent object. It’s passed to a foreign application (NotificationManager, AlarmManager) such that when some given conditions are met, the desired action is performed on the intent object it holds onto. The foreign application performs the intent with the set of permissions defined in our application."
+    },
+    {
+      "ques": "What is the difference between AsyncTask and Thread class?",
+      "ans": "A Thread is generally used for long tasks to be run in background. We need a Handler class to use a Thread.An AsyncTask is an intelligent Thread subclass. It’s recommended to use AsyncTask when the caller class is the UI Thread as there is no need to manipulate the handlers. AsyncTask are generally used for small tasks that can communicate back with the main UI thread using the two methods onPreExecute() and onPostExecute() it has.A Handler class is preferred when we need to perform a background task repeatedly after every x seconds/minutes."
+    },
+    {
+      "ques": "Define and differentiate between the two types of services?",
+      "ans": "Services are largely divided into two categories : Bound Services and Unbound/Started ServicesBound Services: An Android component may bind itself to a Service using bindservice(). A bound service would run as long as the other application components are bound to it. As soon as the components call unbindService(), the service destroys itself.Unbound Services: A service is started when a component (like activity) calls startService() method and it runs in the background indefinitely even if the original component is destroyed."
+    },
+    {
+      "ques": "Differentiate between Broadcast Receivers and Services?",
+      "ans": "A service is used for long running tasks in background such as playing a music or tracking and updating the user's background location.A Broadcast Receiver is a component that once registered within an application executes the onReceive() method when some system event gets triggered. The events the receiver listens to are defined in the AndroidManifest.xml in the intent filters. Types of system events that a Broadcast Receiver listens to are:changes in network, boot completed, battery low, push notifications received etc. We can even send our own custom broadcasts using sendBroadcast(intent)."
+    },
+    {
+      "ques": "How does RecyclerView differ from ListView?",
+      "ans": "A RecyclerView recycles and reuses cells when scrolling. This is a default behaviour. It's possible to implement the same in a ListView too but we need to implement a ViewHolder thereA RecyclerView decouples list from its container so we can put list items easily at run time in the different containers (linearLayout, gridLayout) by setting LayoutManagerAnimations of RecyclerView items are decoupled and delegated to ItemAnimator"
+    },
+    {
+      "ques": "What happens to the AsyncTask when the Activity that's executes it, changes the orientation?",
+      "ans": "The lifecycle of an AsyncTask is not tied onto the Activity since it's occurring on a background thread. Hence an orientation change won't stop the AsyncTask. But if the AsyncTask tries to update the UI thread after the orientation is changed, it would give rise to java.lang.IllegalArgumentException: View not attached to window manager since it will try to update the former instances of the activity that got reset."
+    },
+    {
+      "ques": "What is the use of /assets and /res/raw/ folders?",
+      "ans": "/assets folder is empty by default. We can place files such as custom fonts, game data here. Also this folder is ideal for maintaining a custom dictionary for lookup. The original file name is preserved. These files are accessible using the AssetManager (getAssets())./res/raw folder is used to store xml files, and files like *.mp3, *.ogg etc. This folder gets built using aapt and the files are accessible using R.raw."
+    }
+  ],
+  "fresherresume": [
+    {
+      "freshresume": "resume1",
+      "freshtit": "Entry Level"
+    },
+    {
+      "freshresume": "leanandcool",
+      "freshtit": "Professional"
+    }
+  ],
+  "experienceresume": [
+    {
+      "expresume": "resume1",
+      "exprestit": "Smart"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Professional"
+    },
+    {
+      "expresume": "itentrylevel",
+      "exprestit": "Entry Level"
+    }
+  ],
+  "definitions": [
+    {
+      "ques": "Android Layout Types",
+      "ans": "There are number of Layouts provided by Android which you will use in almost all the Android applications to provide different view, look and feel.\n\n Linear Layout- LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally.\n\n Relative Layout- RelativeLayout is a view group that displays child views in relative positions.\n\n Table Layout -TableLayout is a view that groups views into rows and columns.\n\n Absolute Layout -AbsoluteLayout enables you to specify the exact location of its children.\n Frame Layout -The FrameLayout is a placeholder on screen that you can use to display a single view.\n\n List View- ListView is a view group that displays a list of scrollable items.\n\n Grid View -GridView is a ViewGroup that displays items in a two-dimensional, scrollable grid."
+    },
+    {
+      "ques": "Layout Attributes",
+      "ans": "Each layout has a set of attributes which define the visual properties of that layout. There are few common attributes among all the layouts and their are other attributes which are specific to that layout. Following are common attributes and will be applied to all the layouts:\n\n android:id -This is the ID which uniquely identifies the view.\n\n  android:layout_width -This is the width of the layout.\n\n android:layout_height- This is the height of the layout\n\n android:layout_marginTop -This is the extra space on the top side of the layout.\n\n android:layout_marginBottom- This is the extra space on the bottom side of the layout.\n\n android:layout_marginLeft- This is the extra space on the left side of the layout.\n\n android:layout_marginRight- This is the extra space on the right side of the layout.\n\n android:layout_gravity- This specifies how child Views are positioned.\n\n android:layout_weight -This specifies how much of the extra space in the layout should be allocated to the View.\n\n android:layout_x -This specifies the x-coordinate of the layout.\n\n android:layout_y -This specifies the y-coordinate of the layout.\n\nandroid:layout_width- This is the width of the layout.\n\n android:layout_width -This is the width of the layout.\n\n android:paddingLeft -This is the left padding filled for the layout.\n\n android:paddingRight -This is the right padding filled for the layout.\n\n android:paddingTop -This is the top padding filled for the layout.\n\n android:paddingBottom -This is the bottom padding filled for the layout."
+    },
+    {
+      "ques": "LayoutParams",
+      "ans": "Every single ViewGroup (e.g. LinearLayout, RelativeLayout, CoordinatorLayout, etc.) needs to store information about its children's properties. About the way its children are being laid out in the ViewGroup. This information is stored in objects of a wrapper class ViewGroup.LayoutParams.\nTo include parameters specific to a particular layout type, ViewGroups use subclasses of ViewGroup.LayoutParams class.\nE.g. for\nLinearLayout it's LinearLayout.LayoutParams ,RelativeLayout it's RelativeLayout.LayoutParams,CoordinatorLayout it's CoordinatorLayout.LayoutParams\n\nMost of ViewGroups reutilize the ability to set margins for their children, so they do not subclass ViewGroup.LayoutParams directly, but they subclass ViewGroup.MarginLayoutParams instead (which itself is a subclass of ViewGroup.LayoutParams)."
+    },
+    {
+      "ques": "Gravity and layout gravity",
+      "ans": "android:layout_gravity\n\nandroid:layout_gravity is used to set the position of an element in its parent (e.g. a child View inside a Layout).Supported by LinearLayout and FrameLayout\n\nandroid:gravity -\nandroid:gravity is used to set the position of content inside an element (e.g. a text inside a TextView)."
+    },
+    {
+      "ques": "CoordinatorLayout Scrolling Behavior",
+      "ans": "An enclosing CoordinatorLayout can be used to achieve Material Design Scrolling Effects when using inner layouts that support Nested Scrolling, such as NestedScrollView or RecyclerView.\n\nFor this example:\napp:layout_scrollFlags='scroll|enterAlways' is used in the Toolbar properties \n app:layout_behavior='@string/appbar_scrolling_view_behavior' is used in the ViewPager properties A RecyclerView is used in the ViewPager Fragments"
+    },
+    {
+      "ques": "Percent Layouts",
+      "ans": "The Percent Support Library provides PercentFrameLayout and PercentRelativeLayout, two ViewGroups that provide an easy way to specify View dimensions and margins in terms of a percentage of the overall size.\nYou can use the Percent Support Library by adding the following to your dependencies\n\ncompile 'com.android.support:percent:25.3.1'\n\nIf you wanted to display a view that fills the screen horizontally but only half the screen vertically you would do this."
+    },
+    {
+      "ques": "View Weight",
+      "ans": "One of the most used attribute for LinearLayout is the weight of its child views. Weight defines how much space a view will consume compared to other views within a LinearLayout.\n\nWeight is used when you want to give specific screen space to one component compared to other\n\nKey Properties:\n\nweightSum is the overall sum of weights of all child views. If you don't specify the weightSum, the system will calculate the sum of all the weights on its own.\nlayout_weight specifies the amount of space out of the total weight sum the widget will occupy."
+    },
+    {
+      "ques": " LinearLayout",
+      "ans": "The LinearLayout is a ViewGroup that arranges its children in a single column or a single row. The orientation can be set by calling the method setOrientation() or using the xml attribute android:orientation.\n\nVertical orientation : android:orientation='vertical'\nHorizontal orientation : android:orientation='horizontal'"
+    },
+    {
+      "ques": "RelativeLayout",
+      "ans": "RelativeLayout is a ViewGroup that displays child views in relative positions. By default, all child views are drawn at the top-left of the layout, so you must define the position of each view using the various layout properties available from RelativeLayout.LayoutParams. The value for each layout property is either a boolean to enable a layout position relative to the parent RelativeLayout or an ID that references another view in the layout against which the view should be positioned."
+    },
+    {
+      "ques": "FrameLayout",
+      "ans": "FrameLayout is designed to block out an area on the screen to display a single item. You can, however, add multiple children to a FrameLayout and control their position within the FrameLayout by assigning gravity to each child, using the android:layout_gravity attribute.\n\nGenerally, FrameLayout is used to hold a single child view. Common use cases are creating place holders for inflating Fragments in Activity, overlapping views or applying foreground to the views."
+    },
+    {
+      "ques": " GridLayout",
+      "ans": "GridLayout, as the name suggests is a layout used to arrange Views in a grid. A GridLayout divides itself into columns and rows. As you can see in the example below, the amount of columns and/or rows is specified by the properties columnCount and rowCount. Adding Views to this layout will add the first view to the first column, the second view to the second column, and the third view to the first column of the second row."
+    },
+    {
+      "ques": "CoordinatorLayout",
+      "ans": "The CoordinatorLayout is a container somewhat similar to FrameLayout but with extra capabilities, it is called super-powered FrameLayout in the official documentation.\nBy attaching a CoordinatorLayout.Behavior to a direct child of CoordinatorLayout, you’ll be able to intercept touch events, window insets, measurement, layout, and nested scrolling.\nIn order to use it, you will first have to add a dependency for the support library in your gradle file:\n\ncompile 'com.android.support:design:25.3.1'"
+    },
+    {
+      "ques": "Gradle for Android",
+      "ans": "Gradle is a JVM-based build system that enables developers to write high-level scripts that can be used to automate the process of compilation and application production. It is a flexible plugin-based system, which allows you to automate various aspects of the build process; including compiling and signing a .jar, downloading and managing external dependencies, injecting fields into the AndroidManifest or utilising specific SDK versions."
+    },
+    {
+      "ques": "Define and use Build Configuration Fields",
+      "ans": "Gradle allows buildConfigField lines to define constants. These constants will be accessible at runtime as static fields of the BuildConfig class. This can be used to create flavors by defining all fields within the defaultConfig block, then overriding them for individual build flavors as needed."
+    },
+    {
+      "ques": "Centralizing dependencies via 'dependencies.gradle' file",
+      "ans": "When working with multi-module projects, it is helpful to centralize dependencies in a single location rather than having them spread across many build files, especially for common libraries such as the Android support libraries and the Firebase libraries.\nOne recommended way is to separate the Gradle build files, with one build.gradle per module, as well as one in the project root and another one for the dependencies\n\nfor example:\n\nroot\n +- gradleScript/\n | dependencies.gradle\n +- module1/\n | build.gradle\n +- module2/\n | build.gradle\n +- build.gradle"
+    },
+    {
+      "ques": "NavigationView",
+      "ans": "To use a NavigationView just add the dependency in the build.gradle file . Then add the NavigationView in the layout"
+    },
+    {
+      "ques": "Add seperators to menu",
+      "ans": "Access the RecyclerView in the NavigationView and add ItemDecoration to it.\n\nNavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);\nNavigationMenuView navMenuView = (NavigationMenuView) navigationView.getChildAt(0);\nnavMenuView.addItemDecoration(new DividerItemDecoration(this));"
+    },
+    {
+      "ques": "Add menu Divider using default DividerItemDecoration",
+      "ans": "Just use default DividerItemDecoration class :\n\nNavigationView navigationView = (NavigationView) findViewById(R.id.navigation);\nNavigationMenuView navMenuView = (NavigationMenuView) navigationView.getChildAt(0);\nnavMenuView.addItemDecoration(new DividerItemDecoration(context,DividerItemDecoration.VERTICAL));"
+    },
+    {
+      "ques": "Intent",
+      "ans": "An Intent is a small message passed around the Android system. This message may hold information about our intention to perform a task.\nIt is basically a passive data structure holding an abstract description of an action to be performed."
+    },
+    {
+      "ques": "Getting a result from another Activity",
+      "ans": "By using startActivityForResult(Intent intent, int requestCode) you can start another Activity and then receive a result from that Activity in the onActivityResult(int requestCode, int resultCode, Intent data) method. The result will be returned as an Intent. An intent can contain data via a Bundle."
+    },
+    {
+      "ques": "Starter Pattern",
+      "ans": "This pattern is a more strict approach to starting an Activity. Its purpose is to improve code readability, while at the same time decrease code complexity, maintenance costs, and coupling of your components."
+    },
+    {
+      "ques": "Clearing an activity stack",
+      "ans": "Sometimes you may want to start a new activity while removing previous activities from the back stack, so the back button doesn't take you back to them. One example of this might be starting an app on the Login activity, taking you through to the Main activity of your application, but on logging out you want to be directed back to Login without a chance to go back. In a case like that you can set the FLAG_ACTIVITY_CLEAR_TOP flag for the intent, meaning if the activity being launched is already running in the current task (LoginActivity), then instead of launching a new instance of that activity, all of the other activities on top of it will be closed and this Intent will be delivered to the (now on top) old activity as a new Intent.\n\nIntent intent = new Intent(getApplicationContext(), LoginActivity.class);\nintent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);\nstartActivity(intent);\n\nIt's also possible to use the flags FLAG_ACTIVITY_NEW_TASK along with FLAG_ACTIVITY_CLEAR_TASK if you want to clear all Activities on the back stack: Intent intent = new Intent(getApplicationContext(), LoginActivity.class);\nintent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);\nstartActivity(intent);"
+    },
+    {
+      "ques": "CustomTabsIntent for Chrome Custom Tabs",
+      "ans": "Using a CustomTabsIntent, it is now possible to configure Chrome custom tabs in order to customize key UI components in the browser that is opened from your app.\nThis is a good alternative to using a WebView for some cases. It allows loading of a web page with an Intent, with the added ability to inject some degree of the look and feel of your app into the browser."
+    },
+    {
+      "ques": "Intent URI",
+      "ans": "This example shows, how to start intent from browser:\n\n<a href='intent://host.com/path#Intent;package=com.sample.test;scheme=yourscheme;end'>Start intent</a>\n\nThis intent will start app with package com.sample.test or will open google play with this package."
+    },
+    {
+      "ques": "Broadcasting Messages to Other Components",
+      "ans": "Intents can be used to broadcast messages to other components of your application (such as a running background service) or to the entire Android system.\nTo send a broadcast within your application, use the LocalBroadcastManager class:\n\nIntent intent = new Intent('com.example.YOUR_ACTION'); // the intent action\nintent.putExtra('key', 'value'); // data to be passed with your broadcast\nLocalBroadcastManager manager = LocalBroadcastManager.getInstance(context);\nmanager.sendBroadcast(intent);\n\nTo send a broadcast to components outside of your application, use the sendBroadcast() method on a Context object.\n\nIntent intent = new Intent('com.example.YOUR_ACTION'); // the intent action\nintent.putExtra('key', 'value'); // data to be passed with your broadcast\ncontext.sendBroadcast(intent);"
+    },
+    {
+      "ques": "Passing custom object between activities",
+      "ans": "It is also possible to pass your custom object to other activities using the Bundle class.\nThere are two ways:\nSerializable interface—for Java and Android\nParcelable interface—memory efficient, only for Android (recommended)"
+    },
+    {
+      "ques": "Passing different data through Intent in Activity",
+      "ans": "1. Passing integer data:\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putExtra('intVariableName', intValue);\nstartActivity(myIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\nint intValue = mIntent.getIntExtra('intVariableName', 0); // set 0 as the default value if no value for intVariableName found\n\n2. Passing double data:\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putExtra('doubleVariableName', doubleValue);\nstartActivity(myIntent);\n\n ReceiverActivity\nIntent mIntent = getIntent();\ndouble doubleValue = mIntent.getDoubleExtra('doubleVariableName', 0.00); // set 0.00 as the default value if no value for doubleVariableName found\n\n3. Passing String data:\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putExtra('stringVariableName', stringValue);\nstartActivity(myIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\nString stringValue = mIntent.getExtras().getString('stringVariableName');\nor\nIntent mIntent = getIntent();\nString stringValue = mIntent.getStringExtra('stringVariableName');\n\n4. Passing ArrayList data:\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putStringArrayListExtra('arrayListVariableName', arrayList);\nstartActivity(myIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\narrayList = mIntent.getStringArrayListExtra('arrayListVariableName');\n\n5. Passing Object data :\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putExtra('ObjectVariableName', yourObject);\nstartActivity(myIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\nyourObj = mIntent.getSerializableExtra('ObjectVariableName');\n\nNote : Keep in mind your custom Class must implement the Serializable interface.\n\n6. Passing HashMap<String, String> data :\nSenderActivity\n\nHashMap<String, String> hashMap;\nIntent mIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmIntent.putExtra('hashMap', hashMap);\nstartActivity(mIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\nHashMap<String, String> hashMap = (HashMap<String, String>)\nmIntent.getSerializableExtra('hashMap');\n\n7. Passing Bitmap data :\nSenderActivity\n\nIntent myIntent = new Intent(SenderActivity.this, ReceiverActivity.class);\nmyIntent.putExtra('image',bitmap);\nstartActivity(mIntent);\n\nReceiverActivity\n\nIntent mIntent = getIntent();\nBitmap bitmap = mIntent.getParcelableExtra('image');"
+    },
+    {
+      "ques": "Share intent",
+      "ans": "Share simple information with differents apps.\n\nIntent sendIntent = new Intent();\nsendIntent.setAction(Intent.ACTION_SEND);\nsendIntent.putExtra(Intent.EXTRA_TEXT, 'This is my text to send.');\nsendIntent.setType('text/plain');\nstartActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));"
+    },
+    {
+      "ques": "Unbound Service using an Intent",
+      "ans": "A Service is a component which runs in the background (on the UI thread) without direct interaction with the user. An unbound Service is just started, and is not bound to the lifecycle of any Activity.\n"
+    },
+    {
+      "ques": "View Identification",
+      "ans": "A view object may have a unique ID assigned to it which will identify the View uniquely within the tree. The syntax for an ID, inside an XML tag is −\n\n android:id='@+id/my_button'\n\nFollowing is a brief description of @ and + signs −\n\nThe at-symbol (@) at the beginning of the string indicates that the XML parser should parse and expand the rest of the ID string and identify it as an ID resource. The plus-symbol (+) means that this is a new resource name that must be created and added to our resources. To create an instance of the view object and capture it from the layout, use the following −\n\nButton myButton = (Button) findViewById(R.id.my_button);"
+    },
+    {
+      "ques": "Android UI Controls",
+      "ans": "There are number of UI controls provided by Android that allow you to build the graphical user interface for your app.\n\nTextView- This control is used to display text to the user.\n\nEditText- EditText is a predefined subclass of TextView that includes rich editing capabilities.\n\nAutoCompleteTextView- The AutoCompleteTextView is a view that is similar to EditText, except that it shows a list of completion suggestions automatically while the user is typing.\n\nButton- A push-button that can be pressed, or clicked, by the user to perform an action.\n\n	ImageButton- An ImageButton is an AbsoluteLayout which enables you to specify the exact location of its children. This shows a button with an image (instead of text) that can be pressed or clicked by the user.\n\nCheckBox- An on/off switch that can be toggled by the user. You should use check box when presenting users with a group of selectable options that are not mutually exclusive.\n\nToggleButton- An on/off button with a light indicator.\n\nRadioButton- The RadioButton has two states: either checked or unchecked.\n\n	RadioGroup- A RadioGroup is used to group together one or more RadioButtons.\n\nProgressBar- The ProgressBar view provides visual feedback about some ongoing tasks, such as when you are performing a task in the background.\n\nSpinner- A drop-down list that allows users to select one value from a set.\n\nTimePicker- The TimePicker view enables users to select a time of the day, in either 24-hour mode or AM/PM mode.\n\nDatePicker- The DatePicker view enables users to select a date of the day.\n\n"
+    },
+    {
+      "ques": "Event Listeners & Event Handlers",
+      "ans": "onClick()\n\nOnClickListener()\n\nThis is called when the user either clicks or touches or focuses upon any widget like button, text, image etc. You will use onClick() event handler to handle such event.\n\nonLongClick()\n\nOnLongClickListener()\n\nThis is called when the user either clicks or touches or focuses upon any widget like button, text, image etc. for one or more seconds. You will use onLongClick() event handler to handle such event.\n\nonFocusChange()\n\nOnFocusChangeListener()\n\nThis is called when the widget looses its focus ie. user goes away from the view item. You will use onFocusChange() event handler to handle such event.\n\nonKey()\n\nOnFocusChangeListener()\n\nThis is called when the user is focused on the item and presses or releases a hardware key on the device. You will use onKey() event handler to handle such event.\n\nonTouch()\n\nOnTouchListener()\n\nThis is called when the user presses the key, releases the key, or any movement gesture on the screen. You will use onTouch() event handler to handle such event.\n\nonMenuItemClick()\n\nOnMenuItemClickListener()\n\nThis is called when the user selects a menu item. You will use onMenuItemClick() event handler to handle such event.\n\nonCreateContextMenu()\n\nonCreateContextMenuItemListener()\n\nThis is called when the context menu is being built(as the result of a sustained 'long click)'"
+    },
+    {
+      "ques": "Event Listeners Registration",
+      "ans": "Event Registration is the process by which an Event Handler gets registered with an Event Listener so that the handler is called when the Event Listener fires the event. Though there are several tricky ways to register your event listener for any event, but I'm going to list down only top 3 ways, out of which you can use any of them based on the situation.\n\n-Using an Anonymous Inner Class -Activity class implements the Listener interface. -Using Layout file activity_main.xml to specify event handler directly."
+    },
+    {
+      "ques": "Touch Mode",
+      "ans": "Users can interact with their devices by using hardware keys or buttons or touching the screen.Touching the screen puts the device into touch mode. The user can then interact with it by touching the on-screen virtual buttons, images, etc.You can check if the device is in touch mode by calling the View class’s isInTouchMode() method."
+    },
+    {
+      "ques": "Focus",
+      "ans": "A view or widget is usually highlighted or displays a flashing cursor when it’s in focus. This indicates that it’s ready to accept input from the user.\n\nisFocusable() − it returns true or false\n\nisFocusableInTouchMode() − checks to see if the view is focusable in touch mode. (A view may be focusable when using a hardware key but not when the device is in touch mode)"
+    },
+    {
+      "ques": "Defining Styles",
+      "ans": "A style is defined in an XML resource that is separate from the XML that specifies the layout. This XML file resides under res/values/ directory of your project and will have <resources> as the root node which is mandatory for the style file. The name of the XML file is arbitrary, but it must use the .xml extension.\n\nYou can define multiple styles per file using <style> tag but each style will have its name that uniquely identifies the style. Android style attributes are set using <item> tag"
+    },
+    {
+      "ques": "Style Inheritance",
+      "ans": "Android supports style Inheritance in very much similar way as cascading style sheet in web design. You can use this to inherit properties from an existing style and then define only the properties that you want to change or add. To implement a custom theme create or edit MyAndroidApp/res/values/themes.xml "
+    },
+    {
+      "ques": "Applying Colors to Theme Attributes",
+      "ans": "Your color resource can then be applied to some theme attributes, such as the window background and the primary text color, by adding <item> elements to your custom theme. These attributes are defined in your styles.xml file. For example, to apply the custom color to the window background, add the following two <item> elements to your custom theme, defined in MyAndroidApp/res/values/styles.xml file −"
+    },
+    {
+      "ques": "Using a Custom Nine-Patch With Buttons",
+      "ans": "A nine-patch drawable is a special kind of image which can be scaled in width and height while maintaining its visual integrity. Nine-patches are the most common way to specify the appearance of Android buttons, though any drawable type can be used.\n\nSteps to create Nine-Patch Buttons\n\nSave this bitmap as /res/drawable/my_nine_patch.9.png\n\nDefine a new style\n\nApply the new button style to the buttonStyle attribute of your custom theme"
+    },
+    {
+      "ques": "Android Themes",
+      "ans": "A theme is nothing but an Android style applied to an entire Activity or application, rather than an individual View.\n\nThus, when a style is applied as a theme, every View in the Activity or application will apply each style property that it supports. For example, you can apply the same CustomFontStyle style as a theme for an Activity and then all text inside that Activity will have green monospace font.\n\nTo set a theme for all the activities of your application, open the AndroidManifest.xml file and edit the <application> tag to include the android:theme attribute with the style name."
+    },
+    {
+      "ques": "Default Styles & Themes",
+      "ans": "The Android platform provides a large collection of styles and themes that you can use in your applications. You can find a reference of all available styles in the R.style class. To use the styles listed here, replace all underscores in the style name with a period. For example, you can apply the Theme_NoTitleBar theme with '@android:style/Theme.NoTitleBar'. "
+    },
+    {
+      "ques": "Android - Drag and Drop",
+      "ans": "Android drag/drop framework allows your users to move data from one View to another View in the current layout using a graphical drag and drop gesture. As of API 11 drag and drop of view onto other views or view groups is supported.The framework includes following three important components to support drag & drop functionality \n\nDrag event class.\n\nDrag listeners.\n\nHelper methods and classes.\n\nThe DragEvent Class\n\nThe DragEvent represents an event that is sent out by the system at various times during a drag and drop operation. This class provides few Constants and important methods which we use during Drag/Drop process.\n\nConstants\n\nACTION_DRAG_STARTED -Signals the start of a drag and drop operation.\n\nACTION_DRAG_ENTERED -Signals to a View that the drag point has entered the bounding box of the View.\n\nACTION_DRAG_LOCATION -Sent to a View after ACTION_DRAG_ENTERED if the drag shadow is still within the View object's bounding box.\n\nACTION_DRAG_EXITED- Signals that the user has moved the drag shadow outside the bounding box of the View.\n\nACTION_DROP- Signals to a View that the user has released the drag shadow, and the drag point is within the bounding box of the View.\n\nACTION_DRAG_ENDED- Signals to a View that the drag and drop operation has concluded.\n\nMethods\n\nint getAction() -Inspect the action value of this event..\n\nClipData getClipData() -Returns the ClipData object sent to the system as part of the call to startDrag().\n\nClipDescription getClipDescription() -Returns the ClipDescription object contained in the ClipData.\n\nboolean getResult() -Returns an indication of the result of the drag and drop operation.\n\nfloat	getX() -Gets the X coordinate of the drag point.\n\nfloat getY() -Gets the Y coordinate of the drag point.\n\nString toString() -Returns a string representation of this DragEvent object."
+    },
+    {
+      "ques": "Android - Notifications",
+      "ans": "A notification is a message you can display to the user outside of your application's normal UI. When you tell the system to issue a notification, it first appears as an icon in the notification area. To see the details of the notification, the user opens the notification drawer. Both the notification area and the notification drawer are system-controlled areas that the user can view at any time.\n\nCreate and Send Notifications\n\nStep 1 - Create Notification Builder\n\nYou have simple way to create a notification. Follow the following steps in your application to create a notification −\n\nAs a first step is to create a notification builder using NotificationCompat.Builder.build(). You will use Notification Builder to set various Notification properties like its small and large icons, title, priority etc.\n\nNotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this)\n\nStep 2 - Setting Notification Properties\n\nOnce you have Builder object, you can set its Notification properties using Builder object as per your requirement. But this is mandatory to set at least following −\n\nA small icon, set by setSmallIcon()\n\nA title, set by setContentTitle()\n\nDetail text, set by setContentText()\n\nexample:\n\nmBuilder.setSmallIcon(R.drawable.notification_icon);\n\nStep 3 - Attach Actions\n\nThis is an optional part and required if you want to attach an action with the notification. An action allows users to go directly from the notification to an Activity in your application, where they can look at one or more events or do further work.\n\nThe action is defined by a PendingIntent containing an Intent that starts an Activity in your application. To associate the PendingIntent with a gesture, call the appropriate method of NotificationCompat.Builder. For example, if you want to start Activity when the user clicks the notification text in the notification drawer, you add the PendingIntent by calling setContentIntent().\n\nA PendingIntent object helps you to perform an action on your applications behalf, often at a later time, without caring of whether or not your application is running.\n\nWe take help of stack builder object which will contain an artificial back stack for the started Activity. This ensures that navigating backward from the Activity leads out of your application to the Home screen.\n\nIntent resultIntent = new Intent(this, ResultActivity.class);\nTaskStackBuilder stackBuilder = TaskStackBuilder.create(this);\nstackBuilder.addParentStack(ResultActivity.class);\n\n// Adds the Intent that starts the Activity to the top of the stack\nstackBuilder.addNextIntent(resultIntent);\nPendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0,PendingIntent.FLAG_UPDATE_CURRENT);\nmBuilder.setContentIntent(resultPendingIntent);\n\nStep 4 - Issue the notification\n\nFinally, you pass the Notification object to the system by calling NotificationManager.notify() to send your notification. Make sure you call NotificationCompat.Builder.build() method on builder object before notifying it. This method combines all of the options that have been set and return a new Notification object.\n\nNotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);\n// notificationID allows you to update the notification later on.\nmNotificationManager.notify(notificationID, mBuilder.build());\n\nThe NotificationCompat.Builder Class\n\nThe NotificationCompat.Builder class allows easier control over all the flags, as well as help constructing the typical notification layouts. Following are few important and most frequently used methods available as a part of NotificationCompat.Builder class.\n\nNotification build()\nCombine all of the options that have been set and return a new Notification object.\n\nNotificationCompat.Builder setAutoCancel (boolean autoCancel)\nSetting this flag will make it so the notification is automatically canceled when the user clicks it in the panel.\n\nNotificationCompat.Builder setContent (RemoteViews views)\nSupply a custom RemoteViews to use instead of the standard one\n\nNotificationCompat.Builder setContentInfo (CharSequence info)\nSet the large text at the right-hand side of the notification.\n\nNotificationCompat.Builder setContentIntent (PendingIntent intent)\nSupply a PendingIntent to send when the notification is clicked.\n\nNotificationCompat.Builder setContentText (CharSequence text)\nSet the text (second row) of the notification, in a standard notification.\n\nNotificationCompat.Builder setContentTitle (CharSequence title)\nSet the text (first row) of the notification, in a standard notification\n\nNotificationCompat.Builder setDefaults (int defaults)\nSet the default notification options that will be used.\n\nNotificationCompat.Builder setLargeIcon (Bitmap icon)\nSet the large icon that is shown in the ticker and notification.\n\nNotificationCompat.Builder setNumber (int number)\nSet the large number at the right-hand side of the notification.\n\nNotificationCompat.Builder setOngoing (boolean ongoing)\nSet whether this is an ongoing notification.\n\nNotificationCompat.Builder setSmallIcon (int icon)\nSet the small icon to use in the notification layouts\n\nNotificationCompat.Builder setStyle (NotificationCompat.Style style)\nAdd a rich notification style to be applied at build time.\n\nNotificationCompat.Builder setTicker (CharSequence tickerText)\nSet the text that is displayed in the status bar when the notification first arrives.\n\nNotificationCompat.Builder setVibrate (long[] pattern)\nSet the vibration pattern to use.\n\nNotificationCompat.Builder setWhen (long when)\nSet the time that the event occurred. Notifications in the panel are sorted by this time."
+    },
+    {
+      "ques": "Android Hide Title Bar",
+      "ans": "The requestWindowFeature(Window.FEATURE_NO_TITLE) method of Activity must be called to hide the title. But, it must be coded before the setContentView method.\n\n protected void onCreate(Bundle savedInstanceState) { \nsuper.onCreate(savedInstanceState); \nrequestWindowFeature(Window.FEATURE_NO_TITLE);//will hide the title not the title bar \nsetContentView(R.layout.activity_main);} \n\nThe setFlags() method of Window class is used to display content in full screen mode. You need to pass the WindowManager.LayoutParams.FLAG_FULLSCREEN constant in the setFlags method.\n\nprotected void onCreate(Bundle savedInstanceState) {  \nsuper.onCreate(savedInstanceState);\nrequestWindowFeature(Window.FEATURE_NO_TITLE); \n//code that displays the content in full screen mode \nthis.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//int flag, int mask\nsetContentView(R.layout.activity_main); }"
+    },
+    {
+      "ques": "Android Screen Orientation",
+      "ans": "The screenOrientation is the attribute of activity element. The orientation of android activity can be portrait, landscape, sensor, unspecified etc. You need to define it in the AndroidManifest.xml file.\n\nexample: android:screenOrientation='landscape'\n\n The common values for screenOrientation attribute are as follows:\nunspecified -It is the default value. In such case, system chooses the orientation.\n\nportrait -taller not wider\n\nlandscape -wider not taller\n\nsensor -orientation is determined by the device orientation sensor."
+    },
+    {
+      "ques": "Android Button",
+      "ans": "Android Button represents a push-button. The android.widget.Button is subclass of TextView class and CompoundButton is the subclass of Button class.\n\nThere are different types of buttons in android such as RadioButton, ToggleButton, CompoundButton etc."
+    },
+    {
+      "ques": "Android Toast",
+      "ans": "Andorid Toast can be used to display information for the short period of time. A toast contains message to be displayed quickly and disappears after sometime.\n\nThe android.widget.Toast class is the subclass of java.lang.Object class.\n\nToast class\nToast class is used to show notification for a particular interval of time. After sometime it disappears. It doesn't block the user interaction.\n\nThere are only 2 constants of Toast class which are given below.\n\npublic static final int LENGTH_LONG -displays view for the long duration of time.\n\npublic static final int LENGTH_SHORT -public static final int LENGTH_SHORT\n\nMethods of Toast class\n\npublic static Toast makeText(Context context, CharSequence text, int duration) -makes the toast containing text and duration.\n\npublic void show() - displays toast.\n\npublic void setMargin (float horizontalMargin, float verticalMargin) -changes the horizontal and vertical margin difference."
+    },
+    {
+      "ques": "Android ToggleButton",
+      "ans": "Android Toggle Button can be used to display checked/unchecked (On/Off) state on the button.\n\nIt is beneficial if user have to change the setting between two states. It can be used to On/Off Sound, Wifi, Bluetooth etc.\n\nAndroid ToggleButton and Switch both are the subclasses of CompoundButton class.\n\nXML Attributes of ToggleButton class\n\nandroid:disabledAlpha -The alpha to apply to the indicator when disabled.\n\nandroid:textOff -The text for the button when it is not checked.\n\nandroid:textOn -The text for the button when it is checked.\n\nMethods of ToggleButton class\n\nCharSequence getTextOff() -Returns the text when button is not in the checked state.\n\nCharSequence getTextOn() -Returns the text for when button is in the checked state.\n\nvoid setChecked(boolean checked) -Changes the checked state of this button."
+    },
+    {
+      "ques": "Android CheckBox",
+      "ans": "Android CheckBox is a type of two state button either checked or unchecked.\n\nThere can be a lot of usage of checkboxes. For example, it can be used to know the hobby of the user, activate/deactivate the specific action etc.\nAndroid CheckBox class is the subclass of CompoundButton class.\n\nMethods of CheckBox class\n\npublic boolean isChecked() -Returns true if it is checked otherwise false.\n\npublic void setChecked(boolean status) -Changes the state of the CheckBox."
+    },
+    {
+      "ques": "Android RadioButton",
+      "ans": "RadioButton is a two states button which is either checked or unchecked. If a single radio button is unchecked, we can click it to make checked radio button. Once a radio button is checked, it cannot be marked as unchecked by user.\n\nRadioButton is generally used with RadioGroup. RadioGroup contains several radio buttons, marking one radio button as checked makes all other radio buttons as unchecked."
+    },
+    {
+      "ques": "Android Dynamic RadioButton",
+      "ans": "Instead of creating RadioButton through drag and drop from palette, android also facilitates you to create it programmatically (dynamically). For creating dynamic RadioButton, we need to use android.view.ViewGroup.LayoutParams which configures the width and height of views and implements setOnCheckedChangeListener() method of RadioGroup class.\n\nRather than default user interface of android RadioButton, we can also implement a custom radio button. Custom RadioButton makes user interface more attractive."
+    },
+    {
+      "ques": "Android AlertDialog",
+      "ans": "Android AlertDialog can be used to display the dialog message with OK and Cancel buttons. It can be used to interrupt and ask the user about his/her choice to continue or discontinue.Android AlertDialog is composed of three regions: title, content area and action buttons. Android AlertDialog is the subclass of Dialog class."
+    },
+    {
+      "ques": "Android Spinner",
+      "ans": "Android Spinner is like the combox box of AWT or Swing. It can be used to display the multiple options to the user in which only one item can be selected by the user. Android spinner is like the drop down menu with multiple values from which the end user can select only one value.Android spinner is associated with AdapterView. So you need to use one of the adapter classes with spinner.Android Spinner class is the subclass of AsbSpinner class."
+    },
+    {
+      "ques": "Android AutoCompleteTextView",
+      "ans": "Android AutoCompleteTextView completes the word based on the reserved words, so no need to write all the characters of the word. Android AutoCompleteTextView is a editable text field, it displays a list of suggestions in a drop down menu from which user can select only one suggestion or value. Android AutoCompleteTextView is the subclass of EditText class. The MultiAutoCompleteTextView is the subclass of AutoCompleteTextView class."
+    },
+    {
+      "ques": "Android ListView",
+      "ans": "Android ListView is a view which contains the group of items and displays in a scrollable list. ListView is implemented by importing android.widget.ListView class. ListView is a default scrollable which does not use other scroll view. ListView uses Adapter classes which add the content from data source (such as string array, array, database etc) to ListView. Adapter bridges data between an AdapterViews and other Views (ListView, ScrollView etc)."
+    },
+    {
+      "ques": "Android Custom ListView (Adding Images, sub-title)",
+      "ans": "After creating simple ListView, android also provides facilities to customize our ListView. As the simple ListView, custom ListView also uses Adapter classes which added the content from data source (such as string array, array, database etc). Adapter bridges data between an AdapterViews and other Views"
+    },
+    {
+      "ques": "Android RatingBar",
+      "ans": "Android RatingBar can be used to get the rating from the user. The Rating returns a floating-point number. It may be 2.0, 3.5, 4.0 etc. Android RatingBar displays the rating in stars. Android RatingBar is the subclass of AbsSeekBar class. The getRating() method of android RatingBar class returns the rating number."
+    },
+    {
+      "ques": "Android WebView",
+      "ans": "Android WebView is used to display web page in android. The web page can be loaded from same application or URL. It is used to display online content in android activity. Android WebView uses webkit engine to display web page. The android.webkit.WebView is the subclass of AbsoluteLayout class.\n\nThe loadUrl() and loadData() methods of Android WebView class are used to load and display web page.\n\nLet's see the simple code to display javatpoint.com web page using web view.\n\nWebView mywebview = (WebView) findViewById(R.id.webView1); \nmywebview.loadUrl('http://www.javatpoint.com/');\n\nLet's see the simple code to display HTML web page using web view. In this case, html file must be located inside the asset directory.\n\nWebView mywebview = (WebView) findViewById(R.id.webView1); \nmywebview.loadUrl('file:///android_asset/myresource.html');\n\nLet's see another code to display HTML code of a string.\n\nString data = '<html><body><h1>Hello, Javatpoint!</h1></body></html>';\nmywebview.loadData(data, 'text/html', 'UTF-8');"
+    },
+    {
+      "ques": "Android SeekBar",
+      "ans": "Android SeekBar is a kind of ProgressBar with draggable thumb. The end user can drag the thum left and right to move the progress of song, file download etc. The SeekBar.OnSeekBarChangeListener interface provides methods to perform even handling for seek bar. Android SeekBar and RatingBar classes are the sub classes of AbsSeekBar."
+    },
+    {
+      "ques": "Android DatePicker",
+      "ans": "Android DatePicker is a widget to select date. It allows you to select date by day, month and year. Like DatePicker, android also provides TimePicker to select time. The android.widget.DatePicker is the subclass of FrameLayout class."
+    },
+    {
+      "ques": "Android TimePicker",
+      "ans": "Android TimePicker widget is used to select date. It allows you to select time by hour and minute. You cannot select time by seconds. The android.widget.TimePicker is the subclass of FrameLayout class."
+    },
+    {
+      "ques": "Android Analog clock and Digital clock",
+      "ans": "The android.widget.AnalogClock and android.widget.DigitalClock classes provides the functionality to display analog and digital clocks.Android analog and digital clocks are used to show time in android application.Android AnalogClock is the subclass of View class.Android DigitalClock is the subclass of TextView class. Since Android API level 17, it is deprecated. You are recommended to use TextClock Instead.\n\nNote: Analog and Digital clocks cannot be used to change the time of the device. To do so, you need to use DatePicker and TimePicker."
+    },
+    {
+      "ques": "Android ProgressBar",
+      "ans": "We can display the android progress bar dialog box to display the status of work being done e.g. downloading file, analyzing status of work etc.\nusing android.app.ProgressDialog class to show the progress bar. Android ProgressDialog is the subclass of AlertDialog class.\nThe ProgressDialog class provides methods to work on progress bar like setProgress(), setMessage(), setProgressStyle(), setMax(), show() etc. The progress range of Progress Dialog is 0 to 10000.\n\nProgressDialog progressBar = new ProgressDialog(this); \nprogressBar.setCancelable(true);//you can cancel it by pressing back button\nprogressBar.setMessage('File downloading ...');\nprogressBar.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);\nprogressBar.setProgress(0);//initially progress is 0 \nprogressBar.setMax(100);//sets the maximum value 100 \nprogressBar.show();//displays the progress bar  "
+    },
+    {
+      "ques": "Android ScrollView (Vertical and Horizontal)",
+      "ans": "The android.widget.ScrollView class provides the functionality of scroll view. ScrollView is used to scroll the child elements of palette inside ScrollView. Android supports vertical scroll view as default scroll view. Vertical ScrollView scrolls elements vertically.\n\nAndroid uses HorizontalScrollView for horizontal ScrollView.\n\nA HorizontalScrollView is a FrameLayout. The android.widget.HorizontalScrollView class provides the functionality of horizontal scroll view. HorizontalScrollView is used to scroll the child elements or views in a horizontal direction. HorizontalScrollView only supports horizontal scrolling."
+    },
+    {
+      "ques": "Android Image Switcher",
+      "ans": "Android image switcher provides an animation over images to transition from one image to another. In order to use image switcher, we need to implement ImageSwitcher component in .xml file.\nThe setFactory() method of ImageSwitcher provide implementation of ViewFactory interface. ViewFactory interface implements its unimplemented method and returns an ImageView."
+    },
+    {
+      "ques": "Android Image Slider",
+      "ans": "Android image slider slides one entire screen to another screen. Image slider is created by ViewPager which is provided by support library. To implement image slider, you need to inherit ViewPager class which extends PagerAdapter."
+    },
+    {
+      "ques": "Android ViewStub",
+      "ans": "A ViewStub is a zero-sized invisible View which is used to load 'layout resource' at runtime. ViewStub is a zero dimension View, so you will not see anything on the layout pallete.\nTo make parent resource visible, inflate() method is invoked. To make ViewStub visible or invisible, setVisibility(int) method is invoked. The View.VISIBLE constant is used for making ViewStub visible and View.GONE constant is used for invisible."
+    },
+    {
+      "ques": "Android TabLayout",
+      "ans": "TabLayout is used to implement horizontal tabs. TabLayout is released by Android after the deprecation of ActionBar.TabListener (API level 21).\nTabLayout is introduced in design support library to implement tabs.\nTabs are created using newTab() method of TabLayout class. The title and icon of Tabs are set through setText(int) and setIcon(int) methods of TabListener interface respectively. Tabs of layout are attached over TabLayout using the method addTab(Tab) method.\n\nTabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout); \ntabLayout.addTab(tabLayout.newTab().setText('Tab 1'))\ntabLayout.addTab(tabLayout.newTab().setText('Tab 2'));\n\nWe can also add tab item to TabLayout using TabItem of android design widget.\n<android.support.design.widget.TabItem\n  android:text='@string/tab_text'/>"
+    },
+    {
+      "ques": "Android SearchView",
+      "ans": "Android SearchView provides user interface to search query submitted over search provider. SearchView widget can be implemented over ToolBar/ActionBar or inside a layout.\nSearchView is by default collapsible and set to be iconified using setIconifiedByDefault(true) method of SearchView class. For making search field visible, SearchView uses setIconifiedByDefault(false) method.\n\nMethods of SearchView\n\n1.public boolean onQueryTextSubmit(String query): It searches the query on the submission of content over SearchView editor. It is case dependent.\n\n2.public boolean onQueryTextChange(String newText): It searches the query at the time of text change over SearchView editor."
+    },
+    {
+      "ques": "Android EditText with TextWatcher (Searching data from ListView)",
+      "ans": "Android EditText is a subclass of TextView. EditText is used for entering and modifying text. While using EditText width, we must specify its input type in inputType property of EditText which configures the keyboard according to input.\nEditText uses TextWatcher interface to watch change made over EditText. For doing this, EditText calls the addTextChangedListener() method.\n\nMethods of TextWatcher\n1.beforeTextChanged(CharSequence arg0, int arg1, int arg2, int arg3): It is executed before making any change over EditText.\n\n2.onTextChanged(CharSequence cs, int arg1, int arg2, int arg3): It is executed while making any change over EditText.\n\n3.afterTextChanged(Editable arg0): It is executed after change made over EditText."
+    },
+    {
+      "ques": "Android Intent ",
+      "ans": "Android Intent is the message that is passed between components such as activities, content providers, broadcast receivers, services etc.\nIt is generally used with startActivity() method to invoke activity, broadcast receivers etc.\nThe LabeledIntent is the subclass of android.content.Intent class.\nAndroid intents are mainly used to:\nStart the service,Launch an activity,Display a web page,Display a list of contacts,Broadcast a message,Dial a phone call etc...\n\nTypes of Android Intents\n1) Implicit Intent\nImplicit Intent doesn't specifiy the component. In such case, intent provides information of available components provided by the system that is to be invoked.\n\nexample: \nIntent intent=new Intent(Intent.ACTION_VIEW); \nintent.setData(Uri.parse('http://www.javatpoint.com'));\nstartActivity(intent); \n\n2) Explicit Intent\nExplicit Intent specifies the component. In such case, intent provides the external class to be invoked.\n\nexample:\nIntent i = new Intent(getApplicationContext(), ActivityTwo.class);\nstartActivity(i); "
+    },
+    {
+      "ques": "Android StartActivityForResult",
+      "ans": "By the help of android startActivityForResult() method, we can get result from another activity.\nBy the help of android startActivityForResult() method, we can send information from one activity to another and vice-versa. The android startActivityForResult method, requires a result from the second activity (activity to be invoked).\nIn such case, we need to override the onActivityResult method that is invoked automatically when second activity returns result.\n\nMethod Signature\npublic void startActivityForResult (Intent intent, int requestCode)\npublic void startActivityForResult (Intent intent, int requestCode, Bundle options)"
+    },
+    {
+      "ques": "Android Share App Data (ACTION_SEND)",
+      "ans": "Android uses ACTION_SEND event of android.content.Intent class to send data from one activity to another and from current activity to outside the application. Intent class needs to specify the data and its type which is to be share.\n\nMost commonly, ACTION_SEND action sends URL of build-in Browser app. While sharing the data, Intent call createChooser() method which takes Intent object and specify the title of the chooser dialog. Intent.createChooser() method allows to display the chooser."
+    },
+    {
+      "ques": "Android Fragments",
+      "ans": "Android Fragment is the part of activity, it is also known as sub-activity. There can be more than one fragment in an activity. Fragments represent multiple screen inside one activity.\nEach fragment has its own life cycle methods that is affected by activity life cycle because fragments are embedded in activity.\nThe FragmentManager class is responsible to make interaction between fragment objects."
+    },
+    {
+      "ques": "Android Option Menu ",
+      "ans": "Android Option Menus are the primary menus of android. They can be used for settings, search, delete item etc.\ninflating the menu by calling the inflate() method of MenuInflater class. To perform event handling on menu items, you need to override onOptionsItemSelected() method of Activity class."
+    },
+    {
+      "ques": "Android Context Menu",
+      "ans": "Android context menu appears when user press long click on the element. It is also known as floating menu.It doesn't support item shortcuts and icons."
+    },
+    {
+      "ques": "Android Popup Menu",
+      "ans": "Android Popup Menu displays the menu below the anchor text if space is available otherwise above the anchor text. It disappears if you click outside the popup menu.\nThe android.widget.PopupMenu is the direct subclass of java.lang.Object class."
+    },
+    {
+      "ques": "Android Service",
+      "ans": "Android service is a component that is used to perform operations on the background such as playing music, handle network transactions, interacting content providers etc. It doesn't has any UI (user interface).\nThe service runs in the background indefinitely even if application is destroyed.\nMoreover, service can be bounded by a component to perform interactivity and inter process communication (IPC). The android.app.Service is subclass of ContextWrapper class.\nNote: Android service is not a thread or separate process."
+    },
+    {
+      "ques": "Android AlarmManager",
+      "ans": "Android AlarmManager allows you to access system alarm.By the help of Android AlarmManager in android, you can schedule your application to run at a specific time in the future. It works whether your phone is running or not. The Android AlarmManager holds a CPU wake lock that provides guarantee not to sleep the phone until broadcast is handled."
+    },
+    {
+      "ques": "Android Preferences",
+      "ans": "Android shared preference is used to store and retrieve primitive information. In android, string, integer, long, number etc. are considered as primitive data type.\nAndroid Shared preferences are used to store data in key and value pair so that we can retrieve the value on the basis of key."
+    },
+    {
+      "ques": "Android Internal Storage",
+      "ans": "We are able to save or read data from the device internal memory. FileInputStream and FileOutputStream classes are used to read and write data into the file."
+    },
+    {
+      "ques": "Android External Storage",
+      "ans": "Like internal storage, we are able to save or read data from the device external memory such as sdcard. The FileInputStream and FileOutputStream classes are used to read and write data into the file."
+    },
+    {
+      "ques": "Android Media Player ",
+      "ans": "We can play and control the audio files in android by the help of MediaPlayer class.\nMediaPlayer class\nThe android.media.MediaPlayer class is used to control the audio or video files.\nMethods of MediaPlayer class\n There are many methods of MediaPlayer class. Some of them are as follows:\n\npublic void setDataSource(String path) -sets the data source (file path or http url) to use\n\npublic void prepare() -prepares the player for playback synchronously.\n\npublic void start() -it starts or resumes the playback.\n\npublic void stop()	-it stops the playback\n\npublic void pause() -it pauses the playback.\n\npublic boolean isPlaying() -checks if media player is playing.\n\npublic void seekTo(int millis)	-seeks to specified time in miliseconds.\n\npublic void setLooping(boolean looping)	-sets the player for looping or non-looping.\n\npublic boolean isLooping()	-checks if the player is looping or non-looping.\n\npublic void selectTrack(int index)	-it selects a track for the specified index.\n\npublic int getCurrentPosition()	-returns the current playback position.\n\npublic int getDuration()	-returns duration of the file.\n\npublic void setVolume(float leftVolume,float rightVolume)	-sets the volume on this player."
+    },
+    {
+      "ques": "Android Video Player",
+      "ans": "By the help of MediaController and VideoView classes, we can play the video files in android.\nMediaController class\nThe android.widget.MediaController is a view that contains media controls like play/pause, previous, next, fast-forward, rewind etc.\nVideoView class\nhe android.widget.VideoView class provides methods to play and control the video player. The commonly used methods of VideoView class are as follows:\n\npublic void setMediaController(MediaController controller)-sets the media controller to the video view\n\npublic void setVideoURI (Uri uri)-sets the URI of the video file\n\npublic void start()-starts the video view\n\npublic void stopPlayback()-stops the playback.\n\npublic void pause()-pauses the playback.\n\npublic void suspend()	-suspends the playback.\n\npublic void resume()	-resumes the playback\n\npublic void seekTo(int millis) -seeks to specified time in miliseconds."
+    },
+    {
+      "ques": "Android MediaRecorder",
+      "ans": "MediaRecorder class can be used to record audio and video files.After recording the media, we can create a sound file that can be played later."
+    },
+    {
+      "ques": "Android TextToSpeech",
+      "ans": "In android, you can convert your text into speech by the help of TextToSpeech class. After completion of the conversion, you can playback or create the sound file.\nConstructor of TextToSpeech class\nTextToSpeech(Context context, TextToSpeech.OnInitListener)\n\nMethods of TextToSpeech class\nint speak (String text, int queueMode, HashMap params)	-converts the text into speech. Queue Mode may be QUEUE_ADD or QUEUE_FLUSH. Request parameters can be null, KEY_PARAM_STREAM, KEY_PARAM_VALUME etc.\n\nint setSpeechRate(float speed)	-it sets the speed for the speech\n\nint setPitch(float speed)	-it sets the pitch for the speech.\n\nint setLanguage (Locale loc)	-it sets the locale specific language for the speech.\n\nvoid shutdown()	-it releases the resource set by TextToSpeech Engine.\n\nint stop()	=it interrupts the current utterance (whether played or rendered to file) and discards other utterances in the queue.\n\nTextToSpeech.OnInitListener Interface\nYou need to implement TextToSpeech.OnInitListener interface, for performing event handling on TextToSpeech engine.\n\nMethod of TextToSpeech.OnInitListener Interface\nvoid onInit (int status)	-Called to signal the completion of the TextToSpeech engine initialization. The status can be SUCCESS or ERROR.\n\nTextToSpeech class is responsible to convert text into speech. It provides a lot of methods to control the speech such as setSpeedRate(), setPitch() etc."
+    },
+    {
+      "ques": "Android TelephonyManager",
+      "ans": "The android.telephony.TelephonyManager class provides information about the telephony services such as subscriber id, sim serial number, phone network type etc. Moreover, you can determine the phone state etc."
+    },
+    {
+      "ques": "Android Call State",
+      "ans": "We can also get the information of call state using the TelephonyManager class. For this purpose, we need to call the listen method of TelephonyManager class by passing the PhonStateListener instance.The PhoneStateListener interface must be implemented to get the call state. It provides one method onCallStateChanged()."
+    },
+    {
+      "ques": "Android Simple Caller Talker",
+      "ans": "Android provides the facility to know the incoming number and speak it by the help of android speech api and telephony manager."
+    },
+    {
+      "ques": "make a phone call",
+      "ans": "We are able to make a phone call in android via intent. You need to write only three lines of code to make a phone call.\nIntent callIntent = new Intent(Intent.ACTION_CALL);\ncallIntent.setData(Uri.parse('tel:'+8802177690));//change the number\nstartActivity(callIntent);  "
+    },
+    {
+      "ques": "send sms",
+      "ans": "We can send sms in android via intent. You need to write only 4 lines of code the send sms in android.\n//Getting intent and PendingIntent instance  \nPendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, intent,0);\n\n//Get the SmsManager instance and call the sendTextMessage method to send message \nSmsManager sms=SmsManager.getDefault(); \nsms.sendTextMessage('8802177690', null, 'hello fratello', pi,null); "
+    },
+    {
+      "ques": "send email in android using intent",
+      "ans": "We can easily send email in android via intent. You need to write few lines of code only as given belo\n\nIntent email = new Intent(Intent.ACTION_SEND);\nemail.putExtra(Intent.EXTRA_EMAIL, new String[]{ to});\nemail.putExtra(Intent.EXTRA_SUBJECT, subject);\nemail.putExtra(Intent.EXTRA_TEXT, message);\n\n//need this to prompts email client only\nemail.setType('message/rfc822'\nstartActivity(Intent.createChooser(email, 'Choose an Email client :')))"
+    },
+    {
+      "ques": "Android Bluetooth ",
+      "ans": "Bluetooth is a way to exchange data with other devices wirelessly. Android provides Bluetooth API to perform several tasks such as:\nscan bluetooth devices\nconnect and transfer data from and to other device\nmanage multiple connections etc\n\nAndroid Bluetooth APIThe android.bluetooth package provides a lot of interfaces classes to work with bluetooth such as:\nBluetoothAdapter.BluetoothDevice,BluetoothSocket,BluetoothServerSocket,BluetoothClass,BluetoothProfile,BluetoothProfile.ServiceListene,BluetoothHeadset,BluetoothA2dp,BluetoothHealth,BluetoothHealthCallback,BluetoothHealthAppConfiguration\n\nBluetoothAdapter class\nBy the help of BluetoothAdapter class, we can perform fundamental tasks such as initiate device discovery, query a list of paired (bonded) devices, create a BluetoothServerSocket instance to listen for connection requests etc.\n\nConstants of BluetoothAdapter class\nBluetoothAdapter class provides many constants. Some of them are as follows\n\nString ACTION_REQUEST_ENABLE\nString ACTION_REQUEST_DISCOVERABLE\nString ACTION_DISCOVERY_STARTED\nString ACTION_DISCOVERY_FINISHED\n\nMethods of BluetoothAdapter class\nCommonly used methods of BluetoothAdapter class are as follows:\nstatic synchronized BluetoothAdapter getDefaultAdapter() returns the instance of BluetoothAdapter.\nboolean enable() enables the bluetooth adapter if it is disabled.\nboolean isEnabled() returns true if the bluetooth adapter is enabled.\nboolean disable() disables the bluetooth adapter if it is enabled.\nString getName() returns the name of the bluetooth adapter.\nboolean setName(String name) changes the bluetooth name\nint getState() returns the current state of the local bluetooth adapter.\nSet<BluetoothDevice> getBondedDevices() returns a set of paired (bonded) BluetoothDevice objects.\nboolean startDiscovery() starts the discovery process."
+    },
+    {
+      "ques": "Android Wifi",
+      "ans": "The android.net.wifi.WifiManager class can be used to manage the wifi connectivity. It can be used to add network, disable network, scan for access points, disconnect etc."
+    },
+    {
+      "ques": "Android Camera",
+      "ans": "Camera is mainly used to capture picture and video. We can control the camera by using methods of camera api.\nAndroid provides the facility to work on camera by 2 ways:\n\nBy Camera Intent,By Camera API\n\nUnderstanding basic classes of Camera Intent and API\n\nThere are mainly four classes that we are going to discuss.\nIntent\n\nBy the help of 2 constants of MediaStore class, we can capture picture and video without using the instance of Camera class\nACTION_IMAGE_CAPTURE\nACTION_VIDEO_CAPTURE\n\nCamera\nIt is main class of camera api, that can be used to take picture and video.\nnSurfaceView\nIt represents a surface view ore preview of live camera.\n\nMediaRecorder\nIt is used to record video using camera. It can also be used to record audio files as we have seen in the previous example of media framework."
+    },
+    {
+      "ques": "Android Sensor",
+      "ans": "Sensors can be used to monitor the three-dimensional device movement or change in the environment of the device. Android provides sensor api to work with different types of sensors.\n\nTypes of Sensors\nAndroid supports three types of sensors:\n\n1) Motion Sensors\nThese are used to measure acceleration forces and rotational forces along with three axes.\n\n2) Position Sensors\nThese are used to measure the physical position of device.\n\n3) Environmental Sensors\nThese are used to measure the environmental changes such as temperature, humidity etc.\n\nAndroid Sensor API\nAndroid sensor api provides many classes and interface. The important classes and interfaces of sensor api are as follows:\n\n1) SensorManager class\nThe android.hardware.SensorManager class provides methods :\nto get sensor instance,,to access and list sensors,,to register and unregister sensor listeners etc.,\n\nYou can get the instance of SensorManager by calling the method getSystemService() and passing the SENSOR_SERVICE constant in it.\n\nSensorManager sm = (SensorManager)getSystemService(SENSOR_SERVICE);\n\n2) Sensor class\nThe android.hardware.Sensor class provides methods to get information of the sensor such as sensor name, sensor type, sensor resolution, sensor type etc.\nn3) SensorEvent class\nIts instance is created by the system. It provides information about the sensor.\n\n4) SensorEventListener interface\nIt provides two call back methods to get information when sensor values (x,y and z) change or sensor accuracy changes.\n\nvoid onAccuracyChanged(Sensor sensor, int accuracy)	-it is called when sensor accuracy is changed.\n\nvoid onSensorChanged(SensorEvent event)	-it is called when sensor values are changed."
+    },
+    {
+      "ques": "Android Simple Graphics",
+      "ans": "The android.graphics.Canvas can be used to draw graphics in android. It provides methods to draw oval, rectangle, picture, text, line etc. The android.graphics.Paint class is used with canvas to draw objects. It holds the information of color and style."
+    },
+    {
+      "ques": "Android Animation",
+      "ans": "Android provides a large number of classes and interface for the animation development. Most of the classes and interfaces are given in android.animation package.Android Animation enables you to change the object property and behavior at run time. There are various ways to do animation in android. The AnimationDrawable class provides methods to start and end the animation. Even, you can use time based animation."
+    },
+    {
+      "ques": "Android Web Service",
+      "ans": "Creating web service application in android is not a difficult task. We can easily create a restful web service application in android to authenticate or save information into the external database such as oracle, mysql, postgre sql, sql server using other application developed in java, .net, php etc languages. That is what we are going to do.\n\nAndroid Restful Web Service\nBefore developing web services application, you must have basic knowledge of SOAP and Restful web services. That is why, we are going to discuss basic points about web services such as what is web service and brief information about SOAP and Restful web services.\n\nWhat is Web Service?\nA web service is a standard for exchanging information between different types of applications irrespective of language and platform. For example, an android application can interact with java or .net application using web services."
+    },
+    {
+      "ques": "Android Google Map",
+      "ans": "Android provides facility to integrate Google map in our application. Google map displays your current location, navigate location direction, search location etc. We can also customize Google map according to our requirement.\n\nTypes of Google Maps\n1.Normal: This type of map displays typical road map, natural features like river and some features build by humans.\n\n2.Hybrid: This type of map displays satellite photograph data with typical road maps. It also displays road and feature labels.\n\n3.Satellite: Satellite type displays satellite photograph data, but doesn't display road and feature labels.\n\n4.Terrain: This type displays photographic data. This includes colors, contour lines and labels and perspective shading.\n\n5.None: This type displays an empty grid with no tiles loaded.\n\nSyntax of different types of map\n\ngoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);\ngoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);\ngoogleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);\ngoogleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN); \n\nMethods of Google map\naddCircle(CircleOptions options) -This method add circle to map.\n\naddPolygon(PolygonOptions options)	-This method add polygon to map.\n\naddTileOverlay(TileOverlayOptions options)	-This method add tile overlay to the map.\n\nanimateCamera(CameraUpdate update)	-This method moves the map according to the update with an animation.\n\nclear()	-This method removes everything from the map.\n\ngetMyLocation()	-This method returns the currently displayed user location.\n\nmoveCamera(CameraUpdate update)	-This method reposition the camera according to the instructions defined in the update.\n\nsetTrafficEnabled(boolean enabled)	-This method set the traffic layer on or off.\n\nsnapshot(GoogleMap.SnapshotReadyCallback callback)	-This method takes a snapshot of the map.\n\nstopAnimation()	-This method stops the camera animation if there is any progress."
+    },
+    {
+      "ques": "Android Google Map Displaying Current Location",
+      "ans": "we will display and place marker at the user current location. For doing this we need to generate Google Map API key. The process of generating Google Map API is described in tutorial Android Google Map.\n\nTo display the user current location we need to implements some interfaces and there callbacks methods.\n\nCallback methods in Google Map\nOnMapRreadyCallback: This callback interface invokes when it instance is set on MapFragment object. The onMapReady(GoogleMap) method of OnMapReadyCallback interface is called when the map is ready to used. In the onMapReady(GoogleMap) method we can add markers, listeners and other attributes.\n\nLocationListener: This interface is used to receive notification when the device location has changed. The abstract method of LocationListener onLocationChanged(Location) is called when the location has changed.\n\nGoogleApiClient.ConnectionCallbacks: This interface provide callbacks methods onConnected(Bundle) and onConnectionSuspended(int) which are called when the device is to connected and disconnected.\n\nGoogleApiClient.OnConnectionFailedListener: This interface provide callbacks method onConnectionFailed(ConnectionResult) which is called when there was an error in connecting the device to the service.\n\nThe setMyLocationEnabled() method of GoogleMap is used to enable location layer, which allows device to interact with current location."
+    },
+    {
+      "ques": "Android Google Map Search Location using Geocoder",
+      "ans": "Searching location in Google Map API is done through Geocoder class. Geocoder class is used to handle geocoding and reverse geocoding.\n\nGeocoding is a process in which street address is converted into a coordinate (latitude,longitude). Reverse geocoding is a process in which a coordinate (latitude,longitude) is converted into an address.\nMethods of Geocoder class\n\nList<Address> getFromLocation(double latitude, double longitude, int maxResults): This method returns an array of Address which specifies the surrounding latitude and longitude.\n\nList<Address> getFromLocationName(String location, int results, double leftLatitude, double leftLongitude, double rightLatitude, double rightLongitude): This method returns an array of Address which describes the given location such as place, an address, etc.\n\nList<Address> getFromLocationName(String location, int results): This method returns an array of Address which describes te given location such as place, an address, etc.\n\nstatic boolean isPresent(): This method returns true if the methods getFromLocation() and getFromLocationName() are implemented.\n\nLet's see the code which convert location name into coordinate.\nList<Address> addressList = geocoder.getFromLocationName(location, 1);\nAddress address = addressList.get(0);\nLatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());  "
+    },
+    {
+      "ques": "Resources(colors)",
+      "ans": "1. colors\nColors are usually stored in a resource file named colors.xml in the /res/values/ folder.\nThey are defined by <color> elements:\n\nColors are represented by hexadecimal color values for each color channel (0 - FF) in one of the formats:\n#RGB,#ARGB,#RRGGBB,#AARRGGBB\nLegend\nA - alpha channel - 0 value is fully transparent, FF value is opaque\nR - red channel\nG - green channel\nB - blue channel\nDefined colors can be used in XML with following syntax @color/name_of_the_color\n\n2. Color Transparency(Alpha) Level\nIf you want to set 45% to red color\n<color name='red_with_alpha_45'>#73FF0000</color>\n\nhex value for red - #FF0000\nYou can add 73 for 45% opacity in prefix - #73FF0000"
+    },
+    {
+      "ques": "color state list",
+      "ans": "Color state lists can be used as colors, but will change depending on the state of the view they are used for.\nTo define one, create a resource file in res/color/foo.xml\n\nItems are evaluated in the order they are defined, and the first item whose specified states match the current state of the view is used. So it's a good practice to specify a catch-all at the end, without any state selectors specified.\nEach item can either use a color literal, or reference a color defined somewhere else.\n\n<?xml version='1.0' encoding='utf-8'?>\n<selector xmlns:android='http://schemas.android.com/apk/res/android'>\n<item android:color='#888888' android:state_enabled='false'/>\n<item android:color='@color/lightGray' android:state_selected='false'/>\n<item android:color='@android:color/white' />\n</selector>"
+    },
+    {
+      "ques": "Resources(strings)",
+      "ans": "1.String Plurals\nTo differentiate between plural and singular strings, you can define a plural in your strings.xml file and list the different quantities, as shown in the example below:\n\n2. strings\nStrings are typically stored in the resource file strings.xml. They are defined using a <string> XML element\nThe purpose of strings.xml is to allow internationalisation. You can define a strings.xml for each language iso code. Thus when the system looks for the string 'app_name' it first checks the xml file corresponding to the current language, and if it is not found, looks for the entry in the default strings.xml file. This means you can choose to only localise some of your strings while not others.\n/res/values/strings.xml"
+    },
+    {
+      "ques": "String formatting in strings.xml",
+      "ans": "Defining Strings in the strings.xml file also allows for string formatting. The only caveat is that the String will need to be dealt with in code like below, versus simply attaching it to a layout.\n<string name='welcome_trainer'>Hello Pokémon Trainer, %1$s! You have caught %2$d Pokémon.</string>\nString welcomePokemonTrainerText = getString(R.string.welcome_trainer, tranerName, pokemonCount);\nIn above example,\n\n%1$s\n\n'%' separates from normal characters\n'1' denotes first parameter\n'$' is used as separator between parameter number and type\n's' denotes string type ('d' is used for integer)\n\nNote that getString() is a method of Context or Resources, i.e. you can use it directly within an Activity instance,or else you may use getActivity().getString() or getContext().getString() respectively."
+    },
+    {
+      "ques": "Resources(Dimensions)",
+      "ans": "dimensions\nDimensions are typically stored in a resource file names dimens.xml. They are defined using a <dimen> element.\nres/values/dimens.xml\nYou can use different units :\nsp : Scale-independent Pixels. For fonts\ndp : Density-independent Pixels. For everything else.\npt : Points\npx : Pixels\nmm : Millimeters\nim : Inches\n\nDimensions can now be referenced in XML with the syntax @dimen/name_of_the_dimension."
+    },
+
+    {
+      "ques": "Resources(integer array)",
+      "ans": "In order to define an integer array write in a resources file\n\nres/values/filename.xml\n\n<integer-array name='integer_array_name'>\n<item>integer_value</item>\n<item>@integer/integer_id</item>\n</integer-array>"
+    },
+    {
+      "ques": "9 Patches",
+      "ans": "9 Patches are stretchable images in which the areas which can be stretched are defined by black markers on a transparent border."
+    },
+    {
+      "ques": "NFC Guide",
+      "ans": "NFC stands for Near Field Communication, and as the name implies it provides a wireless communication mechanism between two compatible devices. NFC is a short range wireless technology having a range of 4cm or less for two devices to share data.\n\nAndroid powered devices with NFC supports following three main modes of operations −\n\nThree Modes of Operation\nReader/Writer Mode − It allows the NFC device to read or write passive NFC tags.\nP2P mode − This mode allows NFC device to exchange data with other NFC peers.\nCard emulation mode − It allows the NFC device itself to act as an NFC card, so it can be accessed by an external NFC reader."
+    },
+    {
+      "ques": "Alert Dialog",
+      "ans": "A Dialog is small window that prompts the user to a decision or enter additional information.\n\nSome times in your application, if you wanted to ask the user about taking a decision between yes or no in response of any particular action taken by the user, by remaining in the same activity and without changing the screen, you can use Alert Dialog.\n\nIts syntax is \nAlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);"
+    },
+    {
+      "ques": "Audio Capture",
+      "ans": "Android has a built in microphone through which you can capture audio and store it , or play it in your phone. There are many ways to do that but the most common way is through MediaRecorder class.\nAndroid provides MediaRecorder class to record audio or video. In order to use MediaRecorder class ,you will first create an instance of MediaRecorder class. Its syntax is given below.\n\nMediaRecorder myAudioRecorder = new MediaRecorder();Now you will set the source , output and encoding format and output file. Their syntax is given below.\n\nmyAudioRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);\nmyAudioRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);\nmyAudioRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);\nmyAudioRecorder.setOutputFile(outputFile);\n\nAfter specifying the audio source and format and its output file, we can then call the two basic methods prepare and start to start recording the audio.\nmyAudioRecorder.prepare();\nmyAudioRecorder.start();"
+    },
+    {
+      "ques": "Audio Manager",
+      "ans": "You can easily control your ringer volume and ringer profile i-e:(silent,vibrate,loud e.t.c) in android. Android provides AudioManager class that provides access to these controls.\n\nSyntax is:\nprivate AudioManager myAudioManager;\nmyAudioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE); \nOnce you instantiate the object of AudioManager class, you can use setRingerMode method to set the audio or ringer profile of your device. Its syntax is given below.\nmyAudioManager.setRingerMode(AudioManager.RINGER_MODE_VIBRATE);"
+    },
+    {
+      "ques": "Clipboard",
+      "ans": "Android provides the clipboard framework for copying and pasting different types of data. The data could be text, images, binary stream data or other complex data types.\nAndroid provides the library of ClipboardManager and ClipData and ClipData.item to use the copying and pasting framework.In order to use clipboard framework, you need to put data into clip object, and then put that object into system wide clipboard.\nIts syntax is \n\nClipboardManager myClipboard;\nmyClipboard = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);\n\nCopying data\n\nClipData myClip;\nString text = 'hello world';\nmyClip = ClipData.newPlainText('text', text);\nmyClipboard.setPrimaryClip(myClip);\n\nPasting data\n\nClipData abc = myClipboard.getPrimaryClip();\nClipData.Item item = abc.getItemAt(0);\nString text = item.getText().toString();"
+    },
+    {
+      "ques": "Custom Fonts",
+      "ans": "In android, you can define your own custom fonts for the strings in your application. You just need to download the required font from the internet, and then place it in assets/fonts folder.\nIts syntax is\n\nTextView tx = (TextView)findViewById(R.id.textview1);"
+    },
+    {
+      "ques": "Data Backup",
+      "ans": "Android allows you to backup your application data to remote 'cloud' storage, in order to provide a restore point for the application data and settings. You can only backup your application data. In order to access the other applications data, you need to root your phone.\n\nIn order to make a data backup application, you need to register your application with google backup service.\nAfter registering , you have to specify its key in the AndroidManifest.XML\nAndroid provides BackUpAgentHelper class to handle all the operations of data backup. In order to use this class , you have to extend your class with it. \nThe persistent data that you want to backup is in either of the two forms. Either it could be SharedPrefrences or it could be File. Android supports both types of backup in the respective classes of SharedPreferencesBackupHelper and FileBackupHelper."
+    },
+    {
+      "ques": "Gestures",
+      "ans": "Android provides special types of touch screen events such as pinch , double tap, scrolls , long presses and flinch. These are all known as gestures.\nAndroid provides GestureDetector class to receive motion events and tell us that these events correspond to gestures or not. To use it , you need to create an object of GestureDetector and then extend another class with GestureDetector.SimpleOnGestureListener to act as a listener and override some methods. \n"
+    },
+    {
+      "ques": "Image Effects",
+      "ans": "Android allows you to manipulate images by adding different kinds of effects on the images. You can easily apply image processing techniques to add certain kinds of effects on images. The effects could be brightness,darkness, grayscale conversion e.t.c.\nAndroid provides Bitmap class to handle images. This can be found under android.graphics.bitmap. There are many ways through which you can instantiate bitmap. We are creating a bitmap of image from the imageView."
+    },
+    {
+      "ques": "JetPlayer",
+      "ans": "The Android platform includes a JET engine that lets you add interactive playback of JET audio content in your applications. Android provides JetPlayer class to handle this stuff.\nIn order to Jet Content , you need to use the JetCreator tool that comes with AndroidSDK. The usage of jetCreator has been discussed in the example. In order to play the content created by JetCreator, you need JetPlayer class supported by android\nIts syntax is\n\nJetPlayer jetPlayer = JetPlayer.getJetPlayer();"
+    },
+    {
+      "ques": "JSON Parser",
+      "ans": "JSON stands for JavaScript Object Notation.It is an independent data exchange format and is the best alternative for XML\nAndroid provides four different classes to manipulate JSON data. These classes are JSONArray,JSONObject,JSONStringer and JSONTokenizer."
+    },
+    {
+      "ques": "Localization",
+      "ans": "The way of changing string into different languages is called as localization\n\nAn android application can run on many devices in many different regions. In order to make your application more interactive, your application should handle text,numbers,files e.t.c in ways appropriate to the locales where your application will be used."
+    },
+    {
+      "ques": "Multitouch",
+      "ans": "Multi-touch gesture happens when more then one finger touches the screen at the same time. Android allows us to detect these gestures\nAndroid system generates the following touch events whenever multiple fingers touches the screen at the same time.\n\nACTION_DOWN\nFor the first pointer that touches the screen. This starts the gesture.\n\nACTION_POINTER_DOWN\nFor extra pointers that enter the screen beyond the first\n\nACTION_MOVE\nA change has happened during a press gesture.\n\nACTION_POINTER_UP\nSent when a non-primary pointer goes up.\n\nACTION_UP\nSent when the last pointer leaves the screen."
+    },
+    {
+      "ques": "Network Connection",
+      "ans": "Android lets your application connect to the internet or any other local network and allows you to perform network operations.\nChecking Network Connection\nBefore you perform any network operations, you must first check that are you connected to that network or internet e.t.c. For this android provides ConnectivityManager class. You need to instantiate an object of this class by calling getSystemService() method\n\nIts syntax is\nConnectivityManager check = (ConnectivityManager)\nthis.context.getSystemService(Context.CONNECTIVITY_SERVICE);\nNetworkInfo[] info = check.getAllNetworkInfo();\n\nto check Connected State of the network\nfor (int i = 0; i<info.length; i++){\n   if (info[i].getState() == NetworkInfo.State.CONNECTED){\n      Toast.makeText(context, 'Internet is connected\n Toast.LENGTH_SHORT).show();\n  }}\n\nPerforming Network Operations\nAfter checking that you are connected to the internet, you can perform any network operation. Here we are fetching the html of a website from a url.\n\nIts syntax is\nString link = 'http://www.google.com';\nURL url = new URL(link);"
+    },
+    {
+      "ques": "Progress Circle",
+      "ans": "The easiest way to make a progress circle is using through a class called ProgressDialog. The loading bar can also be made through that class. The only logical difference between bar and circle is , that the former is used when you know the total time for waiting for a particular task whereas the later is used when you don't know the waiting time.\n\nIts syntax is.\nProgressDialog progress = new ProgressDialog(this);"
+    },
+    {
+      "ques": "Progress Bar using ProgressDialog",
+      "ans": "Progress bars are used to show progress of a task. For example, when you are uploading or downloading something from the internet, it is better to show the progress of download/upload to the user.\nIn android there is a class called ProgressDialog that allows you to create progress bar. In order to do this, you need to instantiate an object of this class. \nIts syntax is.\nProgressDialog progress = new ProgressDialog(this);"
+    },
+    {
+      "ques": "Push Notification",
+      "ans": "A notification is a message you can display to the user outside of your application's normal UI. You can create your own notifications in android very easily.\nIts syntax is\nNotificationManager NM;\nNM=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);"
+    },
+    {
+      "ques": "RenderScript",
+      "ans": "Usually the apps on android are designed as to consume as minimum resources as possible. But some applications like some 3D games need high level processing on android.\nTo provide these applications high performance android introduced the RenderScript. It is android based framework which is used for running applications that perform very highly computational tasks. The development on this framework is done in Native Development Kit(NDK) provided by android. RenderScript is extremely useful for applications which performs following types of actions −\n\n3D Rendering\nImage Processing\nComputational Photography\nComputer Vision"
+    },
+    {
+      "ques": "RSS Reader",
+      "ans": "RSS stands for Really Simple Syndication. RSS is an easy way to share your website updates and content with your users so that users might not have to visit your site daily for any kind of updates."
+    },
+    {
+      "ques": "Screen Cast",
+      "ans": "Android Screen cast is a desktop application to control an android device remotely. If your phone is not rooted, you can only view your mobile activity in PC.\nBut if you phone is rooted , you can communicate both ways. You can also control your device remotely using keyboard and mouse if your phone is rooted."
+    },
+    {
+      "ques": "Session Management",
+      "ans": "Session help you when want to store user data outside your application, so that when the next time user use your application, you can easily get back his details and perform accordingly.\nShared Preferences\nShared Preferences allow you to save and retrieve data in the form of key,value pair. In order to use shared preferences, you have to call a method getSharedPreferences() that returns a SharedPreference instance pointing to the file that contains the values of preferences.\n\nSharedPreferences sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);\nEditor editor = sharedpreferences.edit();\neditor.putString('key', 'value');\neditor.commit();"
+    },
+    {
+      "ques": "SIP Protocol",
+      "ans": "SIP stands for (Session Initiation Protocol). It is a protocol that let applications easily set up outgoing and incoming voice calls, without having to manage sessions, transport-level communication, or audio record or playback directly\nApplications\n\nVideo conferencing\nInstant messaging\n\nFunctions of SIP\n\nSIP allows for the establishment of user location\nSIP provides a mechanism for call management\nSIP provides feature negotiation, so that all the parties in the call can agree to the features supported among them\n\nComponents of SIP\nUser Agent Client (UAC)\n\nUAC or User Agent Client are those end users who generates requests and send those requests to the server.These requests are generated by the client applications running on their systems.\n\nUser Agent Server (UAS)\n\nUAS or User Agent Server are those systems which get the request generated by UAC. The UAS process those requests and then according to the requests it generates responses accordingly."
+    },
+    {
+      "ques": "Spelling Checker",
+      "ans": "The Android platform offers a spelling checker framework that lets you implement and access spell checking in your application.\n\nIn order to use spelling checker , you need to implement SpellCheckerSessionListener interface and override its methods."
+    },
+    {
+      "ques": "SQLite Database",
+      "ans": "SQLite is a opensource SQL database that stores data to a text file on a device. Android comes in with built in SQLite database implementation\n\nSQLite supports all the relational database features. In order to access this database, you don't need to establish any kind of connections for it like JDBC,ODBC e.t.c\n\nDatabase - Package\nThe main package is android.database.sqlite that contains the classes to manage your own databases\n\nDatabase - Creation\nIn order to create a database you just need to call this method openOrCreateDatabase with your database name and mode as a parameter. It returns an instance of SQLite database which you have to receive in your own object.\nIts syntax is\n\nSQLiteDatabase mydatabase = openOrCreateDatabase('your database name',MODE_PRIVATE,null);\n\nDatabase - Insertion\nwe can create table or insert data into table using execSQL method defined in SQLiteDatabase class.\nIts syntax is\n\nmydatabase.execSQL('CREATE TABLE IF NOT EXISTS TutorialsPoint(Username VARCHAR,Password VARCHAR);');\nmydatabase.execSQL('INSERT INTO TutorialsPoint VALUES('admin','admin');');\n\nDatabase - Fetching\nWe can retrieve anything from database using an object of the Cursor class. We will call a method of this class called rawQuery and it will return a resultset with the cursor pointing to the table. We can move the cursor forward and retrieve the data.\n\nCursor resultSet = mydatbase.rawQuery('Select * from TutorialsPoint',null);\nresultSet.moveToFirst();\nString username = resultSet.getString(0);\nString password = resultSet.getString(1);\n\nDatabase - Helper class\nFor managing all the operations related to the database , an helper class has been given and is called SQLiteOpenHelper. It automatically manages the creation and update of the database"
+    },
+    {
+      "ques": "Text To Speech",
+      "ans": "Android allows you convert your text into voice. Not only you can convert it but it also allows you to speak text in variety of different languages.\nAndroid provides TextToSpeech class for this purpose. In order to use this class, you need to instantiate an object of this class and also specify the initListener."
+    },
+    {
+      "ques": "TextureView",
+      "ans": "If you want to display a live video stream or any content stream such as video or an OpenGL scene, you can use TextureView provided by android in order to do that.\nIn order to use TextureView, all you need to do is get its SurfaceTexture.The SurfaceTexture can then be used to render content. In order to do this, you just need to do instantiate an object of this class and implement SurfaceTextureListener interface. "
+    },
+    {
+      "ques": "XML Parser",
+      "ans": "XML stands for Extensible Mark-up Language.XML is a very popular format and commonly used for sharing data on the internet. \nAndroid provides three types of XML parsers which are DOM,SAX and XMLPullParser. Among all of them android recommend XMLPullParser because it is efficient and easy to use. So we are going to use XMLPullParser for parsing XML.\n\nXML - Elements\nProlog\nAn XML file starts with a prolog. The first line that contains the information about a file is prolog\n\nEvents\nAn XML file has many events. Event could be like this. Document starts , Document ends, Tag start , Tag end and Text e.t.c\n\nText\nApart from tags and events, and xml file also contains simple text. Such as GB is a text in the country tag.\n\nAttributes\nAttributes are the additional properties of a tag such as value e.t.c\n\nXML - Parsing\nIn the next step, we will create XMLPullParser object , but in order to create that we will first create XmlPullParserFactory object and then call its newPullParser() method to create XMLPullParser.\nIts syntax is\n\nprivate XmlPullParserFactory xmlFactoryObject = XmlPullParserFactory.newInstance();\nprivate XmlPullParser myparser = xmlFactoryObject.newPullParser();\nmyparser.setInput(stream, null);"
+    }
+
+  ],
+  "programs": [
+    {
+      "quesno": "1",
+      "ques": "Android Splash Screen",
+      "ans": ""
+    },
+    {
+      "quesno": "2",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    },
+    {
+      "quesno": "3",
+      "ques": "Smart and Balanced",
+      "ans": "Smart and Balanced"
+    }
+  ],
+  "videos": [
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    },
+    {
+      "id": "w0SDwUU7wpo",
+      "title": "Smart and Balanced",
+      "time": "5:00 pm",
+      "name": "Sateesh Patnana"
+    }
+  ]
+}
+
