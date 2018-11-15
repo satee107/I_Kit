@@ -1,19 +1,32 @@
 package com.fit.i_kit.Javaclasses;
 
-public class ProgramData {
+import java.io.Serializable;
+
+public class ProgramData implements Serializable{
 
     public String queno;
     public String ques;
     public String ans;
+
+
+
+    public String op;
     //public String output;
 
 
+    public String getOp() {
+        return op;
+    }
 
+    public void setOp(String op) {
+        this.op = op;
+    }
 
-    public ProgramData(String queno, String ques, String ans) {
+    public ProgramData(String queno, String ques, String ans ,String op) {
         this.queno = queno;
         this.ques = ques;
         this.ans = ans;
+        this.op=op;
         //this.output = output;
     }
 

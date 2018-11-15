@@ -95,7 +95,6 @@ public class YouTubePlayerActivity  extends AppCompatActivity implements YouTube
 
     @Override
     public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-               Toast.makeText(YouTubePlayerActivity.this, "Error while initializing YouTubePlayer.", Toast.LENGTH_SHORT).show();
-
+        Toast.makeText(YouTubePlayerActivity.this, "Error while initializing YouTubePlayer.", Toast.LENGTH_SHORT).show();
     }
 }

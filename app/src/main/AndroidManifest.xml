@@ -7,12 +7,12 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
+        android:name=".Network.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ikitlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ikitlogo"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
         <activity
@@ -30,14 +30,24 @@
         <activity android:name=".Acitivities.ContactusActivity" />
         <activity android:name=".Acitivities.YouTubePlayerActivity" />
         <activity android:name=".Acitivities.ProgramAnswerActivity" />
-        <activity android:name=".Acitivities.ResumeLookActivity">
-
-        </activity>
+        <activity android:name=".Acitivities.ResumeLookActivity"></activity>
         <activity android:name=".Acitivities.ExpResumeLookActivity" />
         <activity android:name=".Acitivities.JobShowingActivity" />
-        <activity android:name=".Acitivities.QuizYouTubeActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".Acitivities.JobWebViewActivity"></activity>
+        <activity
+            android:name=".Acitivities.QuizYouTubeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Acitivities.JobWebViewActivity" />
+        <activity android:name=".Acitivities.QuizResultsActivity">
+
+        </activity>
+
+        <receiver
+            android:name=".Network.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
 
     </application>
 

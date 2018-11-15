@@ -16,6 +16,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.fit.i_kit.Javaclasses.FresherData;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.InputStream;
@@ -29,6 +34,7 @@ public class FresherFragment extends Fragment {
     FresherAdapter horizontalAdapter;
     List<FresherData> data = new ArrayList<>();
     View openLayout;//copy this
+    private AdView mAdView;
 
     String course="",fname="";
 
@@ -49,6 +55,12 @@ public class FresherFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fresher, container, false);
         recyclerView = view.findViewById(R.id.recycle_fresh);
+
+        MobileAds.initialize(getContext(), "ca-app-pub-4682541119478126~8576979007");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
 
         SharedPreferences sharedpreferences = getActivity().getSharedPreferences("pref", Context.MODE_PRIVATE);
         course = sharedpreferences.getString("title", "I-KIT");

@@ -1,136 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Acitivities.ProgramAnswerActivity">
+
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:layout_scrollFlags="scroll|enterAlways"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-    </android.support.v7.widget.Toolbar>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <TextView
+                android:textSize="20sp"
+                android:visibility="visible"
+                android:textColor="#fff"
+                android:text="- "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:visibility="visible"
+                android:textColor="#fff"
+                android:id="@+id/coursename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
         android:orientation="horizontal">
-        <Button
+        <android.support.design.widget.FloatingActionButton
             android:id="@+id/prev"
             android:layout_width="wrap_content"
-            android:elevation="10dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_chevron_left_black_24dp"
-            tools:targetApi="lollipop"
-            tools:ignore="ButtonStyle" />
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="60dp"
-            android:layout_marginEnd="60dp"
+            android:layout_margin="5dp"
+            app:elevation="10dp"
+            android:layout_alignParentStart="true"
+            app:rippleColor="@color/materialorange"
+            app:backgroundTint="#8C07A6"
+            app:fabSize="mini"
+            android:src="@drawable/ic_chevron_left_black_24dp" />
+        <android.support.design.widget.FloatingActionButton
             android:id="@+id/home_btn"
-            android:background="@drawable/ic_home_black_24dp"
-            tools:ignore="ButtonStyle" />
-        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:elevation="10dp"
+            android:layout_centerHorizontal="true"
+            app:backgroundTint="#8C07A6"
+            android:layout_margin="5dp"
+            app:fabSize="mini"
+            app:rippleColor="@color/materialorange"
+            android:src="@drawable/ic_home_black_24dp"/>
+        <android.support.design.widget.FloatingActionButton
             android:id="@+id/nxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:elevation="10dp"
-            tools:targetApi="lollipop"
-            android:background="@drawable/ic_chevron_right_black_24dp"
-            tools:ignore="ButtonStyle" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/number"
-        android:layout_marginEnd="5dp"
-        android:gravity="center"
-        android:text="d"
-        android:textStyle="bold"
-        android:background="@drawable/ic_bookmark_black_24dp"
-        android:textColor="#fff"/>
-        </LinearLayout>
-
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            card_view:cardElevation="10dp"
             android:layout_margin="5dp"
-            android:layout_height="wrap_content">
-        <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/ques"
-    android:textColor="@color/materialred"
-    android:layout_margin="5dp"/>
-        </android.support.v7.widget.CardView>
+            app:elevation="10dp"
+            android:layout_alignParentEnd="true"
+            app:rippleColor="@color/materialorange"
+            app:backgroundTint="#8C07A6"
+            app:fabSize="mini"
+            android:src="@drawable/ic_chevron_right_black_24dp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_bookmark_black_24dp"
+                    android:gravity="center"
+                    android:text="d"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/ques"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#8C07A6" />
+            </LinearLayout>
+
 
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                card_view:cardElevation="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_height="wrap_content">
-                <ScrollView
+                card_view:cardElevation="10dp">
+
+                <TextView
+                    android:id="@+id/ans"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/ans"
-        android:textColor="@color/materialblue"
-        android:layout_margin="5dp"/>
-                </ScrollView>
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/materialblue" />
 
             </android.support.v7.widget.CardView>
 
-    </LinearLayout>
 
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            card_view:cardElevation="10dp"
-            android:layout_margin="5dp"
-            android:layout_height="wrap_content">
-            <ScrollView
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/output"
-            android:layout_margin="5dp"/>
-            </ScrollView>
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardElevation="10dp">
 
-        </android.support.v7.widget.CardView>
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

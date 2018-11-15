@@ -71,7 +71,6 @@ public class CustomAdapter extends BaseAdapter{
                 String course = s.getName();
                 SharedPreferences sharedpreferences = c.getSharedPreferences("pref",Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedpreferences.edit();
-
                 editor.putString("title", course);
                 editor.commit();
 
@@ -105,7 +104,7 @@ public class CustomAdapter extends BaseAdapter{
                         alert.setTitle("Sorry !");
                         alert.show();
 
-                        //c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "android":
                         AlertDialog.Builder builder2 = new AlertDialog.Builder(c);
@@ -132,7 +131,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert2.setTitle("Sorry !");
                         alert2.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                      // c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "oracle":
                         AlertDialog.Builder builder3 = new AlertDialog.Builder(c);
@@ -159,7 +158,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert3.setTitle("Sorry !");
                         alert3.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                      // c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "web design":
                         AlertDialog.Builder builder4 = new AlertDialog.Builder(c);
@@ -186,7 +185,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert4.setTitle("Sorry !");
                         alert4.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                       //c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "c":
                         AlertDialog.Builder builder5= new AlertDialog.Builder(c);
@@ -213,7 +212,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert5.setTitle("Sorry !");
                         alert5.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                     // c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "c++":
                         AlertDialog.Builder builder6 = new AlertDialog.Builder(c);
@@ -240,7 +239,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert6.setTitle("Sorry !");
                         alert6.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                       //c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "php":
                         AlertDialog.Builder builder7 = new AlertDialog.Builder(c);
@@ -267,7 +266,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert7.setTitle("Sorry !");
                         alert7.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                       //c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "testing":
                         AlertDialog.Builder builder8 = new AlertDialog.Builder(c);
@@ -294,7 +293,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert8.setTitle("Sorry !");
                         alert8.show();
-                      //  c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                     // c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
                     case "python":
                         AlertDialog.Builder builder9 = new AlertDialog.Builder(c);
@@ -321,7 +320,7 @@ public class CustomAdapter extends BaseAdapter{
                         //Setting the title manually
                         alert9.setTitle("Sorry !");
                         alert9.show();
-                       // c.startActivity(new Intent(c, CourseContentAcitivity.class));
+                       //c.startActivity(new Intent(c, CourseContentAcitivity.class));
                         break;
 
                 }

@@ -43,7 +43,19 @@
                     android:visibility="visible" />
             </android.support.v7.widget.Toolbar>
         </android.support.design.widget.AppBarLayout>
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4682541119478126/3154644824">
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>
         <ImageView
             android:id="@+id/logo_image"
             android:layout_width="match_parent"
@@ -53,7 +65,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:background="@color/materialblue">
 
             <LinearLayout
@@ -80,7 +93,7 @@
             <TextView
                 android:id="@+id/ab1_text"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|right"
                 android:layout_margin="10dp"
                 android:text="@string/about_i_kit"
@@ -90,7 +103,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_marginTop="5dp"
             android:background="@color/materialblue">
 
@@ -123,6 +137,7 @@
                 android:text="@string/about_company"
                 android:textColor="#fff"
                 android:textSize="16sp" />
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

@@ -2215,21 +2215,632 @@
   ],
   "programs": [
     {
-      "quesno": "itentrylevel",
-      "ques": "Smart and Balanced",
-      "ans": "Smart and Balanced"
+      "quesno": "1",
+      "ques": "Program to Display Hello, World!",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br>printf(\"<font color='blue'>Hello world</font>\");<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
     },
     {
-      "quesno": "itentrylevel",
-      "ques": "Smart and Balanced",
-      "ans": "Smart and Balanced"
+      "quesno": "2",
+      "ques": "Program to Print an Integer",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>number;<br>printf(\"<font color='blue'>Enter an integer :</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&number);<br>printf(\"<font color='blue'>You entered: %d </font>\",number);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
     },
     {
-      "quesno": "itentrylevel",
-      "ques": "Smart and Balanced",
-      "ans": "Smart and Balanced"
+      "quesno": "3",
+      "ques": "Program to Add Two Integers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>firstNumber,secondnumber,sum of two numbers;<br>printf(\"<font color='blue'>Enter an integer :</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&firstnumber,&secondnumber);<br>Sum of two numbers =fiirstnumber+secondnumber;<br>printf(\"<font color='blue'>You entered: %d + %d =%d </font>\",firstNumber, secondNumber, sumOfTwoNumbers);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "4",
+      "ques": "Program to Multiply Two Numbers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double</b></font> firstNumber, secondNumber, product;<br>printf(\"<font color='blue'>Enter two numbers: </font>\");<br>scanf(\"<font color='blue'>%lf %lf\",</font> &firstNumber, &secondNumber);<br>    product = firstNumber * secondNumber;  <br>printf(\"<font color='blue'>Product = %.<font color='#a00005'>2</font>lf\" </font>,firstNumber, secondNumber, sumOfTwoNumbers);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "5",
+      "ques": "Program to Multiply Two Numbers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double </b></font>firstNumber, secondNumber, product;<br>printf(\"<font color='blue'>Enter two numbers:</font>\");<br>scanf(\"<font color='blue'>%lf %lf</font>\",&firstNumber, &secondNumber);<br> product = firstNumber * secondNumber;  <br>printf(\"<font color='blue'>You entered: Product = %.<font color='#a00005'>2</font>lf </font>\",product);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "6",
+      "ques": "Program to Print ASCII Value",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font>c;<br>printf(\"<font color='blue'>Enter a character: </font>\");<br>scanf(\"<font color='blue'>%c</font>\",&c);<br>printf(\"<font color='blue'>ASCII value of %c = %d </font>\",c, c);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "7",
+      "ques": "Program to Compute Quotient and Remainder",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>dividend, divisor, quotient, remainder;<br>printf(\"<font color='blue'>Enter dividend:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&dividend);<br>printf(\"<font color='blue'>Enter divisor:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&divisor);<br>   quotient = dividend / divisor;<br>remainder = dividend % divisor;<br>printf(\"<font color='blue'>Quotient = %d\n</font>\",quotient);<br>printf(\"<font color='blue'>Remainder = %d</font>\",remainder);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "8",
+      "ques": "Program to Find the Size of a variable",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>integerType;<br><font color='#388E8E'><b>float </b></font> floatType;<br><font color='#388E8E'><b>double </b></font>doubleType;<br><font color='#388E8E'><b>char </b></font> charType;<br>printf(\"<font color='blue'>Size of int: %ld bytes\n</font>\",sizeof(integerType));<br>printf(\"<font color='blue'>Size of float: %ld bytes\n</font>\",sizeof(floatType));<br>printf(\"<font color='blue'>Size of double: %ld bytes\n</font>\",sizeof(doubleType));<br>printf(\"<font color='blue'>Size of char: %ld byte\n</font>\",sizeof(charType));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "9",
+      "ques": "Program to Demonstrate the Working of long",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>a;<br><font color='#388E8E'><b>long </b></font> b;<br><font color='#388E8E'><b>long </b></font>long c;<br><font color='#388E8E'><b>char </b></font> charType;<br><font color='#388E8E'><b>double </b></font> e;<br><font color='#388E8E'><b>long </b></font> <font color='#388E8E'><b>double </b></font> f;<br>printf(\"<font color='blue'>Size of int = %ld bytes \n</font>\",sizeof(a));<br>printf(\"<font color='blue'>Size of long = %ld bytes\n</font>\", sizeof(b));<br>printf(\"<font color='blue'>Size of long long = %ld bytes\n</font>\", sizeof(c));<br>printf(\"<font color='blue'>Size of double = %ld bytes\n</font>\",sizeof(e));<br>printf(\"<font color='blue'>Size of long double = %ld bytes\n</font>\",sizeof(f));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "10",
+      "ques": "Program to Swap Numbers Using Temporary Variable",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double </b></font>a;<br>  firstNumber, secondNumber, temporaryVariable;<br>printf(\"<font color='blue'>Enter first number:</font>\");<br>scanf(\"<font color='blue'>%lf</font>\", &firstNumber);<br><br>printf(\"<font color='blue'>Enter second number:</font>\");<br>scanf(\"<font color='blue'>%lf</font>\",&secondNumber);<br><br>temporaryVariable = firstNumber;<br>      firstNumber = secondNumber;<br>secondNumber = temporaryVariable;<br>printf(\"<font color='blue'>\nAfter swapping, firstNumber = %.<font color='#a00005'>2</font>lf\n</font>\",firstNumber);<br>printf(\"<font color='blue'>After swapping, secondNumber = %.<font color='#a00005'>2</font>lf</font>\",secondNumber);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "11",
+      "ques": "Program to Check Even or Odd",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>number;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &number);<br><br><font color='#388E8E'><b>if </b></font>(number % <font color='#a00005'>2</font> == <font color='#a00005'>0</font>)<br>printf(\"<font color='blue'>%d is even.</font>\",number);<br><br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is odd.</font>\",number);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "12",
+      "ques": "Program to Check Vowel or consonant",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font> c;<br><font color='#388E8E'><b>int </b></font>isLowercaseVowel, isUppercaseVowel;<br>printf(\"<font color='blue'>Enter an alphabet: </font>\");<br>scanf(\"<font color='blue'>%c</font>\", &c);<br>    isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');<br>isUppercaseVowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');<br><font color='#388E8E'><b>if </b></font>(isLowercaseVowel || isUppercaseVowel)<br>printf(\"<font color='blue'>%c is a vowel.</font>\",c);<br><br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%c is a consonant.</font>\",c);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "13",
+      "ques": "Program to Find the Largest Number Among Three Numbers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font> c;<br><font color='#388E8E'><b>double </b></font>n1, n2, n3;<br>printf(\"<font color='blue'>Enter three different numbers:</font>\");<br>scanf(\"<font color='blue'>%lf %lf %lf</font>\", &n1, &n2, &n3);<br><font color='#388E8E'><b>if </b></font>(n1>=n2 && n1>=n3)<br>printf(\"<font color='blue'>%.2f is the largest number.</font>\",n1);<br><font color='#388E8E'><b>if </b></font>( n2>=n1 && n2>=n3 )<br>printf(\"<font color='blue'>%.2f is the largest number.</font>\",n2);<br><font color='#388E8E'><b>if </b></font>( n3>=n1 && n3>=n2 )<br>printf(\"<font color='blue'>%.2f is the largest number.</font>\",n3);<br><br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+    {
+      "quesno": "14",
+      "ques": "Program to Find Roots of a Quadratic Equation",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double </b></font>a, b, c, determinant, root1,root2, realPart, imaginaryPart;<br>printf(\"<font color='blue'>Enter coefficients a, b and c: </font>\");<br>scanf(\"<font color='blue'>%lf %lf %lf</font>\", &a, &b, &c);<br>    determinant = b*b-<font color='#a00005'>4</font>*a*c;<br><font color='#388E8E'><b>if </b></font>(determinant > <font color='#a00005'>0</font>)<br>{<br>   root1 = (-b+sqrt(determinant))/(<font color='#a00005'>2</font>*a);<br>root2 = (-b-sqrt(determinant))/(<font color='#a00005'>2</font>*a);<br>printf(\"<font color='blue'>root1 = %.2lf and root2 = %.<font color='#a00005'>2</font>lf\",root1 , root2</font>);<br>}<br><font color='#388E8E'><b>else if </b></font>(determinant == <font color='#a00005'>0</font>)<br>{<br>root1 = root2 = -b/(<font color='#a00005'>2</font>*a);<br>printf(\"<font color='blue'>root1 = root2 = %.<font color='#a00005'>2</font>lf;</font>\",root1);<br>}<br><font color='#388E8E'><b>else </b></font><br>{<br>realPart = -b/(<font color='#a00005'>2</font>*a);<br>imaginaryPart = sqrt(-determinant)/(<font color='#a00005'>2</font>*a);<br>printf(\"<font color='blue'>root1 = %.<font color='#a00005'>2</font>lf+%.<font color='#a00005'>2</font>lfi and root2 = %.<font color='#a00005'>2</font>f-%.<font color='#a00005'>2</font>fi.</font>\",realPart, imaginaryPart, realPart, imaginaryPart);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "15",
+      "ques": "Program to Check Leap Year",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>year;<br>printf(\"<font color='blue'>Enter a year:  </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &year);<br><font color='#388E8E'><b>if </b></font>(year%<font color='#a00005'>4</font> == <font color='#a00005'>0</font>)<br>{<br><font color='#388E8E'><b>if </b></font>(year%<font color='#a00005'>100</font> == <font color='#a00005'>0</font>)<br>{<br><font color='#388E8E'><b>if </b></font>(year%<font color='#a00005'>400</font> == <font color='#a00005'>0</font>)<br>printf(\"<font color='blue'>%d is odd.</font>\",number);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is a leap year.</font>\",year);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not a leap year.</font>\",year);<br>}<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is a leap year</font>\",year);<br>}<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not a leap year.</font>\",year);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "16",
+      "ques": "Check if a Number is Positive or Negative Using if...else",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double </b></font>number;<br>printf(\"<font color='blue'>Enter a number:  </font>\");<br>scanf(\"<font color='blue'>%lf</font>\", &number);<br><font color='#388E8E'><b>if </b></font>(number &lt= <font color='#a00005'>0.0</font>)<br>{<br><font color='#388E8E'><b>if </b></font>(number == <font color='#a00005'>0.0</font>)<br>printf(\"<font color='blue'>You entered 0</font>\");<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>You entered a negative number.</font>\");<br>}<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>You entered a positive number.</font>\");<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "17",
+      "ques": "Program to Check Alphabet",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char  </b></font>c;<br>printf(\"<font color='blue'>Enter a character: </font>\");<br>scanf(\"<font color='blue'>%c</font>\", &c);<br><font color='#388E8E'><b>if </b></font>(c>='a' && c<='z') || (c>='A' && c &lt ='Z'))<br>printf(\"<font color='blue'>%c is an alphabet.</font>\",c);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%c is not an alphabet.</font>\",c);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "18",
+      "ques": "Sum of Natural Numbers Using for Loop",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, i, sum = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &n);<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i &lt= n; ++i)<br>{<br> sum += i; <br>  // sum = sum+i;<br>}<br>printf(\"<font color='blue'>Sum = %d</font>\",sum);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "19",
+      "ques": "Factorial of a Number",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, i;<br> unsigned long long factorial =<font color='#a00005'>1</font>;<br>printf(\"<font color='blue'>Enter an integer:  </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br><font color='#388E8E'><b>if </b></font>(n < <font color='#a00005'>0</font>)<br>printf(\"<font color='blue'>Error! Factorial of a negative number doesn't exist.</font>\");<br><font color='#388E8E'><b>else</b></font><br>{<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i &lt=n; ++i)<br>{<br>    factorial *= i;    <br>}<br>printf(\"<font color='blue'>Factorial of %d = %llu</font>\",n, factorial);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "20",
+      "ques": "Multiplication Table Up to 10",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font> n, i;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &n);<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i&lt=n; ++i)<br>{<br>printf(\"<font color='blue'>%d * %d = %d \n</font>\", n, i, n*i);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "21",
+      "ques": " Multiplication Table Up to a range (entered by the user)	",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font> n, i, range;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &n);<br>printf(\"<font color='blue'>Enter the integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &range);<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i &lt=range; ++i)<br>{<br>printf(\"<font color='blue'>%d * %d = %d \n</font>\", n, i, n*i);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "22",
+      "ques": "Multiplication Table Up to 10",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font> i, n, t1 = <font color='#a00005'>0</font>, t2 = <font color='#a00005'>1</font>, nextTerm;<br>printf(\"<font color='blue'>Enter the number of terms: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &n);<br>printf(\"<font color='blue'>Fibonacci Series:  </font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i &lt=n; ++i)</b><br>{<br>printf(\"<font color='blue'>%d,</font>\",t1);<br> nextTerm = t1 + t2;<br> t1 = t2;<br>t2 = nextTerm;<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+
+    {
+      "quesno": "23",
+      "ques": " Fibonacci Sequence Up to a Certain Number",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>t1 =<font color='#a00005'> 0</font>, t2 = <font color='#a00005'>1</font>,nextTerm = <font color='#a00005'>0</font>, n;<br>printf(\"<font color='blue'>Enter a positive number:</font>\");<br>scanf(\"<font color='blue'>%d</font>\", &n);<br>printf(\"<font color='blue'>Fibonacci Series: %d, %d, </font>\", t1, t2);<br>nextTerm = t1 + t2;<br><font color='#388E8E'><b>while</b></font>(nextTerm &lt= n)<br>{<br>printf(\"<font color='blue'>%d</font>\", nextTerm);<br>   t1 = t2;<br>      t2 = nextTerm;<br>nextTerm = t1 + t2;<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+
+    {
+      "quesno": "24",
+      "ques": "GCD Using for loop and if Statement",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n1, n2, i, gcd;<br>printf(\"<font color='blue'>Enter two integers:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&n1, &n2);<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>1</font>; i &lt= n1 && i &lt= n2; ++)<br>{<br><font color='#388E8E'><b>if</b></font>(n1%i==<font color='#a00005'>0</font> && n2%i==<font color='#a00005'>0</font>)</b><br>gcd = i;<br>}<br>printf(\"<font color='blue'>G.C.D of %d and %d is %d</font>\", n1, n2, gcd);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "25",
+      "ques": "LCM using while Loop and if Statement",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n1, n2, minMultiple;<br>printf(\"<font color='blue'>Enter two positive integers:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&n1, &n2);<br>  minMultiple = (n1>n2) ? n1 : n2;<br><font color='#388E8E'><b>while</b></font>(<font color='#a00005'>1</font>)<br>{<br><font color='#388E8E'><b>if</b></font>(minMultiple%n1==0 && minMultiple%n2==0)<br>{<br>printf(\"<font color='blue'>The LCM of %d and %d is %d.</font>\",n1, n2,minMultiple);<br>break;<br>}<br> ++minMultiple;<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "26",
+      "ques": "Program to Display English Alphabets",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char  </b></font>c;<br><font color='#388E8E'><b>  for</b></font>(c = 'A'; c &lt= 'Z'; ++c)<br>printf(\"<font color='blue'>%c</font>\",c);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "27",
+      "ques": "Program to Display English Alphabets in Uppercase and Lowercase",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char  </b></font>c;<br>printf(\"<font color='blue'>Enter u to display alphabets in uppercase. And enter l to display alphabets in lowercase:</font>\");<br>scanf(\"<font color='blue'>%c</font>\"&c);<br><font color='#388E8E'><b>if</font>(c== 'U' || c== 'u')</b><br>{<br><font color='#388E8E'><b>for</font>(c = 'A'; c &lt= 'Z'; ++c)</b><br>printf(\"<font color='blue'>%c</font>\", c);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>Error! You entered invalid character.</font>\");<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "28",
+      "ques": "Program to Count Number of Digits in an Integer",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>long  </b></font>long n;<br><font color='#388E8E'><b>int </b></font>count = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter an integer:</font>\");<br>scanf(\"<font color='blue'>%lld</font>\"&c);<br><font color='#388E8E'><b>while </b></font>(n != <font color='#a00005'>0</font>)<br>{<br>n /= <font color='#a00005'>10</font>;<br>   ++count;<br>}<br>printf(\"<font color='blue'>Number of digits: %d</font>\",count);<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "29",
+      "ques": "Reverse an Integer",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>long  </b></font> long n;<br><font color='#388E8E'><b>int</b></font> n, reversedNumber = <font color='#a00005'>0</font>, remainder;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&n);<br><font color='#388E8E'><b>while </font>(n !=<font color='#a00005'>0</font>)</b><br>{<br>      remainder = n%<font color='#a00005'>10</font>;<br>reversedNumber = reversedNumber*<font color='#a00005'>10</font> + remainder;<br>n /= <font color='#a00005'>10</font>;<br>}<br>printf(\"<font color='blue'>Reversed Number = %d</font>\",reversedNumber);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "30",
+      "ques": "Power of a Number Using while Loop",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font>  base, exponent;<br>  long long result = <font color='#a00005'>1</font>;<br>printf(\"<font color='blue'>Enter a base number:  </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&base);<br>printf(\"<font color='blue'>Enter an exponent:  </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&exponent);<br><font color='#388E8E'><b>while </font>(exponent != <font color='#a00005'>0</font>)</b><br>{<br>result *= base;<br>  --exponent;<br>}<br>printf(\"<font color='blue'>Answer = %lld</font>\",result);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "31",
+      "ques": "Power Using pow() Function",
+      "ans": "#include&lt;stdio.h><br>#include <math.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>double</b></font>  base, exponent, result;<br>printf(\"<font color='blue'>Enter a base number:  </font>\");<br>scanf(\"<font color='blue'>%lf</font>\"&base);<br>printf(\"<font color='blue'>Enter an exponent:  </font>\");<br>scanf(\"<font color='blue'>%if</font>\"&exponent);<br>result= pow(base, exponent);<br>printf(\"<font color='blue'>%.1lf^%.1lf = %.2lf</font>\",base, exponent, result);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "32",
+      "ques": "Program to Check Palindrome",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, reversedInteger = <font color='#a00005'>0</font>, remainder, originalInteger;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&n);<br>  originalInteger = n;<br><font color='#388E8E'><b>while</font>(n!=<font color='#a00005'>0</font>)</b><br>{<br>remainder = n%<font color='#a00005'>10</font>;<br>reversedInteger = reversedInteger*<font color='#a00005'>10</font> + remainder;<br> n /= <font color='#a00005'>10</font>;<br>}<br><font color='#388E8E'><b>if</font>(originalInteger == reversedInteger)</b><br>printf(\"<font color='blue'>%d is a palindrome.</font>\",  originalInteger);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not a palindrome.</font>\",originalInteger);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "33",
+      "ques": "Program to Check Prime Number",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, i, flag = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter a positive integer:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&n);<br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>2</font>; i&lt=n/<font color='#a00005'>2</font>; ++i)</b><br>{<br><font color='#388E8E'><b>if</font>(n%i==<font color='#a00005'>0</font>)</b><br>{<br>    flag=<font color='#a00005'>1</font>;<br>break;<br>}<br>}<br><font color='#388E8E'><b>if</b></font>(flag==<font color='#a00005'>0</font>);<br>printf(\"<font color='blue'>%d is a prime number.</font>\",n);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not a prime number.</font>\",n);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "34",
+      "ques": "Display Prime Numbers Between two Intervals",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>low, high, i, flag;<br>printf(\"<font color='blue'>Enter two numbers(intervals):</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\"&low, &high);<br>printf(\"<font color='blue'>Enter two numbers(intervals):</font>\</font>\",low, high);<br><font color='#388E8E'><b>while</font>(low < high)</b><br>{<br>  flag = 0;<br><font color='#388E8E'><b>for</font>(i = <font color='#a00005'>2</font>; i &lt= low/<font color='#a00005'>2</font>; ++i)</b><br>{<br><font color='#388E8E'><b>if</font>(low % i == <font color='#a00005'>0</font>)</b><br>{<br>    flag=<font color='#a00005'>1</font>;<br>break;<br>}<br>}<br><font color='#388E8E'><b>if</b></font>(flag==<font color='#a00005'>0</font>);<br>printf(\"<font color='blue'>%d</font>\",low);<br>++low<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "35",
+      "ques": "Display Prime Numbers Between two Intervals When Larger Number is Entered first",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>low, high, i, flag, temp;<br>printf(\"<font color='blue'>Enter two numbers(intevals):</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\"&low, &high);<br><font color='#388E8E'><b>if</font>(low > high)</b><br>{<br>temp = low;<br>  low = high;<br>  high = temp;<br>}<br>printf(\"<font color='blue'>Prime numbers between %d and %d are:</font>\", low, high);<br><font color='#388E8E'><b>while</font>(low < high)</b><br>{<br>flag=0;<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>2</font>; i&lt= low/<font color='#a00005'>2</font>; ++i);<br>{<br>   flag = <font color='#a00005'>1</font>;<br>break;<br>}<br>}<br><font color='#388E8E'><b>if</b></font>(flag == <font color='#a00005'>0</font>)<br><font color='blue'>printf(\"%d</font>\",low);<br>++low;<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "36",
+      "ques": "Check Armstrong Number of three digits",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>originalNumber, remainder, result = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter a three digit integer:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&number);<br>originalNumber = number;<br></font><br><font color='#388E8E'><b>while</font>(originalNumber != <font color='#a00005'>0</font>)</b><br>{<br> remainder = originalNumber%<font color='#a00005'>10</font>;<br>  result += remainder*remainder*remainder;<br> originalNumber /= <font color='#a00005'>10</font>;<br>}<br><font color='#388E8E'><b>if</font>(result == number)</b><br>printf(\"<font color='blue'>%d is an Armstrong number.</font>\",number);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not an Armstrong number.</font>\",number);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "37",
+      "ques": "Check Armstrong number of n digits",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font>  number, originalNumber, remainder, result = </font><font color='#a00005'>0</font>, n = </font><font color='#a00005'>0</font> ;<br>printf(\"<font color='blue'>Enter an integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&number);<br>originalNumber = number;<br><font color='#388E8E'><b>while</font>(originalNumber != </font><font color='#a00005'>0</font>)</b><br>{<br>originalNumber /= </font><font color='#a00005'>10</font>;<br>  ++n;<br>}<br> originalNumber = number;<br><font color='#388E8E'><b>while</font>(originalNumber != <font color='#a00005'>0</font>)</b><br>{<br>  remainder = originalNumber%</font><font color='#a00005'>110</font>;<br>  result += pow(remainder, n);<br>originalNumber /= <font color='#a00005'>10</font>;<br>}<br><font color='#388E8E'><b>if</b></font>(result == number)<br>`printf(\"<font color='blue'>%d is an Armstrong number.</font>\"number);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not an Armstrong number.</font>\"number);<br><font color='#388E8E'><b>return</b></font><font color='#a00005'>0</font><br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "38",
+      "ques": "Armstrong Numbers Between Two Integers",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>low, high, i, temp1, temp2, remainder, n = <font color='#a00005'>0</font>, result = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter two numbers(intervals): </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\"&low, &high);<br>printf(\"<font color='blue'>Armstrong numbers between %d an %d are:</font>\"low, high);<br><font color='#388E8E'><b>for</font>(i = low + <font color='#a00005'>1</font>; i < high; ++i)</b><br>{<br>   temp2 = i;<br> temp1 = i;<br><font color='#388E8E'><b>while</font>(temp1 != <font color='#a00005'>0</font>)</b><br>{<br>temp1 /= <font color='#a00005'>10</font>;<br>++n;<br>}<br><font color='#388E8E'><b>while</font>(temp2 != <font color='#a00005'>0</font>)</b><br>{<br>    remainder = temp2 % <font color='#a00005'>10</font>;<br> result += pow(remainder, n);<br>temp2 /= <font color='#a00005'>10</font>;<br>}<br><font color='#388E8E'><b>if</b></font>(result == i);<br>printf(\"<font color='blue'>%d</font>\",i);<br>}<br> n = <font color='#a00005'>0</font>;<br>  result = 0;<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "39",
+      "ques": "Factors of a Positive Integer",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>number, i;<br>printf(\"<font color='blue'>Enter a positive integer:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&number);<br>printf(\"<font color='blue'>Factors of %d are:</font>\"number);<br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>1</font>; i &lt= number; ++i)</b><br>{<br><font color='#388E8E'><b>if</font>(number%i == <font color='#a00005'>0</font>)</b><br>{<br>printf(\"<font color='blue'>%d</font>\",i);<br>}<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "40",
+      "ques": " Program to print half pyramid using *",
+      "ans": "*<br>* *<br>* * *<br>* * * *<br>* * * * *<br>#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, j, rows;<br>printf(\"<font color='blue'>Enter number of rows:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>if</font>(i=1; i&lt=rows; ++i)</b><br>{<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>1</font>; j&lt=i; ++j)</b><br>{<br>printf(\"<font color='blue'>*</font>\");<br>}<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "41",
+      "ques": "  Program to print half pyramid a using numbers",
+      "ans": "1<br>1 2 <br>1 2 3<br>1 2 3 4<br>1 2 3 4 5<br>#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, j, rows;<br>printf(\"<font color='blue'>Enter number of rows:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>if</font>(i=1; i&lt=rows; ++i)</b><br>{<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>1</font>; j&lt=i; ++j)</b><br>{<br>printf(\"<font color='blue'>%d</font>\",j);<br>}<br>{<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "42",
+      "ques": " Program to print half pyramid using alphabets",
+      "ans": "A<br>B B<br>C C C<br>D D D D<br>E E E E E<br>#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i,j;<br><font color='#388E8E'><b>char</b></font> input, alphabet = 'A';<br>printf(\"<font color='blue'>Enter the uppercase character you want to print in last row:</font>\");<br>scanf(\"<font color='blue'>%c</font>\"&input);<br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>1</font>; i &lt= (input-'A'+<font color='#a00005'>1</font>); ++i)</b><br>{<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>1</font>; j&lt=i; ++j)</b><br>{<br>printf(\"<font color='blue'>%c</font>\",alphabet);<br>}<br>++alphabet;<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "43",
+      "ques": " Inverted half pyramid using  *",
+      "ans": "* * * * *<br>* * * *<br>* * *<br>* * <br>*<br>#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, j, rows;<br>printf(\"<font color='blue'>Enter number of rows:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><font color='#388E8E'><b>for</font>(i=row; i>=<font color='#a00005'>1</font>; --i)</b><br>{<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>1</font>; j&lt=i; ++j)</b><br>{<br>printf(\"<font color='blue'>*</font>\");<br>}<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "44",
+      "ques": " Inverted half pyramid using numbers",
+      "ans": "1	2 3 4 5<br>1 2 3 4<br>1 2 3<br>1 2 <br>1<br>#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, j, rows;<br>printf(\"<font color='blue'>Enter number of rows:</font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>if</font>(i=1; i&lt=rows; --i)</b><br>{<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>1</font>; j&lt=i; ++j)</b><br>{<br>printf(\"<font color='blue'>%d</font>\",j);<br>}	<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "45",
+      "ques": "Program to print full pyramid using *",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, space, rows, k=0;<br>printf(\"<font color='blue'>Enter number of rows: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>1</font>; i&lt=rows; ++i, k=<font color='#a00005'>0</font>)</b><br>{<br><font color='#388E8E'><b>for</b></font>(space=<font color='#a00005'>1</font>; space&lt=rows-i; ++space)<br>{<br>printf(\"\n\");<br>}<br><font color='#388E8E'><b>while</b></font>(k != <font color='#a00005'>2</font>*i-<font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>*</font>\");<br>   ++k;<br>}<br>{<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "46",
+      "ques": "Program to print pyramid using numbers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>i, space, rows, k=<font color='#a00005'>0</font>, count = <font color='#a00005'>0</font>, count1 = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter number of rows: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>1</font>; i&lt=rows; ++i)</b><br>{<br><font color='#388E8E'><b>for</b></font>(space=<font color='#a00005'>1</font>; space &lt= rows-i; ++space)<br>{<br>printf(\"\n\");<br> ++count;<br>}<br><font color='#388E8E'><b>while</b></font>(k != <font color='#a00005'>2</font>*i-<font color='#a00005'>1</font>)<br>{<br><font color='#388E8E'><b>if</b></font>(count &lt= rows-<font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>%d</font>\",i+k);<br>   ++count;<br>}<br><font color='#388E8E'><b>else</b></font>{<br>  ++count1;<br>printf(\"<font color='blue'>%d</font>\", (i+k-<font color='#a00005'>2</font>*count1));<br>}<br>++k;<br>}<br>count1 = count = k = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "47",
+      "ques": "Print Pascal's triangle",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>rows, coef = <font color='#a00005'>1</font>, space, i, j;<br>printf(\"<font color='blue'>Enter number of rows: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>for</font>(i=<font color='#a00005'>0</font>; i&lt;rows; i++)</b><br>{<br><font color='#388E8E'><b>for</b></font>(space=1; space &lt= rows-i; space++)<br>{<br>printf(\"\n\");<br><font color='#388E8E'><b>for</font>(j=<font color='#a00005'>0</font>; j &lt= i; j++)</b><br>{<br><font color='#388E8E'><b>if</b></font>(j==<font color='#a00005'>0</font> || i==<font color='#a00005'>0</font>)<br>   coef = <font color='#a00005'>1</font>;<br><font color='#388E8E'><b>else</b></font><br> coef = coef*(i-j+<font color='#a00005'>1</font>)/j;<br>printf(\"<font color='blue'>%4d </font>\",coef);<br>}<br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "48",
+      "ques": "Print Floyd's Triangle.",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font> rows, i, j, number= <font color='#a00005'>1</font>;<br>printf(\"<font color='blue'>Enter number of rows: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&rows);<br><br><font color='#388E8E'><b>for</font>(i=1; i &lt= rows; i++)</b><br>{<br><font color='#388E8E'><b>for</b></font>(j=1; j &lt= i; ++j)<br>{<br>printf(\"%d\",number);<br> ++number;<br>}<br><br>printf(\"<font color='blue'>\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "49",
+      "ques": "Simple Calculator using switch Statement",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char  </b></font> operator;<br><font color='#388E8E'><b>double </b></font>firstNumber,secondNumber;<br>printf(\"<font color='blue'>Enter an operator (+, -, *,): </font>\");<br>scanf(\"<font color='blue'>%c</font>\"&operator);<br>printf(\"<font color='blue'>Enter two operands: Enter two operands: </font>\");<br>scanf(\"<font color='blue'>%lf %lf</font>\"&firstNumber, &secondNumber&firstNumber, &secondNumber);<br><font color='#388E8E'><b>switch</b></font>(operator)<br>{<br>   case '+':<br>printf(\"<font color='blue'>%.1lf + %.1lf = %.1lf</font>\",firstNumber, secondNumber, firstNumber + secondNumber);<br>break;<br> case '-':<br>printf(\"<font color='blue'>%.1lf - %.1lf = %.1lf</font>\",firstNumber, secondNumber, firstNumber - secondNumber);<br>break;<br> case '*':<br>printf(\"<font color='blue'>%.1lf * %.1lf = %.1lf</font>\",firstNumber, secondNumber, firstNumber * secondNumber);<br>break;<br>case '/':<br>printf(\"<font color='blue'>%.1lf / %.1lf = %.1lf%	</font>\",firstNumber, secondNumber, firstNumber / secondNumberv);<br>break;<br> default:<br>printf(\"<font color='blue'>Error! operator is not correct</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "50",
+      "ques": "Prime Numbers Between Two Integers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int  </b></font>checkPrimeNumber(int n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n1, n2, i, flag;<br>printf(\"<font color='blue'>Enter two positive integers: </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\" &n1, &n2);<br>printf(\"<font color='blue'>Prime numbers between %d and %d are:</font>\", n1, n2);<br><font color='#388E8E'><b>for</font>(i=n1+<font color='#a00005'>1</font>; i&lt;n2; ++i)</b><br>{<br>flag = checkPrimeNumber(i);<br><font color='#388E8E'><b>if</b></font>(flag ==<font color='#a00005'> 1</font>);<br>printf(\"<font color='blue'>%d </font>\",i);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "51",
+      "ques": "Check Prime and Armstrong Number",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int  </b></font>checkPrimeNumber(int n);<br><font color='#388E8E'><b>int  </b></font> checkArmstrongNumber(int n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, flag;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'> %d</font>\",n);<br>flag = checkPrimeNumber(n);<br><font color='#388E8E'><b>if</b></font> (flag == <font color='#a00005'>1</font>)<br>printf(\"<font color='blue'>%d is a prime number.\n</font>\", n);<br><font color='#388E8E'><b>else</b></font><br>printf(\"<font color='blue'>%d is not a prime number.</font>\"n);<br>flag = checkArmstrongNumber(n);<br><font color='#388E8E'><b>if</font>(flag == <font color='#a00005'>1</font>)</b><br>printf(\"<font color='blue'>%d is an Armstrong number.</font>\",n);<br><font color='#388E8E'><b>else</b></font> <br>printf(\"<font color='blue'>%d is not an Armstrong number.</font>\",n);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>checkPrimeNumber(int n)<br>{<br><font color='#388E8E'><b>int </b></font>i, flag = 1;<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>2</font>; i&lt=n/<font color='#a00005'>2</font>; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(n%i == <font color='#a00005'>0</font>)<br>{<br>flag = <font color='#a00005'>0</font>;<br>break;<br>}<br>} <br>return flag;<br>}<br><font color='#388E8E'><b>int </b></font>checkArmstrongNumber(int number)<br>{<br><font color='#388E8E'><b>int </b></font>originalNumber, remainder, result = <font color='#a00005'>0</font>, n = <font color='#a00005'>0</font>, flag;<br>originalNumber = number;<br><font color='#388E8E'><b>while</b></font>(originalNumber !=<font color='#a00005'> 0</font>)<br>{<br>originalNumber /= <font color='#a00005'>10</font>;<br> ++n;<br>}<br>   originalNumber = number;<br><font color='#388E8E'><b>while</b></font> (originalNumber != <font color='#a00005'>0</font>)<br>{<br>  remainder = originalNumber%<font color='#a00005'>10</font>;<br>   result += pow(remainder, n);<br>originalNumber /= 10;<br>}<br><font color='#388E8E'><b>if</b></font>(result == number)<br> flag = 1;<br><font color='#388E8E'><b>else</b></font><br> flag = 0;<br>  return flag;<br> }",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "52",
+      "ques": "Integer as a Sum of Two Prime Numbers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int  </b></font>checkPrime(int n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n, i, flag = 0;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\" &n);<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>2</font>; i &lt= n/<font color='#a00005'>2</font>; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(checkPrime(n-i) == <font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>%d = %d + %d\n</font>\", n, i, n - i);<br>flag = <font color='#a00005'>1</font>;<br>}<br>}<br>}<br><font color='#388E8E'><b>if</b></font>(flag == <font color='#a00005'>0</font>)<br>printf(\"<font color='blue'>%d cannot be expressed as the sum of two prime numbers.</font>\",n);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>checkPrime(int n)<br>{<br><font color='#388E8E'><b>int </b></font>i, isPrime = <font color='#a00005'>1</font>;<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>2</font>; i &lt= n/<font color='#a00005'>2</font>; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(n % i == <font color='#a00005'>0</font>)<br>{<br> isPrime = <font color='#a00005'>0</font>;<br>break;<br>}<br>}<br>return isPrime;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "53",
+      "ques": "Sum of Natural Numbers Using Recursion",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int  </b></font>addNumbers(int n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>num;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\" &num);<br>printf(\"<font color='blue'>Sum = %d</font>\",addNumbers(num));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int</b></font> addNumbers(int n)<br>{<br><font color='#388E8E'><b>if</b></font>(n != <font color='#a00005'>0</font>)<br>return n + addNumbers(n-<font color='#a00005'>1</font>);<br><font color='#388E8E'><b>else</b></font><br>return n;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "54",
+      "ques": "Factorial of a Number Using Recursion",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>long int  </b></font>multiplyNumbers(int n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'>%d</font>\" &num);<br>printf(\"<font color='blue'>Factorial of %d = %ld</font>\",n, multiplyNumbers(n));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>long int </b></font>multiplyNumbers(int n)<br>{<br><font color='#388E8E'><b>if</b></font> (n >= <font color='#a00005'>1</font>)<br>return n*multiplyNumbers(n-<font color='#a00005'>1</font>);<br><font color='#388E8E'><b>else</b></font><br>return <font color='#a00005'>1</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "55",
+      "ques": "GCD of Two Numbers using Recursion",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int  </b></font> hcf(int n1, int n2);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>n1, n2;<br>printf(\"<font color='blue'>Enter a positive integer: </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\" &n1, &n2);<br>printf(\"<font color='blue'>G.C.D of %d and %d is %d.</font>\",n1, n2, hcf(n1,n2));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>hcf(int n1, int n2)<br>{<br><font color='#388E8E'><b>if</b></font>(n2 != <font color='#a00005'>0</font>)<br>return hcf(n2, n1%n2);<br><font color='#388E8E'><b>else</b></font><br>return <font color='#a00005'>n1</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "56",
+      "ques": "Program to convert binary number to decimal",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int  </b></font>convertBinaryToDecimal(long long n);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>long  </b></font>long n;<br>printf(\"<font color='blue'>Enter a binary number:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\" &n1, &n2);<br>printf(\"<font color='blue'>G.C.D of %d and %d is %d.</font>\",n1, n2, hcf(n1,n2));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>hcf(int n1, int n2)<br>{<br><font color='#388E8E'><b>if</b></font>(n2 != <font color='#a00005'>0</font>)<br>return hcf(n2, n1%n2);<br><font color='#388E8E'><b>else</b></font><br>return <font color='#a00005'>n1</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "57",
+      "ques": " Program to Convert Decimal to Octal",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int  </b></font>convertDecimalToOctal(int decimalNumber);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>decimalNumber;<br>printf(\"<font color='blue'>Enter a decimal number:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&decimalNumber);<br>printf(\"<font color='blue'>%d in decimal = %d in octal</font>\",decimalNumber, convertDecimalToOctal(decimalNumber));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>convertDecimalToOctal(int decimalNumber)<br>{<br><font color='#388E8E'><b>int </b></font>octalNumber = <font color='#a00005'>0</font>, i = <font color='#a00005'>1</font>;<br><font color='#388E8E'><b>while</b></font>(decimalNumber != <font color='#a00005'>0</font>)<br>{<br>octalNumber += (decimalNumber % <font color='#a00005'>8</font>) * i;<br>  decimalNumber /=<font color='#a00005'> 8</font>;<br>i *= <font color='#a00005'>10</font>;<br>}<br>return  octalNumber;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "58",
+      "ques": "Program to Convert Octal to Decimal",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>long  </b></font>long convertOctalToDecimal(int octalNumber);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font>octalNumber;<br>printf(\"<font color='blue'>Enter an octal number: </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&octalNumber);<br>printf(\"<font color='blue'>%d in octal = %lld in decimal</font>\",octalNumber, convertOctalToDecimal(octalNumber));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>long </b></font>long convertOctalToDecimal(int octalNumber)<br>{<br><font color='#388E8E'><b>int </b></font>decimalNumber = <font color='#a00005'>0</font>, i = <font color='#a00005'>0</font>;<br><font color='#388E8E'><b>while</b></font>(decimalNumber != <font color='#a00005'>0</font>)<br>{<br>  decimalNumber += (octalNumber%<font color='#a00005'>10</font>) * pow(<font color='#a00005'>8</font>,i);<br>  ++i;<br>octalNumber/=<font color='#a00005'>10</font>;<br>}<br>   i = <font color='#a00005'>1</font>;<br>return  decimalNumber;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "59",
+      "ques": "Program to Convert Binary to Octal<br>In this program, we will first convert binary number to decimal. Then, the decimal number is converted to octal.",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>int  </b></font>convertBinarytoOctal(long long binaryNumber);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>long  </b></font>long binaryNumber;<br>printf(\"<font color='blue'>Enter a binary number: </font>\");<br>scanf(\"<font color='blue'>%lld</font>\",&binaryNumber);<br>printf(\"<font color='blue'>%lld in binary = %d in octal</font>\", binaryNumber, convertBinarytoOctal(binaryNumber));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>convertBinarytoOctal(long long binaryNumber)<br>{<br><font color='#388E8E'><b>int </b></font>octalNumber =<font color='#a00005'>0</font>, decimalNumber = <font color='#a00005'>0</font>, i = <font color='#a00005'>0</font>;<br><font color='#388E8E'><b>while</b></font>(binaryNumber != <font color='#a00005'>0</font>)<br>{<br> decimalNumber += (binaryNumber%<font color='#a00005'>10</font>) * pow(<font color='#a00005'>2</font>,i);<br>++i;<br> binaryNumber/=<font color='#a00005'>10</font>;<br>}<br> i = <font color='#a00005'>1</font>;<br><font color='#388E8E'><b>while</b></font><br>{<br> octalNumber += (decimalNumber % <font color='#a00005'>8</font>) * i;<br>decimalNumber /= <font color='#a00005'>8</font>;<br>i *= <font color='#a00005'>10</font>;<br>}<br>return  octalNumber;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "60",
+      "ques": "Program to Convert Octal to Decimal",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>long  </b></font>long convertOctalToBinary(int octalNumber);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int  </b></font> octalNumber;<br>printf(\"<font color='blue'>Enter an octal number: </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&octalNumber);<br>printf(\"<font color='blue'>%d in octal = %lld in binary</font>\",octalNumber, convertOctalToBinary(octalNumber));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>long </b></font>long convertOctalToBinary(int octalNumber)<br>{<br><font color='#388E8E'><b>int </b></font>decimalNumber = <font color='#a00005'>0</font>, i = <font color='#a00005'>0</font>;<br><font color='#388E8E'><b>long </b></font>long binaryNumber = <font color='#a00005'>0</font>;<br><font color='#388E8E'><b>while</b></font>(octalNumber != <font color='#a00005'>0</font>)<br>{<br>decimalNumber += (octalNumber%<font color='#a00005'>10</font>) * pow(<font color='#a00005'>8</font>,i);<br>  ++i;<br>octalNumber/=<font color='#a00005'>10</font>;<br>}<br>   i = <font color='#a00005'>1</font>;<br><font color='#388E8E'><b>while</b></font><br>{<br>binaryNumber += (decimalNumber % <font color='#a00005'>2</font>) * i;<br>decimalNumber /= <font color='#a00005'>2</font>;<br>  i *= <font color='#a00005'>10</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "61",
+      "ques": "Reverse a sentence using recursion<br>/* Example to reverse a sentence entered by user without using strings. */",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br><font color='#388E8E'><b>void  </b></font>reverseSentence();<br><font color='#388E8E'><b>int </b></font>main()<br>{<br>printf(\"<font color='blue'>Enter a sentence:  </font>\");<br>reverseSentence();<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>void</b></font>reverseSentence()<br>{<br><font color='#388E8E'><b>char </b></font>c;<br>scanf(\"<font color='blue'>%c</font>\",c);<br><font color='#388E8E'><b>if</b></font>( c != '\n')<br>{<br>reverseSentence();<br>  ++i;<br>printf(\"<font color='blue'>%c</font>\",c);<br>}<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "62",
+      "ques": "Program to calculate power using recursion",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int  </b></font>power(int n1, int n2);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>base, powerRaised, result;<br>printf(\"<font color='blue'>Enter a sentence: Enter base number: </font>\");<br>scanf(\"<font color='blue'>%d</font>\"&base);<br>printf(\"<font color='blue'>Enter power number(positive integer): </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&powerRaised);<br>result = power(base, powerRaised);<br>printf(\"<font color='blue'>%d^%d = %d</font>\", base, powerRaised, result);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>int </b></font>power(int base, int powerRaised)<br>{<br><font color='#388E8E'><b>if</b></font>(powerRaised != <font color='#a00005'>0</font>)<br>  return (base*power(base, powerRaised-<font color='#a00005'>1</font>));<br><font color='#388E8E'><b>else</b></font><br>return <font color='#a00005'>1</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "63",
+      "ques": "Source Code to Calculate Average Using Arrays",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>n, i;<br><font color='#388E8E'><b>float </b></font>num[<font color='#a00005'>100</font>], sum = <font color='#a00005'>0.0</font>, average;<br>printf(\"<font color='blue'>Enter the numbers of elements:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br>printf(\"<font color='blue'>Error! number should in range of (1 to 100).\n</font>\");<br>printf(\"<font color='blue'>Enter the number again: </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br>}<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i < n; ++i)<br>{<br>printf(\"<font color='blue'>%d. Enter number: </font>\", i+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%f</font>\",&num[i]);<br>sum += num[i];<br>}<br>average = sum / n;<br>printf(\"<font color='blue'>Average = %.<font color='#a00005'>2</font>f</font>\", average);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "64",
+      "ques": "Source Code to Calculate Average Using Arrays",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font> n, i;<br><font color='#388E8E'><b>float </b></font>num[<font color='#a00005'>100</font>], sum = <font color='#a00005'>0.0</font>, average;<br>printf(\"<font color='blue'>Enter the numbers of elements:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br><font color='#388E8E'><b>while</b></font>(n > <font color='#a00005'>100</font> || n <= <font color='#a00005'>0</font>)<br>{<br>printf(\"<font color='blue'>Error! number should in range of (1 to 100).\n</font>\");<br>printf(\"<font color='blue'>Enter the number again:</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br>}<br><font color='#388E8E'><b>for</b></font>(i =<font color='#a00005'>0</font>; i < n; ++i)<br>{<br>printf(\"<font color='blue'>%d. Enter number: </font>\", i+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%f</font>\",&num[i]);<br>sum += num[i];<br>}<br>average = sum / n;<br>printf(\"<font color='blue'>Average = %.<font color='#a00005'>2</font>f</font>\", average);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "65",
+      "ques": "Display Largest Element of an array",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font> n, i;<br><font color='#388E8E'><b>float </b></font>arr[<font color='#a00005'>100</font>];<br>printf(\"<font color='blue'>Enter total number of elements(1 to 100):</font>\");<br>scanf(\"<font color='blue'>%d</font>\",&n);<br>printf(\"<font color='blue'>\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i < n; ++i)<br>{<br>printf(\"<font color='blue'>Enter Number %d:</font>\", i+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%f</font>\",&arr[i]);<br>}<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>1</font>; i < n; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(arr[0] < arr[i])<br>arr[0] = arr[i];<br>}<br>printf(\"<font color='blue'>Largest element = %.<font color='#a00005'>2</font>f</font>\", arr[<font color='#a00005'>0</font>]);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "66",
+      "ques": "Program to Calculate Standard Deviation",
+      "ans": "#include&lt;stdio.h><br>#include &lt;math.h><br>font color='#388E8E'><b>float </b></font>calculateSD(float data[]);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>i;<br><font color='#388E8E'><b>float </b></font>data[<font color='#a00005'>10</font>];<br>printf(\"<font color='blue'>Enter 10 elements:</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i < <font color='#a00005'>10</font>; ++i)<br>scanf(\"<font color='blue'>%f</font>\", &data[i]);<br>printf(\"<font color='blue'>\nStandard Deviation = %.6f</font>\", calculateSD(data));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>float </b></font>calculateSD(float data[])<br>{<br><font color='#388E8E'><b>float </b></font>sum = 0.0, mean, standardDeviation = <font color='#a00005'>0.0</font>;<br><font color='#388E8E'><b>int </b></font>i;<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>{<br>sum += data[i];<br>}<br>  mean = sum/<font color='#a00005'>10</font><br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>standardDeviation += pow(data[i] - mean, <font color='#a00005'>2</font>);<br>return sqrt(standardDeviation/<font color='#a00005'>10</font>);<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "67",
+      "ques": "Program to Add Two Matrices",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>r, c, a[<font color='#a00005'>100</font>][<font color='#a00005'>100</font>], b[<font color='#a00005'>100</font>][<font color='#a00005'>100</font>], sum[<font color='#a00005'>100</font>][<font color='#a00005'>100</font>], i, j;<br>printf(\"<font color='blue'>Enter number of rows (between 1 and 100): </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&r);<br>printf(\"<font color='blue'>Enter number of columns (between 1 and 100): </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&c);<br>printf(\"<font color='blue'>\nEnter elements of 1st matrix:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c; ++j)<br>{<br>printf(\"<font color='blue'>Enter element a%d%d:</font>\",i+<font color='#a00005'>1</font>,j+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&a[i][j]);<br>}<br>printf(\"<font color='blue'>Enter elements of 2nd matrix:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c; ++j)<br>{<br>printf(\"<font color='blue'>Enter element a%d%d: </font>\",i+<font color='#a00005'>1</font>, j+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&b[i][j]);<br>}<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>;i&lt;r;++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>;j&lt;c;++j)<br>{<br> sum[i][j]=a[i][j]+b[i][j];<br>}<br>printf(\"<font color='blue'>\nSum of two matrix is: \n\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>;i&lt;r;++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>;j&lt;c;++j)<br>{<br>printf(\"<font color='blue'>%d</font>\",sum[i][j]);<br><font color='#388E8E'><b>if</b></font>(j==c-<font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>\n\n</font>\");<br>}<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "68",
+      "ques": "Program to Multiply Two Matrices",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>a[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], b[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], result[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], r1, c1, r2, c2, i, j, k;<br>printf(\"<font color='blue'>Enter rows and column for first matrix: </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\", &r1, &c1);<br>printf(\"<font color='blue'>Enter rows and column for second matrix: </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&r2, &c2);<br><font color='#388E8E'><b>while</b></font>(c1 != r2)<br>{<br>printf(\"<font color='blue'>Error! column of first matrix not equal to row of second.\n\n</font>\");<br>printf(\"<font color='blue'>Enter rows and column for first matrix:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\", &r1, &c1);<br>printf(\"<font color='blue'>Enter rows and column for second matrix:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&r2, &c2);<br>}<br>printf(\"<font color='blue'>\nEnter elements of matrix 1:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;1; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c1; ++j)<br>{<br>printf(\"<font color='blue'>Enter elements a%d%d:</font>\",i+<font color='#a00005'>1</font>, j+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&a[i][j]);<br>}<br>printf(\"<font color='blue'>\nEnter elements of matrix 2:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r2; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c2; ++j)<br>{<br>printf(\"<font color='blue'>Enter elements b%d%d: </font>\",i+<font color='#a00005'>1</font>, j+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&b[i][j]);<br>}<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r1; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;<font color='#a00005'>2</font>; ++j)<br>{<br>result[i][j] = <font color='#a00005'>0</font>;<br>}<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r1; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c2; ++j)<br><font color='#388E8E'><b>for</b></font>(k=<font color='#a00005'>0</font>; k&lt;c1; ++k)<br>{<br>  result[i][j]+=a[i][k]*b[k][j];<br>}<br>printf(\"<font color='blue'>\nOutput Matrix:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r1; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c2; ++j)<br>{<br>printf(\"<font color='blue'>%d</font>\",result[i][j]);<br><font color='#388E8E'><b>if</b></font>(j == c2-<font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>\n\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "69",
+      "ques": "Program to Find Transpose of a Matrix",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>a[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], transpose[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], r, c, i, j;<br>printf(\"<font color='blue'>Enter rows and columns of matrix:  </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&r, &c);<br>printf(\"<font color='blue'>\nEnter elements of matrix:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c; ++j)<br>{<br>printf(\"<font color='blue'>Enter element a%d%d:</font>\",i+<font color='#a00005'>1</font>,j+<font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&a[i][j]);<br>}<br>printf(\"<font color='blue'>\nEntered Matrix: \n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c; ++j)<br>{<br>printf(\"<font color='blue'>%d</font>\",a[i][j]);<font color='#388E8E'><b>if</b></font>(j == c-<font color='#a00005'>1</font>)<br>{<br>printf(\"<font color='blue'>\n\n </font>\");<br>}<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt;r; ++i)<br><font color='#388E8E'><b>for</b></font>(j=<font color='#a00005'>0</font>; j&lt;c; ++j)<br>{<br>transpose[j][i] = a[i][j];<br>printf(\"<font color='blue'>%d</font>\",transpose[i][j]);<br><font color='#388E8E'><b>if</b></font>(j==r-<font color='#a00005'>1</font>)<br>printf(\"<font color='blue'>\n\n</font>\");<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "70",
+      "ques": "Multiply Matrices by Passing it to a Function",
+      "ans": "#include&lt;stdio.h><br>void enterData(int firstMatrix[][<font color='#a00005'>10</font>], int secondMatrix[][<font color='#a00005'>10</font>], int rowFirst, int columnFirst, int rowSecond, int columnSecond);<br>void multiplyMatrices(int firstMatrix[][<font color='#a00005'>10</font>], int secondMatrix[][<font color='#a00005'>10</font>], int multResult[][<font color='#a00005'>10</font>], int rowFirst, int columnFirst, int rowSecond, int columnSecond);<br>void display(int mult[][<font color='#a00005'>10</font>], int rowFirst, int columnSecond);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>firstMatrix[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], secondMatrix[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], mult[<font color='#a00005'>10</font>][<font color='#a00005'>10</font>], rowFirst, columnFirst, rowSecond, columnSecond, i, j, k;<br>printf(\"<font color='blue'>Enter rows and column for first matrix: </font>\");<br>scanf(\"<font color='blue'>%d %d</font>\", &rowFirst, &columnFirst);<br>printf(\"<font color='blue'>Enter rows and column for second matrix:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\", &rowSecond, &columnSecond);<br><font color='#388E8E'><b>while</b></font>(columnFirst != rowSecond)<br>{<br>printf(\"<font color='blue'>printf(\"<font color='blue'>\n</font>	</font>\");<br>printf(\"<font color='blue'>Enter rows and column for first matrix:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&rowFirst, &columnFirst);<br>printf(\"<font color='blue'>Enter rows and column for second matrix:</font>\");<br>scanf(\"<font color='blue'>%d %d</font>\",&rowSecond, &columnSecond);<br>}<br>enterData(firstMatrix, secondMatrix, rowFirst, columnFirst, rowSecond, columnSecond);<br>multiplyMatrices(firstMatrix, secondMatrix, mult, rowFirst, columnFirst, rowSecond, columnSecond);<br>display(mult, rowFirst, columnSecond);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br>void enterData(int firstMatrix[][<font color='#a00005'>10</font>], int secondMatrix[][<font color='#a00005'>10</font>], int rowFirst, int columnFirst, int rowSecond, int columnSecond)<br>{<br><font color='#388E8E'><b>int </b></font>i, j;<br>printf(\"<font color='blue'>\nEnter elements of matrix 1:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt rowFirst; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j = <font color='#a00005'>0</font>; j &lt columnFirst; ++j)<br>{<br>printf(\"<font color='blue'>Enter elements a%d%d:</font>\", i + 1, j + 1);<br>scanf(\"<font color='blue'>%d</font>\",&firstMatrix[i][j]);<br>}<br>}<br>printf(\"<font color='blue'>\nEnter elements of matrix 2:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt rowSecond; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j = <font color='#a00005'>0</font>; j &lt columnSecond; ++j)<br>{<br>printf(\"<font color='blue'>Enter elements b%d%d:</font>\", i + <font color='#a00005'>1</font>, j + <font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\",&secondMatrix[i][j]);<br>}<br>}<br>}<br>void multiplyMatrices(int firstMatrix[][10], int secondMatrix[][10], int mult[][10], int rowFirst, int columnFirst, int rowSecond, int columnSecond)<br><font color='#388E8E'><b>int</b></font>i, j, k;<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt rowFirst; ++i)<br>{<br><font color='#388E8E'><b>class</b></font>(j = <font color='#a00005'>0</font>; j &lt columnSecond; ++j)<br>{<br>mult[i][j] = <font color='#a00005'>0</font>;<br>}<br>}<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt rowFirst; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j = <font color='#a00005'>0</font>; j &lt columnSecond; ++j)<br>{<br><font color='#388E8E'><b>for</b></font>(k=<font color='#a00005'>0</font>; k&lt;columnFirst; ++k)<br>{<br>mult[i][j] += firstMatrix[i][k] * secondMatrix[k][j];<br>}<br>}<br>}<br>}<br>void display(int mult[][10], int rowFirst, int columnSecond)<br>{<br><font color='#388E8E'><b>int </b></font> i, j;<br>printf(\"<font color='blue'>\nOutput Matrix:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt rowFirst; ++i)<br>{<br><font color='#388E8E'><b>for</b></font>(j = <font color='#a00005'>0</font>; j &lt columnSecond; ++j)<br>{<br>printf(\"<font color='blue'>%d</font>\", mult[i][j]);<br><font color='#388E8E'><b>class</b></font>(j == columnSecond - <font color='#a00005'>1</font>)<br>printf(\"<font color='blue'>\n\n</font>\");<br>}<br>}<br>}<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "71",
+      "ques": "Access Array Elements Using Pointers",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font>  data[<font color='#a00005'>5</font>], i;<br>printf(\"<font color='blue'>You entered: \n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt <font color='#a00005'>5</font>; ++i)<br>scanf(\"<font color='blue'>%d</font>\",data + i);<br>printf(\"<font color='blue'>\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i &lt <font color='#a00005'>5</font>; ++i)<br>printf(\"<font color='blue'>%d\n</font>\", *(data + i));<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+
+    {
+      "quesno": "72",
+      "ques": "Program to Swap Elements Using Call by Reference",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>void</b></font> cyclicSwap(int *a,int *b,int *c);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>a, b, c;<br>printf(\"<font color='blue'>Enter a, b and c respectively:</font>\");<br>scanf(\"<font color='blue'>%d %d %d</font>\",&a,&b,&c);<br>printf(\"<font color='blue'>Value before swapping:\n</font>\");<br>printf(\"<font color='blue'>a = %d \nb = %d \nc = %d\n</font>\",a,b,c);<br>  cyclicSwap(&a, &b, &c);<br>printf(\"<font color='blue'>Value after swapping:\n</font>\");<br>printf(\"<font color='blue'>a = %d \nb = %d \nc = %d</font>\",a, b, c);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br>void cyclicSwap(int *a,int *b,int *c)<br>{<br><font color='#388E8E'><b>int </b></font>temp;<br> temp = *b;<br><br>  *b = *a;<br>*a = *c;<br>*c = temp;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "73",
+      "ques": " Find Largest Element Using Dynamic Memory Allocation - calloc()",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>i, num;<br><font color='#388E8E'><b>float </b></font>*data;<br>printf(\"<font color='blue'>Enter total number of elements(1 to 100): </font>\");<br>scanf(\"<font color='blue'>%d</font>\",&num);<br> data = (float*) calloc(num, sizeof(float));<br><font color='#388E8E'><b>if</b></font>(data == NULL)<br>{<br>printf(\"<font color='blue'>Error!!! memory not allocated.</font>\");<br> exit(<font color='#a00005'>0</font>);<br>}<br>printf(\"<font color='blue'>\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; i < num; ++i)<br>{<br>printf(\"<font color='blue'>Enter Number %d:</font>\", i + <font color='#a00005'>1</font>);<br>scanf(\"<font color='blue'>%d</font>\", data + i);<br>}<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>1</font>; i < num; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(*data < *(data + i))<br>*data = *(data + i);<br>}<br>printf(\"<font color='blue'>Largest element = %.2f</font>\", *data);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "74",
+      "ques": " Find the Frequency of Characters",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char</b></font> str[<font color='#a00005'>1000</font>], ch;<br><font color='#388E8E'><b>int</b></font> i, frequency = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter a string:  </font>\");<br>gets(str);<br>printf(\"<font color='blue'>Enter a character to find the frequency:</font>\");<br>scanf(\"<font color='blue'>%c</font>\",&ch);<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; str[i] != \"0\"; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(ch == str[i])<br>++frequency;<br>}<br>printf(\"<font color='blue'>Frequency of %c = %d</font>\" ,ch, frequency);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "75",
+      "ques": "Program to count vowels, consonants etc.",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char</b></font> line[<font color='#a00005'>150</font>];<br><font color='#388E8E'><b>int </b></font>i, vowels, consonants, digits, spaces;<br>vowels =  consonants = digits = spaces = <font color='#a00005'>0</font>;<br>printf(\"<font color='blue'>Enter a line of string: </font>\");<br>scanf(\"<font color='blue'>%[^\n]</font>\");<br>scanf(\"<font color='blue'>%c</font>\", line);<br><font color='#388E8E'><b>for</b></font>((i=<font color='#a00005'>0</font>; line[i]!=\"0\"; ++i)<br>{<br><font color='#388E8E'><b>if</b></font>(line[i]=='a' || line[i]=='e' || line[i]=='i' ||<br> line[i]=='o' || line[i]=='u' || line[i]=='A' ||<br>line[i]=='E' || line[i]=='I' || line[i]=='O' ||<br>  line[i]=='U')<br>{<br> ++vowels;<br>}<br><font color='#388E8E'><b>else if</b></font>((line[i]>='a'&& line[i]&lt='z') || (line[i]>='A'&& line[i]&lt='Z'))<br>{<br> ++consonants;<br>}<br><font color='#388E8E'><b>else if</b></font>(line[i]>='0' && line[i]&lt='9')<br>{<br>++digits;<br>}<br><font color='#388E8E'><b>else if</b></font> (line[i]==' ')<br>{<br>++spaces;<br>}<br>}<br>printf(\"<font color='blue'>Vowels: %d</font>\" ,vowels);<br>printf(\"<font color='blue'>\nConsonants: %d</font>\",consonants);<br>printf(\"<font color='blue'>nDigits: %d</font>\",digits);<br>printf(\"<font color='blue'>\nWhite spaces: %d</font>\", spaces);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "76",
+      "ques": " Remove Characters in String Except Alphabets",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char</b></font> line[<font color='#a00005'>150</font>];<br><font color='#388E8E'><b>int </b></font>i, j;<br>printf(\"<font color='blue'>Enter a string:  </font>\");<br>  gets(line);<br><font color='#388E8E'><b>for</b></font>(i = <font color='#a00005'>0</font>; line[i] != \"0\"; ++i)<br>{<br><font color='#388E8E'><b>while</b></font>(!( (line[i] >= 'a' && line[i] &lt= 'z') || (line[i] >= 'A' && line[i] &lt= 'Z') || line[i] == \"0\") )<br>{<br><font color='#388E8E'><b>for</b></font>(j = i; line[j] != \"0\"; ++j)<br>{<br>line[j] = line[j+1];<br>}<br> line[j] = \"0\";<br>}<br>}<br>printf(\"<font color='blue'>Output String:</font>\");<br>puts(line);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "77",
+      "ques": "Calculate Length of String without Using strlen() Function",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font>s[<font color='#a00005'>1000</font>], i;<br>printf(\"<font color='blue'>Enter a string:</font>\");<br>scanf(\"<font color='blue'>%s</font>\",s);<br><font color='#388E8E'><b>for</b></font>(i = 0; s[i] != \"0\"; ++i);<br>printf(\"<font color='blue'>Length of string: %d</font>\",i);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "78",
+      "ques": "Concatenate Two Strings Without Using strcat()",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font>s1[<font color='#a00005'>100</font>], s2[<font color='#a00005'>100</font>], i, j;<br>printf(\"<font color='blue'>Enter first string:</font>\");<br>scanf(\"<font color='blue'>%s</font>\",s1);<br>printf(\"<font color='blue'>Enter second string:</font>\");<br>scanf(\"<font color='blue'>%s</font>\",s2);<br><font color='#388E8E'><b>for</b></font>(i = 0; s1[i] != \"0\"; ++i);<br><font color='#388E8E'><b>for</b></font>(j = 0; s2[j] != \"0\"; ++j, ++i)<br>{<br> s1[i] = s2[j];<br>}<br> s1[i] = \"0\";<br>printf(\"<font color='blue'>After concatenation: %s</font>\",s1);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "79",
+      "ques": "Copy String Manually Without Using strcpy()",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char</b></font> s1[<font color='#a00005'>100</font>], s2[<font color='#a00005'>100</font>], i;<br>printf(\"<font color='blue'>Enter string s1: </font>\");<br>scanf(\"<font color='blue'>%s</font>\",s1);<br><font color='#388E8E'><b>for</b></font>(i =0; s1[i] != \"0\"; ++i)<br>{<br> s2[i] = s1[i];<br>}<br> s2[i] = \"0\";<br>printf(\"<font color='blue'>String s2: %s</font>\",s2);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "80",
+      "ques": "Program to Sort Strings in Dictionary Order",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int</b></font> i, j;<br><font color='#388E8E'><b>char </b></font>str[<font color='#a00005'>10</font>][<font color='#a00005'>50</font>], temp[<font color='#a00005'>50</font>];<br>printf(\"<font color='blue'>Enter 10 words:\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>scanf(\"<font color='blue'>%s[^\n]</font>\",str[i]);<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>9</font>; ++i)<br><font color='#388E8E'><b>for</b></font>(j=i+<font color='#a00005'>1</font>; j&lt<font color='#a00005'>10</font> ; ++j){<br><font color='#388E8E'><b>if</b></font>(strcmp(str[i], str[j])><font color='#a00005'>0</font>)<br>{<br> strcpy(temp, str[i]);<br>strcpy(str[i], str[j]);<br>strcpy(str[j], temp);<br>}<br>}<br>printf(\"<font color='blue'>\nIn lexicographical order: \n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>{<br> puts(str[i]);<br>}<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "81",
+      "ques": "Store Information and Display it Using Structure",
+      "ans": "#include&lt;stdio.h><br>struct student{<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>char </b></font>name[50];<br>printf(\"<font color='blue'>Enter string s1: </font>\");<br>scanf(\"<font color='blue'>%s</font>\",s1);<br><font color='#388E8E'><b>for</b></font>(i =0; s1[i] != \"0\"; ++i)<br>{<br> s2[i] = s1[i];<br>}<br> s2[i] = \"0\";<br>printf(\"<font color='blue'>String s2: %s</font>\",s2);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "82",
+      "ques": "Copy String Manually Without Using strcpy()",
+      "ans": "#include&lt;stdio.h><br>struct student{<br><font color='#388E8E'><b>char</b></font> s1[<font color='#a00005'>100</font>], s2[<font color='#a00005'>100</font>], i;<br><font color='#388E8E'><b>int </b></font>roll;<br><font color='#388E8E'><b>float</b></font> marks;<br>}<br><font color='#388E8E'><b>int </b></font>main()<br>{<br> printf(\"<font color='blue'>Enter information:\n</font>\");<br>printf(\"<font color='blue'>Enter name: </font>\");<br>scanf(\"<font color='blue'>%s</font>\",s.name);<br><font color='#388E8E'><b>for</b></font>(i = 0; s1[i] != \"0\"; ++i)<br>{<br> s2[i] = s1[i];<br>}<br> s2[i] = \"0\";<br>printf(\"<font color='blue'>Enter roll number: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &s.roll);<br>printf(\"<font color='blue'>Enter marks: </font>\");<br>scanf(\"<font color='blue'>%f</font>\", &s.marks);<br>printf(\"<font color='blue'>Displaying Information:\n</font>\");<br>printf(\"<font color='blue'>Name: </font>\");<br>puts(s.name);<br>printf(\"<font color='blue'>Roll number: %d\n</font>\",s.roll);<br>printf(\"<font color='blue'>Marks: %.1f\n</font>\", s.marks);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+
+    {
+      "quesno": "83",
+      "ques": "Program to add two distances in inch-feet system",
+      "ans": "#include&lt;stdio.h><br>struct student{<br><font color='#388E8E'><b>int </b></font>feet;<br><font color='#388E8E'><b>float </b></font>inch,d1, d2, sumOfDistances;<br><font color='#388E8E'><b>int </b></font>main()<br>{<br>printf(\"<font color='blue'>Enter information for 1st distance\n</font>\");<br>printf(\"<font color='blue'>Enter feet: </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &d1.feet);<br>printf(\"<font color='blue'>Enter inch: </font>\");<br>printf(\"<font color='blue'>Enter inch: </font>\");<br>scanf(\"<font color='blue'>%f</font>\", &d1.inch);<br>printf(\"<font color='blue'>nEnter information for 2nd distance\n</font>\");<br>printf(\"<font color='blue'>Enter feet: </font>\");<br>printf(\"<font color='blue'>%d</font>\", &d2.feet);<br>printf(\"<font color='blue'>Enter inch: </font>\");<br>scanf(\"<font color='blue'>%f</font>\", &d2.inch);<br> sumOfDistances.feet = d1.feet+d2.feet;<br> sumOfDistances.inch = d1.inch+d2.inch;<br><font color='#388E8E'><b>if</b></font>(sumOfDistances.inch><font color='#a00005'>12.0</font>)<br>{<br>sumOfDistances.inch = sumOfDistances.inch-<font color='#a00005'>12.0</font>;<br> ++sumOfDistances.feet;<br>}<br>printf(\"<font color='blue'>\nSum of distances = %d\"-%.1f\"</font>\",sumOfDistances.feet, sumOfDistances.inch);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "84",
+      "ques": "Add Two Complex Numbers",
+      "ans": "#include&lt;stdio.h><br>typedef struct complex{<br><font color='#388E8E'><b>float </b></font>real;<br><font color='#388E8E'><b>float </b></font>imag;<br>}<br>complex;<br>complex add(complex n1,complex n2)<br><font color='#388E8E'><b>int </b></font>main()<br>{<br>complex n1, n2, temp;<br>printf(\"<font color='blue'>For 1st complex number \n </font>\");<br>printf(\"<font color='blue'>Enter real and imaginary part respectively:\n</font>\");<br>scanf(\"<font color='blue'>%f %f</font>\", &n1.real, &n1.imag);<br><br>printf(\"<font color='blue'>\nFor 2nd complex number \n</font>\");<br>printf(\"<font color='blue'>Enter real and imaginary part respectively:\n</font>\");<br>scanf(\"<font color='blue'>%f %f</font>\", &n2.real, &n2.imag);<br><br>temp = add(n1, n2);<br>printf(\"<font color='blue'>Sum = %.1f + %.1fi</font>\", temp.real, temp.imag);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br>complex add(complex n1, complex n2)<br>{<br>complex temp;<br>temp.real = n1.real + n2.real;<br>temp.imag = n1.imag + n2.imag;<br>return(temp);<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "85",
+      "ques": "Calculate Difference Between Two Time Periods",
+      "ans": "#include&lt;stdio.h><br>structTIME{<br><font color='#388E8E'><b>int </b></font>seconds;<br><font color='#388E8E'><b>int </b></font>minutes;<br><font color='#388E8E'><b>int </b></font>hours;<br>void differenceBetweenTimePeriod(struct TIME t1, struct TIME t2, struct TIME *diff);<br><font color='#388E8E'><b>int </b></font>main()<br>{<br> struct TIME startTime, stopTime, diff;<br>printf(\"<font color='blue'>Enter start time: \n</font>\");<br>printf(\"<font color='blue'>Enter hours, minutes and seconds respectively:</font>\");<br>scanf(\"<font color='blue'>%d %d %d</font>\", &startTime.hours, &startTime.minutes, &startTime.seconds);<br><br>printf(\"<font color='blue'>Enter stop time: \n</font>\");<br>printf(\"<font color='blue'>Enter hours, minutes and seconds respectively: </font>\");<br>scanf(\"<font color='blue'>%d %d %d</font>\", &stopTime.hours, &stopTime.minutes, &stopTime.seconds);<br>printf(\"<font color='blue'>\nTIME DIFFERENCE: %d:%d:%d -  </font>\", startTime.hours, startTime.minutes, startTime.seconds);<br>printf(\"<font color='blue'>%d:%d:%d</font>\", stopTime.hours, stopTime.minutes, stopTime.seconds);<br>printf(\"<font color='blue'>= %d:%d:%d\n</font>\", diff.hours, diff.minutes, diff.seconds);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}<br>void differenceBetweenTimePeriod(struct TIME start, struct TIME stop, struct TIME *diff)<br>{<br><font color='#388E8E'><b>if</b></font>(stop.seconds > start.seconds)<br>{<br>--start.minutes;<br>start.seconds += <font color='#a00005'>60</font>;<br>}<br> diff->seconds = start.seconds - stop.seconds;<br><font color='#388E8E'><b>if</b></font>(stop.minutes > start.minutes)<br>{<br>--start.hours;<br>start.minutes += <font color='#a00005'>60</font>;<br>}<br> diff->minutes = start.minutes - stop.minutes;<br>diff->hours = start.hours - stop.hours;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "86",
+      "ques": " Store Information in Structure and Display it",
+      "ans": "#include&lt;stdio.h><br>struct student{<br><font color='#388E8E'><b>char </b></font>name[<font color='#a00005'>50</font>];<br><font color='#388E8E'><b>int </b></font>roll;<br><font color='#388E8E'><b>float </b></font> marks;<br>}<br>s[<font color='#a00005'>10</font>]<br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>i;<br>printf(\"<font color='blue'>Enter information of students:\n </font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>{<br> s[i].roll = i+1;<br>printf(\"<font color='blue'>\nFor roll number%d,\n</font>\",s[i].roll);<br>printf(\"<font color='blue'>Enter name:</font>\");<br>scanf(\"<font color='blue'>%s</font>\",s[i].name);<br><br>printf(\"<font color='blue'>Enter marks: </font>\");<br>scanf(\"<font color='blue'>%f</font>\",&s[i].marks);<br>printf(\"<font color='blue'>\n</font>\");<br>}<br>printf(\"<font color='blue'>Displaying Information:\n\n</font>\");<br><font color='#388E8E'><b>for</b></font>(i=<font color='#a00005'>0</font>; i&lt<font color='#a00005'>10</font>; ++i)<br>{<br>printf(\"<font color='blue'>\nRoll number: %d\n</font>\",i+1);<br>printf(\"<font color='blue'>Name: </font>\");<br> puts(s[i].name);<br>printf(\"<font color='blue'>Marks: %.1f</font>\",s[i]);<br>printf(\"<font color='blue'>\n</font>\");<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "87",
+      "ques": " C Program to Calculate Area and Circumference of Circle",
+      "ans": "#include&lt;stdio.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>rad;<br><font color='#388E8E'><b>float </b></font>PI = <font color='#a00005'>3.14</font>, area, ci;<br><br>printf(\"<font color='blue'>\nEnter radius of circle:  </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &rad);<br> area = PI * rad * rad;<br>printf(\"<font color='blue'>\nArea of circle : %f</font>\", area);<br> ci = <font color='#a00005'>2</font> * PI * rad;<br>printf(\"<font color='blue'>\nCircumference : %f</font>\",ci);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
+    },
+
+    {
+      "quesno": "88",
+      "ques": " C Program to Calculate Area of Scalene Triangle ",
+      "ans": "#include&lt;stdio.h><br>#include&ltmath.h><br><font color='#388E8E'><b>int </b></font>main()<br>{<br><font color='#388E8E'><b>int </b></font>s1, s2, angle;<br><font color='#388E8E'><b>float </b></font>area;<br><br>printf(\"<font color='blue'>\nEnter Side1 :  </font>\");<br>scanf(\"<font color='blue'>%d</font>\", &s1);<br><br>printf(\"<font color='blue'>\nEnter Side2 :</font>\");<br>scanf(\"<font color='blue'>%d</font>\", &s2);<br>printf(\"<font color='blue'>\nEnter included angle :</font>\");<br>printf(\"<font color='blue'>%d</font>\", &angle);<br>area = (s1 * s2 * sin((M_PI / <font color='#a00005'>180</font>) * angle)) / <font color='#a00005'>2</font>;<br>printf(\"<font color='blue'>\nArea of Scalene Triangle : %f</font>\",area);<br><font color='#388E8E'><b>return </b></font><font color='#a00005'>0</font>;<br>}",
+      "op":"<font color='#00688B'><b>Output:</b></font><br><br><font color='#ff5555'>armstrong number</font>"
     }
   ],
+
   "videos": [
     {
       "id": "w0SDwUU7wpo",

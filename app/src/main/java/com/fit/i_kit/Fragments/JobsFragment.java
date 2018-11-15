@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,6 +24,10 @@ import com.fit.i_kit.Acitivities.JobShowingActivity;
 import com.fit.i_kit.Javaclasses.JobsData;
 import com.fit.i_kit.Network.API;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -34,10 +39,13 @@ import java.util.List;
 import java.util.Map;
 
 
-public class JobsFragment extends Fragment {
+public class JobsFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
     RecyclerView recyclerView;
     JobsAdapter horizontalAdapter;
     List<JobsData> data=new ArrayList<>();
+    SwipeRefreshLayout swipeRefreshLayout;
+    private AdView mAdView;
+
     public JobsFragment() {
         // Required empty public constructor
     }
@@ -55,18 +63,37 @@ public class JobsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jobs, container, false);
         recyclerView = view.findViewById(R.id.recycle_jobs);
-        data.clear();
-      //  Toast.makeText(getActivity(),"hello",Toast.LENGTH_SHORT).show();
 
-        getJobsdata();
+        MobileAds.initialize(getContext(), "ca-app-pub-4682541119478126~8576979007");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
 
+        swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout.setOnRefreshListener(this);
+       // data.clear();
+        //getJobsdata();
+
+        swipeRefreshLayout.post( new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        swipeRefreshLayout.setRefreshing(true);
+                                        data.clear();
+                                        getJobsdata();
+                                    }
+                                }
+        );
         return view;
 
     }
 
     private void getJobsdata() {
+        data.clear();
+        swipeRefreshLayout.setRefreshing(true);
+
         final RequestQueue queue = Volley.newRequestQueue(getActivity());
-        String serverURL = API.videourl;
+        String serverURL = API.jobsurl;
         final StringRequest getRequest = new StringRequest(Request.Method.GET, serverURL,
                 new com.android.volley.Response.Listener<String>() {
 
@@ -81,7 +108,7 @@ public class JobsFragment extends Fragment {
                                 //Toast.makeText(getActivity(),"hi",Toast.LENGTH_SHORT).show();
 
                                 String sjobid = obj.getString("id");
-                                String sjobtech = obj.getString("technology");
+                                //String sjobtech = obj.getString("technology");
                                 String sjobtitle = obj.getString("title");
                                 String sjobcompany = obj.getString("company");
                                 String sjobqual = obj.getString("qual");
@@ -119,6 +146,7 @@ public class JobsFragment extends Fragment {
                             Log.e("MainActivity", "Json parsing error: " + e.getMessage());
                             e.printStackTrace();
                         }
+                        swipeRefreshLayout.setRefreshing(false);
                     }
                 },
                 new com.android.volley.Response.ErrorListener() {
@@ -126,6 +154,7 @@ public class JobsFragment extends Fragment {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(getActivity(), "No Network Connection", Toast.LENGTH_SHORT).show();
+                        swipeRefreshLayout.setRefreshing(false);
                     }
                 }) {
             @Override
@@ -135,6 +164,11 @@ public class JobsFragment extends Fragment {
             }
         };
         queue.add(getRequest);
+    }
+
+    @Override
+    public void onRefresh() {
+        getJobsdata();
     }
 
 
@@ -200,7 +234,7 @@ public class JobsFragment extends Fragment {
                     i.putExtra("CTime", times);
                     i.putExtra("CLocation", locations);
                     i.putExtra("CDescrp", descrp);
-                    i.putExtra("CRoleResp", rolesresps);
+                    i.putExtra("CRoleResp", rolesresps );
                     i.putExtra("CLastDate", lastdates);
                     i.putExtra("CRefer", referlinks);
                     startActivity(i);

@@ -38,21 +38,40 @@
                 android:layout_height="wrap_content"/>
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
         android:text="I - KIT"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="#fff"
+        android:id="@+id/ikit"
         android:layout_marginBottom="10dp"/>
     <GridView
         android:id="@+id/gv"
         android:gravity="center"
+        android:layout_below="@+id/ikit"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="2"
         android:padding="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4682541119478126/3154644824">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+</RelativeLayout>
 </LinearLayout>

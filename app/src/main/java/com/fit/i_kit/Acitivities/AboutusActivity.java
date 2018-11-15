@@ -11,17 +11,28 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class AboutusActivity extends AppCompatActivity {
     private Toolbar toolbar;
     TextView about;
     ImageView logo;//jj
     TextView about1,about2,ab1_matter,ab2_matter;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
+
+        MobileAds.initialize(this, "ca-app-pub-4682541119478126~8576979007");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

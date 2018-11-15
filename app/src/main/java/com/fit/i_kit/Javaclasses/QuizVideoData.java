@@ -1,21 +1,47 @@
 package com.fit.i_kit.Javaclasses;
 
-public class QuizVideoData {
+import java.io.Serializable;
+
+public class QuizVideoData implements Serializable {
     private String vidid;
     private String optiona;
     private String optionb;
     private String optionc;
     private String answer;
+    private int sno,vid;
+
+    public QuizVideoData() {
+
+    }
 
 
+    public int getSno() {
+        return sno;
+    }
 
-    public QuizVideoData(String vidid, String optiona, String optionb, String optionc,String answer) {
+    public void setSno(int sno) {
+        this.sno = sno;
+    }
+
+    public int getVid() {
+        return vid;
+    }
+
+    public void setVid(int vid) {
+        this.vid = vid;
+    }
+
+
+    public QuizVideoData(String vidid, String optiona, String optionb, String optionc, String answer, int sno,int vid) {
         this.vidid = vidid;
         this.optiona = optiona;
         this.optionb = optionb;
         this.optionc = optionc;
-        this.answer=answer;
+        this.answer = answer;
+        this.sno = sno;
+        this.vid=vid;
     }
+
 
     public String getOptiona() {
         return optiona;
@@ -57,7 +83,6 @@ public class QuizVideoData {
     public void setAnswer(String answer) {
         this.answer = answer;
     }
-
 
 
 }

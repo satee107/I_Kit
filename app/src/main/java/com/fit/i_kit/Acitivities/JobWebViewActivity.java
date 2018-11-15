@@ -3,6 +3,7 @@ package com.fit.i_kit.Acitivities;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -20,6 +21,7 @@ import android.widget.Toast;
 
 import com.fit.i_kit.R;
 
+import java.net.URL;
 import java.util.Objects;
 
 public class JobWebViewActivity extends AppCompatActivity {
@@ -37,13 +39,12 @@ public class JobWebViewActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         crefer = getIntent().getStringExtra("CRefer");
-
-        mywebview=findViewById(R.id.webview);
-        WebSettings webSettings=mywebview.getSettings();
+        mywebview = findViewById(R.id.webview);
+        WebSettings webSettings = mywebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mywebview.loadUrl("http://"+crefer);
-        mywebview.setWebViewClient(new WebViewClient()
-        );
+        mywebview.loadUrl("http://" + crefer);
+        mywebview.setWebViewClient(new WebViewClient());
+
     }
 
     @Override
@@ -78,5 +79,6 @@ public class JobWebViewActivity extends AppCompatActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
-        }}
+        }
+    }
 }

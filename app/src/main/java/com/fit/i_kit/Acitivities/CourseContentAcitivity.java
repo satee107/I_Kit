@@ -38,12 +38,16 @@ public class CourseContentAcitivity extends AppCompatActivity {
     Toolbar toolbar;
     TextView course_name;
     ShareActionProvider mShareActionProvider;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_content);
+
+        int position = 0;
+        Bundle extras = getIntent().getExtras();
+        if(extras != null) {
+            position = extras.getInt("viewpager_position");
+        }
 
         course_name=findViewById(R.id.coursename);
         SharedPreferences sharedpreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
@@ -56,6 +60,8 @@ public class CourseContentAcitivity extends AppCompatActivity {
 
         viewPager = findViewById(R.id.viewpager);
         setupViewPager(viewPager);
+        viewPager.setCurrentItem(position);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
@@ -87,14 +93,13 @@ public class CourseContentAcitivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 // todo: goto back activity from here
-
-                Intent intent = new Intent(CourseContentAcitivity.this, HomeActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-                finish();
+                  onBackPressed();
+//                Intent intent = new Intent(CourseContentAcitivity.this, HomeActivity.class);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(intent);
                 return true;
             case R.id.home:
-                intent =new Intent(getApplicationContext(), HomeActivity.class);
+                Intent intent =new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.about:
@@ -113,6 +118,7 @@ public class CourseContentAcitivity extends AppCompatActivity {
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
                 startActivity(Intent.createChooser(sharingIntent, "Sharing Options"));
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

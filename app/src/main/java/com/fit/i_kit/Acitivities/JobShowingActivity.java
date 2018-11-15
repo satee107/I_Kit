@@ -19,6 +19,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.fit.i_kit.Network.API;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,6 +46,7 @@ String crolesresp;
 String clastdate;
 String crefer;
 Toolbar toolbar;
+    private AdView mAdView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,6 +55,13 @@ Toolbar toolbar;
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+
+        MobileAds.initialize(this, "ca-app-pub-4682541119478126~8576979007");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
+
         cname = getIntent().getStringExtra("CName");
         crole = getIntent().getStringExtra("CRoles");
         cqual = getIntent().getStringExtra("CQual");

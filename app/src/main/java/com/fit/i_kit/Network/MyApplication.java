@@ -2,13 +2,8 @@ package com.fit.i_kit.Network;
 
 import android.app.Application;
 
-/**
- * Created by dell on 2/14/2018.
- */
 
-public class    MyApplication extends Application {
-    // Gloabl declaration of variable to use in whole app
-
+public class MyApplication extends Application {
     private static MyApplication mInstance;
 
     @Override

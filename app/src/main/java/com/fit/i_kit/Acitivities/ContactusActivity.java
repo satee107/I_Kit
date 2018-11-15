@@ -30,6 +30,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.fit.i_kit.Network.API;
 import com.fit.i_kit.Network.VolleySingleton;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import org.json.JSONObject;
 
@@ -47,10 +51,18 @@ public class ContactusActivity extends AppCompatActivity {
     TextView mobile, website,mail;
     EditText name, mobile_no, comment, emailid;
     Button button;
+    private AdView mAdView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactus);
+
+        MobileAds.initialize(this, "ca-app-pub-4682541119478126~8576979007");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -131,6 +143,7 @@ public class ContactusActivity extends AppCompatActivity {
             }
         });
     }
+
     private void feedBack() {
         String serverURL = API.contactusurl;
         StringRequest sr = new StringRequest(Request.Method.POST, serverURL, new Response.Listener<String>() {
@@ -160,8 +173,8 @@ public class ContactusActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                VolleyLog.d("Billing", "Error: " + error.getMessage());
-                Log.d("Billing", "" + error.getMessage() + "," + error.toString());
+                VolleyLog.d("Contactus", "Error: " + error.getMessage());
+                Log.d("Contactus", "" + error.getMessage() + "," + error.toString());
             }
         }) {
             @Override

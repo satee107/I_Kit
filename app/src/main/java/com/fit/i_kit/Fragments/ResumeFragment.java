@@ -27,6 +27,10 @@ import com.fit.i_kit.Acitivities.ResumeLookActivity;
 import com.fit.i_kit.Javaclasses.Data;
 import com.fit.i_kit.Javaclasses.Data2;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
@@ -61,6 +65,7 @@ public class ResumeFragment extends Fragment {
     public static boolean checkInternetConnection = true;
     public static boolean showErrorMessage = true;
 
+    private AdView mAdView;
 
     public ResumeFragment() {
         // Required empty public constructor
@@ -77,7 +82,11 @@ public class ResumeFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_resume, container, false);
         horizontal_recycler_view = view.findViewById(R.id.idRecyclerViewHorizontalList);
-
+        MobileAds.initialize(getContext(), "ca-app-pub-4682541119478126~8576979007");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
         SharedPreferences sharedpreferences = getActivity().getSharedPreferences("pref", Context.MODE_PRIVATE);
         course = sharedpreferences.getString("title", "I-KIT");
         fname = course.toLowerCase()+".json";

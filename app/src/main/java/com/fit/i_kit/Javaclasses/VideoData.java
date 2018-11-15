@@ -8,6 +8,10 @@ public class VideoData {
     private String vidtime;
     private String vidname;
 
+    public VideoData() {
+
+    }
+
 
     public String getVidid() {
         return vidid;

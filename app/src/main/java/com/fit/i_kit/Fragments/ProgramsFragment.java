@@ -20,11 +20,16 @@ import com.fit.i_kit.Acitivities.ProgramAnswerActivity;
 import com.fit.i_kit.Javaclasses.FresherData;
 import com.fit.i_kit.Javaclasses.ProgramData;
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.InputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -35,6 +40,7 @@ public class ProgramsFragment extends Fragment {
     ProgramAdapter horizontalAdapter;
   //  public List<ProgramData> data;
   List<ProgramData> data = new ArrayList<>();
+    private AdView mAdView;
 
     String course="",fname="";
 
@@ -57,6 +63,13 @@ public class ProgramsFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_programs, container, false);
         recyclerView=view.findViewById(R.id.recycle_program);
         //data = fill_with_data();
+
+        MobileAds.initialize(getContext(), "ca-app-pub-4682541119478126~8576979007");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
+
         SharedPreferences sharedpreferences = getActivity().getSharedPreferences("pref", Context.MODE_PRIVATE);
         course = sharedpreferences.getString("title", "I-KIT");
         fname = course.toLowerCase()+".json";
@@ -77,7 +90,8 @@ public class ProgramsFragment extends Fragment {
                 String quesno = cit.getString("quesno");
                 String ques = cit.getString("ques");
                 String ans = cit.getString("ans");
-                ProgramData programData = new ProgramData(quesno,ques,ans);
+                String op = cit.getString("op");
+                ProgramData programData = new ProgramData(quesno,ques,ans,op);
                 data.add(programData);
 
             }
@@ -135,12 +149,14 @@ public class ProgramsFragment extends Fragment {
                     String queno=horizontalList.get(position).queno;
                     String prog_ques=horizontalList.get(position).ques;
                     String prog_ans=horizontalList.get(position).ans;
+                    String op=horizontalList.get(position).op;
                     //String prog_output=horizontalList.get(position).output;
                     Intent i=new Intent(getActivity(), ProgramAnswerActivity.class);
                     i.putExtra("QueNo",queno);//adding additional data using putExtras()
                     i.putExtra("Pgm_ques",prog_ques);//adding additional data using putExtras()
                     i.putExtra("Pgm_ans",prog_ans);//adding additional data using putExtras()
-                   // i.putExtra("Pgm_out",prog_output);
+                    i.putExtra("Pgm_out",op);
+                    i.putExtra("data", (Serializable) data);
                     startActivity(i);
                 }
             });

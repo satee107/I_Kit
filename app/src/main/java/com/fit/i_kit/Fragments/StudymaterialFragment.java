@@ -27,6 +27,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fit.i_kit.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.joanzapata.pdfview.PDFView;
 
 import java.io.File;
@@ -39,6 +43,8 @@ import static com.fit.i_kit.R.string.app_name;
 
 public class StudymaterialFragment extends Fragment  {
 PDFView pdfView;
+    private AdView mAdView;
+
     public StudymaterialFragment() {
         // Required empty public constructor
     }
@@ -55,6 +61,13 @@ PDFView pdfView;
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_studymaterial, container, false);
+
+        MobileAds.initialize(getContext(), "ca-app-pub-4682541119478126~8576979007");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener());
+
         SharedPreferences sharedpreferences = getActivity().getSharedPreferences("pref", Context.MODE_PRIVATE);
         String course = sharedpreferences.getString("title", "I-KIT");
         String fname = course.toLowerCase()+"_tutorial.pdf";
