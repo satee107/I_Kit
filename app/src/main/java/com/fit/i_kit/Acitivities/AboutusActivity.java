@@ -59,7 +59,6 @@ public class AboutusActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 // todo: goto back activity from here
-
                 Intent intent = new Intent(AboutusActivity.this, CourseContentAcitivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
@@ -78,12 +77,17 @@ public class AboutusActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.share:
-                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-                sharingIntent.setType("text/plain");
-                String shareBodyText = "Check it out. Your message goes here";
-                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Subject here");
-                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
-                startActivity(Intent.createChooser(sharingIntent, "Sharing Options"));
+                try {
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_SUBJECT, "Interview Kit (IKIT)");
+                    String shareapp = "\nLet me recommend you this application\n\n";
+                    shareapp = shareapp + "https://play.google.com/store/apps/details?id=com.fit.i_kit";
+                    i.putExtra(Intent.EXTRA_TEXT, shareapp);
+                    startActivity(Intent.createChooser(i, "Choose One"));
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

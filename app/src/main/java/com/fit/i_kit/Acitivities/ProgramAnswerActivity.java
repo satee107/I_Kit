@@ -152,26 +152,18 @@ public class ProgramAnswerActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.share:
-//                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-//                sharingIntent.setType("text/plain");
-//                String shareBodyText = "Check it out. Your message goes here";
-//                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject here");
-//                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
-//                startActivity(Intent.createChooser(sharingIntent, "Sharing Options"));
-                ApplicationInfo app = getApplicationContext().getApplicationInfo();
-                String filePath = app.sourceDir;
+                try {
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_SUBJECT, "Interview Kit (IKIT)");
+                    String shareapp = "\nLet me recommend you this application\n\n";
+                    shareapp = shareapp + "https://play.google.com/store/apps/details?id=com.fit.i_kit";
+                    i.putExtra(Intent.EXTRA_TEXT, shareapp);
+                    startActivity(Intent.createChooser(i, "Choose One"));
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
 
-                Intent shareintent = new Intent(Intent.ACTION_SEND);
-
-                // MIME of .apk is "application/vnd.android.package-archive".
-                // but Bluetooth does not accept this. Let's use "*/*" instead.
-                shareintent.setType("*/*");
-
-
-                // Append file and send Intent
-                shareintent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(filePath)));
-                startActivity(Intent.createChooser(shareintent, "Share app via"));
-                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

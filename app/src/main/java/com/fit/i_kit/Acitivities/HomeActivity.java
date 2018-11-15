@@ -111,17 +111,16 @@ public class HomeActivity extends AppCompatActivity implements ConnectivityRecei
 
     private ArrayList<Homemodel> getData() {
         ArrayList<Homemodel> spacecrafts = new ArrayList<>();
-
         Homemodel s = new Homemodel();
         s.setName("Java");
-        s.setPropellant("Programming...");
+        s.setPropellant("Lets's begin..");
         s.setImage(R.drawable.ic_java);
-        s.setDid(R.drawable.circlebackgroundpurple);
+        s.setDid(R.drawable.circlebackgroundred);
         spacecrafts.add(s);
 
         s = new Homemodel();
         s.setName("C");
-        s.setPropellant("Coming Soon...");
+        s.setPropellant("Let's begin..");
         s.setDid(R.drawable.circlebackgroundblue);
         s.setImage(R.drawable.c_language);
         spacecrafts.add(s);
@@ -216,12 +215,17 @@ public class HomeActivity extends AppCompatActivity implements ConnectivityRecei
                 startActivity(intent);
                 return true;
             case R.id.share:
-                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-                sharingIntent.setType("text/plain");
-                String shareBodyText = "Check it out. Your message goes here";
-                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject here");
-                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
-                startActivity(Intent.createChooser(sharingIntent, "Sharing Options"));
+                try {
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_SUBJECT, "My application name");
+                    String shareapp = "\nLet me recommend you this application\n\n";
+                    shareapp = shareapp + "https://play.google.com/store/apps/details?id=com.fit.i_kit";
+                    i.putExtra(Intent.EXTRA_TEXT, shareapp);
+                    startActivity(Intent.createChooser(i, "Choose One"));
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

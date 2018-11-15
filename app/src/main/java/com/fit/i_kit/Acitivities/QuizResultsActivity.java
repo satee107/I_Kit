@@ -139,14 +139,14 @@ Button button;
         switch (item.getItemId()) {
             case android.R.id.home:
                 // todo: goto back activity from here
-//                Intent intent  = new Intent(QuizResultsActivity.this, CourseContentAcitivity.class);
-//                intent.putExtra("viewpager_position", 7);
-//                startActivity(intent);
-//                finish();
-                onBackPressed();
+                Intent intent  = new Intent(QuizResultsActivity.this, CourseContentAcitivity.class);
+                intent.putExtra("viewpager_position", 7);
+                startActivity(intent);
+                finish();
+               // onBackPressed();
                 return true;
             case R.id.about:
-                Intent intent =new Intent(getApplicationContext(), AboutusActivity.class);
+                intent =new Intent(getApplicationContext(), AboutusActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.contact:
@@ -154,13 +154,17 @@ Button button;
                 startActivity(intent);
                 return true;
             case R.id.share:
-                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-                sharingIntent.setType("text/plain");
-                String shareBodyText = "Check it out. Your message goes here";
-                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Subject here");
-                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
-                startActivity(Intent.createChooser(sharingIntent, "Sharing Options"));
-                return true;
+                try {
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_SUBJECT, "Interview Kit (IKIT)");
+                    String shareapp = "\nLet me recommend you this application\n\n";
+                    shareapp = shareapp + "https://play.google.com/store/apps/details?id=com.fit.i_kit";
+                    i.putExtra(Intent.EXTRA_TEXT, shareapp);
+                    startActivity(Intent.createChooser(i, "Choose One"));
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
             default:
                 return super.onOptionsItemSelected(item);
         }}
