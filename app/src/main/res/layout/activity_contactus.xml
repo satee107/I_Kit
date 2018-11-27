@@ -62,7 +62,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:background="@color/materialyellow">
+                android:background="?attr/colorPrimary">
 
                 <TextView
                     android:id="@+id/ab1"
@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contact"
-                    android:textColor="@color/materialblue"
+                    android:textColor="#fff"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:layout_marginTop="30dp"/>
@@ -104,7 +104,7 @@
                         android:layout_height="wrap_content"
                         android:text=" 9010990285"
                         android:textSize="16sp"
-                        android:textColor="@color/materialyellow"/>
+                        android:textColor="#fff"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:text=" fratelloinnotech@gmail.com"
                         android:textSize="16sp"
-                        android:textColor="@color/materialyellow"/>
+                        android:textColor="#fff"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -138,7 +138,7 @@
                         android:layout_height="wrap_content"
                         android:text=" www.fratelloinnotech.com"
                         android:textSize="16sp"
-                        android:textColor="@color/materialyellow"/>
+                        android:textColor="#ffff"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -153,14 +153,14 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:background="@color/materialyellow">
+                android:background="?attr/colorPrimary">
 
                 <TextView
                     android:id="@+id/ab2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Feedback"
-                    android:textColor="@color/materialblue"
+                    android:textColor="#fff"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textAlignment="center"

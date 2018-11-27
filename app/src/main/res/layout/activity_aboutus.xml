@@ -72,7 +72,7 @@
             <LinearLayout
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:background="@color/materialyellow"
+                android:background="?attr/colorPrimary"
                 android:orientation="vertical">
 
                 <TextView
@@ -84,7 +84,7 @@
                     android:layout_marginTop="30dp"
                     android:text="About I-KIT"
                     android:textAlignment="center"
-                    android:textColor="@color/materialblue"
+                    android:textColor="#fff"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -111,7 +111,7 @@
             <LinearLayout
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:background="@color/materialyellow"
+                android:background="?attr/colorPrimary"
                 android:orientation="vertical">
 
                 <TextView
@@ -123,7 +123,7 @@
                     android:layout_marginTop="30dp"
                     android:text="About Company"
                     android:textAlignment="center"
-                    android:textColor="@color/materialblue"
+                    android:textColor="#fff"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>

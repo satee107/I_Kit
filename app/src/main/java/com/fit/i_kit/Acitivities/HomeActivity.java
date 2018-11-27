@@ -74,17 +74,6 @@ public class HomeActivity extends AppCompatActivity implements ConnectivityRecei
 
     }
 
-    protected boolean isOnline() {
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-
     private void checkConnection() {
         boolean isConnected = ConnectivityReceiver.isConnected();
         showSnack(isConnected);
@@ -113,7 +102,7 @@ public class HomeActivity extends AppCompatActivity implements ConnectivityRecei
         ArrayList<Homemodel> spacecrafts = new ArrayList<>();
         Homemodel s = new Homemodel();
         s.setName("Java");
-        s.setPropellant("Lets's begin..");
+        s.setPropellant("Let's begin..");
         s.setImage(R.drawable.ic_java);
         s.setDid(R.drawable.circlebackgroundred);
         spacecrafts.add(s);

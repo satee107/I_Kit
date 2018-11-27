@@ -155,7 +155,7 @@ public class ContactusActivity extends AppCompatActivity {
                     String res = jsonObj.getString("result");
                     if (res.equals("success")) {
 
-                        Toast.makeText(getApplicationContext(), res, Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Thanks for your valuble feedback.", Toast.LENGTH_LONG).show();
                         name.setText(null);
                         mobile_no.setText(null);
                         emailid.setText(null);
